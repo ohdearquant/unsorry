@@ -4,10 +4,14 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**0 open · 55 proved · 55 total prove-goals.**
+**4 open · 55 proved · 59 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
+| `euclid-perfect-numbers` — Euclid's theorem on perfect numbers: if $2^p - 1$ is prime (a Mersenne prime), then $2^{p-1} \cdot (2^p - 1)$ is perfect. | open | 3 | — | Euclid, Elements IX.36 | https://en.wikipedia.org/wiki/Euclid%E2%80%93Euler_theorem |
+| `sq-add-sq-eq-three-mul-sq` — The Diophantine equation $x^2 + y^2 = 3z^2$ has only the trivial solution $x=y=z=0$ in integers. | open | 4 | — | elementary number theory | Classic infinite descent argument modulo 3 showing that $3 \mid x$ and $3 \mid y$, which leads to infinite descent. |
+| `sum-range-pentagonal-closed-form` — Closed form for the sum of the first n pentagonal numbers: $2 \sum_{k=0}^n \frac{3k^2-k}{2} = n^2(n+1)$. | open | 3 | — | classic figural number identities | Pentagonal number theorem for partial sums of pentagonal numbers. |
+| `sum-range-sq-mul-choose` — Weighted sum of squares of binomial coefficients: $4 \sum_{k=0}^n k^2 \binom{n}{k} = n(n+1)2^n$. | open | 3 | — | classic combinatorial identities | Standard combinatorial identity for the second moment of binomial coefficients, derived from differentiating the binomial theorem twice. |
 | `alternating-sum-naturals` — For every natural n, the sum over i in 0..n-1 of (-1)^i (i+1) equals -(n/2) if n is even and (n/2)+1 if n is odd (integer division over ℤ). | proved | 3 | [packet-ready](upstream/alternating-sum-naturals.md) | classic identities | Standard arithmetic alternating-series partial sums (1-2+3-4+...); tabulated in Hardy, Divergent Series, Ch. 1; elementary induction exercise in discrete-math texts. |
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `binder-shape-canary` — A **Gate A regression fixture**, not a mathematical target. It carries the | proved | 1 | — | Gate A regression fixture (issue #231) | — |
