@@ -123,13 +123,22 @@ These protocols must be followed when using plan mode. They are non-negotiable.
 - Test helpers and fixtures used across multiple test files must live in shared modules, not be copy-pasted
 - Duplication in ADRs and specs is acceptable — documentation may restate for clarity, but code must not
 
+## 13. Published GitHub Releases
+
+**Ensure every change includes a published release in GitHub.**
+
+- Every completed change or version bump must culminate in an official published GitHub release
+- The release tag must precisely match the semantic version number specified in the codebase and `CHANGELOG.md`
+- Include descriptive release notes that clear summary details of the specific updates, fixes, or enhancements contained within the change
+- No workflow or feature deployment is considered officially complete until the corresponding GitHub release is live
+
 ---
 
 ## Optional Protocols
 
 The protocols below are conditional. Apply them only when the listed condition is met.
 
-## 13. Frontend Security — `{@html}` Protocol *(Svelte projects only)*
+## 14. Frontend Security — `{@html}` Protocol *(Svelte projects only)*
 
 **Applies when:** the project uses Svelte or SvelteKit. Skip this protocol entirely for non-Svelte projects.
 
