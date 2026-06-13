@@ -112,8 +112,12 @@ def audit(
         print(build.stderr, end="", file=sys.stderr)
         return build.returncode
 
-    library_jobs = max(1, jobs // 2) if library and goals else jobs
-    goal_jobs = jobs - library_jobs if library and goals else jobs
+    # axiom_audit is memory-intensive as it loads large Mathlib environment;
+    # limit parallelism to avoid OOM kills in CI.
+    # Use at most 2 parallel jobs for audit, regardless of --jobs setting.
+    audit_jobs = min(jobs, 2)
+    library_jobs = max(1, audit_jobs // 2) if library and goals else audit_jobs
+    goal_jobs = audit_jobs - library_jobs if library and goals else audit_jobs
     commands = [
         Command(
             ("lake", "exe", "axiom_audit", *chunk),
@@ -129,7 +133,7 @@ def audit(
         for index, chunk in enumerate(split_evenly(goals, goal_jobs), 1)
     )
 
-    results = run_commands(commands, jobs, runner)
+    results = run_commands(commands, audit_jobs, runner)
     if report_failures(commands, results):
         return 1
 
