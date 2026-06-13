@@ -190,8 +190,17 @@ def replay(root: Path, jobs: int, runner: Runner = subprocess.run) -> int:
     if not library:
         print("no library modules found", file=sys.stderr)
         return 2
-    # leanchecker is memory-intensive; dynamically limit parallelism based on available memory.
-    replay_jobs = max_safe_jobs(jobs)
+    # leanchecker re-checks every declaration against the kernel and holds
+    # ~all of mathlib resident per process, so its memory cost is essentially
+    # fixed regardless of how few library modules a chunk carries. Two
+    # concurrent invocations therefore OOM-kill a standard CI runner (the
+    # replay step died with exit 143 repo-wide after #264 set --jobs 4 — the
+    # earlier min(jobs, 2) cap was not enough). Replay runs serially: one
+    # leanchecker over the whole library, one mathlib image in memory. The
+    # `jobs` argument is accepted for CLI symmetry with `audit` but ignored
+    # here; audit (collectAxioms, far lighter) keeps its parallelism.
+    _ = jobs
+    replay_jobs = 1
     commands = [
         Command(
             ("lake", "env", "leanchecker", *chunk),
