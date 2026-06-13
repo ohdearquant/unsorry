@@ -47,7 +47,7 @@ usage() {
 Usage:
   ./swarm/agent.sh --translate-only [--once] [--goal <id>] [--dry-run]
   ./swarm/agent.sh --prove [--once] [--goal <id>] [--dry-run]
-  ./swarm/agent.sh --prove-local --goal <id> [--provider claude|codex|gemini]
+  ./swarm/agent.sh --prove-local --goal <id> [--provider claude|codex|gemini|openai]
   ./swarm/agent.sh --self-test
 
 Flags:
@@ -55,7 +55,7 @@ Flags:
   --prove           Phase-1 mode: only phase≡prove, unproved goals are candidates
   --prove-local     Prove one explicit goal from local HEAD without any remote,
                     claim, PR, or GitHub operation; preserves its worktree
-  --provider <name> LLM CLI for --prove-local: claude (default), codex, or gemini
+  --provider <name> LLM CLI for --prove-local: claude (default), codex, gemini, or openai
   --once            Run exactly one cycle then exit
   --goal <id>       Restrict selection to one goal (trial orchestration)
   --dry-run         Stop after selection: print the would-be claim, claim nothing
@@ -69,6 +69,8 @@ Environment:
   UNSORRY_AGENT_ID  Swarm identity (default: ~/.unsorry/agent-id, created on first run)
   UNSORRY_PROVIDER  Provider for --prove-local (default: claude)
   UNSORRY_MODEL     Model for claude calls (default: fable in --prove, else sonnet; ADR-013)
+                    For openai: gpt-4o (default), gpt-4o-mini, o1, o3-mini, etc.
+  OPENAI_API_KEY    Required when using openai provider
   UNSORRY_EFFORT    Effort for proof-surface calls (default in --prove: the
                     ADR-015 ladder, attempts climb high→xhigh→max; a set value
                     pins every attempt; else unset; dropped fail-soft when the
@@ -1009,10 +1011,43 @@ claim_goal() {
 
 # Step 5: one claude call. The prompt is translate.md + the statement body;
 # --tools "" enforces SPEC-007-A's "no tools are allowed for translation".
+# Falls back from fable to opus if fable is not available.
 call_claude() {
   local prompt="$1"
+  local model="$UNSORRY_MODEL"
+  
+  # If model is fable, check availability and fall back to opus if needed
+  if [ "$model" = "fable" ] && ! claude_model_available "fable"; then
+    log "fable model not available, falling back to opus"
+    model="opus"
+  fi
+  
   timeout "$UNSORRY_WALL" claude -p "$prompt" \
-    --model "$UNSORRY_MODEL" --output-format text --tools ""
+    --model "$model" --output-format text --tools ""
+}
+
+# OpenAI translation call (no tools, similar to claude translate)
+call_openai_translate() {
+  local prompt="$1"
+  local model="${UNSORRY_MODEL:-gpt-4o-mini}"
+  
+  if [ -z "${OPENAI_API_KEY:-}" ]; then
+    log "Error: OPENAI_API_KEY environment variable required for OpenAI provider"
+    return 1
+  fi
+  
+  python3 "$(dirname "$0")/../tools/llm_providers/openai_cli.py" \
+    -p "$prompt" --model "$model" --output-format text
+}
+
+# Unified translate call that dispatches to the configured provider
+call_translate() {
+  local prompt="$1"
+  case "${UNSORRY_TRANSLATE_PROVIDER:-$UNSORRY_PROVIDER}" in
+    claude) call_claude "$prompt" ;;
+    openai) call_openai_translate "$prompt" ;;
+    *) call_claude "$prompt" ;;  # Default to claude
+  esac
 }
 
 # Steps 5–6: translate with sanity checks; one retry, then give up.
@@ -1025,8 +1060,8 @@ run_translation() {
   prompt="$(cat "$TRANSLATE_PROMPT_FILE")
 $body"
   for attempt in 1 2; do
-    if ! raw="$(call_claude "$prompt")"; then
-      log "claude call failed or timed out for $goal (attempt $attempt)"
+    if ! raw="$(call_translate "$prompt")"; then
+      log "translate call failed or timed out for $goal (attempt $attempt)"
       continue
     fi
     if ! stmt="$(single_nonempty_line "$raw")"; then
@@ -1262,8 +1297,20 @@ cli_health_probe() {
       timeout 90 gemini --skip-trust --allowed-mcp-server-names none -p "Reply with exactly: OK" --model flash \
         --output-format text >/dev/null 2>&1
       ;;
+    openai)
+      timeout 90 python3 "$(dirname "$0")/../tools/llm_providers/openai_cli.py" \
+        -p "Reply with exactly: OK" --model gpt-4o-mini --output-format text >/dev/null 2>&1
+      ;;
     *) return 1 ;;
   esac
+}
+
+# Check if a specific Claude model is available.
+# Returns 0 if available, 1 otherwise.
+claude_model_available() {
+  local model="$1"
+  timeout 30 claude -p "Reply with exactly: OK" --model "$model" \
+    --output-format text >/dev/null 2>&1
 }
 
 # Prove step 5: one claude call constrained to write the target Lean module.
@@ -1271,13 +1318,22 @@ cli_health_probe() {
 # for the same reason); the $UNSORRY_WALL timeout bounds the call instead.
 # Tools are limited to reading/editing/writing and the read-only lake/git
 # commands the prover needs to check its own work (build, env, exe, diff).
+# Falls back from fable to opus if fable is not available.
 call_claude_prove() {
   local prompt="$1" workdir="$2" effort="$3"
   local -a eff=()
+  local model="$UNSORRY_MODEL"
   [ -n "$effort" ] && eff=(--effort "$effort")
+  
+  # If model is fable, check availability and fall back to opus if needed
+  if [ "$model" = "fable" ] && ! claude_model_available "fable"; then
+    log "fable model not available, falling back to opus"
+    model="opus"
+  fi
+  
   ( cd "$workdir" \
     && timeout "$UNSORRY_WALL" claude -p "$prompt" \
-         --model "$UNSORRY_MODEL" "${eff[@]}" --output-format text \
+         --model "$model" "${eff[@]}" --output-format text \
          --allowedTools \
            "Read,Edit,Write,Bash(lake build *),Bash(lake env *),Bash(lake exe *),Bash(git diff *)" )
 }
@@ -1311,12 +1367,31 @@ call_gemini_prove() {
          --model "$model" "${eff[@]}" --output-format text )
 }
 
+# OpenAI API provider for Unsorry
+# Supports GPT-4o, o1, o3-mini, and other OpenAI models
+# Requires OPENAI_API_KEY environment variable
+call_openai_prove() {
+  local prompt="$1" workdir="$2" effort="$3"
+  local model="${UNSORRY_MODEL:-gpt-4o}"
+  
+  # Check for API key
+  if [ -z "${OPENAI_API_KEY:-}" ]; then
+    log "Error: OPENAI_API_KEY environment variable required for OpenAI provider"
+    return 1
+  fi
+  
+  ( cd "$workdir" \
+    && timeout "$UNSORRY_WALL" python3 "$(dirname "$0")/../tools/llm_providers/openai_cli.py" \
+         -p "$prompt" --model "$model" --prove --workdir "$workdir" --output-format text )
+}
+
 call_provider_prove() {
   local prompt="$1" workdir="$2" effort="$3"
   case "$UNSORRY_PROVIDER" in
     claude) call_claude_prove "$prompt" "$workdir" "$effort" ;;
     codex) call_codex_prove "$prompt" "$workdir" "$effort" ;;
     gemini) call_gemini_prove "$prompt" "$workdir" "$effort" ;;
+    openai) call_openai_prove "$prompt" "$workdir" "$effort" ;;
     *) log "unsupported prove provider '$UNSORRY_PROVIDER'"; return 1 ;;
   esac
 }
@@ -1627,7 +1702,15 @@ decompose_goal() {
   # (ADR-015).
   local eff_tok; eff_tok="$(effort_for_attempt top "$UNSORRY_EFFORT")"
   local -a eff=()
+  local model="$UNSORRY_MODEL"
   [ -n "$eff_tok" ] && eff=(--effort "$eff_tok")
+  
+  # If model is fable, check availability and fall back to opus if needed
+  if [ "$model" = "fable" ] && ! claude_model_available "fable"; then
+    log "fable model not available, falling back to opus"
+    model="opus"
+  fi
+  
   d0="$(date +%s)"
   out="$(cd "$prwt" && timeout "$UNSORRY_WALL" claude -p "$(cat "$DECOMPOSE_PROMPT_FILE")
 
@@ -1635,7 +1718,7 @@ PARENT THEOREM (the goal that resisted proof):
 $stmt
 
 Output 2 to $(py_helper max-decomp subs) sub-lemma signatures, one per \`SUB:\` line." \
-    --model "$UNSORRY_MODEL" "${eff[@]}" --output-format text --allowedTools "Read,Bash(lake build *),Bash(lake env *)" 2>/dev/null)"
+    --model "$model" "${eff[@]}" --output-format text --allowedTools "Read,Bash(lake build *),Bash(lake env *)" 2>/dev/null)"
   ddur=$(( $(date +%s) - d0 ))
 
   # Materialise the proposed subs into the PR tree.
