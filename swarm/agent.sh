@@ -1433,7 +1433,7 @@ call_gemini_prove() {
   local prompt="$1" workdir="$2" effort="$3"
   local -a eff=()
   [ -n "$effort" ] && eff=(--effort "$effort")
-  local model="${UNSORRY_MODEL:-gemini-2.5-pro}"
+  local model="${UNSORRY_MODEL:-gemini-3.1-pro-preview}"
   PROOF_MODEL_USED="$model"
   ( cd "$workdir" \
     && timeout "$UNSORRY_WALL" gemini --skip-trust --yolo --allowed-mcp-server-names none -p "$prompt" \
@@ -1621,7 +1621,8 @@ Fix the module so both pass. Write the corrected $target."
     fi
     prepare_proof_attempt "$prwt" "$target" "$binding"
     t0="$(date +%s)"
-    if ! call_provider_prove "$prompt" "$prwt" "$eff_tok" >/dev/null; then
+    log "running proof generation (logging to $prwt/prove-attempt-$attempt.log)..."
+    if ! call_provider_prove "$prompt" "$prwt" "$eff_tok" > "$prwt/prove-attempt-$attempt.log" 2>&1; then
       dur=$(( $(date +%s) - t0 ))
       # ADR-016: a call that died fast probably never reached the model.
       if [ "$dur" -lt "$UNSORRY_FASTFAIL" ]; then
