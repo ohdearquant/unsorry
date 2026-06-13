@@ -1437,7 +1437,7 @@ call_gemini_prove() {
   PROOF_MODEL_USED="$model"
   ( cd "$workdir" \
     && timeout "$UNSORRY_WALL" gemini --skip-trust --yolo --allowed-mcp-server-names none -p "$prompt" \
-         --model "$model" "${eff[@]}" --output-format text )
+         --model "$model" "${eff[@]}" --output-format text < /dev/null )
 }
 
 # OpenAI API provider for Unsorry

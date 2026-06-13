@@ -26,6 +26,34 @@ class Command:
 Runner = Callable[..., subprocess.CompletedProcess[str]]
 
 
+def available_memory_gb() -> float:
+    """Return available physical memory in GB, defaulting to a safe fallback on failure."""
+    try:
+        # On Linux / Proc filesystem (covers GHA standard runners)
+        proc_mem = Path("/proc/meminfo")
+        if proc_mem.is_file():
+            for line in proc_mem.read_text().splitlines():
+                if line.startswith("MemAvailable:"):
+                    parts = line.split()
+                    if len(parts) >= 2:
+                        return float(parts[1]) / (1024 * 1024)
+        # On macOS (Darwin)
+        if sys.platform == "darwin":
+            output = subprocess.check_output(["sysctl", "-n", "hw.memsize"], text=True)
+            return float(output.strip()) / (1024 * 1024 * 1024)
+    except Exception:
+        pass
+    return 4.0
+
+
+def max_safe_jobs(requested_jobs: int) -> int:
+    """Cap parallel jobs based on available RAM to prevent OOM kills (exit code 143)."""
+    # Each concurrent Lean 4 compiler, audit, or replay process consumes ~3.5 GB of RAM.
+    free_ram = available_memory_gb()
+    safe_cap = max(1, int(free_ram // 3.5))
+    return min(requested_jobs, safe_cap)
+
+
 def module_names(root: Path, source_dir: str) -> list[str]:
     """Return Lean module names for every source below source_dir."""
     base = root / source_dir
@@ -113,9 +141,8 @@ def audit(
         return build.returncode
 
     # axiom_audit is memory-intensive as it loads large Mathlib environment;
-    # limit parallelism to avoid OOM kills in CI.
-    # Use at most 2 parallel jobs for audit, regardless of --jobs setting.
-    audit_jobs = min(jobs, 2)
+    # dynamically limit parallelism based on available memory to prevent OOM kills.
+    audit_jobs = max_safe_jobs(jobs)
     library_jobs = max(1, audit_jobs // 2) if library and goals else audit_jobs
     goal_jobs = audit_jobs - library_jobs if library and goals else audit_jobs
     commands = [
@@ -163,9 +190,8 @@ def replay(root: Path, jobs: int, runner: Runner = subprocess.run) -> int:
     if not library:
         print("no library modules found", file=sys.stderr)
         return 2
-    # leanchecker is memory-intensive; limit parallelism to avoid OOM kills in CI.
-    # Use at most 2 parallel jobs for replay, regardless of --jobs setting.
-    replay_jobs = min(jobs, 2)
+    # leanchecker is memory-intensive; dynamically limit parallelism based on available memory.
+    replay_jobs = max_safe_jobs(jobs)
     commands = [
         Command(
             ("lake", "env", "leanchecker", *chunk),
