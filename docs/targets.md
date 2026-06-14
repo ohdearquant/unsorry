@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**59 open · 111 proved · 179 total prove-goals.**
+**61 open · 111 proved · 182 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -55,7 +55,9 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sum-four-pow-ge-sq-prod-s2` — sum-four-pow-ge-sq-prod-s2 | open | 1 | — | — | — |
 | `sum-four-sq-ge-two-cross-s1` — sum-four-sq-ge-two-cross-s1 | open | 1 | — | — | — |
 | `sum-four-sq-ge-two-cross-s2` — sum-four-sq-ge-two-cross-s2 | open | 1 | — | — | — |
-| `sum-icc-choose-hockey-stick` — The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). | open | 3 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
+| `sum-icc-choose-hockey-stick-s1` — sum-icc-choose-hockey-stick-s1 | open | 1 | — | — | — |
+| `sum-icc-choose-hockey-stick-s2` — sum-icc-choose-hockey-stick-s2 | open | 1 | — | — | — |
+| `sum-icc-choose-hockey-stick-s3` — sum-icc-choose-hockey-stick-s3 | open | 1 | — | — | — |
 | `sum-range-choose-sq-eq-central` — ∑_{k=0}^{n} C(n,k)² = C(2n,n) — the central-binomial Vandermonde identity. | open | 4 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | ∑_{k=0}^{n} C(n,k)² = C(2n,n) — the central-binomial Vandermonde identity. Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
 | `sum-range-odd-cubes` — ∑_{k=0}^{n-1} (2k+1)³ = n²(2n²−1) — the closed form for the sum of the first n odd cubes. | open | 3 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | ∑_{k=0}^{n-1} (2k+1)³ = n²(2n²−1) — the closed form for the sum of the first n odd cubes. Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
 | `sum-range-triangular-eq-tetrahedral` — 6·∑_{k=0}^{n} k(k+1)/2 = n(n+1)(n+2) — sum of triangular numbers is tetrahedral. | open | 3 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | 6·∑_{k=0}^{n} k(k+1)/2 = n(n+1)(n+2) — sum of triangular numbers is tetrahedral. Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
@@ -76,6 +78,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-add-sq-eq-three-mul-sq` — The Diophantine equation $x^2 + y^2 = 3z^2$ has only the trivial solution $x=y=z=0$ in integers. | blocked | 4 | — | elementary number theory | Classic infinite descent argument modulo 3 showing that $3 \mid x$ and $3 \mid y$, which leads to infinite descent. |
 | `sum-four-pow-ge-sq-prod` — For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². | blocked | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². Not a named mathlib lemma in this form. |
 | `sum-four-sq-ge-two-cross` — For all real a,b,c,d, a²+b²+c²+d² ≥ 2ab+2cd. | blocked | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c,d, a²+b²+c²+d² ≥ 2ab+2cd. Not a named mathlib lemma in this form. |
+| `sum-icc-choose-hockey-stick` — The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). | blocked | 3 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
 | `abstract-regular-polyhedron-classification` — For an abstract regular polyhedron — V vertices, E edges, F faces that are p-gons, vertices of degree q — with the two handshakes p·F = 2E and q·V = 2E and Euler's relation V + F = E + 2, the pair (p, q) is one of the five Platonic Schläfli pairs {(3,3),(3,4),(4,3),(3,5),(5,3)}. The classification (⟹) half of Freek #50 in combinatorial/Euler form. | proved | 3 | — | Freek 100 (#50), combinatorial form (ADR-031 / SPEC-031-A, Track 1) | The classification half of 'there are exactly five Platonic solids', reusing the proved `platonic_schlafli_pairs` as keystone (Euler + handshake ⟹ 1/p+1/q > 1/2 ⟹ the five pairs). Coxeter, Regular Polytopes, Ch. 1. NOT the geometric Freek #50 (that is Track 2, gated on a mathlib polytope face lattice + Euler–Poincaré). |
 | `alternating-sum-naturals` — For every natural n, the sum over i in 0..n-1 of (-1)^i (i+1) equals -(n/2) if n is even and (n/2)+1 if n is odd (integer division over ℤ). | proved | 3 | [packet-ready](upstream/alternating-sum-naturals.md) | classic identities | Standard arithmetic alternating-series partial sums (1-2+3-4+...); tabulated in Hardy, Divergent Series, Ch. 1; elementary induction exercise in discrete-math texts. |
 | `am-gm-three-cube-s2-s1` — am-gm-three-cube-s2-s1 | proved | 1 | — | — | — |
