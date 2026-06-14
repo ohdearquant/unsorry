@@ -13,6 +13,7 @@ from tools.visualiser.generate import (
     render_json,
     render_markdown,
     render_mermaid,
+    render_svg,
 )
 
 
@@ -174,6 +175,19 @@ def test_render_html(tmp_path):
     assert re.search(r"__[A-Z]+__", html) is None  # no unreplaced placeholders
     blob = html.split('id="graph-data">', 1)[1].split("</script>", 1)[0]
     assert len(json.loads(blob)["nodes"]) == 4  # embedded model is valid JSON
+    # Shared #270 leaderboard design language (ADR-038).
+    assert 'name="viewport"' in html  # mobile-friendly
+    assert "cdn.tailwindcss.com" in html and "tailwind.config" in html
+    assert "brand" in html and "Inter" in html  # brand palette + Inter font
+    assert "lg:grid-cols-[minmax(0,1fr)_320px]" in html  # responsive diagram/panel
+    assert ">Unsorry<" in html  # shared wordmark header
+    assert "4 goals" in html  # header summary stat
+
+
+def test_render_html_status_chips(tmp_path):
+    # One header stat chip per present status, carrying the diagram swatch.
+    html = render_html(build_graph(_repo(tmp_path)))
+    assert "3 proved" in html and "1 open" in html
 
 
 def test_main_html_stdout(tmp_path, capsys):
@@ -181,12 +195,33 @@ def test_main_html_stdout(tmp_path, capsys):
     assert capsys.readouterr().out.startswith("<!doctype html>")
 
 
+def test_render_svg(tmp_path):
+    # README preview card (ADR-038), shared leaderboard visual language.
+    svg = render_svg(build_graph(_repo(tmp_path)))
+    assert svg.startswith("<svg") and svg.rstrip().endswith("</svg>")
+    assert "Unsorry Proof Graph" in svg
+    assert "Inter, system-ui, sans-serif" in svg  # shared typography
+    assert "4 goals" in svg  # summary
+    assert ">proved<" in svg  # per-status row
+    # Deterministic from statuses alone — git-independent, safe on shallow checkouts.
+    assert render_svg(build_graph(_repo(tmp_path))) == svg
+
+
+def test_main_svg_stdout(tmp_path, capsys):
+    assert main(["--svg", str(_repo(tmp_path))]) == 0
+    assert capsys.readouterr().out.startswith("<svg")
+
+
 def test_main_write_and_check_both_artifacts(tmp_path):
     root = _repo(tmp_path)
     assert main(["--write", str(root)]) == 0
     assert (root / "docs" / "proofs-contributors-visualisation.md").exists()
     assert (root / "docs" / "proofs-contributors-visualisation.html").exists()
+    assert (root / "docs" / "proof-graph.svg").exists()
     assert main(["--check", str(root)]) == 0
-    # Drift in either artifact reddens the check.
+    # Drift in any artifact reddens the check.
     (root / "docs" / "proofs-contributors-visualisation.html").write_text("stale", encoding="utf-8")
+    assert main(["--check", str(root)]) == 1
+    main(["--write", str(root)])
+    (root / "docs" / "proof-graph.svg").write_text("stale", encoding="utf-8")
     assert main(["--check", str(root)]) == 1
