@@ -35,7 +35,7 @@
     {
       "attempt_yield": 0.0,
       "attempts": 7,
-      "difficulty_points": 4,
+      "difficulty_points": 5,
       "failed_attempts": 7,
       "failures": 7,
       "median_solve_s": 131,
@@ -46,7 +46,7 @@
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 1018,
-      "verified_proofs": 2
+      "verified_proofs": 3
     },
     {
       "attempt_yield": 1.0,
@@ -66,17 +66,17 @@
     }
   ],
   "coverage": {
-    "attributed_proofs": 35,
+    "attributed_proofs": 36,
     "historical_unknown_proofs": 121,
-    "proof_run_coverage": 0.2051,
+    "proof_run_coverage": 0.2038,
     "successful_proofs_with_run_telemetry": 32,
     "terminal_runs": 104,
-    "verified_proofs": 156
+    "verified_proofs": 157
   },
   "credit": {
     "credited_contributors": 8,
-    "credited_proofs": 156,
-    "explicit_solver_proofs": 35,
+    "credited_proofs": 157,
+    "explicit_solver_proofs": 36,
     "inferred_git_proofs": 121,
     "uncredited_proofs": 0
   },
@@ -230,10 +230,10 @@
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 2,
-      "difficulty_points": 4,
+      "credited_proofs": 3,
+      "difficulty_points": 5,
       "display_name": "@adam91holt",
-      "explicit_solver_proofs": 2,
+      "explicit_solver_proofs": 3,
       "failed_attempts": 7,
       "failures": 7,
       "git_author": null,
@@ -248,7 +248,7 @@
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 1018,
-      "verified_proofs": 2
+      "verified_proofs": 3
     },
     {
       "attempt_yield": null,
@@ -1261,7 +1261,7 @@
       "p90_solve_s": 230,
       "run_success_rate": 0.0,
       "runs": 1,
-      "status": "open",
+      "status": "proved",
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 230
@@ -2026,18 +2026,18 @@
       {
         "attribution_source": "git-add-author",
         "avatar_url": null,
-        "difficulty_points": 4,
+        "difficulty_points": 5,
         "display_name": "Adam Holt",
         "git_author": "Adam Holt <adam@adamholt.co.nz>",
         "git_author_name": "Adam Holt",
         "github": null,
-        "index_files_added": 2,
+        "index_files_added": 3,
         "missing_solver_provenance": 0,
         "profile_url": null,
-        "sample_add_commit": "e44442adf2f7950d18e7f6a540c053676cfbbb80",
+        "sample_add_commit": "f404fd672dcede78ba2bff365ad3e04a198ca1e0",
         "sample_add_date": "2026-06-14",
         "solver_credit": false,
-        "solver_provenance_proofs": 2
+        "solver_provenance_proofs": 3
       },
       {
         "attribution_source": "git-add-author",
@@ -2072,8 +2072,8 @@
         "solver_provenance_proofs": 1
       }
     ],
-    "git_attributed_index_files": 156,
-    "records": 156,
+    "git_attributed_index_files": 157,
+    "records": 157,
     "scope": "library/index/*.aisp",
     "source": "git-add-author",
     "unattributed_index_files": 0
@@ -2128,22 +2128,6 @@
       "verified_proofs": 4
     },
     {
-      "attempt_yield": 1.0,
-      "attempts": 2,
-      "failed_attempts": 0,
-      "failures": 0,
-      "median_solve_s": 306,
-      "p90_solve_s": 393,
-      "provider_model": "gemini / gemini-3.1-pro-preview",
-      "run_success_rate": 1.0,
-      "runs": 2,
-      "solvers": 1,
-      "successes": 2,
-      "successes_per_recorded_hour": 11.765,
-      "total_solve_s": 612,
-      "verified_proofs": 2
-    },
-    {
       "attempt_yield": null,
       "attempts": 0,
       "failed_attempts": 0,
@@ -2157,6 +2141,22 @@
       "successes": 0,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0,
+      "verified_proofs": 3
+    },
+    {
+      "attempt_yield": 1.0,
+      "attempts": 2,
+      "failed_attempts": 0,
+      "failures": 0,
+      "median_solve_s": 306,
+      "p90_solve_s": 393,
+      "provider_model": "gemini / gemini-3.1-pro-preview",
+      "run_success_rate": 1.0,
+      "runs": 2,
+      "solvers": 1,
+      "successes": 2,
+      "successes_per_recorded_hour": 11.765,
+      "total_solve_s": 612,
       "verified_proofs": 2
     },
     {
@@ -2206,8 +2206,8 @@
     "goals": 192,
     "status_counts": {
       "blocked": 8,
-      "open": 60,
-      "proved": 114,
+      "open": 59,
+      "proved": 115,
       "translated": 10
     }
   },

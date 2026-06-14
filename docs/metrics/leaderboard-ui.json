@@ -150,18 +150,18 @@
       "attempt_yield": 0.0,
       "avatar_url": "https://github.com/adam91holt.png?size=96",
       "badges": {
-        "difficulty": 4,
-        "proofs": 2,
+        "difficulty": 5,
+        "proofs": 3,
         "success_rate_percent": 0.0
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 2,
-      "difficulty_points": 4,
+      "credited_proofs": 3,
+      "difficulty_points": 5,
       "display_name": "@adam91holt",
-      "explicit_solver_proofs": 2,
+      "explicit_solver_proofs": 3,
       "failed_attempts": 7,
       "github": "adam91holt",
       "inferred_git_proofs": 0,
@@ -170,10 +170,10 @@
       "rank": 6,
       "run_success_rate": 0.0,
       "runs": 7,
-      "score": 450,
+      "score": 575,
       "solver": "adam91holt",
       "successes": 0,
-      "verified_proofs": 2
+      "verified_proofs": 3
     },
     {
       "attempt_yield": null,
@@ -292,15 +292,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 4,
+      "difficulty_points": 5,
       "display_name": "Adam Holt",
       "github": null,
-      "index_files_added": 2,
+      "index_files_added": 3,
       "missing_solver_provenance": 0,
       "profile_url": null,
       "rank": 5,
       "solver_credit": false,
-      "solver_provenance_proofs": 2
+      "solver_provenance_proofs": 3
     },
     {
       "attribution_source": "git-add-author",
@@ -349,15 +349,15 @@
       "verified_proofs": 4
     },
     {
-      "provider_model": "gemini / gemini-3.1-pro-preview",
-      "run_success_rate": 1.0,
-      "runs": 2,
-      "verified_proofs": 2
-    },
-    {
       "provider_model": "manual / gpt-5.5",
       "run_success_rate": null,
       "runs": 0,
+      "verified_proofs": 3
+    },
+    {
+      "provider_model": "gemini / gemini-3.1-pro-preview",
+      "run_success_rate": 1.0,
+      "runs": 2,
       "verified_proofs": 2
     },
     {
@@ -370,18 +370,18 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 35,
+    "attributed_proofs": 36,
     "attribution_gap_count": 121,
     "credited_contributors": 8,
-    "credited_proofs": 156,
-    "explicit_solver_proofs": 35,
-    "git_attributed_index_files": 156,
+    "credited_proofs": 157,
+    "explicit_solver_proofs": 36,
+    "git_attributed_index_files": 157,
     "historical_contributors": 7,
     "historical_unknown_proofs": 121,
     "inferred_git_proofs": 121,
-    "proof_run_coverage": 0.2051,
+    "proof_run_coverage": 0.2038,
     "terminal_runs": 104,
     "uncredited_proofs": 0,
-    "verified_proofs": 156
+    "verified_proofs": 157
   }
 }
