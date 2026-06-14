@@ -4,43 +4,46 @@
 
 Verified output comes from `library/index`; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**98 verified proofs · 19 attributed · 79 historical/unknown · 23 logged terminal runs.**
+**99 verified proofs · 20 attributed · 79 historical/unknown · 27 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
 | Successful terminal runs | 19 |
-| Failed terminal runs | 4 |
-| Decomposed after failure | 1 |
+| Failed terminal runs | 8 |
+| Decomposed after failure | 5 |
 | Failed without decomposition | 3 |
-| Run success rate | 82.6% |
-| Provider attempts | 39 |
-| Failed attempts | 20 |
-| Attempt yield | 48.7% |
-| Recorded run time | 4h 36m |
-| Median / p90 run time | 9m 7s / 24m 18s |
-| Verified successes per recorded hour | 4.12 |
-| Proofs with run telemetry | 19 (19.4%) |
+| Run success rate | 70.4% |
+| Provider attempts | 43 |
+| Failed attempts | 24 |
+| Attempt yield | 44.2% |
+| Recorded run time | 4h 47m |
+| Median / p90 run time | 6m 57s / 24m 18s |
+| Verified successes per recorded hour | 3.97 |
+| Proofs with run telemetry | 19 (19.2%) |
 
 ## Work Queue
 
-**109 goals · 1 blocked · 1 open · 97 proved · 10 translated.**
+**128 goals · 4 blocked · 16 open · 98 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 5 | 3 | 60.0% | 9 | 16m 48s |
-| 2 | 6 | 5 | 83.3% | 4 | 4m 7s |
-| 3 | 9 | 8 | 88.9% | 7 | 9m 16s |
-| 4 | 3 | 3 | 100.0% | 0 | 5m 42s |
+| 2 | 7 | 5 | 71.4% | 5 | 3m 58s |
+| 3 | 10 | 8 | 80.0% | 8 | 9m 11s |
+| 4 | 5 | 3 | 60.0% | 2 | 4m 47s |
 
 ## Unresolved Effort
 
 | Goal | Status | Difficulty | Runs | Failed attempts | Recorded time |
 |------|--------|-----------:|-----:|----------------:|--------------:|
 | `sq-add-sq-eq-three-mul-sq-s4` | `open` | 1 | 2 | 6 | 54m 47s |
+| `no-nat-sq-eq-two-mul-sq` | `blocked` | 4 | 1 | 1 | 3m 23s |
+| `nesbitt-inequality` | `blocked` | 4 | 1 | 1 | 2m 43s |
+| `four-consecutive-product-add-one-square` | `blocked` | 2 | 1 | 1 | 2m 2s |
 
 ## Contributor Leaderboard
 
@@ -51,25 +54,32 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | 1 | [@cgbarlow](https://github.com/cgbarlow) | 61 | 19 | 42 | 23 | 82.6% | 101 | 11625 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 27 | 0 | 27 | 0 | — | 57 | 6375 |
 | 3 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
-| 4 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
+| 4 | [@kev](https://github.com/kev) | 1 | 1 | 0 | 0 | — | 3 | 325 |
+| 5 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
 
 ## Attribution Notes
 
-**19 explicit solver credits · 79 inferred git credits · 0 uncredited proof records.**
+**20 explicit solver credits · 79 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 98 of 98 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 99 of 99 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 19 | 21 | 90.5% | 14 | 1 | 7m 0s | 5.13 |
+| `manual / gpt-5.5` | 1 | 0 | — | 0 | 1 | — | — |
+| `codex / unknown` | 0 | 4 | 0.0% | 4 | 1 | 2m 26s | 0.00 |
 | `openai / leanstral-2603` | 0 | 2 | 0.0% | 6 | 1 | 27m 19s | 0.00 |
 
 ## Recent Terminal Runs
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-14T07:22:45Z` | `no-nat-sq-eq-two-mul-sq` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `decomposed` | 1 | 1 | 3m 23s |
+| `2026-06-14T07:21:56Z` | `nesbitt-inequality` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `decomposed` | 1 | 1 | 2m 43s |
+| `2026-06-14T07:20:43Z` | `four-consecutive-product-add-one-square` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `decomposed` | 1 | 1 | 2m 2s |
+| `2026-06-14T06:38:26Z` | `nat-sq-lt-two-pow` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `decomposed` | 1 | 1 | 2m 10s |
 | `2026-06-14T00:05:59Z` | `sq-add-sq-eq-three-mul-sq-s4` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 3 | 3 | 39m 50s |
 | `2026-06-13T20:34:29Z` | `euclid-perfect-numbers` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 2 | 1 | 18m 23s |
 | `2026-06-13T14:11:05Z` | `sum-range-pow-five-add-pow-seven` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 5m 42s |
@@ -86,10 +96,6 @@ Git add-author attribution covers 98 of 98 proof index files. It is used only wh
 | `2026-06-13T13:34:28Z` | `sq-add-sq-eq-three-mul-sq-s4` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `failed` | 3 | 3 | 14m 57s |
 | `2026-06-13T13:11:54Z` | `sq-add-sq-eq-three-mul-sq-s2` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 3 | 2 | 34m 41s |
 | `2026-06-13T12:59:29Z` | `sq-add-sq-eq-three-mul-sq-s3` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 2 | 1 | 16m 48s |
-| `2026-06-13T12:36:56Z` | `sq-add-sq-eq-three-mul-sq-s1` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 7m 0s |
-| `2026-06-13T12:29:39Z` | `pow-four-add-sq-add-one-factor` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 3m 22s |
-| `2026-06-13T12:26:02Z` | `fourth-power-mod-five` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `decomposed` | 3 | 3 | 20m 27s |
-| `2026-06-13T12:24:18Z` | `one-add-four-b-fourth-not-prime` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 2 | 1 | 9m 7s |
 
 ## Interpretation
 
