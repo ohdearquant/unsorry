@@ -258,6 +258,32 @@
       "solver_provenance_proofs": 0
     }
   ],
+  "models": [
+    {
+      "provider_model": "claude / opus",
+      "run_success_rate": 0.9048,
+      "runs": 21,
+      "verified_proofs": 19
+    },
+    {
+      "provider_model": "codex / unknown",
+      "run_success_rate": 0.375,
+      "runs": 8,
+      "verified_proofs": 3
+    },
+    {
+      "provider_model": "manual / gpt-5.5",
+      "run_success_rate": null,
+      "runs": 0,
+      "verified_proofs": 2
+    },
+    {
+      "provider_model": "openai / leanstral-2603",
+      "run_success_rate": 0.0,
+      "runs": 7,
+      "verified_proofs": 0
+    }
+  ],
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
