@@ -4,10 +4,11 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**11 open · 103 proved · 118 total prove-goals.**
+**12 open · 103 proved · 118 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
+| `four-consecutive-product-add-one-square` — For every natural n, the product of four consecutive integers n(n+1)(n+2)(n+3), plus one, is a perfect square. | open | 2 | — | Classic elementary-number-theory identity (the "four consecutive integers" square). | n(n+1)(n+2)(n+3) + 1 = (n² + 3n + 1)². mathlib has no lemma that the product of four consecutive integers plus one is square; it is not a named result. |
 | `nat-sq-lt-two-pow-s2` — nat-sq-lt-two-pow-s2 | open | 1 | — | — | — |
 | `nesbitt-inequality-s1` — nesbitt-inequality-s1 | open | 1 | — | — | — |
 | `nesbitt-inequality-s2` — nesbitt-inequality-s2 | open | 1 | — | — | — |
@@ -19,7 +20,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `no-nat-sq-eq-two-mul-sq-s4` — no-nat-sq-eq-two-mul-sq-s4 | open | 1 | — | — | — |
 | `prod-one-sub-inv-sq-telescope` — For n ≥ 2, ∏_{k=2}^{n} (1 − 1/k²) = (n+1)/(2n) over ℚ — the telescoping product of (1 − 1/k²). | open | 4 | — | Classic telescoping product (Wallis-adjacent finite product) | ∏(1−1/k²) = (n+1)/(2n), via the factorisation 1 − 1/k² = (k−1)(k+1)/k². Distinct from the reciprocal-pronic / reciprocal-triangular SUM telescopes already in the pool (this is a multiplicative, rational telescope). |
 | `sq-add-sq-eq-three-mul-sq-s4` — sq-add-sq-eq-three-mul-sq-s4 | open | 1 | — | — | — |
-| `four-consecutive-product-add-one-square` — For every natural n, the product of four consecutive integers n(n+1)(n+2)(n+3), plus one, is a perfect square. | blocked | 2 | — | Classic elementary-number-theory identity (the "four consecutive integers" square). | n(n+1)(n+2)(n+3) + 1 = (n² + 3n + 1)². mathlib has no lemma that the product of four consecutive integers plus one is square; it is not a named result. |
 | `nesbitt-inequality` — Nesbitt's inequality: for positive reals a, b, c, a/(b+c) + b/(c+a) + c/(a+b) ≥ 3/2. | blocked | 4 | — | Nesbitt's inequality (1903), a classic three-variable cyclic inequality; AoPS/olympiad canon. | 3/2 ≤ a/(b+c) + b/(c+a) + c/(a+b) for a,b,c > 0. mathlib has `inner_mul_le_norm_mul_norm` and `div_add_div_same`-style lemmas but no Nesbitt lemma. |
 | `no-nat-sq-eq-two-mul-sq` — There are no positive naturals a, b with a² = 2·b² — ¬∃ a b, 0 < b ∧ a² = 2b²: the irrationality of √2 in elementary infinite-descent form. | blocked | 4 | — | Freek 100 (#1, irrationality of √2), infinite-descent / parity form | Classic infinite descent: a²=2b² ⟹ a even ⟹ b even ⟹ a strictly smaller solution. mathlib proves `irrational_sqrt_two` over ℝ via prime factorisation; this self-contained ℕ descent statement (no reals, no `sqrt`) is absent and is the elementary heart of Freek #1. |
 | `sq-add-sq-eq-three-mul-sq` — The Diophantine equation $x^2 + y^2 = 3z^2$ has only the trivial solution $x=y=z=0$ in integers. | blocked | 4 | — | elementary number theory | Classic infinite descent argument modulo 3 showing that $3 \mid x$ and $3 \mid y$, which leads to infinite descent. |
