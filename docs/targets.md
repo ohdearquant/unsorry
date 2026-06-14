@@ -4,11 +4,10 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**12 open · 102 proved · 118 total prove-goals.**
+**11 open · 103 proved · 118 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
-| `nat-sq-lt-two-pow-s1` — nat-sq-lt-two-pow-s1 | open | 1 | — | — | — |
 | `nat-sq-lt-two-pow-s2` — nat-sq-lt-two-pow-s2 | open | 1 | — | — | — |
 | `nesbitt-inequality-s1` — nesbitt-inequality-s1 | open | 1 | — | — | — |
 | `nesbitt-inequality-s2` — nesbitt-inequality-s2 | open | 1 | — | — | — |
@@ -64,6 +63,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `nat-mul-one-thm` — One is a right identity for natural-number multiplication. | proved | 1 | — | — | — |
 | `nat-mul-zero-thm` — Any natural number times zero is zero. | proved | 1 | — | — | — |
 | `nat-sq-lt-two-pow` — For every natural n ≥ 5, n² < 2ⁿ — the quadratic-vs-exponential crossover. | proved | 3 | — | Classic crossover inequality (standard induction exercise) | n² < 2ⁿ for n ≥ 5. mathlib has linear `Nat.lt_two_pow`-style bounds and Bernoulli (`one_add_mul_le_pow`) but no quadratic-vs-exponential crossover lemma. |
+| `nat-sq-lt-two-pow-s1` — nat-sq-lt-two-pow-s1 | proved | 1 | — | — | — |
 | `nat-zero-le` — Every natural number is at least zero. | proved | 1 | — | — | — |
 | `nicomachus-sum-cubes` — Nicomachus's theorem: the sum of the first n cubes equals the square of the sum | proved | 3 | [packet-ready](upstream/nicomachus-sum-cubes.md) | Phase-2 seeded target (pre-ADR-012) | Nicomachus of Gerasa, *Introduction to Arithmetic* II.20; left as a reader exercise in *Mathematics in Lean* §5 |
 | `nicomachus-sum-cubes-triangular` — For every natural n, the sum over i in 0..n of i^3 equals (n(n+1)/2)^2 (the explicit triangular-number form of Nicomachus' theorem). | proved | 3 | [packet-ready](upstream/nicomachus-sum-cubes-triangular.md) | Freek 100 / classic | Nicomachus of Gerasa, Introduction to Arithmetic, Book II, in explicit closed form; Graham, Knuth & Patashnik, Concrete Mathematics, §2.5 (∑k^3 = (n(n+1)/2)^2). |
