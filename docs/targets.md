@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**12 open · 103 proved · 118 total prove-goals.**
+**11 open · 104 proved · 118 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -17,7 +17,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `no-nat-sq-eq-two-mul-sq-s1` — no-nat-sq-eq-two-mul-sq-s1 | open | 1 | — | — | — |
 | `no-nat-sq-eq-two-mul-sq-s2` — no-nat-sq-eq-two-mul-sq-s2 | open | 1 | — | — | — |
 | `no-nat-sq-eq-two-mul-sq-s3` — no-nat-sq-eq-two-mul-sq-s3 | open | 1 | — | — | — |
-| `no-nat-sq-eq-two-mul-sq-s4` — no-nat-sq-eq-two-mul-sq-s4 | open | 1 | — | — | — |
 | `prod-one-sub-inv-sq-telescope` — For n ≥ 2, ∏_{k=2}^{n} (1 − 1/k²) = (n+1)/(2n) over ℚ — the telescoping product of (1 − 1/k²). | open | 4 | — | Classic telescoping product (Wallis-adjacent finite product) | ∏(1−1/k²) = (n+1)/(2n), via the factorisation 1 − 1/k² = (k−1)(k+1)/k². Distinct from the reciprocal-pronic / reciprocal-triangular SUM telescopes already in the pool (this is a multiplicative, rational telescope). |
 | `sq-add-sq-eq-three-mul-sq-s4` — sq-add-sq-eq-three-mul-sq-s4 | open | 1 | — | — | — |
 | `nesbitt-inequality` — Nesbitt's inequality: for positive reals a, b, c, a/(b+c) + b/(c+a) + c/(a+b) ≥ 3/2. | blocked | 4 | — | Nesbitt's inequality (1903), a classic three-variable cyclic inequality; AoPS/olympiad canon. | 3/2 ≤ a/(b+c) + b/(c+a) + c/(a+b) for a,b,c > 0. mathlib has `inner_mul_le_norm_mul_norm` and `div_add_div_same`-style lemmas but no Nesbitt lemma. |
@@ -67,6 +66,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `nat-zero-le` — Every natural number is at least zero. | proved | 1 | — | — | — |
 | `nicomachus-sum-cubes` — Nicomachus's theorem: the sum of the first n cubes equals the square of the sum | proved | 3 | [packet-ready](upstream/nicomachus-sum-cubes.md) | Phase-2 seeded target (pre-ADR-012) | Nicomachus of Gerasa, *Introduction to Arithmetic* II.20; left as a reader exercise in *Mathematics in Lean* §5 |
 | `nicomachus-sum-cubes-triangular` — For every natural n, the sum over i in 0..n of i^3 equals (n(n+1)/2)^2 (the explicit triangular-number form of Nicomachus' theorem). | proved | 3 | [packet-ready](upstream/nicomachus-sum-cubes-triangular.md) | Freek 100 / classic | Nicomachus of Gerasa, Introduction to Arithmetic, Book II, in explicit closed form; Graham, Knuth & Patashnik, Concrete Mathematics, §2.5 (∑k^3 = (n(n+1)/2)^2). |
+| `no-nat-sq-eq-two-mul-sq-s4` — no-nat-sq-eq-two-mul-sq-s4 | proved | 1 | — | — | — |
 | `not-prime-pow-four-add-four` — For every natural n with n > 1, n^4 + 4 is not prime, via the Sophie Germain factorization n^4+4 = (n^2-2n+2)(n^2+2n+2). | proved | 3 | — | classic identities | Sophie Germain's identity, compositeness corollary. Sierpiński, Elementary Theory of Numbers (PWN/North-Holland, 1988); standard olympiad result. |
 | `odd-fourth-power-mod-sixteen` — The fourth power of every odd natural number leaves remainder 1 on division by 16: if n is odd then n⁴ % 16 = 1. | proved | 2 | — | classic identities (fourth-power congruence tower — leaf; compounds on `odd-sq-mod-eight`) | Standard elementary number theory: odd squares are ≡ 1 (mod 8), so odd fourth powers are ≡ 1 (mod 16). Hardy & Wright, An Introduction to the Theory of Numbers (quadratic-residue preliminaries). One power up from the proved `odd-sq-mod-eight`. |
 | `odd-sq-mod-eight` — The square of every odd natural number leaves remainder 1 on division by 8: if n is odd then n^2 % 8 = 1. | proved | 2 | — | classic identities | Odd squares are ≡ 1 (mod 8); Hardy & Wright, An Introduction to the Theory of Numbers (quadratic-residue preliminaries); standard elementary number theory. |
