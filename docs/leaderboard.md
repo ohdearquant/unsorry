@@ -25,7 +25,7 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 
 ## Work Queue
 
-**192 goals · 10 blocked · 60 open · 112 proved · 10 translated.**
+**192 goals · 9 blocked · 61 open · 112 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -48,7 +48,7 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 | `nat-sq-lt-two-pow-s2` | `blocked` | 1 | 1 | 3 | 9m 15s |
 | `prod-one-sub-inv-sq-telescope` | `open` | 4 | 2 | 2 | 1h 4m |
 | `four-consecutive-product-add-one-square` | `open` | 2 | 2 | 2 | 33m 34s |
-| `sum-four-pow-ge-sq-prod` | `blocked` | 2 | 2 | 2 | 8m 49s |
+| `sum-four-pow-ge-sq-prod` | `open` | 2 | 2 | 2 | 8m 49s |
 | `consecutive-cubes-diff-odd` | `open` | 2 | 2 | 2 | 5m 45s |
 | `sum-icc-choose-hockey-stick-s2` | `open` | 1 | 2 | 2 | 4m 6s |
 
