@@ -4,34 +4,34 @@
 
 Verified output comes from `library/index`; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**101 verified proofs · 21 attributed · 80 historical/unknown · 27 logged terminal runs.**
+**102 verified proofs · 22 attributed · 80 historical/unknown · 28 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 19 |
+| Successful terminal runs | 20 |
 | Failed terminal runs | 8 |
 | Decomposed after failure | 5 |
 | Failed without decomposition | 3 |
-| Run success rate | 70.4% |
-| Provider attempts | 43 |
+| Run success rate | 71.4% |
+| Provider attempts | 44 |
 | Failed attempts | 24 |
-| Attempt yield | 44.2% |
-| Recorded run time | 4h 47m |
-| Median / p90 run time | 6m 57s / 24m 18s |
-| Verified successes per recorded hour | 3.97 |
-| Proofs with run telemetry | 19 (18.8%) |
+| Attempt yield | 45.5% |
+| Recorded run time | 4h 51m |
+| Median / p90 run time | 6m 20s / 24m 18s |
+| Verified successes per recorded hour | 4.11 |
+| Proofs with run telemetry | 20 (19.6%) |
 
 ## Work Queue
 
-**128 goals · 4 blocked · 14 open · 100 proved · 10 translated.**
+**128 goals · 4 blocked · 13 open · 101 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 5 | 3 | 60.0% | 9 | 16m 48s |
+| 1 | 6 | 4 | 66.7% | 9 | 15m 52s |
 | 2 | 7 | 5 | 71.4% | 5 | 3m 58s |
 | 3 | 10 | 8 | 80.0% | 8 | 9m 11s |
 | 4 | 5 | 3 | 60.0% | 2 | 4m 47s |
@@ -56,12 +56,13 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | 3 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 4 | [@adam91holt](https://github.com/adam91holt) | 2 | 2 | 0 | 4 | 0.0% | 4 | 450 |
 | 5 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
+| 6 | [@perttu](https://github.com/perttu) | 1 | 1 | 0 | 1 | 100.0% | 1 | 125 |
 
 ## Attribution Notes
 
-**21 explicit solver credits · 80 inferred git credits · 0 uncredited proof records.**
+**22 explicit solver credits · 80 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 101 of 101 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 102 of 102 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -69,13 +70,14 @@ Git add-author attribution covers 101 of 101 proof index files. It is used only 
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 19 | 21 | 90.5% | 14 | 1 | 7m 0s | 5.13 |
 | `manual / gpt-5.5` | 2 | 0 | — | 0 | 1 | — | — |
-| `codex / unknown` | 0 | 4 | 0.0% | 4 | 1 | 2m 26s | 0.00 |
+| `codex / unknown` | 1 | 5 | 20.0% | 4 | 2 | 2m 43s | 3.93 |
 | `openai / leanstral-2603` | 0 | 2 | 0.0% | 6 | 1 | 27m 19s | 0.00 |
 
 ## Recent Terminal Runs
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-14T08:39:55Z` | `four-consecutive-product-add-one-square-s1` | [@perttu](https://github.com/perttu) | `codex / unknown` | `proved` | 1 | 0 | 4m 57s |
 | `2026-06-14T07:22:45Z` | `no-nat-sq-eq-two-mul-sq` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `decomposed` | 1 | 1 | 3m 23s |
 | `2026-06-14T07:21:56Z` | `nesbitt-inequality` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `decomposed` | 1 | 1 | 2m 43s |
 | `2026-06-14T07:20:43Z` | `four-consecutive-product-add-one-square` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `decomposed` | 1 | 1 | 2m 2s |
@@ -95,7 +97,6 @@ Git add-author attribution covers 101 of 101 proof index files. It is used only 
 | `2026-06-13T13:36:28Z` | `pow-four-add-sq-add-one-not-prime` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 3 | 2 | 24m 18s |
 | `2026-06-13T13:34:28Z` | `sq-add-sq-eq-three-mul-sq-s4` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `failed` | 3 | 3 | 14m 57s |
 | `2026-06-13T13:11:54Z` | `sq-add-sq-eq-three-mul-sq-s2` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 3 | 2 | 34m 41s |
-| `2026-06-13T12:59:29Z` | `sq-add-sq-eq-three-mul-sq-s3` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 2 | 1 | 16m 48s |
 
 ## Interpretation
 

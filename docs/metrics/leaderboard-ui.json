@@ -145,9 +145,38 @@
       "solver": "OceanLi",
       "successes": 0,
       "verified_proofs": 1
+    },
+    {
+      "attempt_yield": 1.0,
+      "avatar_url": "https://github.com/perttu.png?size=96",
+      "badges": {
+        "difficulty": 1,
+        "proofs": 1,
+        "success_rate_percent": 100.0
+      },
+      "credit_source_summary": "explicit",
+      "credit_sources": [
+        "explicit-solver"
+      ],
+      "credited_proofs": 1,
+      "difficulty_points": 1,
+      "display_name": "@perttu",
+      "explicit_solver_proofs": 1,
+      "failed_attempts": 0,
+      "github": "perttu",
+      "inferred_git_proofs": 0,
+      "median_solve_s": 297,
+      "profile_url": "https://github.com/perttu",
+      "rank": 6,
+      "run_success_rate": 1.0,
+      "runs": 1,
+      "score": 125,
+      "solver": "perttu",
+      "successes": 1,
+      "verified_proofs": 1
     }
   ],
-  "generated_at": "2026-06-14T07:22:45Z",
+  "generated_at": "2026-06-14T08:39:55Z",
   "generated_from": "docs/metrics/community-stats.json",
   "historical_contributors": [
     {
@@ -214,23 +243,36 @@
       "rank": 5,
       "solver_credit": false,
       "solver_provenance_proofs": 0
+    },
+    {
+      "attribution_source": "git-add-author",
+      "avatar_url": null,
+      "difficulty_points": 1,
+      "display_name": "Perttu Isotalo",
+      "github": null,
+      "index_files_added": 1,
+      "missing_solver_provenance": 0,
+      "profile_url": null,
+      "rank": 6,
+      "solver_credit": false,
+      "solver_provenance_proofs": 1
     }
   ],
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 21,
+    "attributed_proofs": 22,
     "attribution_gap_count": 80,
-    "credited_contributors": 5,
-    "credited_proofs": 101,
-    "explicit_solver_proofs": 21,
-    "git_attributed_index_files": 101,
-    "historical_contributors": 5,
+    "credited_contributors": 6,
+    "credited_proofs": 102,
+    "explicit_solver_proofs": 22,
+    "git_attributed_index_files": 102,
+    "historical_contributors": 6,
     "historical_unknown_proofs": 80,
     "inferred_git_proofs": 80,
-    "proof_run_coverage": 0.1881,
-    "terminal_runs": 27,
+    "proof_run_coverage": 0.1961,
+    "terminal_runs": 28,
     "uncredited_proofs": 0,
-    "verified_proofs": 101
+    "verified_proofs": 102
   }
 }
