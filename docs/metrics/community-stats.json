@@ -35,7 +35,7 @@
     {
       "attempt_yield": 0.0,
       "attempts": 7,
-      "difficulty_points": 5,
+      "difficulty_points": 6,
       "failed_attempts": 7,
       "failures": 7,
       "median_solve_s": 131,
@@ -46,7 +46,7 @@
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 1018,
-      "verified_proofs": 3
+      "verified_proofs": 4
     },
     {
       "attempt_yield": 1.0,
@@ -66,17 +66,17 @@
     }
   ],
   "coverage": {
-    "attributed_proofs": 36,
+    "attributed_proofs": 37,
     "historical_unknown_proofs": 121,
-    "proof_run_coverage": 0.2038,
+    "proof_run_coverage": 0.2025,
     "successful_proofs_with_run_telemetry": 32,
     "terminal_runs": 104,
-    "verified_proofs": 157
+    "verified_proofs": 158
   },
   "credit": {
     "credited_contributors": 8,
-    "credited_proofs": 157,
-    "explicit_solver_proofs": 36,
+    "credited_proofs": 158,
+    "explicit_solver_proofs": 37,
     "inferred_git_proofs": 121,
     "uncredited_proofs": 0
   },
@@ -230,10 +230,10 @@
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 3,
-      "difficulty_points": 5,
+      "credited_proofs": 4,
+      "difficulty_points": 6,
       "display_name": "@adam91holt",
-      "explicit_solver_proofs": 3,
+      "explicit_solver_proofs": 4,
       "failed_attempts": 7,
       "failures": 7,
       "git_author": null,
@@ -248,7 +248,7 @@
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 1018,
-      "verified_proofs": 3
+      "verified_proofs": 4
     },
     {
       "attempt_yield": null,
@@ -1437,7 +1437,7 @@
       "p90_solve_s": 178,
       "run_success_rate": 0.0,
       "runs": 1,
-      "status": "open",
+      "status": "proved",
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 178
@@ -2026,18 +2026,18 @@
       {
         "attribution_source": "git-add-author",
         "avatar_url": null,
-        "difficulty_points": 5,
+        "difficulty_points": 6,
         "display_name": "Adam Holt",
         "git_author": "Adam Holt <adam@adamholt.co.nz>",
         "git_author_name": "Adam Holt",
         "github": null,
-        "index_files_added": 3,
+        "index_files_added": 4,
         "missing_solver_provenance": 0,
         "profile_url": null,
         "sample_add_commit": "f404fd672dcede78ba2bff365ad3e04a198ca1e0",
         "sample_add_date": "2026-06-14",
         "solver_credit": false,
-        "solver_provenance_proofs": 3
+        "solver_provenance_proofs": 4
       },
       {
         "attribution_source": "git-add-author",
@@ -2072,8 +2072,8 @@
         "solver_provenance_proofs": 1
       }
     ],
-    "git_attributed_index_files": 157,
-    "records": 157,
+    "git_attributed_index_files": 158,
+    "records": 158,
     "scope": "library/index/*.aisp",
     "source": "git-add-author",
     "unattributed_index_files": 0
@@ -2141,7 +2141,7 @@
       "successes": 0,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0,
-      "verified_proofs": 3
+      "verified_proofs": 4
     },
     {
       "attempt_yield": 1.0,
@@ -2206,8 +2206,8 @@
     "goals": 192,
     "status_counts": {
       "blocked": 8,
-      "open": 59,
-      "proved": 115,
+      "open": 58,
+      "proved": 116,
       "translated": 10
     }
   },

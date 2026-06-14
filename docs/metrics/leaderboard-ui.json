@@ -150,18 +150,18 @@
       "attempt_yield": 0.0,
       "avatar_url": "https://github.com/adam91holt.png?size=96",
       "badges": {
-        "difficulty": 5,
-        "proofs": 3,
+        "difficulty": 6,
+        "proofs": 4,
         "success_rate_percent": 0.0
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 3,
-      "difficulty_points": 5,
+      "credited_proofs": 4,
+      "difficulty_points": 6,
       "display_name": "@adam91holt",
-      "explicit_solver_proofs": 3,
+      "explicit_solver_proofs": 4,
       "failed_attempts": 7,
       "github": "adam91holt",
       "inferred_git_proofs": 0,
@@ -170,10 +170,10 @@
       "rank": 6,
       "run_success_rate": 0.0,
       "runs": 7,
-      "score": 575,
+      "score": 700,
       "solver": "adam91holt",
       "successes": 0,
-      "verified_proofs": 3
+      "verified_proofs": 4
     },
     {
       "attempt_yield": null,
@@ -292,15 +292,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 5,
+      "difficulty_points": 6,
       "display_name": "Adam Holt",
       "github": null,
-      "index_files_added": 3,
+      "index_files_added": 4,
       "missing_solver_provenance": 0,
       "profile_url": null,
       "rank": 5,
       "solver_credit": false,
-      "solver_provenance_proofs": 3
+      "solver_provenance_proofs": 4
     },
     {
       "attribution_source": "git-add-author",
@@ -352,7 +352,7 @@
       "provider_model": "manual / gpt-5.5",
       "run_success_rate": null,
       "runs": 0,
-      "verified_proofs": 3
+      "verified_proofs": 4
     },
     {
       "provider_model": "gemini / gemini-3.1-pro-preview",
@@ -370,18 +370,18 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 36,
+    "attributed_proofs": 37,
     "attribution_gap_count": 121,
     "credited_contributors": 8,
-    "credited_proofs": 157,
-    "explicit_solver_proofs": 36,
-    "git_attributed_index_files": 157,
+    "credited_proofs": 158,
+    "explicit_solver_proofs": 37,
+    "git_attributed_index_files": 158,
     "historical_contributors": 7,
     "historical_unknown_proofs": 121,
     "inferred_git_proofs": 121,
-    "proof_run_coverage": 0.2038,
+    "proof_run_coverage": 0.2025,
     "terminal_runs": 104,
     "uncredited_proofs": 0,
-    "verified_proofs": 157
+    "verified_proofs": 158
   }
 }
