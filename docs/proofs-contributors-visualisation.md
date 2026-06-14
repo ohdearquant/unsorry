@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**185 goals — 63 open · 7 blocked · 10 translated · 105 proved.** 15 decomposition families shown below; standalone goals are listed in the table.
+**185 goals — 62 open · 7 blocked · 10 translated · 106 proved.** 15 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (101 of 105 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (102 of 106 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -47,8 +47,8 @@ flowchart LR
   class g_cube_sum_ge_three_prod_s2 open;
   click g_cube_sum_ge_three_prod_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s2.lean" "cube-sum-ge-three-prod-s2 — open"
   g_cube_sum_ge_three_prod_s3["cube-sum-ge-three-prod-s3"]
-  class g_cube_sum_ge_three_prod_s3 open;
-  click g_cube_sum_ge_three_prod_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s3.lean" "cube-sum-ge-three-prod-s3 — open"
+  class g_cube_sum_ge_three_prod_s3 proved;
+  click g_cube_sum_ge_three_prod_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s3.lean" "cube-sum-ge-three-prod-s3 — proved"
   g_euclid_perfect_numbers["euclid-perfect-numbers"]
   class g_euclid_perfect_numbers proved;
   click g_euclid_perfect_numbers "https://github.com/agenticsnz/unsorry/blob/main/goals/euclid-perfect-numbers.lean" "euclid-perfect-numbers — proved"
@@ -259,7 +259,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`cube-sum-ge-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-mul-sq.lean) | open | 2 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s1.lean) | open | 1 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s2.lean) | open | 1 | — | — | — | — |
-| [`cube-sum-ge-three-prod-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s3.lean) | open | 1 | — | — | — | — |
 | [`discriminant-nonneg`](https://github.com/agenticsnz/unsorry/blob/main/goals/discriminant-nonneg.lean) | open | 3 | — | — | — | — |
 | [`eight-dvd-consecutive-odd-sq-diff`](https://github.com/agenticsnz/unsorry/blob/main/goals/eight-dvd-consecutive-odd-sq-diff.lean) | open | 2 | — | — | — | — |
 | [`forty-two-dvd-pow-seven-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/forty-two-dvd-pow-seven-sub-self.lean) | open | 2 | — | — | — | — |
@@ -334,6 +333,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`binder-shape-canary`](https://github.com/agenticsnz/unsorry/blob/main/goals/binder-shape-canary.lean) | proved | 1 | — | — | — | 2026-06-12 |
 | [`consecutive-triangular-eq-square`](https://github.com/agenticsnz/unsorry/blob/main/goals/consecutive-triangular-eq-square.lean) | proved | 2 | p3-b1 | cgbarlow · `opus` | [#347](https://github.com/agenticsnz/unsorry/pull/347) | 2026-06-13 |
 | [`cube-eq-triangular-sq-diff`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-eq-triangular-sq-diff.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#322](https://github.com/agenticsnz/unsorry/pull/322) | 2026-06-13 |
+| [`cube-sum-ge-three-prod-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s3.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#493](https://github.com/agenticsnz/unsorry/pull/493) | 2026-06-14 |
 | [`descartes-total-angular-defect`](https://github.com/agenticsnz/unsorry/blob/main/goals/descartes-total-angular-defect.lean) | proved | 4 | oma-2-c50d | perttu | [#465](https://github.com/agenticsnz/unsorry/pull/465) | 2026-06-14 |
 | [`eight-triangular-add-one-eq-odd-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/eight-triangular-add-one-eq-odd-sq.lean) | proved | 2 | p3-a1 | cgbarlow · `opus` | [#307](https://github.com/agenticsnz/unsorry/pull/307) | 2026-06-13 |
 | [`euclid-perfect-numbers`](https://github.com/agenticsnz/unsorry/blob/main/goals/euclid-perfect-numbers.lean) | proved | 3 | p3-a1 | cgbarlow · `opus` | [#370](https://github.com/agenticsnz/unsorry/pull/370) | 2026-06-13 |
