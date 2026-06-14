@@ -203,6 +203,35 @@
       "solver": "OceanLi",
       "successes": 0,
       "verified_proofs": 1
+    },
+    {
+      "attempt_yield": 1.0,
+      "avatar_url": "https://github.com/yarcles.png?size=96",
+      "badges": {
+        "difficulty": 1,
+        "proofs": 1,
+        "success_rate_percent": 100.0
+      },
+      "credit_source_summary": "explicit",
+      "credit_sources": [
+        "explicit-solver"
+      ],
+      "credited_proofs": 1,
+      "difficulty_points": 1,
+      "display_name": "@yarcles",
+      "explicit_solver_proofs": 1,
+      "failed_attempts": 0,
+      "github": "yarcles",
+      "inferred_git_proofs": 0,
+      "median_solve_s": 463,
+      "profile_url": "https://github.com/yarcles",
+      "rank": 8,
+      "run_success_rate": 1.0,
+      "runs": 1,
+      "score": 125,
+      "solver": "yarcles",
+      "successes": 1,
+      "verified_proofs": 1
     }
   ],
   "generated_at": "2026-06-14T20:13:14Z",
@@ -285,14 +314,27 @@
       "rank": 6,
       "solver_credit": false,
       "solver_provenance_proofs": 0
+    },
+    {
+      "attribution_source": "git-add-author",
+      "avatar_url": null,
+      "difficulty_points": 1,
+      "display_name": "yarcles",
+      "github": null,
+      "index_files_added": 1,
+      "missing_solver_provenance": 0,
+      "profile_url": null,
+      "rank": 7,
+      "solver_credit": false,
+      "solver_provenance_proofs": 1
     }
   ],
   "models": [
     {
       "provider_model": "claude / opus",
-      "run_success_rate": 0.9048,
-      "runs": 21,
-      "verified_proofs": 20
+      "run_success_rate": 0.9091,
+      "runs": 22,
+      "verified_proofs": 21
     },
     {
       "provider_model": "openai / leanstral-2603",
@@ -328,18 +370,18 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 33,
+    "attributed_proofs": 34,
     "attribution_gap_count": 121,
-    "credited_contributors": 7,
-    "credited_proofs": 154,
-    "explicit_solver_proofs": 33,
-    "git_attributed_index_files": 154,
-    "historical_contributors": 6,
+    "credited_contributors": 8,
+    "credited_proofs": 155,
+    "explicit_solver_proofs": 34,
+    "git_attributed_index_files": 155,
+    "historical_contributors": 7,
     "historical_unknown_proofs": 121,
     "inferred_git_proofs": 121,
-    "proof_run_coverage": 0.1948,
-    "terminal_runs": 98,
+    "proof_run_coverage": 0.2,
+    "terminal_runs": 99,
     "uncredited_proofs": 0,
-    "verified_proofs": 154
+    "verified_proofs": 155
   }
 }
