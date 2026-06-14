@@ -19,7 +19,7 @@
     {
       "attempt_yield": null,
       "attempts": 0,
-      "difficulty_points": 3,
+      "difficulty_points": 4,
       "failed_attempts": 0,
       "failures": 0,
       "median_solve_s": null,
@@ -30,7 +30,7 @@
       "successes": 0,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0,
-      "verified_proofs": 1
+      "verified_proofs": 2
     },
     {
       "attempt_yield": 0.0,
@@ -50,17 +50,17 @@
     }
   ],
   "coverage": {
-    "attributed_proofs": 20,
+    "attributed_proofs": 21,
     "historical_unknown_proofs": 79,
-    "proof_run_coverage": 0.1919,
+    "proof_run_coverage": 0.19,
     "successful_proofs_with_run_telemetry": 19,
     "terminal_runs": 27,
-    "verified_proofs": 99
+    "verified_proofs": 100
   },
   "credit": {
     "credited_contributors": 5,
-    "credited_proofs": 99,
-    "explicit_solver_proofs": 20,
+    "credited_proofs": 100,
+    "explicit_solver_proofs": 21,
     "inferred_git_proofs": 79,
     "uncredited_proofs": 0
   },
@@ -158,10 +158,10 @@
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 1,
-      "difficulty_points": 3,
+      "credited_proofs": 2,
+      "difficulty_points": 4,
       "display_name": "@kev",
-      "explicit_solver_proofs": 1,
+      "explicit_solver_proofs": 2,
       "failed_attempts": 0,
       "failures": 0,
       "git_author": null,
@@ -176,7 +176,7 @@
       "successes": 0,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0,
-      "verified_proofs": 1
+      "verified_proofs": 2
     },
     {
       "attempt_yield": null,
@@ -826,18 +826,18 @@
       {
         "attribution_source": "git-add-author",
         "avatar_url": null,
-        "difficulty_points": 3,
+        "difficulty_points": 4,
         "display_name": "Adam Holt",
         "git_author": "Adam Holt <adam@adamholt.co.nz>",
         "git_author_name": "Adam Holt",
         "github": null,
-        "index_files_added": 1,
+        "index_files_added": 2,
         "missing_solver_provenance": 0,
         "profile_url": null,
         "sample_add_commit": "e44442adf2f7950d18e7f6a540c053676cfbbb80",
         "sample_add_date": "2026-06-14",
         "solver_credit": false,
-        "solver_provenance_proofs": 1
+        "solver_provenance_proofs": 2
       },
       {
         "attribution_source": "git-add-author",
@@ -856,8 +856,8 @@
         "solver_provenance_proofs": 0
       }
     ],
-    "git_attributed_index_files": 99,
-    "records": 99,
+    "git_attributed_index_files": 100,
+    "records": 100,
     "scope": "library/index/*.aisp",
     "source": "git-add-author",
     "unattributed_index_files": 0
@@ -893,7 +893,7 @@
       "successes": 0,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0,
-      "verified_proofs": 1
+      "verified_proofs": 2
     },
     {
       "attempt_yield": 0.0,
@@ -957,8 +957,8 @@
     "goals": 128,
     "status_counts": {
       "blocked": 4,
-      "open": 16,
-      "proved": 98,
+      "open": 15,
+      "proved": 99,
       "translated": 10
     }
   },

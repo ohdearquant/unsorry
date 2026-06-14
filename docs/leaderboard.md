@@ -4,7 +4,7 @@
 
 Verified output comes from `library/index`; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**99 verified proofs · 20 attributed · 79 historical/unknown · 27 logged terminal runs.**
+**100 verified proofs · 21 attributed · 79 historical/unknown · 27 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -21,11 +21,11 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 | Recorded run time | 4h 47m |
 | Median / p90 run time | 6m 57s / 24m 18s |
 | Verified successes per recorded hour | 3.97 |
-| Proofs with run telemetry | 19 (19.2%) |
+| Proofs with run telemetry | 19 (19.0%) |
 
 ## Work Queue
 
-**128 goals · 4 blocked · 16 open · 98 proved · 10 translated.**
+**128 goals · 4 blocked · 15 open · 99 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -54,21 +54,21 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | 1 | [@cgbarlow](https://github.com/cgbarlow) | 61 | 19 | 42 | 23 | 82.6% | 101 | 11625 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 27 | 0 | 27 | 0 | — | 57 | 6375 |
 | 3 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
-| 4 | [@kev](https://github.com/kev) | 1 | 1 | 0 | 0 | — | 3 | 325 |
+| 4 | [@kev](https://github.com/kev) | 2 | 2 | 0 | 0 | — | 4 | 450 |
 | 5 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
 
 ## Attribution Notes
 
-**20 explicit solver credits · 79 inferred git credits · 0 uncredited proof records.**
+**21 explicit solver credits · 79 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 99 of 99 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 100 of 100 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 19 | 21 | 90.5% | 14 | 1 | 7m 0s | 5.13 |
-| `manual / gpt-5.5` | 1 | 0 | — | 0 | 1 | — | — |
+| `manual / gpt-5.5` | 2 | 0 | — | 0 | 1 | — | — |
 | `codex / unknown` | 0 | 4 | 0.0% | 4 | 1 | 2m 26s | 0.00 |
 | `openai / leanstral-2603` | 0 | 2 | 0.0% | 6 | 1 | 27m 19s | 0.00 |
 
