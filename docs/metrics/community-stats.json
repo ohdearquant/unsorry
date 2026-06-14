@@ -1186,15 +1186,15 @@
     "difficulty_counts": {
       "0": 10,
       "1": 62,
-      "2": 38,
-      "3": 29,
+      "2": 46,
+      "3": 31,
       "4": 13,
       "5": 1
     },
-    "goals": 153,
+    "goals": 163,
     "status_counts": {
       "blocked": 4,
-      "open": 35,
+      "open": 45,
       "proved": 104,
       "translated": 10
     }
