@@ -4,23 +4,23 @@
 
 Verified output comes from `library/index`; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**106 verified proofs · 24 attributed · 82 historical/unknown · 39 logged terminal runs.**
+**106 verified proofs · 24 attributed · 82 historical/unknown · 40 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
 | Successful terminal runs | 22 |
-| Failed terminal runs | 17 |
+| Failed terminal runs | 18 |
 | Decomposed after failure | 6 |
-| Failed without decomposition | 11 |
-| Run success rate | 56.4% |
-| Provider attempts | 57 |
-| Failed attempts | 35 |
-| Attempt yield | 38.6% |
-| Recorded run time | 6h 14m |
-| Median / p90 run time | 5m 24s / 24m 18s |
-| Verified successes per recorded hour | 3.53 |
+| Failed without decomposition | 12 |
+| Run success rate | 55.0% |
+| Provider attempts | 58 |
+| Failed attempts | 36 |
+| Attempt yield | 37.9% |
+| Recorded run time | 6h 17m |
+| Median / p90 run time | 5m 10s / 20m 27s |
+| Verified successes per recorded hour | 3.50 |
 | Proofs with run telemetry | 22 (20.8%) |
 
 ## Work Queue
@@ -31,7 +31,7 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 11 | 6 | 54.5% | 14 | 7m 0s |
+| 1 | 12 | 6 | 50.0% | 15 | 5m 58s |
 | 2 | 11 | 5 | 45.5% | 9 | 4m 16s |
 | 3 | 11 | 8 | 72.7% | 9 | 9m 7s |
 | 4 | 6 | 3 | 50.0% | 3 | 4m 50s |
@@ -57,7 +57,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 61 | 19 | 42 | 31 | 61.3% | 101 | 11625 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 61 | 19 | 42 | 32 | 59.4% | 101 | 11625 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 30 | 0 | 30 | 0 | — | 61 | 6850 |
 | 3 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 4 | [@perttu](https://github.com/perttu) | 3 | 3 | 0 | 4 | 75.0% | 3 | 375 |
@@ -77,12 +77,13 @@ Git add-author attribution covers 106 of 106 proof index files. It is used only 
 | `claude / opus` | 19 | 21 | 90.5% | 14 | 1 | 7m 0s | 5.13 |
 | `codex / unknown` | 3 | 8 | 37.5% | 7 | 2 | 3m 49s | 5.45 |
 | `manual / gpt-5.5` | 2 | 0 | — | 0 | 1 | — | — |
-| `openai / leanstral-2603` | 0 | 10 | 0.0% | 14 | 1 | 5m 9s | 0.00 |
+| `openai / leanstral-2603` | 0 | 11 | 0.0% | 15 | 1 | 4m 54s | 0.00 |
 
 ## Recent Terminal Runs
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-14T10:49:06Z` | `nat-sq-lt-two-pow-s2-s3` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 2m 58s |
 | `2026-06-14T10:44:28Z` | `nat-sq-lt-two-pow-s2-s2` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 3m 50s |
 | `2026-06-14T10:38:55Z` | `nat-sq-lt-two-pow-s2-s1` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 4m 53s |
 | `2026-06-14T10:32:19Z` | `four-var-cyclic-sos` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 5m 24s |
@@ -102,7 +103,6 @@ Git add-author attribution covers 106 of 106 proof index files. It is used only 
 | `2026-06-14T00:05:59Z` | `sq-add-sq-eq-three-mul-sq-s4` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 3 | 3 | 39m 50s |
 | `2026-06-13T20:34:29Z` | `euclid-perfect-numbers` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 2 | 1 | 18m 23s |
 | `2026-06-13T14:11:05Z` | `sum-range-pow-five-add-pow-seven` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 5m 42s |
-| `2026-06-13T14:05:50Z` | `prime-fourth-power-mod-240` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 4m 47s |
 
 ## Interpretation
 
