@@ -25,7 +25,7 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 
 ## Work Queue
 
-**128 goals · 4 blocked · 11 open · 103 proved · 10 translated.**
+**128 goals · 3 blocked · 12 open · 103 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -43,7 +43,7 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 | `sq-add-sq-eq-three-mul-sq-s4` | `open` | 1 | 2 | 6 | 54m 47s |
 | `no-nat-sq-eq-two-mul-sq` | `blocked` | 4 | 1 | 1 | 3m 23s |
 | `nesbitt-inequality` | `blocked` | 4 | 1 | 1 | 2m 43s |
-| `four-consecutive-product-add-one-square` | `blocked` | 2 | 1 | 1 | 2m 2s |
+| `four-consecutive-product-add-one-square` | `open` | 2 | 1 | 1 | 2m 2s |
 
 ## Contributor Leaderboard
 
