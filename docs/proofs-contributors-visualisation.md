@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**192 goals — 61 open · 10 blocked · 10 translated · 111 proved.** 18 decomposition families shown below; standalone goals are listed in the table.
+**192 goals — 60 open · 10 blocked · 10 translated · 112 proved.** 18 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (107 of 111 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (108 of 112 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -200,8 +200,8 @@ flowchart LR
   class g_sum_four_pow_ge_sq_prod_s1 proved;
   click g_sum_four_pow_ge_sq_prod_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s1.lean" "sum-four-pow-ge-sq-prod-s1 — proved"
   g_sum_four_pow_ge_sq_prod_s2["sum-four-pow-ge-sq-prod-s2"]
-  class g_sum_four_pow_ge_sq_prod_s2 open;
-  click g_sum_four_pow_ge_sq_prod_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s2.lean" "sum-four-pow-ge-sq-prod-s2 — open"
+  class g_sum_four_pow_ge_sq_prod_s2 proved;
+  click g_sum_four_pow_ge_sq_prod_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s2.lean" "sum-four-pow-ge-sq-prod-s2 — proved"
   g_sum_four_sq_ge_two_cross["sum-four-sq-ge-two-cross"]
   class g_sum_four_sq_ge_two_cross blocked;
   click g_sum_four_sq_ge_two_cross "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-sq-ge-two-cross.lean" "sum-four-sq-ge-two-cross — blocked"
@@ -329,7 +329,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-lt-cube-of-one-lt`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-lt-cube-of-one-lt.lean) | open | 2 | — | — | — | — |
 | [`sq-sum-le-two-mul-sum-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-sum-le-two-mul-sum-sq.lean) | open | 2 | — | — | — | — |
 | [`square-of-sum-ge-three-pairwise`](https://github.com/agenticsnz/unsorry/blob/main/goals/square-of-sum-ge-three-pairwise.lean) | open | 2 | — | — | — | — |
-| [`sum-four-pow-ge-sq-prod-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s2.lean) | open | 1 | — | — | — | — |
 | [`sum-four-sq-ge-two-cross-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-sq-ge-two-cross-s1.lean) | open | 1 | — | — | — | — |
 | [`sum-four-sq-ge-two-cross-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-sq-ge-two-cross-s2.lean) | open | 1 | — | — | — | — |
 | [`sum-icc-choose-hockey-stick-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s1.lean) | open | 1 | — | — | — | — |
@@ -446,6 +445,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-add-sq-eq-three-mul-sq-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s3.lean) | proved | 1 | p3-a1 | cgbarlow · `opus` | [#330](https://github.com/agenticsnz/unsorry/pull/330) | 2026-06-13 |
 | [`sq-mod-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-three.lean) | proved | 2 | binto-labs | binto | [#245](https://github.com/agenticsnz/unsorry/pull/245) | 2026-06-12 |
 | [`sum-four-pow-ge-sq-prod-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s1.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#544](https://github.com/agenticsnz/unsorry/pull/544) | 2026-06-14 |
+| [`sum-four-pow-ge-sq-prod-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s2.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#546](https://github.com/agenticsnz/unsorry/pull/546) | 2026-06-14 |
 | [`sum-range-choose-mul-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-choose-mul-two-pow.lean) | proved | 2 | p3-a1 | cgbarlow · `opus` | [#338](https://github.com/agenticsnz/unsorry/pull/338) | 2026-06-13 |
 | [`sum-range-cube-even`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-cube-even.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#329](https://github.com/agenticsnz/unsorry/pull/329) | 2026-06-13 |
 | [`sum-range-cube-mul-choose`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-cube-mul-choose.lean) | proved | 3 | p3-b1 | cgbarlow · `opus` | [#340](https://github.com/agenticsnz/unsorry/pull/340) | 2026-06-13 |
