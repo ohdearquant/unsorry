@@ -17,20 +17,20 @@
       "verified_proofs": 26
     },
     {
-      "attempt_yield": 0.3,
-      "attempts": 20,
-      "difficulty_points": 11,
+      "attempt_yield": 0.3333,
+      "attempts": 21,
+      "difficulty_points": 13,
       "failed_attempts": 14,
       "failures": 4,
-      "median_solve_s": 474,
+      "median_solve_s": 393,
       "p90_solve_s": 736,
-      "run_success_rate": 0.6,
-      "runs": 10,
+      "run_success_rate": 0.6364,
+      "runs": 11,
       "solver": "perttu",
-      "successes": 6,
-      "successes_per_recorded_hour": 4.067,
-      "total_solve_s": 5311,
-      "verified_proofs": 6
+      "successes": 7,
+      "successes_per_recorded_hour": 4.548,
+      "total_solve_s": 5541,
+      "verified_proofs": 7
     },
     {
       "attempt_yield": 0.0,
@@ -66,17 +66,17 @@
     }
   ],
   "coverage": {
-    "attributed_proofs": 37,
+    "attributed_proofs": 38,
     "historical_unknown_proofs": 121,
-    "proof_run_coverage": 0.2025,
-    "successful_proofs_with_run_telemetry": 32,
-    "terminal_runs": 106,
-    "verified_proofs": 158
+    "proof_run_coverage": 0.2075,
+    "successful_proofs_with_run_telemetry": 33,
+    "terminal_runs": 107,
+    "verified_proofs": 159
   },
   "credit": {
     "credited_contributors": 8,
-    "credited_proofs": 158,
-    "explicit_solver_proofs": 37,
+    "credited_proofs": 159,
+    "explicit_solver_proofs": 38,
     "inferred_git_proofs": 121,
     "uncredited_proofs": 0
   },
@@ -195,32 +195,32 @@
       "verified_proofs": 9
     },
     {
-      "attempt_yield": 0.3,
-      "attempts": 20,
+      "attempt_yield": 0.3333,
+      "attempts": 21,
       "avatar_url": "https://github.com/perttu.png?size=96",
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 6,
-      "difficulty_points": 11,
+      "credited_proofs": 7,
+      "difficulty_points": 13,
       "display_name": "@perttu",
-      "explicit_solver_proofs": 6,
+      "explicit_solver_proofs": 7,
       "failed_attempts": 14,
       "failures": 4,
       "git_author": null,
       "github": "perttu",
       "inferred_git_proofs": 0,
-      "median_solve_s": 474,
+      "median_solve_s": 393,
       "p90_solve_s": 736,
       "profile_url": "https://github.com/perttu",
-      "run_success_rate": 0.6,
-      "runs": 10,
+      "run_success_rate": 0.6364,
+      "runs": 11,
       "solver": "perttu",
-      "successes": 6,
-      "successes_per_recorded_hour": 4.067,
-      "total_solve_s": 5311,
-      "verified_proofs": 6
+      "successes": 7,
+      "successes_per_recorded_hour": 4.548,
+      "total_solve_s": 5541,
+      "verified_proofs": 7
     },
     {
       "attempt_yield": 0.0,
@@ -323,18 +323,18 @@
       "total_solve_s": 14214
     },
     {
-      "attempt_yield": 0.1354,
-      "attempts": 96,
+      "attempt_yield": 0.1443,
+      "attempts": 97,
       "date": "2026-06-14",
       "failed_attempts": 83,
       "failures": 71,
-      "median_solve_s": 266,
+      "median_solve_s": 259,
       "p90_solve_s": 1891,
-      "run_success_rate": 0.1548,
-      "runs": 84,
-      "successes": 13,
-      "successes_per_recorded_hour": 1.011,
-      "total_solve_s": 46298
+      "run_success_rate": 0.1647,
+      "runs": 85,
+      "successes": 14,
+      "successes_per_recorded_hour": 1.083,
+      "total_solve_s": 46528
     }
   ],
   "difficulty": [
@@ -353,18 +353,18 @@
       "total_solve_s": 19705
     },
     {
-      "attempt_yield": 0.1628,
-      "attempts": 43,
+      "attempt_yield": 0.1818,
+      "attempts": 44,
       "difficulty": 2,
       "failed_attempts": 36,
       "failures": 31,
-      "median_solve_s": 268,
+      "median_solve_s": 259,
       "p90_solve_s": 1887,
-      "run_success_rate": 0.1842,
-      "runs": 38,
-      "successes": 7,
-      "successes_per_recorded_hour": 1.304,
-      "total_solve_s": 19318
+      "run_success_rate": 0.2051,
+      "runs": 39,
+      "successes": 8,
+      "successes_per_recorded_hour": 1.473,
+      "total_solve_s": 19548
     },
     {
       "attempt_yield": 0.3214,
@@ -411,18 +411,18 @@
   ],
   "effort": [
     {
-      "attempt_yield": 0.2625,
-      "attempts": 80,
+      "attempt_yield": 0.2716,
+      "attempts": 81,
       "effort": "high",
       "failed_attempts": 59,
       "failures": 59,
-      "median_solve_s": 282,
+      "median_solve_s": 281,
       "p90_solve_s": 1888,
-      "run_success_rate": 0.2625,
-      "runs": 80,
-      "successes": 21,
-      "successes_per_recorded_hour": 1.784,
-      "total_solve_s": 42388
+      "run_success_rate": 0.2716,
+      "runs": 81,
+      "successes": 22,
+      "successes_per_recorded_hour": 1.858,
+      "total_solve_s": 42618
     },
     {
       "attempt_yield": 0.1111,
@@ -1941,6 +1941,22 @@
     {
       "attempt_yield": 1.0,
       "attempts": 1,
+      "difficulty": 2,
+      "failed_attempts": 0,
+      "failures": 0,
+      "goal": "thirty-dvd-pow-five-sub-self",
+      "median_solve_s": 230,
+      "p90_solve_s": 230,
+      "run_success_rate": 1.0,
+      "runs": 1,
+      "status": "proved",
+      "successes": 1,
+      "successes_per_recorded_hour": 15.652,
+      "total_solve_s": 230
+    },
+    {
+      "attempt_yield": 1.0,
+      "attempts": 1,
       "difficulty": 1,
       "failed_attempts": 0,
       "failures": 0,
@@ -2010,18 +2026,18 @@
       {
         "attribution_source": "git-add-author",
         "avatar_url": null,
-        "difficulty_points": 75,
+        "difficulty_points": 77,
         "display_name": "Perttu Isotalo",
         "git_author": "Perttu Isotalo <pisotalo@isotalo.org>",
         "git_author_name": "Perttu Isotalo",
         "github": null,
-        "index_files_added": 46,
+        "index_files_added": 47,
         "missing_solver_provenance": 39,
         "profile_url": null,
         "sample_add_commit": "0f1c894d065aadb5069285c190fed864e479fe91",
         "sample_add_date": "2026-06-14",
         "solver_credit": false,
-        "solver_provenance_proofs": 7
+        "solver_provenance_proofs": 8
       },
       {
         "attribution_source": "git-add-author",
@@ -2104,8 +2120,8 @@
         "solver_provenance_proofs": 1
       }
     ],
-    "git_attributed_index_files": 158,
-    "records": 158,
+    "git_attributed_index_files": 159,
+    "records": 159,
     "scope": "library/index/*.aisp",
     "source": "git-add-author",
     "unattributed_index_files": 0
@@ -2177,19 +2193,19 @@
     },
     {
       "attempt_yield": 1.0,
-      "attempts": 2,
+      "attempts": 3,
       "failed_attempts": 0,
       "failures": 0,
-      "median_solve_s": 306,
+      "median_solve_s": 230,
       "p90_solve_s": 393,
       "provider_model": "gemini / gemini-3.1-pro-preview",
       "run_success_rate": 1.0,
-      "runs": 2,
+      "runs": 3,
       "solvers": 1,
-      "successes": 2,
-      "successes_per_recorded_hour": 11.765,
-      "total_solve_s": 612,
-      "verified_proofs": 2
+      "successes": 3,
+      "successes_per_recorded_hour": 12.827,
+      "total_solve_s": 842,
+      "verified_proofs": 3
     },
     {
       "attempt_yield": 0.0,
@@ -2227,20 +2243,20 @@
   "outcome_counts": {
     "decomposed": 12,
     "failed": 62,
-    "proved": 32
+    "proved": 33
   },
   "outcomes": {
-    "attempt_yield": 0.2424,
-    "attempts": 132,
+    "attempt_yield": 0.2481,
+    "attempts": 133,
     "failed_attempts": 100,
     "failures": 74,
     "median_solve_s": 293,
     "p90_solve_s": 1888,
-    "run_success_rate": 0.3019,
-    "runs": 106,
-    "successes": 32,
-    "successes_per_recorded_hour": 1.904,
-    "total_solve_s": 60512
+    "run_success_rate": 0.3084,
+    "runs": 107,
+    "successes": 33,
+    "successes_per_recorded_hour": 1.956,
+    "total_solve_s": 60742
   },
   "queue": {
     "difficulty_counts": {
@@ -2254,8 +2270,8 @@
     "goals": 192,
     "status_counts": {
       "blocked": 8,
-      "open": 58,
-      "proved": 116,
+      "open": 57,
+      "proved": 117,
       "translated": 10
     }
   },
@@ -2287,6 +2303,20 @@
       "provider": "openai",
       "solve_s": 458,
       "solver": "cgbarlow"
+    },
+    {
+      "agent": "oma-2-c50d",
+      "attempts": 1,
+      "difficulty": 2,
+      "effort": "high",
+      "ended": "2026-06-14T21:10:53Z",
+      "goal": "thirty-dvd-pow-five-sub-self",
+      "id": "20260614t211053590718z-bfb92c07",
+      "model": "gemini-3.1-pro-preview",
+      "outcome": "proved",
+      "provider": "gemini",
+      "solve_s": 230,
+      "solver": "perttu"
     },
     {
       "agent": "afnz-zbook-b336",
@@ -2524,20 +2554,6 @@
       "outcome": "failed",
       "provider": "openai",
       "solve_s": 390,
-      "solver": "cgbarlow"
-    },
-    {
-      "agent": "afnz-zbook-b336",
-      "attempts": 1,
-      "difficulty": 2,
-      "effort": "high",
-      "ended": "2026-06-14T18:52:25Z",
-      "goal": "sq-sum-le-two-mul-sum-sq",
-      "id": "20260614t185225250433z-2a367097",
-      "model": "leanstral-2603",
-      "outcome": "failed",
-      "provider": "openai",
-      "solve_s": 238,
       "solver": "cgbarlow"
     }
   ],

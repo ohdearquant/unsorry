@@ -118,33 +118,33 @@
       "verified_proofs": 9
     },
     {
-      "attempt_yield": 0.3,
+      "attempt_yield": 0.3333,
       "avatar_url": "https://github.com/perttu.png?size=96",
       "badges": {
-        "difficulty": 11,
-        "proofs": 6,
-        "success_rate_percent": 60.0
+        "difficulty": 13,
+        "proofs": 7,
+        "success_rate_percent": 63.64
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 6,
-      "difficulty_points": 11,
+      "credited_proofs": 7,
+      "difficulty_points": 13,
       "display_name": "@perttu",
-      "explicit_solver_proofs": 6,
+      "explicit_solver_proofs": 7,
       "failed_attempts": 14,
       "github": "perttu",
       "inferred_git_proofs": 0,
-      "median_solve_s": 474,
+      "median_solve_s": 393,
       "profile_url": "https://github.com/perttu",
       "rank": 5,
-      "run_success_rate": 0.6,
-      "runs": 10,
-      "score": 1250,
+      "run_success_rate": 0.6364,
+      "runs": 11,
+      "score": 1475,
       "solver": "perttu",
-      "successes": 6,
-      "verified_proofs": 6
+      "successes": 7,
+      "verified_proofs": 7
     },
     {
       "attempt_yield": 0.0,
@@ -253,15 +253,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 75,
+      "difficulty_points": 77,
       "display_name": "Perttu Isotalo",
       "github": null,
-      "index_files_added": 46,
+      "index_files_added": 47,
       "missing_solver_provenance": 39,
       "profile_url": null,
       "rank": 2,
       "solver_credit": false,
-      "solver_provenance_proofs": 7
+      "solver_provenance_proofs": 8
     },
     {
       "attribution_source": "git-add-author",
@@ -357,8 +357,8 @@
     {
       "provider_model": "gemini / gemini-3.1-pro-preview",
       "run_success_rate": 1.0,
-      "runs": 2,
-      "verified_proofs": 2
+      "runs": 3,
+      "verified_proofs": 3
     },
     {
       "provider_model": "openai / jackcloudman/Leanstral-2603-GGUF",
@@ -376,18 +376,18 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 37,
+    "attributed_proofs": 38,
     "attribution_gap_count": 121,
     "credited_contributors": 8,
-    "credited_proofs": 158,
-    "explicit_solver_proofs": 37,
-    "git_attributed_index_files": 158,
+    "credited_proofs": 159,
+    "explicit_solver_proofs": 38,
+    "git_attributed_index_files": 159,
     "historical_contributors": 7,
     "historical_unknown_proofs": 121,
     "inferred_git_proofs": 121,
-    "proof_run_coverage": 0.2025,
-    "terminal_runs": 106,
+    "proof_run_coverage": 0.2075,
+    "terminal_runs": 107,
     "uncredited_proofs": 0,
-    "verified_proofs": 158
+    "verified_proofs": 159
   }
 }
