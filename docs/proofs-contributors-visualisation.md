@@ -6,7 +6,7 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**189 goals — 60 open · 9 blocked · 10 translated · 110 proved.** 17 decomposition families shown below; standalone goals are listed in the table.
+**192 goals — 62 open · 10 blocked · 10 translated · 110 proved.** 18 decomposition families shown below; standalone goals are listed in the table.
 
 Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (106 of 110 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
@@ -211,6 +211,18 @@ flowchart LR
   g_sum_four_sq_ge_two_cross_s2["sum-four-sq-ge-two-cross-s2"]
   class g_sum_four_sq_ge_two_cross_s2 open;
   click g_sum_four_sq_ge_two_cross_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-sq-ge-two-cross-s2.lean" "sum-four-sq-ge-two-cross-s2 — open"
+  g_sum_icc_choose_hockey_stick["sum-icc-choose-hockey-stick"]
+  class g_sum_icc_choose_hockey_stick blocked;
+  click g_sum_icc_choose_hockey_stick "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick.lean" "sum-icc-choose-hockey-stick — blocked"
+  g_sum_icc_choose_hockey_stick_s1["sum-icc-choose-hockey-stick-s1"]
+  class g_sum_icc_choose_hockey_stick_s1 open;
+  click g_sum_icc_choose_hockey_stick_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s1.lean" "sum-icc-choose-hockey-stick-s1 — open"
+  g_sum_icc_choose_hockey_stick_s2["sum-icc-choose-hockey-stick-s2"]
+  class g_sum_icc_choose_hockey_stick_s2 open;
+  click g_sum_icc_choose_hockey_stick_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s2.lean" "sum-icc-choose-hockey-stick-s2 — open"
+  g_sum_icc_choose_hockey_stick_s3["sum-icc-choose-hockey-stick-s3"]
+  class g_sum_icc_choose_hockey_stick_s3 open;
+  click g_sum_icc_choose_hockey_stick_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s3.lean" "sum-icc-choose-hockey-stick-s3 — open"
   g_am_gm_three_cube --> g_am_gm_three_cube_s1
   g_am_gm_three_cube --> g_am_gm_three_cube_s2
   g_am_gm_three_cube_s2 --> g_am_gm_three_cube_s2_s1
@@ -262,6 +274,9 @@ flowchart LR
   g_sum_four_pow_ge_sq_prod --> g_sum_four_pow_ge_sq_prod_s2
   g_sum_four_sq_ge_two_cross --> g_sum_four_sq_ge_two_cross_s1
   g_sum_four_sq_ge_two_cross --> g_sum_four_sq_ge_two_cross_s2
+  g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s1
+  g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s2
+  g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s3
 ```
 
 Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · translated #bee3f8
@@ -318,7 +333,9 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sum-four-pow-ge-sq-prod-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s2.lean) | open | 1 | — | — | — | — |
 | [`sum-four-sq-ge-two-cross-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-sq-ge-two-cross-s1.lean) | open | 1 | — | — | — | — |
 | [`sum-four-sq-ge-two-cross-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-sq-ge-two-cross-s2.lean) | open | 1 | — | — | — | — |
-| [`sum-icc-choose-hockey-stick`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick.lean) | open | 3 | — | — | — | — |
+| [`sum-icc-choose-hockey-stick-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s1.lean) | open | 1 | — | — | — | — |
+| [`sum-icc-choose-hockey-stick-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s2.lean) | open | 1 | — | — | — | — |
+| [`sum-icc-choose-hockey-stick-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s3.lean) | open | 1 | — | — | — | — |
 | [`sum-range-choose-sq-eq-central`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-choose-sq-eq-central.lean) | open | 4 | — | — | — | — |
 | [`sum-range-odd-cubes`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-odd-cubes.lean) | open | 3 | — | — | — | — |
 | [`sum-range-triangular-eq-tetrahedral`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-triangular-eq-tetrahedral.lean) | open | 3 | — | — | — | — |
@@ -339,6 +356,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-add-sq-eq-three-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq.lean) | blocked | 4 | — | — | — | — |
 | [`sum-four-pow-ge-sq-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod.lean) | blocked | 2 | — | — | — | — |
 | [`sum-four-sq-ge-two-cross`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-sq-ge-two-cross.lean) | blocked | 2 | — | — | — | — |
+| [`sum-icc-choose-hockey-stick`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick.lean) | blocked | 3 | — | — | — | — |
 | [`nat-add-assoc`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-add-assoc.lean) | translated | — | — | — | — | — |
 | [`nat-add-zero`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-add-zero.lean) | translated | — | — | — | — | — |
 | [`nat-le-refl`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-le-refl.lean) | translated | — | — | — | — | — |
