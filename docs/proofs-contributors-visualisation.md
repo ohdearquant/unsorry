@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**128 goals — 13 open · 4 blocked · 10 translated · 101 proved.** 11 decomposition families shown below; standalone goals are listed in the table.
+**128 goals — 12 open · 4 blocked · 10 translated · 102 proved.** 11 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (97 of 101 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (98 of 102 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -50,8 +50,8 @@ flowchart LR
   class g_four_consecutive_product_add_one_square_s1 proved;
   click g_four_consecutive_product_add_one_square_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s1.lean" "four-consecutive-product-add-one-square-s1 — proved"
   g_four_consecutive_product_add_one_square_s2["four-consecutive-product-add-one-square-s2"]
-  class g_four_consecutive_product_add_one_square_s2 open;
-  click g_four_consecutive_product_add_one_square_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s2.lean" "four-consecutive-product-add-one-square-s2 — open"
+  class g_four_consecutive_product_add_one_square_s2 proved;
+  click g_four_consecutive_product_add_one_square_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s2.lean" "four-consecutive-product-add-one-square-s2 — proved"
   g_four_consecutive_product_add_one_square_s3["four-consecutive-product-add-one-square-s3"]
   class g_four_consecutive_product_add_one_square_s3 proved;
   click g_four_consecutive_product_add_one_square_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s3.lean" "four-consecutive-product-add-one-square-s3 — proved"
@@ -202,7 +202,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 
 | Goal | Status | Difficulty | Agent | Solver / model | PR | Proved |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`four-consecutive-product-add-one-square-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s2.lean) | open | 1 | — | — | — | — |
 | [`nat-sq-lt-two-pow-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s1.lean) | open | 1 | — | — | — | — |
 | [`nat-sq-lt-two-pow-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean) | open | 1 | — | — | — | — |
 | [`nesbitt-inequality-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean) | open | 1 | — | — | — | — |
@@ -245,6 +244,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`euclid-perfect-numbers-s6`](https://github.com/agenticsnz/unsorry/blob/main/goals/euclid-perfect-numbers-s6.lean) | proved | 1 | claude-rmt-001 | chat-bit-01 | [#279](https://github.com/agenticsnz/unsorry/pull/279) | 2026-06-13 |
 | [`factorial-telescope-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/factorial-telescope-sum.lean) | proved | 2 | binto-labs | binto | [#218](https://github.com/agenticsnz/unsorry/pull/218) | 2026-06-12 |
 | [`four-consecutive-product-add-one-square-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s1.lean) | proved | 1 | oma-2-c50d | perttu | [#437](https://github.com/agenticsnz/unsorry/pull/437) | 2026-06-14 |
+| [`four-consecutive-product-add-one-square-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s2.lean) | proved | 1 | oma-2-c50d | perttu | [#438](https://github.com/agenticsnz/unsorry/pull/438) | 2026-06-14 |
 | [`four-consecutive-product-add-one-square-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s3.lean) | proved | 1 | — | adam91holt · `gpt-5.5` | — | 2026-06-14 |
 | [`fourth-power-mod-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-five.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#359](https://github.com/agenticsnz/unsorry/pull/359) | 2026-06-13 |
 | [`fourth-power-mod-five-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-five-s1.lean) | proved | 1 | claude-rmt-001 | chat-bit-01 | [#353](https://github.com/agenticsnz/unsorry/pull/353) | 2026-06-13 |
