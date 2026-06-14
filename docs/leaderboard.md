@@ -4,23 +4,23 @@
 
 Verified output comes from `library/index`; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**107 verified proofs · 25 attributed · 82 historical/unknown · 56 logged terminal runs.**
+**107 verified proofs · 25 attributed · 82 historical/unknown · 57 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
 | Successful terminal runs | 23 |
-| Failed terminal runs | 33 |
+| Failed terminal runs | 34 |
 | Decomposed after failure | 8 |
-| Failed without decomposition | 25 |
-| Run success rate | 41.1% |
-| Provider attempts | 80 |
-| Failed attempts | 57 |
-| Attempt yield | 28.7% |
-| Recorded run time | 8h 58m |
-| Median / p90 run time | 4m 56s / 24m 18s |
-| Verified successes per recorded hour | 2.56 |
+| Failed without decomposition | 26 |
+| Run success rate | 40.4% |
+| Provider attempts | 81 |
+| Failed attempts | 58 |
+| Attempt yield | 28.4% |
+| Recorded run time | 9h 2m |
+| Median / p90 run time | 4m 55s / 24m 18s |
+| Verified successes per recorded hour | 2.54 |
 | Proofs with run telemetry | 23 (21.5%) |
 
 ## Work Queue
@@ -33,7 +33,7 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 18 | 6 | 33.3% | 21 | 5m 0s |
 | 2 | 17 | 5 | 29.4% | 17 | 4m 13s |
-| 3 | 13 | 8 | 61.5% | 13 | 9m 7s |
+| 3 | 14 | 8 | 57.1% | 14 | 8m 2s |
 | 4 | 8 | 4 | 50.0% | 6 | 5m 18s |
 
 ## Unresolved Effort
@@ -57,7 +57,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 61 | 19 | 42 | 45 | 42.2% | 101 | 11625 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 61 | 19 | 42 | 46 | 41.3% | 101 | 11625 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 30 | 0 | 30 | 0 | — | 61 | 6850 |
 | 3 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 4 | [@perttu](https://github.com/perttu) | 4 | 4 | 0 | 7 | 57.1% | 7 | 800 |
@@ -77,12 +77,13 @@ Git add-author attribution covers 107 of 107 proof index files. It is used only 
 | `claude / opus` | 19 | 21 | 90.5% | 14 | 1 | 7m 0s | 5.13 |
 | `codex / unknown` | 4 | 11 | 36.4% | 15 | 2 | 4m 17s | 3.10 |
 | `manual / gpt-5.5` | 2 | 0 | — | 0 | 1 | — | — |
-| `openai / leanstral-2603` | 0 | 24 | 0.0% | 28 | 1 | 4m 30s | 0.00 |
+| `openai / leanstral-2603` | 0 | 25 | 0.0% | 29 | 1 | 4m 33s | 0.00 |
 
 ## Recent Terminal Runs
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-14T13:29:10Z` | `discriminant-nonneg` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 4m 33s |
 | `2026-06-14T13:15:24Z` | `cube-sum-ge-three-prod-s2` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 2m 59s |
 | `2026-06-14T13:10:47Z` | `cube-sum-ge-three-prod-s1` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 2m 55s |
 | `2026-06-14T13:06:12Z` | `cube-sum-ge-three-prod` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 4m 44s |
@@ -102,7 +103,6 @@ Git add-author attribution covers 107 of 107 proof index files. It is used only 
 | `2026-06-14T10:44:28Z` | `nat-sq-lt-two-pow-s2-s2` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 3m 50s |
 | `2026-06-14T10:38:55Z` | `nat-sq-lt-two-pow-s2-s1` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 4m 53s |
 | `2026-06-14T10:37:28Z` | `descartes-total-angular-defect` | [@perttu](https://github.com/perttu) | `codex / unknown` | `proved` | 3 | 2 | 19m 50s |
-| `2026-06-14T10:32:19Z` | `four-var-cyclic-sos` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 5m 24s |
 
 ## Interpretation
 
