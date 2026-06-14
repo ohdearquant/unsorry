@@ -24,9 +24,10 @@ jobs:
         run: pytest tools/sourcing -q
       - name: Validate repository tree
         run: python3 -m tools.gate_b validate .
-      # The targets-board `--check` is no longer a PR gate (ADR-036, #415): a
-      # generated board regenerated in every PR made concurrent goal PRs conflict
-      # on it. The board is now refreshed POST-MERGE by `targets-board.yml`.
+      # Neither the targets-board nor the leaderboard `--check` is a PR gate
+      # (ADR-036, #415): a generated artifact regenerated in every PR made
+      # concurrent goal PRs conflict on it. Both are refreshed POST-MERGE — the
+      # board by `targets-board.yml`, the leaderboard by `leaderboard.yml`.
       - name: LLM provider tests (ADR-025)
         # The OpenAI provider imports `requests`; the resolver tests are pure stdlib.
         run: |

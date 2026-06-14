@@ -1182,10 +1182,10 @@ open_pr_worktree() {
 submit_pr_tree() {
   local prwt="$1" branch="$2" title="$3" body="$4"
   shift 4
-  # NB: the goals/library change here is NOT accompanied by a docs/targets.md
-  # regen. The board is a generated artifact refreshed POST-MERGE by the
-  # targets-board workflow (ADR-036, #415) — regenerating it in-PR made every
-  # concurrent goal PR conflict on the board during a proving burst.
+  # NB: the goals/library change here is NOT accompanied by a docs/targets.md or
+  # docs/leaderboard regen. Both are generated artifacts refreshed POST-MERGE by
+  # the targets-board / proofs-visualisation workflows (ADR-036, #415) —
+  # regenerating them in-PR made every concurrent goal PR conflict on them.
   if ! python3 -m tools.gate_b validate "$prwt" >/dev/null; then
     log "PR tree on $branch fails Gate B — not pushing"
     return 1

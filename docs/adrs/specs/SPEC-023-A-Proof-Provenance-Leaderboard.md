@@ -22,6 +22,10 @@ Existing index entries remain valid and are reported as historical/unknown.
 `solver` defaults to the authenticated `gh api user` login and can be
 overridden with `UNSORRY_SOLVER`. Unknown models are omitted, never guessed.
 
+Historical git add-author attribution may be generated for gamified proof
+credit when a proof index record lacks solver provenance. Explicit `solver≜`
+provenance wins; git-derived credit must not populate or rewrite `solver≜`.
+
 ## Terminal-run fact table
 
 Every coordinated proof run that reaches a durable outcome PR appends:
@@ -74,10 +78,14 @@ other trust decision.
 `python3 -m tools.leaderboard --write` deterministically writes:
 
 - `docs/metrics/community-stats.json`: schema-versioned base statistics;
-- `docs/leaderboard.md`: a human view generated from the same calculations.
+- `docs/metrics/leaderboard-ui.json`: browser-facing leaderboard payload;
+- `docs/metrics/attribution-gaps.json`: review queue for proof index files
+  missing explicit solver provenance;
+- `docs/leaderboard.md`: a human view generated from the same calculations;
+- `docs/leaderboard.svg`: README-compatible preview image.
 
 `--json` prints the machine-readable statistics and `--check` detects drift in
-both generated files.
+all generated leaderboard files.
 
 The base statistics include:
 
@@ -86,12 +94,32 @@ The base statistics include:
   total/median/p90 solve time, and successes per recorded run hour;
 - queue status and difficulty distributions;
 - contributor, provider/model, effort-rung, difficulty, and daily cohorts;
+- credited contributor ranking that combines explicit solver provenance with
+  inferred git add-author credit only when `solver≜` is missing;
 - goal-level accumulated runs, failed attempts, and recorded time;
 - the latest terminal runs for operational inspection.
 
 Leaderboard rank uses verified proof count, then summed goal-difficulty points.
 Failed effort is visible but cannot improve rank, which avoids rewarding
 deliberate repeated failure.
+
+## Automation (post-merge refresh)
+
+The generated leaderboard artifacts are **not** regenerated or gated in PRs.
+Like the targets board (ADR-036) and the proofs visualisation (ADR-032), they
+are refreshed **post-merge** by `.github/workflows/leaderboard.yml`: on a push to
+`main` that touches `goals/**`, `library/index/**`, `proof-runs/**`,
+`docs/metrics/contributor-aliases.json`, or `tools/leaderboard/**`, the workflow
+runs `tools.leaderboard --check .` and, on drift, runs `--write .` and commits
+the artifacts back to `main` as a single docs-only `docs: refresh leaderboard
+[skip ci]` commit. `swarm/agent.sh::submit_pr_tree` therefore does not regenerate
+or stage the leaderboard, and `gate-b.yml` carries no leaderboard `--check`
+gate — regenerating the leaderboard in every goal PR made any two concurrent goal
+PRs conflict on `docs/leaderboard.*` (exactly the churn #415 removed for the
+board). The hand-authored `docs/leaderboard.html` surface fetches the generated
+JSON at view time, so it stays consistent without being regenerated. As with the
+other two post-merge workflows, the Actions token must be permitted to push to
+`main`.
 
 ## Interpretation limits
 
