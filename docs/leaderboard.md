@@ -4,7 +4,7 @@
 
 Verified output comes from `library/index`; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**112 verified proofs · 30 attributed · 82 historical/unknown · 92 logged terminal runs.**
+**152 verified proofs · 31 attributed · 121 historical/unknown · 92 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -21,7 +21,7 @@ Verified output comes from `library/index`; append-only terminal-run telemetry c
 | Recorded run time | 14h 30m |
 | Median / p90 run time | 4m 53s / 31m 27s |
 | Verified successes per recorded hour | 1.93 |
-| Proofs with run telemetry | 28 (25.0%) |
+| Proofs with run telemetry | 28 (18.4%) |
 
 ## Work Queue
 
@@ -58,24 +58,25 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 64 | 22 | 42 | 75 | 29.3% | 106 | 12200 |
-| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 30 | 0 | 30 | 0 | — | 61 | 6850 |
-| 3 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
-| 4 | [@perttu](https://github.com/perttu) | 6 | 6 | 0 | 10 | 60.0% | 11 | 1250 |
-| 5 | [@adam91holt](https://github.com/adam91holt) | 2 | 2 | 0 | 7 | 0.0% | 4 | 450 |
-| 6 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 65 | 23 | 42 | 75 | 29.3% | 109 | 12525 |
+| 2 | Perttu Isotalo | 39 | 0 | 39 | 0 | — | 61 | 7075 |
+| 3 | [@chat-bit-01](https://github.com/chat-bit-01) | 30 | 0 | 30 | 0 | — | 61 | 6850 |
+| 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
+| 5 | [@perttu](https://github.com/perttu) | 6 | 6 | 0 | 10 | 60.0% | 11 | 1250 |
+| 6 | [@adam91holt](https://github.com/adam91holt) | 2 | 2 | 0 | 7 | 0.0% | 4 | 450 |
+| 7 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
 
 ## Attribution Notes
 
-**30 explicit solver credits · 82 inferred git credits · 0 uncredited proof records.**
+**31 explicit solver credits · 121 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 112 of 112 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 152 of 152 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 19 | 21 | 90.5% | 14 | 1 | 7m 0s | 5.13 |
+| `claude / opus` | 20 | 21 | 90.5% | 14 | 1 | 7m 0s | 5.13 |
 | `codex / unknown` | 4 | 15 | 26.7% | 21 | 2 | 4m 15s | 2.52 |
 | `openai / leanstral-2603` | 3 | 54 | 5.6% | 55 | 1 | 4m 39s | 0.33 |
 | `gemini / gemini-3.1-pro-preview` | 2 | 2 | 100.0% | 0 | 1 | 5m 6s | 11.77 |
