@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- A `proofs-visualisation` workflow (#395) keeps `docs/proofs-contributors-visualisation.{md,html}` up to date — the CI follow-up flagged in the v1.10.0 visualiser entry. The "who solved it" attribution is read from the post-merge `prove(…)` commit, so a PR-time `--check` would mis-fire on the *next* PR; instead it runs **post-merge** on pushes to `main`, runs `--check`, and on drift regenerates and commits the refreshed `docs/` outputs straight back to `main` as a single docs-only `[skip ci]` commit (the generated-artifact exception; requires the Actions token to be allowed to push to `main` — a code-owner setting). `workflow_dispatch` allows a manual refresh.
+
 ## [1.10.0] - 2026-06-14
 
 Headline: **the proofs-and-contributors visualiser** (issue #371, ADR-032) — an interactive map of the swarm's proof graph: a Mermaid forest of the decomposition lineage, a full table of every goal, and *who solved each one* (solving agent, PR and the merging GitHub user, resolved from the `prove(…)` commits). Ships a GitHub-rendered `docs/proofs-contributors-visualisation.md` and a standalone interactive `docs/proofs-contributors-visualisation.html` (mermaid.js with pan/zoom, a click-to-detail panel, and a filterable table). Also: the staged **Freek #50** roadmap (ADR-031) and a serial Gate A axiom audit that keeps the runner's olean cache hot.
