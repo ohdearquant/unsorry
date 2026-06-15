@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**86 open · 155 proved · 249 total prove-goals.**
+**85 open · 156 proved · 249 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -24,7 +24,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gcd-n1-n4-dvd-three` — The gcd of n+1 and n+4 always divides 3. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The gcd of n+1 and n+4 always divides 3. Not a named mathlib lemma in this form. |
 | `gcd-self-add-dvd` — The gcd of n and n+k divides k. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The gcd of n and n+k divides k. Not a named mathlib lemma in this form. |
 | `lcm-self-succ` — The lcm of n and n+1 is their product n(n+1). | open | 2 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The lcm of n and n+1 is their product n(n+1). Not a named mathlib lemma in this form. |
-| `nat-sq-lt-two-pow-s2-s1` — nat-sq-lt-two-pow-s2-s1 | open | 1 | — | — | — |
 | `nesbitt-inequality-s1` — nesbitt-inequality-s1 | open | 1 | — | — | — |
 | `nesbitt-inequality-s3` — nesbitt-inequality-s3 | open | 1 | — | — | — |
 | `nesbitt-inequality-s4` — nesbitt-inequality-s4 | open | 1 | — | — | — |
@@ -176,6 +175,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `nat-mul-zero-thm` — Any natural number times zero is zero. | proved | 1 | — | — | — |
 | `nat-sq-lt-two-pow` — For every natural n ≥ 5, n² < 2ⁿ — the quadratic-vs-exponential crossover. | proved | 3 | — | Classic crossover inequality (standard induction exercise) | n² < 2ⁿ for n ≥ 5. mathlib has linear `Nat.lt_two_pow`-style bounds and Bernoulli (`one_add_mul_le_pow`) but no quadratic-vs-exponential crossover lemma. |
 | `nat-sq-lt-two-pow-s1` — nat-sq-lt-two-pow-s1 | proved | 1 | — | — | — |
+| `nat-sq-lt-two-pow-s2-s1` — nat-sq-lt-two-pow-s2-s1 | proved | 1 | — | — | — |
 | `nat-sq-lt-two-pow-s2-s2` — nat-sq-lt-two-pow-s2-s2 | proved | 1 | — | — | — |
 | `nat-sq-lt-two-pow-s2-s3` — nat-sq-lt-two-pow-s2-s3 | proved | 1 | — | — | — |
 | `nat-zero-le` — Every natural number is at least zero. | proved | 1 | — | — | — |
