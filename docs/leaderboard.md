@@ -4,7 +4,7 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**167 verified proofs · 76 attributed · 91 historical/unknown · 187 logged terminal runs.**
+**167 verified proofs · 75 attributed · 92 historical/unknown · 187 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -58,7 +58,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 96 | 52 | 44 | 145 | 36.5% | 165 | 18900 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 96 | 51 | 45 | 145 | 36.5% | 165 | 18900 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 36 | 0 | 36 | 0 | — | 73 | 8200 |
 | 3 | [@perttu](https://github.com/perttu) | 17 | 17 | 0 | 26 | 69.2% | 32 | 3625 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
@@ -69,7 +69,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**76 explicit solver credits · 91 inferred git credits · 0 uncredited proof records.**
+**75 explicit solver credits · 92 inferred git credits · 0 uncredited proof records.**
 
 Git add-author attribution covers 167 of 167 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
@@ -78,9 +78,9 @@ Git add-author attribution covers 167 of 167 proof index files. It is used only 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 44 | 49 | 93.9% | 18 | 3 | 4m 47s | 7.45 |
-| `openai / leanstral-2603` | 9 | 88 | 11.4% | 82 | 1 | 4m 35s | 0.64 |
 | `codex / unknown` | 9 | 27 | 33.3% | 41 | 2 | 4m 45s | 2.16 |
 | `gemini / gemini-3.1-pro-preview` | 9 | 11 | 81.8% | 6 | 1 | 6m 15s | 7.19 |
+| `openai / leanstral-2603` | 8 | 88 | 11.4% | 82 | 1 | 4m 35s | 0.64 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
 | `claude / unknown` | 1 | 0 | — | 0 | 1 | — | — |
 | `openai / jackcloudman/Leanstral-2603-GGUF` | 0 | 10 | 0.0% | 10 | 1 | 31m 53s | 0.00 |

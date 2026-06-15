@@ -16,10 +16,10 @@
       "credited_proofs": 96,
       "difficulty_points": 165,
       "display_name": "@cgbarlow",
-      "explicit_solver_proofs": 52,
+      "explicit_solver_proofs": 51,
       "failed_attempts": 111,
       "github": "cgbarlow",
-      "inferred_git_proofs": 44,
+      "inferred_git_proofs": 45,
       "median_solve_s": 287,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 1,
@@ -244,11 +244,11 @@
       "display_name": "Chris Barlow",
       "github": "cgbarlow",
       "index_files_added": 96,
-      "missing_solver_provenance": 44,
+      "missing_solver_provenance": 45,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 1,
       "solver_credit": false,
-      "solver_provenance_proofs": 52
+      "solver_provenance_proofs": 51
     },
     {
       "attribution_source": "git-add-author",
@@ -350,12 +350,6 @@
       "verified_proofs": 44
     },
     {
-      "provider_model": "openai / leanstral-2603",
-      "run_success_rate": 0.1136,
-      "runs": 88,
-      "verified_proofs": 9
-    },
-    {
       "provider_model": "codex / unknown",
       "run_success_rate": 0.3333,
       "runs": 27,
@@ -366,6 +360,12 @@
       "run_success_rate": 0.8182,
       "runs": 11,
       "verified_proofs": 9
+    },
+    {
+      "provider_model": "openai / leanstral-2603",
+      "run_success_rate": 0.1136,
+      "runs": 88,
+      "verified_proofs": 8
     },
     {
       "provider_model": "manual / gpt-5.5",
@@ -401,15 +401,15 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 76,
-    "attribution_gap_count": 91,
+    "attributed_proofs": 75,
+    "attribution_gap_count": 92,
     "credited_contributors": 8,
     "credited_proofs": 167,
-    "explicit_solver_proofs": 76,
+    "explicit_solver_proofs": 75,
     "git_attributed_index_files": 167,
     "historical_contributors": 8,
-    "historical_unknown_proofs": 91,
-    "inferred_git_proofs": 91,
+    "historical_unknown_proofs": 92,
+    "inferred_git_proofs": 92,
     "proof_run_coverage": 0.4431,
     "terminal_runs": 187,
     "uncredited_proofs": 0,
