@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**663 goals — 421 open · 8 blocked · 10 translated · 86 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**663 goals — 420 open · 8 blocked · 10 translated · 87 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (83 of 86 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (84 of 87 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -340,7 +340,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gcd-2n3-4n5-dvd-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-2n3-4n5-dvd-two.lean) | open | 3 | — | — | — | — |
 | [`gcd-3n1-9n4-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-3n1-9n4-eq-one.lean) | open | 2 | — | — | — | — |
 | [`gcd-3n4-5n7-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-3n4-5n7-eq-one.lean) | open | 3 | — | — | — | — |
-| [`gcd-4n1-6n1-dvd-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-4n1-6n1-dvd-two.lean) | open | 3 | — | — | — | — |
 | [`gcd-6n5-4n3-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-6n5-4n3-eq-one.lean) | open | 3 | — | — | — | — |
 | [`gcd-6n5-6n11-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-6n5-6n11-eq-one.lean) | open | 2 | — | — | — | — |
 | [`gcd-consec-odd-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-consec-odd-eq-one.lean) | open | 3 | — | — | — | — |
@@ -720,6 +719,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gcd-2n1-3n4-dvd-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-2n1-3n4-dvd-five.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#881](https://github.com/agenticsnz/unsorry/pull/881) | 2026-06-15 |
 | [`gcd-2n5-3n7-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-2n5-3n7-eq-one.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#863](https://github.com/agenticsnz/unsorry/pull/863) | 2026-06-15 |
 | [`gcd-3n2-4n3-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-3n2-4n3-eq-one.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#861](https://github.com/agenticsnz/unsorry/pull/861) | 2026-06-15 |
+| [`gcd-4n1-6n1-dvd-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-4n1-6n1-dvd-two.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#887](https://github.com/agenticsnz/unsorry/pull/887) | 2026-06-15 |
 | [`gcd-4n3-6n5-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-4n3-6n5-eq-one.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#800](https://github.com/agenticsnz/unsorry/pull/800) | 2026-06-15 |
 | [`gcd-5n2-7n3-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-5n2-7n3-eq-one.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#794](https://github.com/agenticsnz/unsorry/pull/794) | 2026-06-15 |
 | [`gcd-lin-3n2-5n3`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-lin-3n2-5n3.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#658](https://github.com/agenticsnz/unsorry/pull/658) | 2026-06-15 |
