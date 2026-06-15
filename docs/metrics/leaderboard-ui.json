@@ -34,30 +34,30 @@
       "attempt_yield": null,
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
       "badges": {
-        "difficulty": 101,
-        "proofs": 50,
+        "difficulty": 104,
+        "proofs": 51,
         "success_rate_percent": null
       },
       "credit_source_summary": "inferred",
       "credit_sources": [
         "inferred-git-add-author"
       ],
-      "credited_proofs": 50,
-      "difficulty_points": 101,
+      "credited_proofs": 51,
+      "difficulty_points": 104,
       "display_name": "@chat-bit-01",
       "explicit_solver_proofs": 0,
       "failed_attempts": 0,
       "github": "chat-bit-01",
-      "inferred_git_proofs": 50,
+      "inferred_git_proofs": 51,
       "median_solve_s": null,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 2,
       "run_success_rate": null,
       "runs": 0,
-      "score": 11350,
+      "score": 11675,
       "solver": "chat-bit-01",
       "successes": 0,
-      "verified_proofs": 50
+      "verified_proofs": 51
     },
     {
       "attempt_yield": 0.4255,
@@ -253,11 +253,11 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
-      "difficulty_points": 101,
+      "difficulty_points": 104,
       "display_name": "chat-bit-01",
       "github": "chat-bit-01",
-      "index_files_added": 50,
-      "missing_solver_provenance": 50,
+      "index_files_added": 51,
+      "missing_solver_provenance": 51,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 2,
       "solver_credit": false,
@@ -402,17 +402,17 @@
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
     "attributed_proofs": 75,
-    "attribution_gap_count": 110,
+    "attribution_gap_count": 111,
     "credited_contributors": 8,
-    "credited_proofs": 185,
+    "credited_proofs": 186,
     "explicit_solver_proofs": 75,
-    "git_attributed_index_files": 185,
+    "git_attributed_index_files": 186,
     "historical_contributors": 8,
-    "historical_unknown_proofs": 110,
-    "inferred_git_proofs": 110,
-    "proof_run_coverage": 0.4216,
+    "historical_unknown_proofs": 111,
+    "inferred_git_proofs": 111,
+    "proof_run_coverage": 0.4194,
     "terminal_runs": 218,
     "uncredited_proofs": 0,
-    "verified_proofs": 185
+    "verified_proofs": 186
   }
 }
