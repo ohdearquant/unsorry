@@ -1,12 +1,12 @@
 {
   "contributors": [
     {
-      "attempt_yield": 0.2826,
+      "attempt_yield": 0.2806,
       "avatar_url": "https://github.com/cgbarlow.png?size=96",
       "badges": {
         "difficulty": 142,
         "proofs": 82,
-        "success_rate_percent": 32.5
+        "success_rate_percent": 32.23
       },
       "credit_source_summary": "explicit + inferred",
       "credit_sources": [
@@ -17,14 +17,14 @@
       "difficulty_points": 142,
       "display_name": "@cgbarlow",
       "explicit_solver_proofs": 40,
-      "failed_attempts": 99,
+      "failed_attempts": 100,
       "github": "cgbarlow",
       "inferred_git_proofs": 42,
       "median_solve_s": 293,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 1,
-      "run_success_rate": 0.325,
-      "runs": 120,
+      "run_success_rate": 0.3223,
+      "runs": 121,
       "score": 16250,
       "solver": "cgbarlow",
       "successes": 39,
@@ -60,33 +60,33 @@
       "verified_proofs": 31
     },
     {
-      "attempt_yield": 0.3611,
+      "attempt_yield": 0.3784,
       "avatar_url": "https://github.com/perttu.png?size=96",
       "badges": {
-        "difficulty": 26,
-        "proofs": 13,
-        "success_rate_percent": 65.0
+        "difficulty": 28,
+        "proofs": 14,
+        "success_rate_percent": 66.67
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 13,
-      "difficulty_points": 26,
+      "credited_proofs": 14,
+      "difficulty_points": 28,
       "display_name": "@perttu",
-      "explicit_solver_proofs": 13,
+      "explicit_solver_proofs": 14,
       "failed_attempts": 23,
       "github": "perttu",
       "inferred_git_proofs": 0,
       "median_solve_s": 392,
       "profile_url": "https://github.com/perttu",
       "rank": 3,
-      "run_success_rate": 0.65,
-      "runs": 20,
-      "score": 2925,
+      "run_success_rate": 0.6667,
+      "runs": 21,
+      "score": 3150,
       "solver": "perttu",
-      "successes": 13,
-      "verified_proofs": 13
+      "successes": 14,
+      "verified_proofs": 14
     },
     {
       "attempt_yield": null,
@@ -205,7 +205,7 @@
       "verified_proofs": 1
     }
   ],
-  "generated_at": "2026-06-15T01:50:09Z",
+  "generated_at": "2026-06-15T01:55:27Z",
   "generated_from": "docs/metrics/community-stats.json",
   "historical_contributors": [
     {
@@ -237,15 +237,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 26,
+      "difficulty_points": 28,
       "display_name": "Perttu Isotalo",
       "github": null,
-      "index_files_added": 13,
+      "index_files_added": 14,
       "missing_solver_provenance": 0,
       "profile_url": null,
       "rank": 3,
       "solver_credit": false,
-      "solver_provenance_proofs": 13
+      "solver_provenance_proofs": 14
     },
     {
       "attribution_source": "git-add-author",
@@ -309,15 +309,15 @@
     },
     {
       "provider_model": "openai / leanstral-2603",
-      "run_success_rate": 0.1026,
-      "runs": 78,
+      "run_success_rate": 0.1013,
+      "runs": 79,
       "verified_proofs": 8
     },
     {
       "provider_model": "codex / unknown",
-      "run_success_rate": 0.3158,
-      "runs": 19,
-      "verified_proofs": 6
+      "run_success_rate": 0.35,
+      "runs": 20,
+      "verified_proofs": 7
     },
     {
       "provider_model": "gemini / gemini-3.1-pro-preview",
@@ -359,18 +359,18 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 58,
+    "attributed_proofs": 59,
     "attribution_gap_count": 83,
     "credited_contributors": 7,
-    "credited_proofs": 141,
-    "explicit_solver_proofs": 58,
-    "git_attributed_index_files": 141,
+    "credited_proofs": 142,
+    "explicit_solver_proofs": 59,
+    "git_attributed_index_files": 142,
     "historical_contributors": 7,
     "historical_unknown_proofs": 83,
     "inferred_git_proofs": 83,
-    "proof_run_coverage": 0.3759,
-    "terminal_runs": 150,
+    "proof_run_coverage": 0.3803,
+    "terminal_runs": 152,
     "uncredited_proofs": 0,
-    "verified_proofs": 141
+    "verified_proofs": 142
   }
 }
