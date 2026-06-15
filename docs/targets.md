@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**344 open · 198 proved · 549 total prove-goals.**
+**343 open · 199 proved · 549 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -179,7 +179,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `six-dvd-n-mul-succ-mul-two-n-add-one` — 6 divides n(n+1)(2n+1) for every integer n (the numerator of ∑k²). | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family. | 6 divides n(n+1)(2n+1) for every integer n (the numerator of ∑k²). Not a named mathlib lemma in this form. |
 | `six-dvd-pow-three-add-five-mul` — For every integer n, 6 ∣ n³ + 5n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family. Classic elementary number theory. | 6 ∣ n³ + 5n, since n³ + 5n = (n³ − n) + 6n and 6 ∣ n³ − n. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-fourteen-mem` — Every natural number's sixth power is congruent to 0, 1, 7, or 8 modulo 14. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, 7, or 8 modulo 14. Not a named mathlib lemma in this form. |
-| `sixth-power-mod-nine-mem` — Every natural number's sixth power is congruent to 0 or 1 modulo 9. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0 or 1 modulo 9. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-sixtythree-mem` — Every natural number's sixth power is congruent to 0, 1, 28, or 36 modulo 63. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, 28, or 36 modulo 63. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-thirteen-mem` — Every natural number's sixth power is congruent to 0, 1, or 12 modulo 13. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, or 12 modulo 13. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-twentyone-mem` — Every natural number's sixth power is congruent to 0, 1, 7, or 15 modulo 21. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, 7, or 15 modulo 21. Not a named mathlib lemma in this form. |
@@ -505,6 +504,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `six-dvd-pow-three-sub-self` — For every integer n, 6 ∣ n³ − n (= n(n−1)(n+1)). | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For every integer n, 6 ∣ n³ − n (= n(n−1)(n+1)). Not a named mathlib lemma in this form. |
 | `six-dvd-three-consecutive` — For every natural n, 6 ∣ n(n+1)(n+2): the product of three consecutive integers is divisible by 6. | proved | 2 | — | elementary number theory (product of k consecutive integers is divisible by k!) | Hardy & Wright, An Introduction to the Theory of Numbers, §6 — the k=3 case. mathlib has `Nat.factorial_dvd_descFactorial` but no standalone `6 ∣ n(n+1)(n+2)`. |
 | `six-dvd-three-consecutive-int` — For every integer n, 6 ∣ n(n+1)(n+2) — divisibility of the product of three consecutive integers, over ℤ. | proved | 2 | — | Classic elementary number theory (library-growth batch, #400 plan Phase 3). | For every integer n, 6 ∣ n(n+1)(n+2) — divisibility of the product of three consecutive integers, over ℤ. mathlib has `ZMod.pow_card` (Fermat) but not these specific named divisibility lemmas. |
+| `sixth-power-mod-nine-mem` — Every natural number's sixth power is congruent to 0 or 1 modulo 9. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0 or 1 modulo 9. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-seven` — For every natural n, n⁶ % 7 ∈ {0,1} (Fermat). | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n⁶ % 7 ∈ {0,1} (Fermat). Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s1` — sq-add-sq-eq-three-mul-sq-s1 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s2` — sq-add-sq-eq-three-mul-sq-s2 | proved | 1 | — | — | — |
