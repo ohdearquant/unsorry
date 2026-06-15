@@ -3,7 +3,7 @@
     {
       "attempt_yield": 0.3226,
       "attempts": 155,
-      "difficulty_points": 109,
+      "difficulty_points": 108,
       "failed_attempts": 105,
       "failures": 87,
       "median_solve_s": 287,
@@ -14,7 +14,7 @@
       "successes": 50,
       "successes_per_recorded_hour": 2.046,
       "total_solve_s": 87984,
-      "verified_proofs": 51
+      "verified_proofs": 50
     },
     {
       "attempt_yield": 0.439,
@@ -66,8 +66,8 @@
     }
   ],
   "coverage": {
-    "attributed_proofs": 74,
-    "historical_unknown_proofs": 85,
+    "attributed_proofs": 73,
+    "historical_unknown_proofs": 86,
     "proof_run_coverage": 0.434,
     "successful_proofs_with_run_telemetry": 69,
     "terminal_runs": 173,
@@ -76,8 +76,8 @@
   "credit": {
     "credited_contributors": 7,
     "credited_proofs": 159,
-    "explicit_solver_proofs": 74,
-    "inferred_git_proofs": 85,
+    "explicit_solver_proofs": 73,
+    "inferred_git_proofs": 86,
     "uncredited_proofs": 0
   },
   "credited_contributors": [
@@ -93,12 +93,12 @@
       "credited_proofs": 93,
       "difficulty_points": 161,
       "display_name": "@cgbarlow",
-      "explicit_solver_proofs": 51,
+      "explicit_solver_proofs": 50,
       "failed_attempts": 105,
       "failures": 87,
       "git_author": "Chris Barlow <cgbarlow@gmail.com>",
       "github": "cgbarlow",
-      "inferred_git_proofs": 42,
+      "inferred_git_proofs": 43,
       "median_solve_s": 287,
       "p90_solve_s": 1912,
       "profile_url": "https://github.com/cgbarlow",
@@ -703,7 +703,7 @@
       "p90_solve_s": 555,
       "run_success_rate": 0.0,
       "runs": 1,
-      "status": "blocked",
+      "status": "open",
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 555
@@ -2562,12 +2562,12 @@
         "git_author_name": "Chris Barlow",
         "github": "cgbarlow",
         "index_files_added": 93,
-        "missing_solver_provenance": 42,
+        "missing_solver_provenance": 43,
         "profile_url": "https://github.com/cgbarlow",
         "sample_add_commit": "09c580b287cedf6ba277b154d6473f51cffcdf10",
         "sample_add_date": "2026-06-15",
         "solver_credit": false,
-        "solver_provenance_proofs": 51
+        "solver_provenance_proofs": 50
       },
       {
         "attribution_source": "git-add-author",
@@ -2687,7 +2687,7 @@
       "successes": 43,
       "successes_per_recorded_hour": 7.162,
       "total_solve_s": 21615,
-      "verified_proofs": 43
+      "verified_proofs": 42
     },
     {
       "attempt_yield": 0.1124,
@@ -2848,8 +2848,8 @@
     "goals": 307,
     "status_counts": {
       "archived": 80,
-      "blocked": 8,
-      "open": 132,
+      "blocked": 7,
+      "open": 133,
       "proved": 77,
       "translated": 10
     }

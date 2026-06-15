@@ -52,6 +52,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 1,
+      "display_name": "Chris Barlow",
+      "git_add_commit": "2afe55917d33706bf41f3214a1d668ab2df9a528",
+      "git_add_date": "2026-06-15",
+      "git_author": "Chris Barlow <cgbarlow@gmail.com>",
+      "git_author_name": "Chris Barlow",
+      "goal": "discriminant-nonneg-s2",
+      "mapped_github": "cgbarlow",
+      "path": "library/index/371c5f9bf176fadb60edbadcbed859640ade565ea8fe7bf6754b256c457fdb39.aisp",
+      "review_status": "candidate",
+      "sha": "371c5f9bf176fadb60edbadcbed859640ade565ea8fe7bf6754b256c457fdb39"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-10",
       "difficulty": 0,
       "display_name": "Chris Barlow",
@@ -1284,9 +1299,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 85,
-    "mapped_missing_solver": 85,
-    "missing_solver_provenance": 85,
+    "git_attributed_missing_solver": 86,
+    "mapped_missing_solver": 86,
+    "missing_solver_provenance": 86,
     "unmapped_missing_solver": 0
   }
 }

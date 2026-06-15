@@ -4,7 +4,7 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**159 verified proofs · 74 attributed · 85 historical/unknown · 173 logged terminal runs.**
+**159 verified proofs · 73 attributed · 86 historical/unknown · 173 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**307 goals · 80 archived · 8 blocked · 132 open · 77 proved · 10 translated.**
+**307 goals · 80 archived · 7 blocked · 133 open · 77 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -58,7 +58,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 93 | 51 | 42 | 137 | 36.5% | 161 | 18425 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 93 | 50 | 43 | 137 | 36.5% | 161 | 18425 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 33 | 0 | 33 | 0 | — | 67 | 7525 |
 | 3 | [@perttu](https://github.com/perttu) | 18 | 18 | 0 | 25 | 72.0% | 35 | 3950 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
@@ -68,7 +68,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**74 explicit solver credits · 85 inferred git credits · 0 uncredited proof records.**
+**73 explicit solver credits · 86 inferred git credits · 0 uncredited proof records.**
 
 Git add-author attribution covers 159 of 159 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
@@ -76,7 +76,7 @@ Git add-author attribution covers 159 of 159 proof index files. It is used only 
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 43 | 46 | 93.5% | 17 | 3 | 4m 51s | 7.16 |
+| `claude / opus` | 42 | 46 | 93.5% | 17 | 3 | 4m 51s | 7.16 |
 | `openai / leanstral-2603` | 10 | 85 | 11.8% | 79 | 1 | 4m 33s | 0.69 |
 | `gemini / gemini-3.1-pro-preview` | 9 | 11 | 81.8% | 6 | 1 | 6m 15s | 7.19 |
 | `codex / unknown` | 7 | 21 | 33.3% | 30 | 2 | 4m 17s | 2.96 |
