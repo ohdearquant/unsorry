@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**310 goals — 126 open · 7 blocked · 10 translated · 87 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
+**310 goals — 125 open · 7 blocked · 10 translated · 88 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (83 of 87 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (84 of 88 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -295,7 +295,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`pow-five-add-pow-five-ge-quartic-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-five-add-pow-five-ge-quartic-mul.lean) | open | 3 | — | — | — | — |
 | [`pow-four-add-pow-four-ge-cube-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-four-add-pow-four-ge-cube-mul.lean) | open | 2 | — | — | — | — |
 | [`prod-one-sub-inv-sq-telescope`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-one-sub-inv-sq-telescope.lean) | open | 4 | — | — | — | — |
-| [`prod-pair-sums-ge-eight-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-pair-sums-ge-eight-mul.lean) | open | 3 | — | — | — | — |
 | [`prod-range-one-sub-recip-succ-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-range-one-sub-recip-succ-sq.lean) | open | 2 | — | — | — | — |
 | [`qm-am-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/qm-am-three-var.lean) | open | 2 | — | — | — | — |
 | [`quartic-ge-cross`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-ge-cross.lean) | open | 2 | — | — | — | — |
@@ -450,6 +449,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`one-add-two-x-le-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/one-add-two-x-le-sq.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#650](https://github.com/agenticsnz/unsorry/pull/650) | 2026-06-15 |
 | [`pow-four-add-sq-add-one-factor`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-four-add-sq-add-one-factor.lean) | proved | 2 | p3-b1 | cgbarlow · `opus` | [#320](https://github.com/agenticsnz/unsorry/pull/320) | 2026-06-13 |
 | [`pow-four-add-sq-add-one-not-prime`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-four-add-sq-add-one-not-prime.lean) | proved | 3 | p3-b1 | cgbarlow · `opus` | [#337](https://github.com/agenticsnz/unsorry/pull/337) | 2026-06-13 |
+| [`prod-pair-sums-ge-eight-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-pair-sums-ge-eight-mul.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#700](https://github.com/agenticsnz/unsorry/pull/700) | 2026-06-15 |
 | [`prod-range-one-add-inv`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-range-one-add-inv.lean) | proved | 3 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#509](https://github.com/agenticsnz/unsorry/pull/509) | 2026-06-14 |
 | [`product-le-quarter-of-sum-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/product-le-quarter-of-sum-one.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#656](https://github.com/agenticsnz/unsorry/pull/656) | 2026-06-15 |
 | [`quartic-ge-sq-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-ge-sq-prod.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#689](https://github.com/agenticsnz/unsorry/pull/689) | 2026-06-15 |
