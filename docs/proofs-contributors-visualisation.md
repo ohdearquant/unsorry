@@ -6,7 +6,7 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**200 goals — 63 open · 8 blocked · 10 translated · 39 proved · 80 archived.** 12 decomposition families shown below; standalone goals are listed in the table.
+**216 goals — 79 open · 8 blocked · 10 translated · 39 proved · 80 archived.** 12 decomposition families shown below; standalone goals are listed in the table.
 
 Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (35 of 39 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
@@ -203,16 +203,27 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`cauchy-schwarz-three-term`](https://github.com/agenticsnz/unsorry/blob/main/goals/cauchy-schwarz-three-term.lean) | open | 3 | — | — | — | — |
 | [`consecutive-cubes-diff-odd`](https://github.com/agenticsnz/unsorry/blob/main/goals/consecutive-cubes-diff-odd.lean) | open | 2 | — | — | — | — |
 | [`constrained-sum-sq-ge-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/constrained-sum-sq-ge-three.lean) | open | 2 | — | — | — | — |
+| [`coprime-2n1-n1`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-2n1-n1.lean) | open | 3 | — | — | — | — |
+| [`coprime-succ-sq-add`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-succ-sq-add.lean) | open | 3 | — | — | — | — |
 | [`cube-mod-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-four.lean) | open | 2 | — | — | — | — |
 | [`cube-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-seven.lean) | open | 2 | — | — | — | — |
+| [`cube-mod-thirteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-thirteen-mem.lean) | open | 3 | — | — | — | — |
 | [`cube-sum-ge-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-mul-sq.lean) | open | 2 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s1.lean) | open | 1 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s2.lean) | open | 1 | — | — | — | — |
 | [`discriminant-nonneg`](https://github.com/agenticsnz/unsorry/blob/main/goals/discriminant-nonneg.lean) | open | 3 | — | — | — | — |
 | [`forty-two-dvd-pow-seven-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/forty-two-dvd-pow-seven-sub-self.lean) | open | 2 | — | — | — | — |
 | [`four-consecutive-product-add-one-square`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square.lean) | open | 2 | — | — | — | — |
+| [`four-not-dvd-sq-add-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-not-dvd-sq-add-two.lean) | open | 3 | — | — | — | — |
 | [`four-var-cyclic-sos`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-cyclic-sos.lean) | open | 2 | — | — | — | — |
 | [`four-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean) | open | 2 | — | — | — | — |
+| [`fourth-power-mod-eight-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-eight-mem.lean) | open | 3 | — | — | — | — |
+| [`fourth-power-mod-thirteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-thirteen-mem.lean) | open | 3 | — | — | — | — |
+| [`gcd-consec-odd-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-consec-odd-eq-one.lean) | open | 3 | — | — | — | — |
+| [`gcd-lin-3n2-5n3`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-lin-3n2-5n3.lean) | open | 3 | — | — | — | — |
+| [`gcd-n1-n4-dvd-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-n1-n4-dvd-three.lean) | open | 2 | — | — | — | — |
+| [`gcd-self-add-dvd`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-self-add-dvd.lean) | open | 2 | — | — | — | — |
+| [`lcm-self-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/lcm-self-succ.lean) | open | 2 | — | — | — | — |
 | [`nat-sq-lt-two-pow-s2-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s1.lean) | open | 1 | — | — | — | — |
 | [`nesbitt-inequality-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean) | open | 1 | — | — | — | — |
 | [`nesbitt-inequality-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s3.lean) | open | 1 | — | — | — | — |
@@ -230,6 +241,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`qm-am-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/qm-am-three-var.lean) | open | 2 | — | — | — | — |
 | [`quartic-ge-cross`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-ge-cross.lean) | open | 2 | — | — | — | — |
 | [`quartic-ge-sq-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-ge-sq-prod.lean) | open | 2 | — | — | — | — |
+| [`quartic-plus-four-not-prime`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-plus-four-not-prime.lean) | open | 4 | — | — | — | — |
 | [`realization-determines-counts`](https://github.com/agenticsnz/unsorry/blob/main/goals/realization-determines-counts.lean) | open | 5 | — | — | — | — |
 | [`realization-edge-in-set`](https://github.com/agenticsnz/unsorry/blob/main/goals/realization-edge-in-set.lean) | open | 4 | — | — | — | — |
 | [`realization-edge-relation`](https://github.com/agenticsnz/unsorry/blob/main/goals/realization-edge-relation.lean) | open | 2 | — | — | — | — |
@@ -238,6 +250,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`six-dvd-pow-three-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-pow-three-sub-self.lean) | open | 2 | — | — | — | — |
 | [`six-dvd-three-consecutive-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-three-consecutive-int.lean) | open | 2 | — | — | — | — |
 | [`sixth-power-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/sixth-power-mod-seven.lean) | open | 2 | — | — | — | — |
+| [`sophie-germain-not-prime`](https://github.com/agenticsnz/unsorry/blob/main/goals/sophie-germain-not-prime.lean) | open | 4 | — | — | — | — |
 | [`sq-add-sq-eq-three-mul-sq-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s4.lean) | open | 1 | — | — | — | — |
 | [`sq-lt-cube-of-one-lt`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-lt-cube-of-one-lt.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-five.lean) | open | 2 | — | — | — | — |
@@ -255,6 +268,9 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sum-range-triangular-eq-tetrahedral`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-triangular-eq-tetrahedral.lean) | open | 3 | — | — | — | — |
 | [`sum-range-two-mul-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-two-mul-add-one.lean) | open | 2 | — | — | — | — |
 | [`sum-sq-add-one-ge-mul-add`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-sq-add-one-ge-mul-add.lean) | open | 2 | — | — | — | — |
+| [`sum-three-squares-zmod-eight-ne-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-three-squares-zmod-eight-ne-seven.lean) | open | 3 | — | — | — | — |
+| [`sum-two-cubes-zmod-nine-ne-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-two-cubes-zmod-nine-ne-four.lean) | open | 3 | — | — | — | — |
+| [`sum-two-squares-zmod-eight-ne-six`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-two-squares-zmod-eight-ne-six.lean) | open | 3 | — | — | — | — |
 | [`twelve-dvd-pow-four-sub-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/twelve-dvd-pow-four-sub-sq.lean) | open | 2 | — | — | — | — |
 | [`twenty-four-dvd-four-consecutive`](https://github.com/agenticsnz/unsorry/blob/main/goals/twenty-four-dvd-four-consecutive.lean) | open | 2 | — | — | — | — |
 | [`two-abs-mul-le-sq-add-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-abs-mul-le-sq-add-sq.lean) | open | 2 | — | — | — | — |
