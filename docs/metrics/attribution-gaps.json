@@ -67,6 +67,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "2ff4ad249db82e1eddbc17bb75df7edcf61b2223",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "coprime-nsq2-nsq3",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/124e8926177ca034cc9aa0766a8e94092d4c7dbf2b437235358ce9af250dfe0a.aisp",
+      "review_status": "candidate",
+      "sha": "124e8926177ca034cc9aa0766a8e94092d4c7dbf2b437235358ce9af250dfe0a"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-14",
       "difficulty": 1,
       "display_name": "chat-bit-01",
@@ -2244,9 +2259,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 149,
-    "mapped_missing_solver": 145,
-    "missing_solver_provenance": 149,
+    "git_attributed_missing_solver": 150,
+    "mapped_missing_solver": 146,
+    "missing_solver_provenance": 150,
     "unmapped_missing_solver": 4
   }
 }
