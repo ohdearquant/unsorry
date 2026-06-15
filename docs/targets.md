@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**228 open · 183 proved · 418 total prove-goals.**
+**227 open · 184 proved · 418 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -59,7 +59,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `fifth-power-mod-twentyfive-mem` — The fifth-power residues modulo 25 are exactly {0,1,7,18,24}. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The fifth-power residues modulo 25 are exactly {0,1,7,18,24}. Not a named mathlib lemma in this form. |
 | `four-var-qm-am-s2` — four-var-qm-am-s2 | open | 1 | — | — | — |
 | `fourth-power-mod-seventeen-mem` — The fourth-power residues modulo 17 are exactly {0,1,4,13,16}. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The fourth-power residues modulo 17 are exactly {0,1,4,13,16}. Not a named mathlib lemma in this form. |
-| `fourth-power-mod-sixteen-mem` — Every natural number's fourth power is congruent to 0 or 1 modulo 16. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's fourth power is congruent to 0 or 1 modulo 16. Not a named mathlib lemma in this form. |
 | `gcd-2n3-4n5-dvd-two` — The gcd of 2n+3 and 4n+5 always divides 2. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of 2n+3 and 4n+5 always divides 2. Not a named mathlib lemma in this form. |
 | `gcd-3n1-9n4-eq-one` — The gcd of 3n+1 and 9n+4 is always one. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of 3n+1 and 9n+4 is always one. Not a named mathlib lemma in this form. |
 | `gcd-4n3-6n5-eq-one` — The gcd of 4n+3 and 6n+5 is always one. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of 4n+3 and 6n+5 is always one. Not a named mathlib lemma in this form. |
@@ -305,6 +304,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `fourth-power-mod-five` — The fourth power of any natural number not divisible by 5 leaves remainder 1 on division by 5: if n % 5 ≠ 0 then n⁴ % 5 = 1. | proved | 3 | — | classic identities (fourth-power congruence tower — leaf; the Fermat case p=5) | Fermat's little theorem at the prime 5: a⁴ ≡ 1 (mod 5) for gcd(a,5)=1. Hardy & Wright, An Introduction to the Theory of Numbers. The mod-5 leaf that the others (mod 16, mod 3) do not cover. |
 | `fourth-power-mod-five-s1` — fourth-power-mod-five-s1 | proved | 1 | — | — | — |
 | `fourth-power-mod-five-s2` — fourth-power-mod-five-s2 | proved | 1 | — | — | — |
+| `fourth-power-mod-sixteen-mem` — Every natural number's fourth power is congruent to 0 or 1 modulo 16. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's fourth power is congruent to 0 or 1 modulo 16. Not a named mathlib lemma in this form. |
 | `fourth-power-mod-thirteen-mem` — Every fourth power is congruent to 0, 1, 3, or 9 modulo 13 (the quartic residues mod 13). | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family. | Every fourth power is congruent to 0, 1, 3, or 9 modulo 13 (the quartic residues mod 13). Not a named mathlib lemma in this form. |
 | `fourth-power-mod-three` — The fourth power of any natural number not divisible by 3 leaves remainder 1 on division by 3: if n % 3 ≠ 0 then n⁴ % 3 = 1. | proved | 2 | — | classic identities (fourth-power congruence tower — leaf; compounds on `sq-mod-three`) | Quadratic residues mod 3: n² ≡ 1 (mod 3) for 3∤n, hence n⁴ ≡ 1 (mod 3). Hardy & Wright, An Introduction to the Theory of Numbers. One power up from the proved `sq-mod-three`. |
 | `gcd-lin-3n2-5n3` — The linear forms 3n+2 and 5n+3 are coprime for every n. | proved | 3 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The linear forms 3n+2 and 5n+3 are coprime for every n. Not a named mathlib lemma in this form. |
