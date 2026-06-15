@@ -34,59 +34,59 @@
       "attempt_yield": null,
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
       "badges": {
-        "difficulty": 61,
-        "proofs": 30,
+        "difficulty": 63,
+        "proofs": 31,
         "success_rate_percent": null
       },
       "credit_source_summary": "inferred",
       "credit_sources": [
         "inferred-git-add-author"
       ],
-      "credited_proofs": 30,
-      "difficulty_points": 61,
+      "credited_proofs": 31,
+      "difficulty_points": 63,
       "display_name": "@chat-bit-01",
       "explicit_solver_proofs": 0,
       "failed_attempts": 0,
       "github": "chat-bit-01",
-      "inferred_git_proofs": 30,
+      "inferred_git_proofs": 31,
       "median_solve_s": null,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 2,
       "run_success_rate": null,
       "runs": 0,
-      "score": 6850,
+      "score": 7075,
       "solver": "chat-bit-01",
       "successes": 0,
-      "verified_proofs": 30
+      "verified_proofs": 31
     },
     {
-      "attempt_yield": 0.3235,
+      "attempt_yield": 0.3429,
       "avatar_url": "https://github.com/perttu.png?size=96",
       "badges": {
-        "difficulty": 21,
-        "proofs": 11,
-        "success_rate_percent": 61.11
+        "difficulty": 24,
+        "proofs": 12,
+        "success_rate_percent": 63.16
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 11,
-      "difficulty_points": 21,
+      "credited_proofs": 12,
+      "difficulty_points": 24,
       "display_name": "@perttu",
-      "explicit_solver_proofs": 11,
+      "explicit_solver_proofs": 12,
       "failed_attempts": 23,
       "github": "perttu",
       "inferred_git_proofs": 0,
-      "median_solve_s": 392,
+      "median_solve_s": 393,
       "profile_url": "https://github.com/perttu",
       "rank": 3,
-      "run_success_rate": 0.6111,
-      "runs": 18,
-      "score": 2375,
+      "run_success_rate": 0.6316,
+      "runs": 19,
+      "score": 2700,
       "solver": "perttu",
-      "successes": 11,
-      "verified_proofs": 11
+      "successes": 12,
+      "verified_proofs": 12
     },
     {
       "attempt_yield": null,
@@ -224,11 +224,11 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
-      "difficulty_points": 61,
+      "difficulty_points": 63,
       "display_name": "chat-bit-01",
       "github": "chat-bit-01",
-      "index_files_added": 30,
-      "missing_solver_provenance": 30,
+      "index_files_added": 31,
+      "missing_solver_provenance": 31,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 2,
       "solver_credit": false,
@@ -237,15 +237,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 21,
+      "difficulty_points": 24,
       "display_name": "Perttu Isotalo",
       "github": null,
-      "index_files_added": 11,
+      "index_files_added": 12,
       "missing_solver_provenance": 0,
       "profile_url": null,
       "rank": 3,
       "solver_credit": false,
-      "solver_provenance_proofs": 11
+      "solver_provenance_proofs": 12
     },
     {
       "attribution_source": "git-add-author",
@@ -303,9 +303,9 @@
   "models": [
     {
       "provider_model": "claude / opus",
-      "run_success_rate": 0.9167,
-      "runs": 36,
-      "verified_proofs": 33
+      "run_success_rate": 0.9189,
+      "runs": 37,
+      "verified_proofs": 34
     },
     {
       "provider_model": "openai / leanstral-2603",
@@ -359,18 +359,18 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 56,
-    "attribution_gap_count": 82,
+    "attributed_proofs": 57,
+    "attribution_gap_count": 83,
     "credited_contributors": 7,
-    "credited_proofs": 138,
-    "explicit_solver_proofs": 56,
-    "git_attributed_index_files": 138,
+    "credited_proofs": 140,
+    "explicit_solver_proofs": 57,
+    "git_attributed_index_files": 140,
     "historical_contributors": 7,
-    "historical_unknown_proofs": 82,
-    "inferred_git_proofs": 82,
-    "proof_run_coverage": 0.3696,
-    "terminal_runs": 148,
+    "historical_unknown_proofs": 83,
+    "inferred_git_proofs": 83,
+    "proof_run_coverage": 0.3714,
+    "terminal_runs": 149,
     "uncredited_proofs": 0,
-    "verified_proofs": 138
+    "verified_proofs": 140
   }
 }

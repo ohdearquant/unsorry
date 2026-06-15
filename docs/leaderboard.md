@@ -4,28 +4,28 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**138 verified proofs · 56 attributed · 82 historical/unknown · 148 logged terminal runs.**
+**140 verified proofs · 57 attributed · 83 historical/unknown · 149 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 51 |
+| Successful terminal runs | 52 |
 | Failed terminal runs | 97 |
 | Decomposed after failure | 15 |
 | Failed without decomposition | 82 |
-| Run success rate | 34.5% |
-| Provider attempts | 186 |
+| Run success rate | 34.9% |
+| Provider attempts | 187 |
 | Failed attempts | 135 |
-| Attempt yield | 27.4% |
-| Recorded run time | 25h 40m |
-| Median / p90 run time | 4m 53s / 31m 44s |
-| Verified successes per recorded hour | 1.99 |
-| Proofs with run telemetry | 51 (37.0%) |
+| Attempt yield | 27.8% |
+| Recorded run time | 25h 49m |
+| Median / p90 run time | 4m 54s / 31m 44s |
+| Verified successes per recorded hour | 2.01 |
+| Proofs with run telemetry | 52 (37.1%) |
 
 ## Work Queue
 
-**259 goals · 80 archived · 11 blocked · 102 open · 56 proved · 10 translated.**
+**259 goals · 80 archived · 11 blocked · 100 open · 58 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -33,7 +33,7 @@ Verified output comes from active `library/index` records plus archived index re
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 47 | 14 | 29.8% | 46 | 5m 3s |
 | 2 | 57 | 18 | 31.6% | 52 | 4m 41s |
-| 3 | 28 | 15 | 53.6% | 23 | 4m 42s |
+| 3 | 29 | 16 | 55.2% | 23 | 4m 52s |
 | 4 | 15 | 4 | 26.7% | 13 | 5m 42s |
 | 5 | 1 | 0 | 0.0% | 1 | 31m 28s |
 
@@ -59,8 +59,8 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@cgbarlow](https://github.com/cgbarlow) | 82 | 40 | 42 | 120 | 32.5% | 142 | 16250 |
-| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 30 | 0 | 30 | 0 | — | 61 | 6850 |
-| 3 | [@perttu](https://github.com/perttu) | 11 | 11 | 0 | 18 | 61.1% | 21 | 2375 |
+| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 31 | 0 | 31 | 0 | — | 63 | 7075 |
+| 3 | [@perttu](https://github.com/perttu) | 12 | 12 | 0 | 19 | 63.2% | 24 | 2700 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 5 | [@adam91holt](https://github.com/adam91holt) | 4 | 4 | 0 | 9 | 0.0% | 6 | 700 |
 | 6 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
@@ -68,15 +68,15 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**56 explicit solver credits · 82 inferred git credits · 0 uncredited proof records.**
+**57 explicit solver credits · 83 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 138 of 138 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 140 of 140 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 33 | 36 | 91.7% | 17 | 3 | 5m 18s | 6.51 |
+| `claude / opus` | 34 | 37 | 91.9% | 17 | 3 | 5m 42s | 6.51 |
 | `openai / leanstral-2603` | 8 | 78 | 10.3% | 74 | 1 | 4m 39s | 0.57 |
 | `codex / unknown` | 6 | 19 | 31.6% | 27 | 2 | 4m 17s | 2.91 |
 | `gemini / gemini-3.1-pro-preview` | 4 | 6 | 66.7% | 6 | 1 | 5m 45s | 5.86 |

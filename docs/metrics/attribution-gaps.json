@@ -22,6 +22,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-14",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "b019c13cb7effb746f9096fe33d894e5f83a3ec3",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sq-sum-le-two-mul-sum-sq",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/1c82b0f5546fa19fd220112ece592d2e2879907038adc62fa48cda995e30c68b.aisp",
+      "review_status": "candidate",
+      "sha": "1c82b0f5546fa19fd220112ece592d2e2879907038adc62fa48cda995e30c68b"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-10",
       "difficulty": 0,
       "display_name": "Chris Barlow",
@@ -1239,9 +1254,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 82,
-    "mapped_missing_solver": 82,
-    "missing_solver_provenance": 82,
+    "git_attributed_missing_solver": 83,
+    "mapped_missing_solver": 83,
+    "missing_solver_provenance": 83,
     "unmapped_missing_solver": 0
   }
 }
