@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**254 goals — 115 open · 9 blocked · 10 translated · 40 proved · 80 archived.** 13 decomposition families shown below; standalone goals are listed in the table.
+**254 goals — 114 open · 9 blocked · 10 translated · 41 proved · 80 archived.** 13 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (36 of 40 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (37 of 41 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -214,7 +214,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`abstract-regular-polyhedron-realizable-iff`](https://github.com/agenticsnz/unsorry/blob/main/goals/abstract-regular-polyhedron-realizable-iff.lean) | open | 4 | — | — | — | — |
 | [`am-gm-three-cube-s2-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2-s2.lean) | open | 1 | — | — | — | — |
 | [`am-hm-two-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var.lean) | open | 2 | — | — | — | — |
-| [`aurifeuillian-quartic-dvd`](https://github.com/agenticsnz/unsorry/blob/main/goals/aurifeuillian-quartic-dvd.lean) | open | 2 | — | — | — | — |
 | [`cauchy-schwarz-three-term`](https://github.com/agenticsnz/unsorry/blob/main/goals/cauchy-schwarz-three-term.lean) | open | 3 | — | — | — | — |
 | [`consecutive-cubes-diff-odd`](https://github.com/agenticsnz/unsorry/blob/main/goals/consecutive-cubes-diff-odd.lean) | open | 2 | — | — | — | — |
 | [`constrained-sum-sq-ge-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/constrained-sum-sq-ge-three.lean) | open | 2 | — | — | — | — |
@@ -347,6 +346,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`nat-zero-lt-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-zero-lt-succ.lean) | translated | — | — | — | — | 2026-06-10 |
 | [`am-gm-three-cube-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s1.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow | [#611](https://github.com/agenticsnz/unsorry/pull/611) | 2026-06-15 |
 | [`am-gm-three-cube-s2-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2-s1.lean) | proved | 1 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#496](https://github.com/agenticsnz/unsorry/pull/496) | 2026-06-14 |
+| [`aurifeuillian-quartic-dvd`](https://github.com/agenticsnz/unsorry/blob/main/goals/aurifeuillian-quartic-dvd.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#617](https://github.com/agenticsnz/unsorry/pull/617) | 2026-06-15 |
 | [`consecutive-triangular-eq-square`](https://github.com/agenticsnz/unsorry/blob/main/goals/consecutive-triangular-eq-square.lean) | proved | 2 | p3-b1 | cgbarlow · `opus` | [#347](https://github.com/agenticsnz/unsorry/pull/347) | 2026-06-13 |
 | [`cube-sum-ge-three-prod-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s3.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#493](https://github.com/agenticsnz/unsorry/pull/493) | 2026-06-14 |
 | [`descartes-total-angular-defect`](https://github.com/agenticsnz/unsorry/blob/main/goals/descartes-total-angular-defect.lean) | proved | 4 | oma-2-c50d | perttu | [#465](https://github.com/agenticsnz/unsorry/pull/465) | 2026-06-14 |
