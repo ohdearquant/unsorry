@@ -81,6 +81,21 @@
       "sha": "1f70c1213ebdf624a3b55e35ed514e3480d1943b78367f005548456eb103bbe3"
     },
     {
+      "alias_mapped": false,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "Perttu Isotalo",
+      "git_add_commit": "d27174ed730346a51fcd76e5928889efc11b45be",
+      "git_add_date": "2026-06-15",
+      "git_author": "Perttu Isotalo <pisotalo@isotalo.org>",
+      "git_author_name": "Perttu Isotalo",
+      "goal": "two-abs-mul-le-sq-add-sq",
+      "mapped_github": null,
+      "path": "library/index/2d46a1e810ae930182fbf64a98d0a583702906bc1a9af0865ff7d31fefbfbfb5.aisp",
+      "review_status": "candidate",
+      "sha": "2d46a1e810ae930182fbf64a98d0a583702906bc1a9af0865ff7d31fefbfbfb5"
+    },
+    {
       "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 1,
@@ -1509,9 +1524,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 100,
+    "git_attributed_missing_solver": 101,
     "mapped_missing_solver": 98,
-    "missing_solver_provenance": 100,
-    "unmapped_missing_solver": 2
+    "missing_solver_provenance": 101,
+    "unmapped_missing_solver": 3
   }
 }
