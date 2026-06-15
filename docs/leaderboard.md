@@ -4,28 +4,28 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**221 verified proofs · 81 attributed · 140 historical/unknown · 283 logged terminal runs.**
+**223 verified proofs · 82 attributed · 141 historical/unknown · 284 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 85 |
+| Successful terminal runs | 86 |
 | Failed terminal runs | 198 |
 | Decomposed after failure | 16 |
 | Failed without decomposition | 182 |
-| Run success rate | 30.0% |
-| Provider attempts | 332 |
+| Run success rate | 30.3% |
+| Provider attempts | 333 |
 | Failed attempts | 247 |
-| Attempt yield | 25.6% |
-| Recorded run time | 56h 45m |
-| Median / p90 run time | 6m 32s / 31m 54s |
-| Verified successes per recorded hour | 1.50 |
-| Proofs with run telemetry | 85 (38.5%) |
+| Attempt yield | 25.8% |
+| Recorded run time | 56h 50m |
+| Median / p90 run time | 6m 31s / 31m 54s |
+| Verified successes per recorded hour | 1.51 |
+| Proofs with run telemetry | 86 (38.6%) |
 
 ## Work Queue
 
-**659 goals · 80 archived · 7 blocked · 423 open · 139 proved · 10 translated.**
+**659 goals · 80 archived · 7 blocked · 421 open · 141 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -33,7 +33,7 @@ Verified output comes from active `library/index` records plus archived index re
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 66 | 28 | 42.4% | 56 | 4m 55s |
 | 2 | 111 | 26 | 23.4% | 102 | 6m 34s |
-| 3 | 85 | 26 | 30.6% | 71 | 8m 6s |
+| 3 | 86 | 27 | 31.4% | 71 | 7m 34s |
 | 4 | 20 | 5 | 25.0% | 17 | 8m 32s |
 | 5 | 1 | 0 | 0.0% | 1 | 31m 28s |
 
@@ -58,8 +58,8 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 102 | 55 | 47 | 206 | 28.6% | 177 | 20250 |
-| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 79 | 0 | 79 | 0 | — | 168 | 18775 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 103 | 56 | 47 | 207 | 29.0% | 180 | 20575 |
+| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 80 | 0 | 80 | 0 | — | 170 | 19000 |
 | 3 | [@perttu](https://github.com/perttu) | 19 | 19 | 0 | 31 | 74.2% | 41 | 4575 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 5 | [@adam91holt](https://github.com/adam91holt) | 6 | 6 | 0 | 45 | 4.4% | 10 | 1150 |
@@ -69,16 +69,16 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**81 explicit solver credits · 140 inferred git credits · 0 uncredited proof records.**
+**82 explicit solver credits · 141 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 221 of 221 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 223 of 223 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 41 | 49 | 93.9% | 18 | 3 | 4m 47s | 7.45 |
-| `openai / leanstral-2603` | 14 | 131 | 12.2% | 119 | 1 | 4m 54s | 0.62 |
+| `openai / leanstral-2603` | 15 | 132 | 12.9% | 119 | 1 | 4m 53s | 0.65 |
 | `codex / unknown` | 14 | 62 | 22.6% | 72 | 2 | 6m 48s | 1.56 |
 | `gemini / gemini-3.1-pro-preview` | 7 | 11 | 81.8% | 6 | 1 | 6m 15s | 7.19 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
