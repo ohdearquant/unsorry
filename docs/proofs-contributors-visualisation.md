@@ -6,7 +6,7 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**307 goals — 132 open · 8 blocked · 10 translated · 77 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
+**307 goals — 133 open · 7 blocked · 10 translated · 77 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
 
 Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (73 of 77 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
@@ -98,8 +98,8 @@ flowchart LR
   class g_nat_sq_lt_two_pow_s1 proved;
   click g_nat_sq_lt_two_pow_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s1.lean" "nat-sq-lt-two-pow-s1 — proved"
   g_nat_sq_lt_two_pow_s2["nat-sq-lt-two-pow-s2"]
-  class g_nat_sq_lt_two_pow_s2 blocked;
-  click g_nat_sq_lt_two_pow_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean" "nat-sq-lt-two-pow-s2 — blocked"
+  class g_nat_sq_lt_two_pow_s2 open;
+  click g_nat_sq_lt_two_pow_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean" "nat-sq-lt-two-pow-s2 — open"
   g_nat_sq_lt_two_pow_s2_s1["nat-sq-lt-two-pow-s2-s1"]
   class g_nat_sq_lt_two_pow_s2_s1 proved;
   click g_nat_sq_lt_two_pow_s2_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s1.lean" "nat-sq-lt-two-pow-s2-s1 — proved"
@@ -267,6 +267,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gcd-n1-n4-dvd-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-n1-n4-dvd-three.lean) | open | 2 | — | — | — | — |
 | [`gcd-self-add-dvd`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-self-add-dvd.lean) | open | 2 | — | — | — | — |
 | [`lcm-self-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/lcm-self-succ.lean) | open | 2 | — | — | — | — |
+| [`nat-sq-lt-two-pow-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean) | open | 1 | — | — | — | — |
 | [`nesbitt-inequality-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean) | open | 1 | — | — | — | — |
 | [`no-int-sq-eq-eight-mul-add-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-int-sq-eq-eight-mul-add-three.lean) | open | 3 | — | — | — | — |
 | [`no-nat-sq-eq-two-mul-sq-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq-s1.lean) | open | 1 | — | — | — | — |
@@ -369,7 +370,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`am-gm-three-cube`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube.lean) | blocked | 3 | — | — | — | — |
 | [`am-gm-three-cube-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2.lean) | blocked | 1 | — | — | — | — |
 | [`cube-sum-ge-three-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod.lean) | blocked | 2 | — | — | — | — |
-| [`nat-sq-lt-two-pow-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean) | blocked | 1 | — | — | — | — |
 | [`nesbitt-inequality`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality.lean) | blocked | 4 | — | — | — | — |
 | [`no-nat-sq-eq-two-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq.lean) | blocked | 4 | — | — | — | — |
 | [`sq-add-sq-eq-three-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq.lean) | blocked | 4 | — | — | — | — |
