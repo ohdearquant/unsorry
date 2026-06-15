@@ -2344,16 +2344,16 @@
     "difficulty_counts": {
       "0": 10,
       "1": 76,
-      "2": 81,
-      "3": 59,
+      "2": 84,
+      "3": 62,
       "4": 18,
       "5": 1
     },
-    "goals": 245,
+    "goals": 251,
     "status_counts": {
       "archived": 80,
       "blocked": 8,
-      "open": 108,
+      "open": 114,
       "proved": 39,
       "translated": 10
     }
