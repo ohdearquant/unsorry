@@ -248,6 +248,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "e0d2035b90bae37de4bfa91701ee65b30862c507",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "coprime-n-cube-add-one",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/651f30fcca1e9113004051d904c2044bd25c7a6068526b70a82faba332136531.aisp",
+      "review_status": "candidate",
+      "sha": "651f30fcca1e9113004051d904c2044bd25c7a6068526b70a82faba332136531"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
       "git_add_commit": "3901932c9078a1cd3e2d0445f1499dd22ed3fb77",
@@ -2229,9 +2244,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 148,
-    "mapped_missing_solver": 144,
-    "missing_solver_provenance": 148,
+    "git_attributed_missing_solver": 149,
+    "mapped_missing_solver": 145,
+    "missing_solver_provenance": 149,
     "unmapped_missing_solver": 4
   }
 }
