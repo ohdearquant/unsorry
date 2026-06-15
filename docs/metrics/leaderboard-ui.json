@@ -63,18 +63,18 @@
       "attempt_yield": 0.4091,
       "avatar_url": "https://github.com/perttu.png?size=96",
       "badges": {
-        "difficulty": 29,
-        "proofs": 15,
+        "difficulty": 27,
+        "proofs": 14,
         "success_rate_percent": 69.23
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 15,
-      "difficulty_points": 29,
+      "credited_proofs": 14,
+      "difficulty_points": 27,
       "display_name": "@perttu",
-      "explicit_solver_proofs": 15,
+      "explicit_solver_proofs": 14,
       "failed_attempts": 26,
       "github": "perttu",
       "inferred_git_proofs": 0,
@@ -83,10 +83,10 @@
       "rank": 3,
       "run_success_rate": 0.6923,
       "runs": 26,
-      "score": 3275,
+      "score": 3050,
       "solver": "perttu",
       "successes": 18,
-      "verified_proofs": 15
+      "verified_proofs": 14
     },
     {
       "attempt_yield": null,
@@ -150,30 +150,30 @@
       "attempt_yield": null,
       "avatar_url": null,
       "badges": {
-        "difficulty": 6,
-        "proofs": 3,
+        "difficulty": 8,
+        "proofs": 4,
         "success_rate_percent": null
       },
       "credit_source_summary": "inferred",
       "credit_sources": [
         "inferred-git-add-author"
       ],
-      "credited_proofs": 3,
-      "difficulty_points": 6,
+      "credited_proofs": 4,
+      "difficulty_points": 8,
       "display_name": "Perttu Isotalo",
       "explicit_solver_proofs": 0,
       "failed_attempts": 0,
       "github": null,
-      "inferred_git_proofs": 3,
+      "inferred_git_proofs": 4,
       "median_solve_s": null,
       "profile_url": null,
       "rank": 6,
       "run_success_rate": null,
       "runs": 0,
-      "score": 675,
+      "score": 900,
       "solver": null,
       "successes": 0,
-      "verified_proofs": 3
+      "verified_proofs": 4
     },
     {
       "attempt_yield": null,
@@ -270,11 +270,11 @@
       "display_name": "Perttu Isotalo",
       "github": null,
       "index_files_added": 18,
-      "missing_solver_provenance": 3,
+      "missing_solver_provenance": 4,
       "profile_url": null,
       "rank": 3,
       "solver_credit": false,
-      "solver_provenance_proofs": 15
+      "solver_provenance_proofs": 14
     },
     {
       "attribution_source": "git-add-author",
@@ -347,7 +347,7 @@
       "provider_model": "claude / opus",
       "run_success_rate": 0.9388,
       "runs": 49,
-      "verified_proofs": 43
+      "verified_proofs": 42
     },
     {
       "provider_model": "openai / leanstral-2603",
@@ -401,15 +401,15 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 74,
-    "attribution_gap_count": 102,
+    "attributed_proofs": 73,
+    "attribution_gap_count": 103,
     "credited_contributors": 8,
     "credited_proofs": 176,
-    "explicit_solver_proofs": 74,
+    "explicit_solver_proofs": 73,
     "git_attributed_index_files": 176,
     "historical_contributors": 8,
-    "historical_unknown_proofs": 102,
-    "inferred_git_proofs": 102,
+    "historical_unknown_proofs": 103,
+    "inferred_git_proofs": 103,
     "proof_run_coverage": 0.4318,
     "terminal_runs": 204,
     "uncredited_proofs": 0,

@@ -366,6 +366,21 @@
       "sha": "e39e495ccdbe5045dc359474e7cc10cc90a049ce603de86ca55f22a17efcaf15"
     },
     {
+      "alias_mapped": false,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "Perttu Isotalo",
+      "git_add_commit": "7e3aaf92e9860761c1ec3f107af39d4e25a9f48f",
+      "git_add_date": "2026-06-15",
+      "git_author": "Perttu Isotalo <pisotalo@isotalo.org>",
+      "git_author_name": "Perttu Isotalo",
+      "goal": "consecutive-cubes-diff-odd",
+      "mapped_github": null,
+      "path": "library/index/eaee5ea2cd7a6dc14c349341d941f92479917f22ca8354a7ea09cea1df83c579.aisp",
+      "review_status": "candidate",
+      "sha": "eaee5ea2cd7a6dc14c349341d941f92479917f22ca8354a7ea09cea1df83c579"
+    },
+    {
       "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
@@ -1539,9 +1554,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 102,
+    "git_attributed_missing_solver": 103,
     "mapped_missing_solver": 99,
-    "missing_solver_provenance": 102,
-    "unmapped_missing_solver": 3
+    "missing_solver_provenance": 103,
+    "unmapped_missing_solver": 4
   }
 }
