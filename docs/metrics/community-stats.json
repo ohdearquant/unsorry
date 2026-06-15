@@ -67,17 +67,17 @@
   ],
   "coverage": {
     "attributed_proofs": 92,
-    "historical_unknown_proofs": 157,
-    "proof_run_coverage": 0.2651,
+    "historical_unknown_proofs": 158,
+    "proof_run_coverage": 0.264,
     "successful_proofs_with_run_telemetry": 66,
     "terminal_runs": 311,
-    "verified_proofs": 249
+    "verified_proofs": 250
   },
   "credit": {
     "credited_contributors": 8,
-    "credited_proofs": 249,
+    "credited_proofs": 250,
     "explicit_solver_proofs": 92,
-    "inferred_git_proofs": 157,
+    "inferred_git_proofs": 158,
     "uncredited_proofs": 0
   },
   "credited_contributors": [
@@ -118,15 +118,15 @@
       "credit_sources": [
         "inferred-git-add-author"
       ],
-      "credited_proofs": 96,
-      "difficulty_points": 208,
+      "credited_proofs": 97,
+      "difficulty_points": 210,
       "display_name": "@chat-bit-01",
       "explicit_solver_proofs": 0,
       "failed_attempts": 0,
       "failures": 0,
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
       "github": "chat-bit-01",
-      "inferred_git_proofs": 96,
+      "inferred_git_proofs": 97,
       "median_solve_s": null,
       "p90_solve_s": null,
       "profile_url": "https://github.com/chat-bit-01",
@@ -136,7 +136,7 @@
       "successes": 0,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0,
-      "verified_proofs": 96
+      "verified_proofs": 97
     },
     {
       "attempt_yield": 0.3333,
@@ -3962,13 +3962,13 @@
       {
         "attribution_source": "git-add-author",
         "avatar_url": "https://github.com/chat-bit-01.png?size=96",
-        "difficulty_points": 208,
+        "difficulty_points": 210,
         "display_name": "chat-bit-01",
         "git_author": "chat-bit-01 <chatuser55@gmail.com>",
         "git_author_name": "chat-bit-01",
         "github": "chat-bit-01",
-        "index_files_added": 96,
-        "missing_solver_provenance": 96,
+        "index_files_added": 97,
+        "missing_solver_provenance": 97,
         "profile_url": "https://github.com/chat-bit-01",
         "sample_add_commit": "8aaf54a01a886186f0362a9ee19302b0ba26eb2c",
         "sample_add_date": "2026-06-15",
@@ -4072,8 +4072,8 @@
         "solver_provenance_proofs": 1
       }
     ],
-    "git_attributed_index_files": 249,
-    "records": 249,
+    "git_attributed_index_files": 250,
+    "records": 250,
     "scope": "library/index/*.aisp",
     "source": "git-add-author",
     "unattributed_index_files": 0
@@ -4255,8 +4255,8 @@
     "status_counts": {
       "archived": 138,
       "blocked": 8,
-      "open": 495,
-      "proved": 109,
+      "open": 494,
+      "proved": 110,
       "translated": 10
     }
   },
