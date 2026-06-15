@@ -503,6 +503,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-15",
+      "difficulty": 1,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "409a6e6f913598131898a77de8fe8091c4a87927",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "fourth-power-mod-five-mem",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/c91c009b5db95b8423b9498f86830cc194b6dbd6146d28069a5856fbeedfb742.aisp",
+      "review_status": "candidate",
+      "sha": "c91c009b5db95b8423b9498f86830cc194b6dbd6146d28069a5856fbeedfb742"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
       "git_add_commit": "206a7cc565b8eb0893f4c3bdfd7f8b42a5cdc7da",
@@ -1839,9 +1854,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 122,
-    "mapped_missing_solver": 118,
-    "missing_solver_provenance": 122,
+    "git_attributed_missing_solver": 123,
+    "mapped_missing_solver": 119,
+    "missing_solver_provenance": 123,
     "unmapped_missing_solver": 4
   }
 }
