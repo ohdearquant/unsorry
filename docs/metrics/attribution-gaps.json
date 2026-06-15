@@ -201,6 +201,21 @@
       "sha": "c825189d82bd965f2f4b82bc256e324bc03f7af5755e13aab5046ef0fec9092f"
     },
     {
+      "alias_mapped": false,
+      "date": "2026-06-15",
+      "difficulty": 3,
+      "display_name": "Perttu Isotalo",
+      "git_add_commit": "4a31ab3c3bcec73a09b9de0d84dd9caca5a580c1",
+      "git_add_date": "2026-06-15",
+      "git_author": "Perttu Isotalo <pisotalo@isotalo.org>",
+      "git_author_name": "Perttu Isotalo",
+      "goal": "cauchy-schwarz-three-term",
+      "mapped_github": null,
+      "path": "library/index/cd2f5ab3e6b50898ac05ef03af4e3d562f3af8075b58c9759865311c83d1bcfa.aisp",
+      "review_status": "candidate",
+      "sha": "cd2f5ab3e6b50898ac05ef03af4e3d562f3af8075b58c9759865311c83d1bcfa"
+    },
+    {
       "alias_mapped": true,
       "date": "2026-06-14",
       "difficulty": 2,
@@ -1359,9 +1374,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 90,
+    "git_attributed_missing_solver": 91,
     "mapped_missing_solver": 90,
-    "missing_solver_provenance": 90,
-    "unmapped_missing_solver": 0
+    "missing_solver_provenance": 91,
+    "unmapped_missing_solver": 1
   }
 }

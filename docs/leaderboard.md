@@ -4,7 +4,7 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**167 verified proofs · 77 attributed · 90 historical/unknown · 186 logged terminal runs.**
+**167 verified proofs · 76 attributed · 91 historical/unknown · 186 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -60,15 +60,16 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@cgbarlow](https://github.com/cgbarlow) | 96 | 52 | 44 | 145 | 36.5% | 165 | 18900 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 36 | 0 | 36 | 0 | — | 73 | 8200 |
-| 3 | [@perttu](https://github.com/perttu) | 18 | 18 | 0 | 26 | 69.2% | 35 | 3950 |
+| 3 | [@perttu](https://github.com/perttu) | 17 | 17 | 0 | 26 | 69.2% | 32 | 3625 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 5 | [@adam91holt](https://github.com/adam91holt) | 6 | 6 | 0 | 14 | 14.3% | 10 | 1150 |
 | 6 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
-| 7 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 1 | 100.0% | 1 | 125 |
+| 7 | Perttu Isotalo | 1 | 0 | 1 | 0 | — | 3 | 325 |
+| 8 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 1 | 100.0% | 1 | 125 |
 
 ## Attribution Notes
 
-**77 explicit solver credits · 90 inferred git credits · 0 uncredited proof records.**
+**76 explicit solver credits · 91 inferred git credits · 0 uncredited proof records.**
 
 Git add-author attribution covers 167 of 167 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
@@ -76,7 +77,7 @@ Git add-author attribution covers 167 of 167 proof index files. It is used only 
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 45 | 49 | 93.9% | 18 | 3 | 4m 47s | 7.45 |
+| `claude / opus` | 44 | 49 | 93.9% | 18 | 3 | 4m 47s | 7.45 |
 | `openai / leanstral-2603` | 9 | 88 | 11.4% | 82 | 1 | 4m 35s | 0.64 |
 | `codex / unknown` | 9 | 26 | 34.6% | 40 | 2 | 4m 51s | 2.19 |
 | `gemini / gemini-3.1-pro-preview` | 9 | 11 | 81.8% | 6 | 1 | 6m 15s | 7.19 |
