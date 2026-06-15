@@ -6,7 +6,7 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**307 goals — 128 open · 7 blocked · 10 translated · 82 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
+**310 goals — 130 open · 8 blocked · 10 translated · 82 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
 
 Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (78 of 82 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
@@ -91,6 +91,18 @@ flowchart LR
   g_four_consecutive_product_add_one_square_s3["four-consecutive-product-add-one-square-s3"]
   class g_four_consecutive_product_add_one_square_s3 proved;
   click g_four_consecutive_product_add_one_square_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s3.lean" "four-consecutive-product-add-one-square-s3 — proved"
+  g_four_var_qm_am["four-var-qm-am"]
+  class g_four_var_qm_am blocked;
+  click g_four_var_qm_am "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean" "four-var-qm-am — blocked"
+  g_four_var_qm_am_s1["four-var-qm-am-s1"]
+  class g_four_var_qm_am_s1 open;
+  click g_four_var_qm_am_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s1.lean" "four-var-qm-am-s1 — open"
+  g_four_var_qm_am_s2["four-var-qm-am-s2"]
+  class g_four_var_qm_am_s2 open;
+  click g_four_var_qm_am_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s2.lean" "four-var-qm-am-s2 — open"
+  g_four_var_qm_am_s3["four-var-qm-am-s3"]
+  class g_four_var_qm_am_s3 open;
+  click g_four_var_qm_am_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s3.lean" "four-var-qm-am-s3 — open"
   g_nat_sq_lt_two_pow["nat-sq-lt-two-pow"]
   class g_nat_sq_lt_two_pow proved;
   click g_nat_sq_lt_two_pow "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow.lean" "nat-sq-lt-two-pow — proved"
@@ -202,6 +214,9 @@ flowchart LR
   g_four_consecutive_product_add_one_square --> g_four_consecutive_product_add_one_square_s1
   g_four_consecutive_product_add_one_square --> g_four_consecutive_product_add_one_square_s2
   g_four_consecutive_product_add_one_square --> g_four_consecutive_product_add_one_square_s3
+  g_four_var_qm_am --> g_four_var_qm_am_s1
+  g_four_var_qm_am --> g_four_var_qm_am_s2
+  g_four_var_qm_am --> g_four_var_qm_am_s3
   g_nat_sq_lt_two_pow --> g_nat_sq_lt_two_pow_s1
   g_nat_sq_lt_two_pow --> g_nat_sq_lt_two_pow_s2
   g_nat_sq_lt_two_pow_s2 --> g_nat_sq_lt_two_pow_s2_s1
@@ -259,7 +274,9 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`fib-add-six-eq-eight-mul-fib-succ-add-five-mul-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-six-eq-eight-mul-fib-succ-add-five-mul-fib.lean) | open | 2 | — | — | — | — |
 | [`fib-add-three-eq-two-mul-fib-succ-add-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-three-eq-two-mul-fib-succ-add-fib.lean) | open | 2 | — | — | — | — |
 | [`forty-two-dvd-pow-seven-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/forty-two-dvd-pow-seven-sub-self.lean) | open | 2 | — | — | — | — |
-| [`four-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean) | open | 2 | — | — | — | — |
+| [`four-var-qm-am-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s1.lean) | open | 1 | — | — | — | — |
+| [`four-var-qm-am-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s2.lean) | open | 1 | — | — | — | — |
+| [`four-var-qm-am-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s3.lean) | open | 1 | — | — | — | — |
 | [`fourth-power-mod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-sixteen-mem.lean) | open | 2 | — | — | — | — |
 | [`gcd-consec-odd-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-consec-odd-eq-one.lean) | open | 3 | — | — | — | — |
 | [`gcd-n1-n4-dvd-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-n1-n4-dvd-three.lean) | open | 2 | — | — | — | — |
@@ -365,6 +382,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`am-gm-three-cube`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube.lean) | blocked | 3 | — | — | — | — |
 | [`am-gm-three-cube-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2.lean) | blocked | 1 | — | — | — | — |
 | [`cube-sum-ge-three-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod.lean) | blocked | 2 | — | — | — | — |
+| [`four-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean) | blocked | 2 | — | — | — | — |
 | [`nesbitt-inequality`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality.lean) | blocked | 4 | — | — | — | — |
 | [`no-nat-sq-eq-two-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq.lean) | blocked | 4 | — | — | — | — |
 | [`sq-add-sq-eq-three-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq.lean) | blocked | 4 | — | — | — | — |
