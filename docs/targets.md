@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**430 open · 212 proved · 649 total prove-goals.**
+**429 open · 213 proved · 649 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -46,7 +46,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cyclic-quad-ge-abc-times-sum` — The sum of squared pairwise products dominates abc(a+b+c) for all reals. | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | The sum of squared pairwise products dominates abc(a+b+c) for all reals. Not a named mathlib lemma in this form. |
 | `cyclotomic-five-divides-pow-five-sub-one` — The 5th cyclotomic polynomial n⁴+n³+n²+n+1 divides n⁵-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The 5th cyclotomic polynomial n⁴+n³+n²+n+1 divides n⁵-1. Not a named mathlib lemma in this form. |
 | `cyclotomic-three-divides-pow-six-sub-one` — The polynomial n²+n+1 divides n⁶-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The polynomial n²+n+1 divides n⁶-1. Not a named mathlib lemma in this form. |
-| `diff-sixth-power-dvd-by-sum` — The sum of two integers divides the difference of their sixth powers. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The sum of two integers divides the difference of their sixth powers. Not a named mathlib lemma in this form. |
 | `diff-tetrahedral-eq-triangular` — The difference of two consecutive tetrahedral numbers equals the intervening triangular number. | open | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | The difference of two consecutive tetrahedral numbers equals the intervening triangular number. Not a named mathlib lemma in this form. |
 | `diff-twelfth-power-dvd-by-diff-cube` — The difference of cubes divides the difference of twelfth powers. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The difference of cubes divides the difference of twelfth powers. Not a named mathlib lemma in this form. |
 | `diff-two-squares-zmod-four-ne-two` — A difference of two integer squares is never congruent to 2 modulo 4. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | A difference of two integer squares is never congruent to 2 modulo 4. Not a named mathlib lemma in this form. |
@@ -478,6 +477,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cube-sum-ge-three-prod-s1` — cube-sum-ge-three-prod-s1 | proved | 1 | — | — | — |
 | `cube-sum-ge-three-prod-s3` — cube-sum-ge-three-prod-s3 | proved | 1 | — | — | — |
 | `descartes-total-angular-defect` — Descartes' theorem: the total angular defect of an abstract regular {p,q} polyhedron is 4π — V(2π − q·(p−2)/p·π) = 4π. | proved | 4 | — | Freek #50 combinatorial classification, Track-1 completion (ADR-031; #400 plan Phase 1). | Descartes' theorem: the total angular defect of an abstract regular {p,q} polyhedron is 4π — V(2π − q·(p−2)/p·π) = 4π. Not in mathlib (no abstract-regular-polyhedron theory). |
+| `diff-sixth-power-dvd-by-sum` — The sum of two integers divides the difference of their sixth powers. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The sum of two integers divides the difference of their sixth powers. Not a named mathlib lemma in this form. |
 | `discriminant-nonneg` — If a>0 and b²≤4ac, then ax²+bx+c ≥ 0 for all x (the discriminant nonnegativity criterion). | proved | 3 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | If a>0 and b²≤4ac, then ax²+bx+c ≥ 0 for all x (the discriminant nonnegativity criterion). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `discriminant-nonneg-s1` — discriminant-nonneg-s1 | proved | 1 | — | — | — |
 | `discriminant-nonneg-s2` — discriminant-nonneg-s2 | proved | 1 | — | — | — |
