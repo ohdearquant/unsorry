@@ -325,6 +325,21 @@
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "02fb6b91f27d3ad90c2944c2a51fabafa3bc4f6d",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "cube-mod-seven",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/9ce549148320d291d0dd4a430ca68a9d360e6e33d2abb279677a5977f7321c55.aisp",
+      "review_status": "candidate",
+      "sha": "9ce549148320d291d0dd4a430ca68a9d360e6e33d2abb279677a5977f7321c55"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "8d8f2fdb817f07aa98f0ff839cee9821c7c4da97",
       "git_add_date": "2026-06-15",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -1614,9 +1629,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 107,
-    "mapped_missing_solver": 103,
-    "missing_solver_provenance": 107,
+    "git_attributed_missing_solver": 108,
+    "mapped_missing_solver": 104,
+    "missing_solver_provenance": 108,
     "unmapped_missing_solver": 4
   }
 }
