@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**112 open · 121 proved · 241 total prove-goals.**
+**114 open · 121 proved · 244 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -24,7 +24,9 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cube-sum-ge-mul-sq` — For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). Not a named mathlib lemma in this form. |
 | `cube-sum-ge-three-prod-s1` — cube-sum-ge-three-prod-s1 | open | 1 | — | — | — |
 | `cube-sum-ge-three-prod-s2` — cube-sum-ge-three-prod-s2 | open | 1 | — | — | — |
-| `discriminant-nonneg` — If a>0 and b²≤4ac, then ax²+bx+c ≥ 0 for all x (the discriminant nonnegativity criterion). | open | 3 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | If a>0 and b²≤4ac, then ax²+bx+c ≥ 0 for all x (the discriminant nonnegativity criterion). Not a named mathlib lemma in this concrete polynomial/abs form. |
+| `discriminant-nonneg-s1` — discriminant-nonneg-s1 | open | 1 | — | — | — |
+| `discriminant-nonneg-s2` — discriminant-nonneg-s2 | open | 1 | — | — | — |
+| `discriminant-nonneg-s3` — discriminant-nonneg-s3 | open | 1 | — | — | — |
 | `dvd-2730-pow-thirteen-sub-self` — 2730 divides n^13 - n for every integer n. | open | 4 | — | #400 Identity Engine (ADR-043) — divisibility family. | 2730 divides n^13 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-30-pow-nine-sub-self` — 30 divides n^9 - n for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family. | 30 divides n^9 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-66-pow-eleven-sub-self` — 66 divides n^11 - n for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family. | 66 divides n^11 - n for every integer n. Not a named mathlib lemma in this form. |
@@ -123,6 +125,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-gm-three-cube` — For nonneg reals, 27abc ≤ (a+b+c)³ — AM-GM for three terms (polynomial form). | blocked | 3 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For nonneg reals, 27abc ≤ (a+b+c)³ — AM-GM for three terms (polynomial form). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `am-gm-three-cube-s2` — am-gm-three-cube-s2 | blocked | 1 | — | — | — |
 | `cube-sum-ge-three-prod` — For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). | blocked | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). Not a named mathlib lemma in this concrete polynomial/abs form. |
+| `discriminant-nonneg` — If a>0 and b²≤4ac, then ax²+bx+c ≥ 0 for all x (the discriminant nonnegativity criterion). | blocked | 3 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | If a>0 and b²≤4ac, then ax²+bx+c ≥ 0 for all x (the discriminant nonnegativity criterion). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `nat-sq-lt-two-pow-s2` — nat-sq-lt-two-pow-s2 | blocked | 1 | — | — | — |
 | `nesbitt-inequality` — Nesbitt's inequality: for positive reals a, b, c, a/(b+c) + b/(c+a) + c/(a+b) ≥ 3/2. | blocked | 4 | — | Nesbitt's inequality (1903), a classic three-variable cyclic inequality; AoPS/olympiad canon. | 3/2 ≤ a/(b+c) + b/(c+a) + c/(a+b) for a,b,c > 0. mathlib has `inner_mul_le_norm_mul_norm` and `div_add_div_same`-style lemmas but no Nesbitt lemma. |
 | `no-nat-sq-eq-two-mul-sq` — There are no positive naturals a, b with a² = 2·b² — ¬∃ a b, 0 < b ∧ a² = 2b²: the irrationality of √2 in elementary infinite-descent form. | blocked | 4 | — | Freek 100 (#1, irrationality of √2), infinite-descent / parity form | Classic infinite descent: a²=2b² ⟹ a even ⟹ b even ⟹ a strictly smaller solution. mathlib proves `irrational_sqrt_two` over ℝ via prime factorisation; this self-contained ℕ descent statement (no reals, no `sqrt`) is absent and is the elementary heart of Freek #1. |
