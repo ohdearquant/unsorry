@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**433 open · 209 proved · 649 total prove-goals.**
+**432 open · 210 proved · 649 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -95,7 +95,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `dvd-twentyfour-pow-five-sub-pow-three` — 24 divides n^5 minus n^3 for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 24 divides n^5 minus n^3 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-twentyfour-pow-seven-sub-pow-five` — 24 divides n^7 minus n^5 for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 24 divides n^7 minus n^5 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-twentyfour-pow-six-sub-pow-four` — 24 divides n^6 minus n^4 for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 24 divides n^6 minus n^4 for every integer n. Not a named mathlib lemma in this form. |
-| `eighth-power-mod-fifteen-mem` — Every eighth power is congruent to only 0, 1, 6 or 10 modulo 15. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every eighth power is congruent to only 0, 1, 6 or 10 modulo 15. Not a named mathlib lemma in this form. |
 | `eighth-power-mod-seventeen-mem` — Every natural number's eighth power is congruent to 0, 1, or 16 modulo 17. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's eighth power is congruent to 0, 1, or 16 modulo 17. Not a named mathlib lemma in this form. |
 | `eighth-power-mod-sixteen-mem` — Every eighth power is congruent to only 0 or 1 modulo 16. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every eighth power is congruent to only 0 or 1 modulo 16. Not a named mathlib lemma in this form. |
 | `eighth-power-mod-thirtytwo-mem` — Every eighth power is congruent to only 0 or 1 modulo 32. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every eighth power is congruent to only 0 or 1 modulo 32. Not a named mathlib lemma in this form. |
@@ -494,6 +493,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `eight-dvd-consecutive-odd-sq-diff` — For every integer n, 8 ∣ (2n+3)² − (2n+1)² (difference of consecutive odd squares). | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For every integer n, 8 ∣ (2n+3)² − (2n+1)² (difference of consecutive odd squares). Not a named mathlib lemma in this concrete form. |
 | `eight-sum-pow-four-ge-sum-pow-four` — For all reals a,b, (a+b)⁴ ≤ 8(a⁴+b⁴). | proved | 3 | — | #400 Identity Engine (ADR-043) — inequalities family. | For all reals a,b, (a+b)⁴ ≤ 8(a⁴+b⁴). Not a named mathlib lemma in this form. |
 | `eight-triangular-add-one-eq-odd-sq` — For every natural n, 8·Tₙ + 1 = (2n+1)², where Tₙ = ∑_{i≤n} i is the n-th triangular number; the classic "8T+1 is a perfect (odd) square" test for triangular numbers. | proved | 2 | — | classic identities (triangular-number gems — compounds on the Gauss sum) | The triangular-number characterisation: m is triangular iff 8m+1 is a perfect square (the forward direction). Conway & Guy, The Book of Numbers; standard recreational/elementary number theory. |
+| `eighth-power-mod-fifteen-mem` — Every eighth power is congruent to only 0, 1, 6 or 10 modulo 15. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every eighth power is congruent to only 0, 1, 6 or 10 modulo 15. Not a named mathlib lemma in this form. |
 | `euclid-perfect-numbers` — Euclid's theorem on perfect numbers: if $2^p - 1$ is prime (a Mersenne prime), then $2^{p-1} \cdot (2^p - 1)$ is perfect. | proved | 3 | — | Euclid, Elements IX.36 | https://en.wikipedia.org/wiki/Euclid%E2%80%93Euler_theorem |
 | `euclid-perfect-numbers-s1` — euclid-perfect-numbers-s1 | proved | 1 | — | — | — |
 | `euclid-perfect-numbers-s2` — euclid-perfect-numbers-s2 | proved | 1 | — | — | — |
