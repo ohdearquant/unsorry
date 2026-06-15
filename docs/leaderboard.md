@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**259 goals · 80 archived · 10 blocked · 88 open · 71 proved · 10 translated.**
+**259 goals · 80 archived · 8 blocked · 90 open · 71 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -41,9 +41,9 @@ Verified output comes from active `library/index` records plus archived index re
 
 | Goal | Status | Difficulty | Runs | Failed attempts | Recorded time |
 |------|--------|-----------:|-----:|----------------:|--------------:|
-| `am-hm-two-var` | `blocked` | 2 | 4 | 8 | 53m 57s |
+| `am-hm-two-var` | `open` | 2 | 4 | 8 | 53m 57s |
 | `sq-add-sq-eq-three-mul-sq-s4` | `open` | 1 | 2 | 6 | 54m 47s |
-| `am-gm-three-cube-s2-s2` | `blocked` | 1 | 3 | 5 | 44m 53s |
+| `am-gm-three-cube-s2-s2` | `open` | 1 | 3 | 5 | 44m 53s |
 | `am-gm-three-cube-s2` | `blocked` | 1 | 2 | 4 | 43m 57s |
 | `discriminant-nonneg` | `open` | 3 | 2 | 4 | 29m 26s |
 | `cube-sum-ge-three-prod` | `blocked` | 2 | 2 | 4 | 17m 0s |

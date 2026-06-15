@@ -479,7 +479,7 @@
       "p90_solve_s": 1914,
       "run_success_rate": 0.0,
       "runs": 4,
-      "status": "blocked",
+      "status": "open",
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 3237
@@ -511,7 +511,7 @@
       "p90_solve_s": 2083,
       "run_success_rate": 0.0,
       "runs": 3,
-      "status": "blocked",
+      "status": "open",
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 2693
@@ -2816,8 +2816,8 @@
     "goals": 259,
     "status_counts": {
       "archived": 80,
-      "blocked": 10,
-      "open": 88,
+      "blocked": 8,
+      "open": 90,
       "proved": 71,
       "translated": 10
     }
