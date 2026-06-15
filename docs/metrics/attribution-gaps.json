@@ -518,6 +518,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "dafc4afe96b2a10af639c2401c33df8c4d970795",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sq-mod-fifteen-mem",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/afdadce96271f9e56b5619e0584141959c7991d31f52420289d11d71a58e3c2d.aisp",
+      "review_status": "candidate",
+      "sha": "afdadce96271f9e56b5619e0584141959c7991d31f52420289d11d71a58e3c2d"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
       "difficulty": 1,
       "display_name": "chat-bit-01",
       "git_add_commit": "3141062e09717f4acb797b57d5d899483eeaac59",
@@ -1944,9 +1959,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 129,
-    "mapped_missing_solver": 125,
-    "missing_solver_provenance": 129,
+    "git_attributed_missing_solver": 130,
+    "mapped_missing_solver": 126,
+    "missing_solver_provenance": 130,
     "unmapped_missing_solver": 4
   }
 }
