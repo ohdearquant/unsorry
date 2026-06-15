@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**254 goals — 111 open · 9 blocked · 10 translated · 44 proved · 80 archived.** 13 decomposition families shown below; standalone goals are listed in the table.
+**254 goals — 110 open · 9 blocked · 10 translated · 45 proved · 80 archived.** 13 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (40 of 44 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (41 of 45 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -220,7 +220,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`coprime-succ-sq-add`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-succ-sq-add.lean) | open | 3 | — | — | — | — |
 | [`cube-mod-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-four.lean) | open | 2 | — | — | — | — |
 | [`cube-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-seven.lean) | open | 2 | — | — | — | — |
-| [`cube-mod-thirteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-thirteen-mem.lean) | open | 3 | — | — | — | — |
 | [`cube-sum-ge-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-mul-sq.lean) | open | 2 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s1.lean) | open | 1 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s2.lean) | open | 1 | — | — | — | — |
@@ -347,6 +346,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`consecutive-triangular-eq-square`](https://github.com/agenticsnz/unsorry/blob/main/goals/consecutive-triangular-eq-square.lean) | proved | 2 | p3-b1 | cgbarlow · `opus` | [#347](https://github.com/agenticsnz/unsorry/pull/347) | 2026-06-13 |
 | [`coprime-2n1-n1`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-2n1-n1.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#619](https://github.com/agenticsnz/unsorry/pull/619) | 2026-06-15 |
 | [`cube-mod-nine`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-nine.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#620](https://github.com/agenticsnz/unsorry/pull/620) | 2026-06-15 |
+| [`cube-mod-thirteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-thirteen-mem.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#625](https://github.com/agenticsnz/unsorry/pull/625) | 2026-06-15 |
 | [`cube-sum-ge-three-prod-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s3.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#493](https://github.com/agenticsnz/unsorry/pull/493) | 2026-06-14 |
 | [`descartes-total-angular-defect`](https://github.com/agenticsnz/unsorry/blob/main/goals/descartes-total-angular-defect.lean) | proved | 4 | oma-2-c50d | perttu | [#465](https://github.com/agenticsnz/unsorry/pull/465) | 2026-06-14 |
 | [`discriminant-nonneg-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/discriminant-nonneg-s1.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#622](https://github.com/agenticsnz/unsorry/pull/622) | 2026-06-15 |
