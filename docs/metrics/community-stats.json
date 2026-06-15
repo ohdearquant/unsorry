@@ -3812,16 +3812,16 @@
     "difficulty_counts": {
       "0": 10,
       "1": 90,
-      "2": 212,
-      "3": 213,
+      "2": 257,
+      "3": 218,
       "4": 33,
       "5": 1
     },
-    "goals": 559,
+    "goals": 609,
     "status_counts": {
       "archived": 80,
       "blocked": 7,
-      "open": 342,
+      "open": 392,
       "proved": 120,
       "translated": 10
     }
