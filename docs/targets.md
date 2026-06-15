@@ -4,14 +4,13 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**129 open · 163 proved · 300 total prove-goals.**
+**128 open · 164 proved · 300 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
 | `abstract-regular-polyhedron-realizable-iff` — The Track-1 **existence-biconditional**: for p, q ≥ 3, the pair (p,q) is a Platonic Schläfli pair {(3,3),(3,4),(4,3),(3,5),(5,3)} **iff** it is realizable by an abstract regular polyhedron (∃ V E F > 0 with p·F=2E, q·V=2E, V+F=E+2). | open | 4 | — | The capstone of Freek #50's combinatorial classification (ADR-031, Track 1) — the labelled combinatorial/Euler form, explicitly NOT the geometric #50. | ⟹ is the existence direction (`platonic-pairs-realizable`); ⟸ is the proved classification (`abstract-regular-polyhedron-classification`). Composing them gives the biconditional. mathlib has neither. |
 | `am-gm-three-cube-s2-s2` — am-gm-three-cube-s2-s2 | open | 1 | — | — | — |
 | `am-hm-two-var` — For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. Not a named mathlib lemma in this concrete form. |
-| `amgm-four-cross-three-var` — The sum of fourth powers dominates the sum of squared pairwise products. | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | The sum of fourth powers dominates the sum of squared pairwise products. Not a named mathlib lemma in this form. |
 | `coprime-2n1-2n3` — Two consecutive odd numbers 2n+1 and 2n+3 are coprime. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | Two consecutive odd numbers 2n+1 and 2n+3 are coprime. Not a named mathlib lemma in this form. |
 | `coprime-3n1-4n1` — 3n+1 and 4n+1 are always coprime. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | 3n+1 and 4n+1 are always coprime. Not a named mathlib lemma in this form. |
 | `coprime-n-cube-add-one` — n is coprime to n cubed plus one. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | n is coprime to n cubed plus one. Not a named mathlib lemma in this form. |
@@ -154,6 +153,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-hm-two-var-s1` — am-hm-two-var-s1 | proved | 1 | — | — | — |
 | `am-hm-two-var-s2` — am-hm-two-var-s2 | proved | 1 | — | — | — |
 | `am-hm-two-var-s3` — am-hm-two-var-s3 | proved | 1 | — | — | — |
+| `amgm-four-cross-three-var` — The sum of fourth powers dominates the sum of squared pairwise products. | proved | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | The sum of fourth powers dominates the sum of squared pairwise products. Not a named mathlib lemma in this form. |
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `aurifeuillian-quartic-dvd` — The quadratic a²+a+1 always divides a⁴+a²+1. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The quadratic a²+a+1 always divides a⁴+a²+1. Not a named mathlib lemma in this form. |
 | `binder-shape-canary` — A **Gate A regression fixture**, not a mathematical target. It carries the implicit-then-named-hypothesis binder shape (`{n : Nat} (h : 1 < n)`) that [issue #231](https://github.com/agenticsnz/unsorry/issues/231) showed makes a goal's regenerated ADR-011 binding obligation trip `linter.unusedVariables` under the Gate A `--wfail` build — which had made every goal of this shape unprovable regardless of the proof's correctness. | proved | 1 | — | Gate A regression fixture (issue #231) | — |
