@@ -1,12 +1,12 @@
 {
   "contributors": [
     {
-      "attempt_yield": 0.2632,
+      "attempt_yield": 0.2067,
       "avatar_url": "https://github.com/cgbarlow.png?size=96",
       "badges": {
         "difficulty": 180,
         "proofs": 103,
-        "success_rate_percent": 28.71
+        "success_rate_percent": 22.4
       },
       "credit_source_summary": "explicit + inferred",
       "credit_sources": [
@@ -17,17 +17,17 @@
       "difficulty_points": 180,
       "display_name": "@cgbarlow",
       "explicit_solver_proofs": 56,
-      "failed_attempts": 168,
+      "failed_attempts": 165,
       "github": "cgbarlow",
       "inferred_git_proofs": 47,
-      "median_solve_s": 326,
+      "median_solve_s": 325,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 1,
-      "run_success_rate": 0.2871,
-      "runs": 209,
+      "run_success_rate": 0.224,
+      "runs": 192,
       "score": 20575,
       "solver": "cgbarlow",
-      "successes": 60,
+      "successes": 43,
       "verified_proofs": 103
     },
     {
@@ -60,12 +60,12 @@
       "verified_proofs": 82
     },
     {
-      "attempt_yield": 0.4444,
+      "attempt_yield": 0.3,
       "avatar_url": "https://github.com/perttu.png?size=96",
       "badges": {
         "difficulty": 44,
         "proofs": 20,
-        "success_rate_percent": 72.73
+        "success_rate_percent": 57.14
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
@@ -75,17 +75,17 @@
       "difficulty_points": 44,
       "display_name": "@perttu",
       "explicit_solver_proofs": 20,
-      "failed_attempts": 30,
+      "failed_attempts": 28,
       "github": "perttu",
       "inferred_git_proofs": 0,
-      "median_solve_s": 392,
+      "median_solve_s": 404,
       "profile_url": "https://github.com/perttu",
       "rank": 3,
-      "run_success_rate": 0.7273,
-      "runs": 33,
+      "run_success_rate": 0.5714,
+      "runs": 21,
       "score": 4900,
       "solver": "perttu",
-      "successes": 24,
+      "successes": 12,
       "verified_proofs": 20
     },
     {
@@ -205,12 +205,12 @@
       "verified_proofs": 1
     },
     {
-      "attempt_yield": 1.0,
+      "attempt_yield": null,
       "avatar_url": "https://github.com/yarcles.png?size=96",
       "badges": {
         "difficulty": 1,
         "proofs": 1,
-        "success_rate_percent": 100.0
+        "success_rate_percent": null
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
@@ -223,14 +223,14 @@
       "failed_attempts": 0,
       "github": "yarcles",
       "inferred_git_proofs": 0,
-      "median_solve_s": 463,
+      "median_solve_s": null,
       "profile_url": "https://github.com/yarcles",
       "rank": 8,
-      "run_success_rate": 1.0,
-      "runs": 1,
+      "run_success_rate": null,
+      "runs": 0,
       "score": 125,
       "solver": "yarcles",
-      "successes": 1,
+      "successes": 0,
       "verified_proofs": 1
     }
   ],
@@ -345,26 +345,26 @@
   "models": [
     {
       "provider_model": "claude / opus",
-      "run_success_rate": 0.9388,
-      "runs": 49,
+      "run_success_rate": 0.9167,
+      "runs": 36,
       "verified_proofs": 41
     },
     {
       "provider_model": "openai / leanstral-2603",
-      "run_success_rate": 0.1278,
-      "runs": 133,
+      "run_success_rate": 0.0794,
+      "runs": 126,
       "verified_proofs": 15
     },
     {
       "provider_model": "codex / unknown",
-      "run_success_rate": 0.2308,
-      "runs": 65,
+      "run_success_rate": 0.1525,
+      "runs": 59,
       "verified_proofs": 15
     },
     {
       "provider_model": "gemini / gemini-3.1-pro-preview",
-      "run_success_rate": 0.8182,
-      "runs": 11,
+      "run_success_rate": 0.7143,
+      "runs": 7,
       "verified_proofs": 7
     },
     {
@@ -410,8 +410,8 @@
     "historical_contributors": 8,
     "historical_unknown_proofs": 143,
     "inferred_git_proofs": 143,
-    "proof_run_coverage": 0.385,
-    "terminal_runs": 289,
+    "proof_run_coverage": 0.2522,
+    "terminal_runs": 259,
     "uncredited_proofs": 0,
     "verified_proofs": 226
   },

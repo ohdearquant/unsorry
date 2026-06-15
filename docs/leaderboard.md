@@ -4,37 +4,37 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**226 verified proofs · 83 attributed · 143 historical/unknown · 289 logged terminal runs.**
+**226 verified proofs · 83 attributed · 143 historical/unknown · 259 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 87 |
+| Successful terminal runs | 57 |
 | Failed terminal runs | 202 |
 | Decomposed after failure | 17 |
 | Failed without decomposition | 185 |
-| Run success rate | 30.1% |
-| Provider attempts | 340 |
-| Failed attempts | 253 |
-| Attempt yield | 25.6% |
-| Recorded run time | 57h 44m |
-| Median / p90 run time | 6m 31s / 31m 55s |
-| Verified successes per recorded hour | 1.51 |
-| Proofs with run telemetry | 87 (38.5%) |
+| Run success rate | 22.0% |
+| Provider attempts | 305 |
+| Failed attempts | 248 |
+| Attempt yield | 18.7% |
+| Recorded run time | 53h 55m |
+| Median / p90 run time | 6m 31s / 31m 57s |
+| Verified successes per recorded hour | 1.06 |
+| Proofs with run telemetry | 57 (25.2%) |
 
 ## Work Queue
 
-**663 goals · 80 archived · 8 blocked · 421 open · 144 proved · 10 translated.**
+**663 goals · 138 archived · 8 blocked · 421 open · 86 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 66 | 28 | 42.4% | 56 | 4m 55s |
-| 2 | 113 | 26 | 23.0% | 106 | 6m 30s |
-| 3 | 89 | 28 | 31.5% | 73 | 8m 6s |
-| 4 | 20 | 5 | 25.0% | 17 | 8m 32s |
+| 1 | 60 | 22 | 36.7% | 56 | 4m 28s |
+| 2 | 97 | 10 | 10.3% | 106 | 6m 43s |
+| 3 | 82 | 21 | 25.6% | 70 | 7m 34s |
+| 4 | 19 | 4 | 21.1% | 15 | 7m 35s |
 | 5 | 1 | 0 | 0.0% | 1 | 31m 28s |
 
 ## Unresolved Effort
@@ -44,13 +44,13 @@ Verified output comes from active `library/index` records plus archived index re
 | `am-hm-two-var` | `open` | 2 | 4 | 8 | 53m 57s |
 | `sq-add-sq-eq-three-mul-sq-s4` | `open` | 1 | 2 | 6 | 54m 47s |
 | `am-gm-three-cube-s2-s2` | `open` | 1 | 3 | 5 | 44m 53s |
+| `consecutive-cubes-diff-odd` | `archived` | 2 | 3 | 5 | 21m 11s |
 | `four-var-qm-am` | `blocked` | 2 | 2 | 4 | 1h 46m |
 | `nesbitt-inequality-s1` | `open` | 1 | 2 | 4 | 47m 0s |
 | `am-gm-three-cube-s2` | `blocked` | 1 | 2 | 4 | 43m 57s |
 | `coprime-2n1-2n3` | `open` | 2 | 2 | 4 | 43m 44s |
 | `cube-sum-ge-three-prod` | `blocked` | 2 | 2 | 4 | 17m 0s |
 | `am-gm-three-cube` | `blocked` | 3 | 2 | 4 | 16m 32s |
-| `dvd-210-pow-fifteen-sub-pow-three` | `blocked` | 2 | 2 | 4 | 7m 0s |
 
 ## Contributor Leaderboard
 
@@ -58,14 +58,14 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 103 | 56 | 47 | 209 | 28.7% | 180 | 20575 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 103 | 56 | 47 | 192 | 22.4% | 180 | 20575 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 82 | 0 | 82 | 0 | — | 175 | 19550 |
-| 3 | [@perttu](https://github.com/perttu) | 20 | 20 | 0 | 33 | 72.7% | 44 | 4900 |
+| 3 | [@perttu](https://github.com/perttu) | 20 | 20 | 0 | 21 | 57.1% | 44 | 4900 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 5 | [@adam91holt](https://github.com/adam91holt) | 6 | 6 | 0 | 46 | 4.3% | 10 | 1150 |
 | 6 | Perttu Isotalo | 4 | 0 | 4 | 0 | — | 8 | 900 |
 | 7 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
-| 8 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 1 | 100.0% | 1 | 125 |
+| 8 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 0 | — | 1 | 125 |
 
 ## Attribution Notes
 
@@ -77,10 +77,10 @@ Git add-author attribution covers 226 of 226 proof index files. It is used only 
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 41 | 49 | 93.9% | 18 | 3 | 4m 47s | 7.45 |
-| `openai / leanstral-2603` | 15 | 133 | 12.8% | 120 | 1 | 4m 54s | 0.65 |
-| `codex / unknown` | 15 | 65 | 23.1% | 76 | 2 | 6m 48s | 1.62 |
-| `gemini / gemini-3.1-pro-preview` | 7 | 11 | 81.8% | 6 | 1 | 6m 15s | 7.19 |
+| `claude / opus` | 41 | 36 | 91.7% | 15 | 2 | 4m 20s | 7.22 |
+| `openai / leanstral-2603` | 15 | 126 | 7.9% | 120 | 1 | 4m 42s | 0.40 |
+| `codex / unknown` | 15 | 59 | 15.2% | 74 | 2 | 7m 2s | 1.05 |
+| `gemini / gemini-3.1-pro-preview` | 7 | 7 | 71.4% | 6 | 1 | 6m 32s | 5.32 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
 | `claude / unknown` | 1 | 0 | — | 0 | 1 | — | — |
 | `openai / jackcloudman/Leanstral-2603-GGUF` | 0 | 29 | 0.0% | 29 | 1 | 31m 55s | 0.00 |
