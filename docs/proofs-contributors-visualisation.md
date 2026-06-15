@@ -6,7 +6,7 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**259 goals — 85 open · 8 blocked · 10 translated · 76 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
+**307 goals — 133 open · 8 blocked · 10 translated · 76 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
 
 Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (72 of 76 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
@@ -237,15 +237,32 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`abstract-regular-polyhedron-realizable-iff`](https://github.com/agenticsnz/unsorry/blob/main/goals/abstract-regular-polyhedron-realizable-iff.lean) | open | 4 | — | — | — | — |
 | [`am-gm-three-cube-s2-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2-s2.lean) | open | 1 | — | — | — | — |
 | [`am-hm-two-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var.lean) | open | 2 | — | — | — | — |
+| [`amgm-four-cross-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/amgm-four-cross-three-var.lean) | open | 3 | — | — | — | — |
+| [`coprime-2n1-2n3`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-2n1-2n3.lean) | open | 2 | — | — | — | — |
+| [`coprime-2n1-3n2`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-2n1-3n2.lean) | open | 2 | — | — | — | — |
+| [`coprime-3n1-4n1`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-3n1-4n1.lean) | open | 2 | — | — | — | — |
+| [`coprime-n-cube-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-n-cube-add-one.lean) | open | 2 | — | — | — | — |
+| [`coprime-n-sq-n-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-n-sq-n-add-one.lean) | open | 2 | — | — | — | — |
 | [`coprime-succ-sq-add`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-succ-sq-add.lean) | open | 3 | — | — | — | — |
 | [`cube-mod-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-four.lean) | open | 2 | — | — | — | — |
 | [`cube-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-seven.lean) | open | 2 | — | — | — | — |
 | [`cube-sum-ge-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-mul-sq.lean) | open | 2 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s1.lean) | open | 1 | — | — | — | — |
 | [`cube-sum-ge-three-prod-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod-s2.lean) | open | 1 | — | — | — | — |
+| [`cyclic-quad-ge-abc-times-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/cyclic-quad-ge-abc-times-sum.lean) | open | 3 | — | — | — | — |
 | [`dvd-2730-pow-thirteen-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-2730-pow-thirteen-sub-self.lean) | open | 4 | — | — | — | — |
+| [`dvd-sixty-pow-six-sub-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-sixty-pow-six-sub-sq.lean) | open | 2 | — | — | — | — |
+| [`dvd-sixty-pow-ten-sub-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-sixty-pow-ten-sub-sq.lean) | open | 2 | — | — | — | — |
+| [`dvd-twentyfour-pow-five-sub-pow-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-twentyfour-pow-five-sub-pow-three.lean) | open | 2 | — | — | — | — |
+| [`dvd-twentyfour-pow-seven-sub-pow-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-twentyfour-pow-seven-sub-pow-five.lean) | open | 2 | — | — | — | — |
+| [`dvd-twentyfour-pow-six-sub-pow-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-twentyfour-pow-six-sub-pow-four.lean) | open | 2 | — | — | — | — |
+| [`fib-add-five-eq-five-mul-fib-succ-add-three-mul-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-five-eq-five-mul-fib-succ-add-three-mul-fib.lean) | open | 2 | — | — | — | — |
+| [`fib-add-four-eq-three-mul-fib-add-two-sub-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-four-eq-three-mul-fib-add-two-sub-fib.lean) | open | 2 | — | — | — | — |
+| [`fib-add-six-eq-eight-mul-fib-succ-add-five-mul-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-six-eq-eight-mul-fib-succ-add-five-mul-fib.lean) | open | 2 | — | — | — | — |
+| [`fib-add-three-eq-two-mul-fib-succ-add-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-three-eq-two-mul-fib-succ-add-fib.lean) | open | 2 | — | — | — | — |
 | [`forty-two-dvd-pow-seven-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/forty-two-dvd-pow-seven-sub-self.lean) | open | 2 | — | — | — | — |
 | [`four-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean) | open | 2 | — | — | — | — |
+| [`fourth-power-mod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-sixteen-mem.lean) | open | 2 | — | — | — | — |
 | [`gcd-consec-odd-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-consec-odd-eq-one.lean) | open | 3 | — | — | — | — |
 | [`gcd-n1-n4-dvd-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-n1-n4-dvd-three.lean) | open | 2 | — | — | — | — |
 | [`gcd-self-add-dvd`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-self-add-dvd.lean) | open | 2 | — | — | — | — |
@@ -259,11 +276,17 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`no-nat-sq-eq-two-mul-sq-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq-s4.lean) | open | 1 | claude-rmt-001 | chat-bit-01 | [#440](https://github.com/agenticsnz/unsorry/pull/440) | 2026-06-14 |
 | [`one-add-three-x-le-cube`](https://github.com/agenticsnz/unsorry/blob/main/goals/one-add-three-x-le-cube.lean) | open | 2 | — | — | — | — |
 | [`one-hundred-twenty-dvd-five-consecutive`](https://github.com/agenticsnz/unsorry/blob/main/goals/one-hundred-twenty-dvd-five-consecutive.lean) | open | 3 | — | — | — | — |
+| [`pell-d2-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d2-ladder-step-preserves.lean) | open | 2 | — | — | — | — |
+| [`pell-d2-negative-to-positive-step`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d2-negative-to-positive-step.lean) | open | 2 | — | — | — | — |
+| [`pell-d2-positive-to-negative-step`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d2-positive-to-negative-step.lean) | open | 2 | — | — | — | — |
+| [`pell-d3-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d3-ladder-step-preserves.lean) | open | 2 | — | — | — | — |
+| [`pell-d5-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d5-ladder-step-preserves.lean) | open | 2 | — | — | — | — |
 | [`platonic-pairs-realizable`](https://github.com/agenticsnz/unsorry/blob/main/goals/platonic-pairs-realizable.lean) | open | 3 | — | — | — | — |
 | [`pow-five-add-pow-five-ge-quartic-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-five-add-pow-five-ge-quartic-mul.lean) | open | 3 | — | — | — | — |
 | [`pow-four-add-pow-four-ge-cube-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-four-add-pow-four-ge-cube-mul.lean) | open | 2 | — | — | — | — |
 | [`prod-one-sub-inv-sq-telescope`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-one-sub-inv-sq-telescope.lean) | open | 4 | — | — | — | — |
 | [`prod-pair-sums-ge-eight-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-pair-sums-ge-eight-mul.lean) | open | 3 | — | — | — | — |
+| [`prod-range-one-sub-recip-succ-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-range-one-sub-recip-succ-sq.lean) | open | 2 | — | — | — | — |
 | [`qm-am-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/qm-am-three-var.lean) | open | 2 | — | — | — | — |
 | [`quartic-ge-cross`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-ge-cross.lean) | open | 2 | — | — | — | — |
 | [`quartic-ge-sq-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-ge-sq-prod.lean) | open | 2 | — | — | — | — |
@@ -272,6 +295,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`realization-edge-in-set`](https://github.com/agenticsnz/unsorry/blob/main/goals/realization-edge-in-set.lean) | open | 4 | — | — | — | — |
 | [`realization-edge-relation`](https://github.com/agenticsnz/unsorry/blob/main/goals/realization-edge-relation.lean) | open | 2 | — | — | — | — |
 | [`recip-succ-lt-recip`](https://github.com/agenticsnz/unsorry/blob/main/goals/recip-succ-lt-recip.lean) | open | 2 | — | — | — | — |
+| [`shifted-sum-sq-ge-twice-sum-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/shifted-sum-sq-ge-twice-sum-three-var.lean) | open | 2 | — | — | — | — |
 | [`six-dvd-n-mul-succ-mul-two-n-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-n-mul-succ-mul-two-n-add-one.lean) | open | 2 | — | — | — | — |
 | [`six-dvd-pow-three-add-five-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-pow-three-add-five-mul.lean) | open | 2 | — | — | — | — |
 | [`six-dvd-pow-three-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-pow-three-sub-self.lean) | open | 2 | — | — | — | — |
@@ -281,10 +305,16 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sophie-germain-not-prime`](https://github.com/agenticsnz/unsorry/blob/main/goals/sophie-germain-not-prime.lean) | open | 4 | — | — | — | — |
 | [`sq-add-sq-eq-three-mul-sq-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s4.lean) | open | 1 | — | — | — | — |
 | [`sq-lt-cube-of-one-lt`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-lt-cube-of-one-lt.lean) | open | 2 | — | — | — | — |
+| [`sq-mod-eight-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-eight-mem.lean) | open | 2 | — | — | — | — |
+| [`sq-mod-eleven-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-eleven-mem.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-five.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-nine`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-nine.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-seven.lean) | open | 2 | — | — | — | — |
+| [`sq-mod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-sixteen-mem.lean) | open | 2 | — | — | — | — |
+| [`sq-mod-twelve-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-twelve-mem.lean) | open | 2 | — | — | — | — |
 | [`square-of-sum-ge-three-pairwise`](https://github.com/agenticsnz/unsorry/blob/main/goals/square-of-sum-ge-three-pairwise.lean) | open | 2 | — | — | — | — |
+| [`sum-centered-cube-eq-biquadratic`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-centered-cube-eq-biquadratic.lean) | open | 2 | — | — | — | — |
+| [`sum-centered-hexagonal-eq-cube`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-centered-hexagonal-eq-cube.lean) | open | 2 | — | — | — | — |
 | [`sum-cubes-ge-sym-quadratic-two-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-cubes-ge-sym-quadratic-two-var.lean) | open | 2 | — | — | — | — |
 | [`sum-four-pow-ge-sq-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod.lean) | open | 2 | — | — | — | — |
 | [`sum-fourth-powers-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-fourth-powers-eq.lean) | open | 4 | — | — | — | — |
@@ -293,21 +323,37 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sum-icc-choose-hockey-stick-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s2.lean) | open | 1 | — | — | — | — |
 | [`sum-icc-choose-hockey-stick-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick-s3.lean) | open | 1 | — | — | — | — |
 | [`sum-k-add-one-mul-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-k-add-one-mul-two-pow.lean) | open | 2 | — | — | — | — |
+| [`sum-k-sq-mul-succ-closed-form`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-k-sq-mul-succ-closed-form.lean) | open | 2 | — | — | — | — |
 | [`sum-k-sq-mul-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-k-sq-mul-two-pow.lean) | open | 3 | — | — | — | — |
 | [`sum-oblong-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-oblong-eq.lean) | open | 2 | — | — | — | — |
 | [`sum-octagonal-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-octagonal-eq.lean) | open | 3 | — | — | — | — |
 | [`sum-odd-squares-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-odd-squares-eq.lean) | open | 3 | — | — | — | — |
+| [`sum-odd-squares-faulhaber`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-odd-squares-faulhaber.lean) | open | 2 | — | — | — | — |
 | [`sum-one-div-four-k-plus-one-mul-four-k-plus-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-one-div-four-k-plus-one-mul-four-k-plus-five.lean) | open | 3 | — | — | — | — |
 | [`sum-one-div-succ-mul-add-four-telescope`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-one-div-succ-mul-add-four-telescope.lean) | open | 4 | — | — | — | — |
 | [`sum-one-div-three-k-plus-one-mul-three-k-plus-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-one-div-three-k-plus-one-mul-three-k-plus-four.lean) | open | 3 | — | — | — | — |
 | [`sum-pentagonal-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-pentagonal-eq.lean) | open | 3 | — | — | — | — |
+| [`sum-quadruple-product-closed-form`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-quadruple-product-closed-form.lean) | open | 2 | — | — | — | — |
 | [`sum-range-choose-sq-eq-central`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-choose-sq-eq-central.lean) | open | 4 | — | — | — | — |
+| [`sum-range-fib-sq-eq-fib-mul-fib-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-fib-sq-eq-fib-mul-fib-succ.lean) | open | 3 | — | — | — | — |
+| [`sum-range-four-cube-diff-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-four-cube-diff-eq.lean) | open | 2 | — | — | — | — |
+| [`sum-range-four-mul-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-four-mul-add-one.lean) | open | 2 | — | — | — | — |
+| [`sum-range-id-mul-three-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-id-mul-three-pow.lean) | open | 3 | — | — | — | — |
+| [`sum-range-k-plus-one-mul-choose`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-k-plus-one-mul-choose.lean) | open | 3 | — | — | — | — |
 | [`sum-range-odd-cubes`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-odd-cubes.lean) | open | 3 | — | — | — | — |
 | [`sum-range-recip-consecutive`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-recip-consecutive.lean) | open | 3 | — | — | — | — |
+| [`sum-range-recip-odd-pair-consecutive`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-recip-odd-pair-consecutive.lean) | open | 2 | — | — | — | — |
 | [`sum-range-recip-odd-product`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-recip-odd-product.lean) | open | 3 | — | — | — | — |
+| [`sum-range-recip-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-recip-two-pow.lean) | open | 2 | — | — | — | — |
+| [`sum-range-shifted-choose-eq-two-pow-sub-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-shifted-choose-eq-two-pow-sub-one.lean) | open | 3 | — | — | — | — |
+| [`sum-range-succ-mul-factorial-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-succ-mul-factorial-eq.lean) | open | 2 | — | — | — | — |
+| [`sum-range-succ-mul-factorial-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-succ-mul-factorial-succ.lean) | open | 2 | — | — | — | — |
+| [`sum-range-three-mul-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-three-mul-add-one.lean) | open | 2 | — | — | — | — |
 | [`sum-range-triangular-eq-tetrahedral`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-triangular-eq-tetrahedral.lean) | open | 3 | — | — | — | — |
 | [`sum-range-two-mul-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-range-two-mul-add-one.lean) | open | 2 | — | — | — | — |
+| [`sum-recip-times-sum-ge-nine`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-recip-times-sum-ge-nine.lean) | open | 3 | — | — | — | — |
 | [`sum-sq-add-one-ge-mul-add`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-sq-add-one-ge-mul-add.lean) | open | 2 | — | — | — | — |
+| [`sum-sq-ge-third-sq-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-sq-ge-third-sq-sum.lean) | open | 2 | — | — | — | — |
 | [`sum-sq-prod-ge-mul-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-sq-prod-ge-mul-sum.lean) | open | 2 | — | — | — | — |
 | [`sum-three-squares-zmod-eight-ne-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-three-squares-zmod-eight-ne-seven.lean) | open | 3 | — | — | — | — |
 | [`sum-triple-product-eq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-triple-product-eq.lean) | open | 3 | — | — | — | — |
@@ -317,6 +363,8 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sum-two-k-sub-one-mul-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-two-k-sub-one-mul-two-pow.lean) | open | 2 | — | — | — | — |
 | [`sum-two-squares-zmod-eight-ne-six`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-two-squares-zmod-eight-ne-six.lean) | open | 3 | — | — | — | — |
 | [`sym-deg-three-ge-six-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/sym-deg-three-ge-six-mul.lean) | open | 3 | — | — | — | — |
+| [`three-cubes-minus-three-prod-dvd-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-cubes-minus-three-prod-dvd-sum.lean) | open | 2 | — | — | — | — |
+| [`three-mul-fib-eq-fib-add-two-add-fib-sub-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-mul-fib-eq-fib-add-two-add-fib-sub-two.lean) | open | 2 | — | — | — | — |
 | [`two-sum-cubes-ge-sym-quadratics`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-sum-cubes-ge-sym-quadratics.lean) | open | 3 | — | — | — | — |
 | [`weighted-am-gm-cubed`](https://github.com/agenticsnz/unsorry/blob/main/goals/weighted-am-gm-cubed.lean) | open | 2 | — | — | — | — |
 | [`am-gm-three-cube`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube.lean) | blocked | 3 | — | — | — | — |
