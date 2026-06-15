@@ -4,12 +4,11 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**113 open · 120 proved · 241 total prove-goals.**
+**112 open · 121 proved · 241 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
 | `abstract-regular-polyhedron-realizable-iff` — The Track-1 **existence-biconditional**: for p, q ≥ 3, the pair (p,q) is a Platonic Schläfli pair {(3,3),(3,4),(4,3),(3,5),(5,3)} **iff** it is realizable by an abstract regular polyhedron (∃ V E F > 0 with p·F=2E, q·V=2E, V+F=E+2). | open | 4 | — | The capstone of Freek #50's combinatorial classification (ADR-031, Track 1) — the labelled combinatorial/Euler form, explicitly NOT the geometric #50. | ⟹ is the existence direction (`platonic-pairs-realizable`); ⟸ is the proved classification (`abstract-regular-polyhedron-classification`). Composing them gives the biconditional. mathlib has neither. |
-| `am-gm-three-cube-s1` — am-gm-three-cube-s1 | open | 1 | — | — | — |
 | `am-gm-three-cube-s2-s2` — am-gm-three-cube-s2-s2 | open | 1 | — | — | — |
 | `am-hm-two-var` — For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. Not a named mathlib lemma in this concrete form. |
 | `aurifeuillian-quartic-dvd` — The quadratic a²+a+1 always divides a⁴+a²+1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The quadratic a²+a+1 always divides a⁴+a²+1. Not a named mathlib lemma in this form. |
@@ -131,6 +130,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sum-icc-choose-hockey-stick` — The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). | blocked | 3 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
 | `abstract-regular-polyhedron-classification` — For an abstract regular polyhedron — V vertices, E edges, F faces that are p-gons, vertices of degree q — with the two handshakes p·F = 2E and q·V = 2E and Euler's relation V + F = E + 2, the pair (p, q) is one of the five Platonic Schläfli pairs {(3,3),(3,4),(4,3),(3,5),(5,3)}. The classification (⟹) half of Freek #50 in combinatorial/Euler form. | proved | 3 | — | Freek 100 (#50), combinatorial form (ADR-031 / SPEC-031-A, Track 1) | The classification half of 'there are exactly five Platonic solids', reusing the proved `platonic_schlafli_pairs` as keystone (Euler + handshake ⟹ 1/p+1/q > 1/2 ⟹ the five pairs). Coxeter, Regular Polytopes, Ch. 1. NOT the geometric Freek #50 (that is Track 2, gated on a mathlib polytope face lattice + Euler–Poincaré). |
 | `alternating-sum-naturals` — For every natural n, the sum over i in 0..n-1 of (-1)^i (i+1) equals -(n/2) if n is even and (n/2)+1 if n is odd (integer division over ℤ). | proved | 3 | [packet-ready](upstream/alternating-sum-naturals.md) | classic identities | Standard arithmetic alternating-series partial sums (1-2+3-4+...); tabulated in Hardy, Divergent Series, Ch. 1; elementary induction exercise in discrete-math texts. |
+| `am-gm-three-cube-s1` — am-gm-three-cube-s1 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2-s1` — am-gm-three-cube-s2-s1 | proved | 1 | — | — | — |
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `binder-shape-canary` — A **Gate A regression fixture**, not a mathematical target. It carries the implicit-then-named-hypothesis binder shape (`{n : Nat} (h : 1 < n)`) that [issue #231](https://github.com/agenticsnz/unsorry/issues/231) showed makes a goal's regenerated ADR-011 binding obligation trip `linter.unusedVariables` under the Gate A `--wfail` build — which had made every goal of this shape unprovable regardless of the proof's correctness. | proved | 1 | — | Gate A regression fixture (issue #231) | — |
