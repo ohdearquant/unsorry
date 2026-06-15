@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**98 open · 140 proved · 249 total prove-goals.**
+**97 open · 141 proved · 249 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -23,7 +23,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `discriminant-nonneg-s2` — discriminant-nonneg-s2 | open | 1 | — | — | — |
 | `dvd-2730-pow-thirteen-sub-self` — 2730 divides n^13 - n for every integer n. | open | 4 | — | #400 Identity Engine (ADR-043) — divisibility family. | 2730 divides n^13 - n for every integer n. Not a named mathlib lemma in this form. |
 | `forty-two-dvd-pow-seven-sub-self` — For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). | open | 2 | — | Classic elementary number theory (library-growth batch, #400 plan Phase 3). | For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). mathlib has `ZMod.pow_card` (Fermat) but not these specific named divisibility lemmas. |
-| `four-consecutive-product-add-one-square` — For every natural n, the product of four consecutive integers n(n+1)(n+2)(n+3), plus one, is a perfect square. | open | 2 | — | Classic elementary-number-theory identity (the "four consecutive integers" square). | n(n+1)(n+2)(n+3) + 1 = (n² + 3n + 1)². mathlib has no lemma that the product of four consecutive integers plus one is square; it is not a named result. |
 | `four-not-dvd-sq-add-two` — 4 never divides n^2 + 2, since n^2 mod 4 is 0 or 1. | open | 3 | — | #400 Identity Engine (ADR-043) — modular-arith family. | 4 never divides n^2 + 2, since n^2 mod 4 is 0 or 1. Not a named mathlib lemma in this form. |
 | `four-var-cyclic-sos` — For all real a,b,c,d, a²+b²+c²+d² ≥ ab+bc+cd+da — the four-variable cyclic sum-of-squares bound. | open | 2 | — | Classic real inequality (library-growth batch, #400 plan Phase 3). The project had almost no inequalities; this seeds the SOS/nlinarith family. | For all real a,b,c,d, a²+b²+c²+d² ≥ ab+bc+cd+da — the four-variable cyclic sum-of-squares bound. mathlib has the abstract Cauchy–Schwarz / power-mean lemmas but not this concrete polynomial form as a named lemma. |
 | `four-var-qm-am` — For all real a,b,c,d, (a+b+c+d)² ≤ 4(a²+b²+c²+d²) — the 4-variable QM–AM inequality. | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c,d, (a+b+c+d)² ≤ 4(a²+b²+c²+d²) — the 4-variable QM–AM inequality. Not a named mathlib lemma in this form. |
@@ -151,6 +150,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `euclid-perfect-numbers-s6` — euclid-perfect-numbers-s6 | proved | 1 | — | — | — |
 | `factorial-telescope-sum` — For every natural n, the sum over i in 0..n of i * (i!) equals (n+1)! - 1. | proved | 2 | [packet-ready](upstream/factorial-telescope-sum.md) | classic identities | Classic telescoping identity from i·i! = (i+1)! - i!; exercise in Graham, Knuth & Patashnik, Concrete Mathematics, 2nd ed., Ch. 2 (perturbation/telescoping). |
 | `fifth-power-mod-eleven` — For every natural number n, the fifth power n⁵ is ≡ 0, 1, or 10 (mod 11) — i.e. 0 or ±1, by Fermat. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family (Fermat's little theorem instance). | By Fermat, n⁵ ≡ 0 or ±1 (mod 11); the residues are exactly {0,1,10}. Not a named mathlib lemma. |
+| `four-consecutive-product-add-one-square` — For every natural n, the product of four consecutive integers n(n+1)(n+2)(n+3), plus one, is a perfect square. | proved | 2 | — | Classic elementary-number-theory identity (the "four consecutive integers" square). | n(n+1)(n+2)(n+3) + 1 = (n² + 3n + 1)². mathlib has no lemma that the product of four consecutive integers plus one is square; it is not a named result. |
 | `four-consecutive-product-add-one-square-s1` — four-consecutive-product-add-one-square-s1 | proved | 1 | — | — | — |
 | `four-consecutive-product-add-one-square-s2` — four-consecutive-product-add-one-square-s2 | proved | 1 | — | — | — |
 | `four-consecutive-product-add-one-square-s3` — four-consecutive-product-add-one-square-s3 | proved | 1 | — | — | — |
