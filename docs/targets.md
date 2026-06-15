@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**168 open · 174 proved · 349 total prove-goals.**
+**167 open · 175 proved · 349 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -92,7 +92,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sophie-germain-not-prime` — For a≥2, b≥1 the number a⁴+4b⁴ is composite (never prime) via the Sophie Germain factorisation. | open | 4 | — | #400 Identity Engine (ADR-043) — algebraic family. | For a≥2, b≥1 the number a⁴+4b⁴ is composite (never prime) via the Sophie Germain factorisation. Not a named mathlib lemma in this form. |
 | `sos-weighted-three-one-two` — A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s4` — sq-add-sq-eq-three-mul-sq-s4 | open | 1 | — | — | — |
-| `sq-lt-cube-of-one-lt` — For x > 1, x² < x³. | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For x > 1, x² < x³. Not a named mathlib lemma in this concrete form. |
 | `sq-mod-eight-mem` — Every natural number's square leaves remainder 0, 1, or 4 when divided by 8. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's square leaves remainder 0, 1, or 4 when divided by 8. Not a named mathlib lemma in this form. |
 | `sq-mod-eleven-mem` — The quadratic residues modulo 11 are exactly {0,1,3,4,5,9}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The quadratic residues modulo 11 are exactly {0,1,3,4,5,9}. Not a named mathlib lemma in this form. |
 | `sq-mod-five` — For every natural n, n² % 5 ∈ {0,1,4}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 5 ∈ {0,1,4}. Not a named mathlib lemma in this form. |
@@ -311,6 +310,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-add-sq-eq-three-mul-sq-s1` — sq-add-sq-eq-three-mul-sq-s1 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s2` — sq-add-sq-eq-three-mul-sq-s2 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s3` — sq-add-sq-eq-three-mul-sq-s3 | proved | 1 | — | — | — |
+| `sq-lt-cube-of-one-lt` — For x > 1, x² < x³. | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For x > 1, x² < x³. Not a named mathlib lemma in this concrete form. |
 | `sq-mod-three` — The square of any natural number not divisible by 3 leaves remainder 1 on division by 3: if n % 3 ≠ 0 then n^2 % 3 = 1. | proved | 2 | — | classic identities (thread-B depth-chain leaf) | Quadratic residues mod 3; Hardy & Wright, An Introduction to the Theory of Numbers (congruence preliminaries); standard elementary number theory. |
 | `sq-sum-le-two-mul-sum-sq` — For all real a,b, (a+b)² ≤ 2(a²+b²). | proved | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For all real a,b, (a+b)² ≤ 2(a²+b²). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `sum-four-pow-ge-sq-prod` — For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². Not a named mathlib lemma in this form. |
