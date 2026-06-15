@@ -3620,16 +3620,16 @@
     "difficulty_counts": {
       "0": 10,
       "1": 90,
-      "2": 209,
-      "3": 162,
+      "2": 212,
+      "3": 213,
       "4": 33,
       "5": 1
     },
-    "goals": 505,
+    "goals": 559,
     "status_counts": {
       "archived": 80,
       "blocked": 7,
-      "open": 292,
+      "open": 346,
       "proved": 116,
       "translated": 10
     }
