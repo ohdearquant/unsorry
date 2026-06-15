@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**429 open · 213 proved · 649 total prove-goals.**
+**428 open · 214 proved · 649 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -128,7 +128,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gcd-n-add-six-dvd-six` — The gcd of n and n+6 always divides 6. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n and n+6 always divides 6. Not a named mathlib lemma in this form. |
 | `gcd-n-factorial-succ-eq-one` — For positive n, n is coprime to n factorial plus one. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | For positive n, n is coprime to n factorial plus one. Not a named mathlib lemma in this form. |
 | `gcd-n1-n7-dvd-six` — The gcd of n+1 and n+7 always divides 6. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n+1 and n+7 always divides 6. Not a named mathlib lemma in this form. |
-| `gcd-n2-2n5-eq-one` — The gcd of n+2 and 2n+5 is always one. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n+2 and 2n+5 is always one. Not a named mathlib lemma in this form. |
 | `gcd-n2-n4-dvd-two` — The gcd of n+2 and n+4 always divides 2. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n+2 and n+4 always divides 2. Not a named mathlib lemma in this form. |
 | `gcd-n2-n6-dvd-four` — The gcd of n+2 and n+6 always divides 4. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n+2 and n+6 always divides 4. Not a named mathlib lemma in this form. |
 | `gcd-n2-n8-dvd-six` — The gcd of n+2 and n+8 always divides 6. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n+2 and n+8 always divides 6. Not a named mathlib lemma in this form. |
@@ -529,6 +528,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gcd-5n2-7n3-eq-one` — The gcd of 5n+2 and 7n+3 is always one. | proved | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of 5n+2 and 7n+3 is always one. Not a named mathlib lemma in this form. |
 | `gcd-lin-3n2-5n3` — The linear forms 3n+2 and 5n+3 are coprime for every n. | proved | 3 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The linear forms 3n+2 and 5n+3 are coprime for every n. Not a named mathlib lemma in this form. |
 | `gcd-n1-n4-dvd-three` — The gcd of n+1 and n+4 always divides 3. | proved | 2 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The gcd of n+1 and n+4 always divides 3. Not a named mathlib lemma in this form. |
+| `gcd-n2-2n5-eq-one` — The gcd of n+2 and 2n+5 is always one. | proved | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n+2 and 2n+5 is always one. Not a named mathlib lemma in this form. |
 | `gcd-self-add-dvd` — The gcd of n and n+k divides k. | proved | 2 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The gcd of n and n+k divides k. Not a named mathlib lemma in this form. |
 | `int-add-neg` — Adding the negation of an integer yields zero. | proved | 1 | — | — | — |
 | `int-neg-neg` — Double negation of an integer is the identity. | proved | 1 | — | — | — |
