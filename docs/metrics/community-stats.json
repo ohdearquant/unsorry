@@ -3156,16 +3156,16 @@
     "difficulty_counts": {
       "0": 10,
       "1": 87,
-      "2": 125,
-      "3": 69,
+      "2": 150,
+      "3": 93,
       "4": 18,
       "5": 1
     },
-    "goals": 310,
+    "goals": 359,
     "status_counts": {
       "archived": 80,
       "blocked": 7,
-      "open": 120,
+      "open": 169,
       "proved": 93,
       "translated": 10
     }
