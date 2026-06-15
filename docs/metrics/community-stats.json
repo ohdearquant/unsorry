@@ -3,7 +3,7 @@
     {
       "attempt_yield": 0.3195,
       "attempts": 169,
-      "difficulty_points": 109,
+      "difficulty_points": 108,
       "failed_attempts": 115,
       "failures": 96,
       "median_solve_s": 292,
@@ -14,7 +14,7 @@
       "successes": 54,
       "successes_per_recorded_hour": 1.864,
       "total_solve_s": 104318,
-      "verified_proofs": 52
+      "verified_proofs": 51
     },
     {
       "attempt_yield": 0.4091,
@@ -66,8 +66,8 @@
     }
   ],
   "coverage": {
-    "attributed_proofs": 76,
-    "historical_unknown_proofs": 98,
+    "attributed_proofs": 75,
+    "historical_unknown_proofs": 99,
     "proof_run_coverage": 0.431,
     "successful_proofs_with_run_telemetry": 75,
     "terminal_runs": 195,
@@ -76,8 +76,8 @@
   "credit": {
     "credited_contributors": 8,
     "credited_proofs": 174,
-    "explicit_solver_proofs": 76,
-    "inferred_git_proofs": 98,
+    "explicit_solver_proofs": 75,
+    "inferred_git_proofs": 99,
     "uncredited_proofs": 0
   },
   "credited_contributors": [
@@ -93,12 +93,12 @@
       "credited_proofs": 97,
       "difficulty_points": 166,
       "display_name": "@cgbarlow",
-      "explicit_solver_proofs": 52,
+      "explicit_solver_proofs": 51,
       "failed_attempts": 115,
       "failures": 96,
       "git_author": "Chris Barlow <cgbarlow@gmail.com>",
       "github": "cgbarlow",
-      "inferred_git_proofs": 45,
+      "inferred_git_proofs": 46,
       "median_solve_s": 292,
       "p90_solve_s": 1914,
       "profile_url": "https://github.com/cgbarlow",
@@ -2782,12 +2782,12 @@
         "git_author_name": "Chris Barlow",
         "github": "cgbarlow",
         "index_files_added": 97,
-        "missing_solver_provenance": 45,
+        "missing_solver_provenance": 46,
         "profile_url": "https://github.com/cgbarlow",
         "sample_add_commit": "09c580b287cedf6ba277b154d6473f51cffcdf10",
         "sample_add_date": "2026-06-15",
         "solver_credit": false,
-        "solver_provenance_proofs": 52
+        "solver_provenance_proofs": 51
       },
       {
         "attribution_source": "git-add-author",
@@ -2923,7 +2923,7 @@
       "successes": 46,
       "successes_per_recorded_hour": 7.452,
       "total_solve_s": 22222,
-      "verified_proofs": 44
+      "verified_proofs": 43
     },
     {
       "attempt_yield": 0.1158,

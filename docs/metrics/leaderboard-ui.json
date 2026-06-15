@@ -16,10 +16,10 @@
       "credited_proofs": 97,
       "difficulty_points": 166,
       "display_name": "@cgbarlow",
-      "explicit_solver_proofs": 52,
+      "explicit_solver_proofs": 51,
       "failed_attempts": 115,
       "github": "cgbarlow",
-      "inferred_git_proofs": 45,
+      "inferred_git_proofs": 46,
       "median_solve_s": 292,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 1,
@@ -244,11 +244,11 @@
       "display_name": "Chris Barlow",
       "github": "cgbarlow",
       "index_files_added": 97,
-      "missing_solver_provenance": 45,
+      "missing_solver_provenance": 46,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 1,
       "solver_credit": false,
-      "solver_provenance_proofs": 52
+      "solver_provenance_proofs": 51
     },
     {
       "attribution_source": "git-add-author",
@@ -347,7 +347,7 @@
       "provider_model": "claude / opus",
       "run_success_rate": 0.9388,
       "runs": 49,
-      "verified_proofs": 44
+      "verified_proofs": 43
     },
     {
       "provider_model": "openai / leanstral-2603",
@@ -401,15 +401,15 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 76,
-    "attribution_gap_count": 98,
+    "attributed_proofs": 75,
+    "attribution_gap_count": 99,
     "credited_contributors": 8,
     "credited_proofs": 174,
-    "explicit_solver_proofs": 76,
+    "explicit_solver_proofs": 75,
     "git_attributed_index_files": 174,
     "historical_contributors": 8,
-    "historical_unknown_proofs": 98,
-    "inferred_git_proofs": 98,
+    "historical_unknown_proofs": 99,
+    "inferred_git_proofs": 99,
     "proof_run_coverage": 0.431,
     "terminal_runs": 195,
     "uncredited_proofs": 0,
