@@ -295,6 +295,21 @@
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "f6954cafcb03d74edb226285269cb7ae091b989f",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "six-dvd-three-consecutive-int",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/7b83a02a18f7a57de296c6eab23c11c57891a6b9068c320cd21c25d38f40ab42.aisp",
+      "review_status": "candidate",
+      "sha": "7b83a02a18f7a57de296c6eab23c11c57891a6b9068c320cd21c25d38f40ab42"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "f60e11468948d0e02950af429eca4006acd7af48",
       "git_add_date": "2026-06-15",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -1734,9 +1749,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 115,
-    "mapped_missing_solver": 111,
-    "missing_solver_provenance": 115,
+    "git_attributed_missing_solver": 116,
+    "mapped_missing_solver": 112,
+    "missing_solver_provenance": 116,
     "unmapped_missing_solver": 4
   }
 }
