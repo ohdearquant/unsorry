@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**101 open · 137 proved · 249 total prove-goals.**
+**99 open · 139 proved · 249 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -14,7 +14,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-hm-two-var-s1` — am-hm-two-var-s1 | open | 1 | — | — | — |
 | `am-hm-two-var-s2` — am-hm-two-var-s2 | open | 1 | — | — | — |
 | `am-hm-two-var-s3` — am-hm-two-var-s3 | open | 1 | — | — | — |
-| `cauchy-schwarz-three-term` — For all real a,b,c,x,y,z, (ax+by+cz)² ≤ (a²+b²+c²)(x²+y²+z²) — the 3-term Cauchy–Schwarz inequality. | open | 3 | — | Classic real inequality (library-growth batch, #400 plan Phase 3). The project had almost no inequalities; this seeds the SOS/nlinarith family. | For all real a,b,c,x,y,z, (ax+by+cz)² ≤ (a²+b²+c²)(x²+y²+z²) — the 3-term Cauchy–Schwarz inequality. mathlib has the abstract Cauchy–Schwarz / power-mean lemmas but not this concrete polynomial form as a named lemma. |
 | `coprime-succ-sq-add` — n+1 is coprime to n²+n+1. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | n+1 is coprime to n²+n+1. Not a named mathlib lemma in this form. |
 | `cube-mod-four` — For every natural n, n³ % 4 ∈ {0,1,3} (cubic residues mod 4). | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n³ % 4 ∈ {0,1,3} (cubic residues mod 4). Not a named mathlib lemma in this form. |
 | `cube-mod-seven` — For every natural n, n³ % 7 ∈ {0,1,6}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n³ % 7 ∈ {0,1,6}. Not a named mathlib lemma in this form. |
@@ -72,7 +71,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-mod-five` — For every natural n, n² % 5 ∈ {0,1,4}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 5 ∈ {0,1,4}. Not a named mathlib lemma in this form. |
 | `sq-mod-nine` — For every natural n, n² % 9 ∈ {0,1,4,7} (quadratic residues mod 9). | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 9 ∈ {0,1,4,7} (quadratic residues mod 9). Not a named mathlib lemma in this form. |
 | `sq-mod-seven` — For every natural n, n² % 7 ∈ {0,1,2,4} (quadratic residues mod 7). | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 7 ∈ {0,1,2,4} (quadratic residues mod 7). Not a named mathlib lemma in this form. |
-| `sq-sum-le-two-mul-sum-sq` — For all real a,b, (a+b)² ≤ 2(a²+b²). | open | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For all real a,b, (a+b)² ≤ 2(a²+b²). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `square-of-sum-ge-three-pairwise` — For all real a,b,c, (a+b+c)² ≥ 3(ab+bc+ca). | open | 2 | — | Classic real inequality (library-growth batch, #400 plan Phase 3). The project had almost no inequalities; this seeds the SOS/nlinarith family. | For all real a,b,c, (a+b+c)² ≥ 3(ab+bc+ca). mathlib has the abstract Cauchy–Schwarz / power-mean lemmas but not this concrete polynomial form as a named lemma. |
 | `sum-cubes-ge-sym-quadratic-two-var` — For nonnegative a,b, a³+b³ ≥ a²b+ab². | open | 2 | — | #400 Identity Engine (ADR-043) — inequalities family. | For nonnegative a,b, a³+b³ ≥ a²b+ab². Not a named mathlib lemma in this form. |
 | `sum-four-pow-ge-sq-prod` — For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². Not a named mathlib lemma in this form. |
@@ -127,6 +125,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `aurifeuillian-quartic-dvd` — The quadratic a²+a+1 always divides a⁴+a²+1. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The quadratic a²+a+1 always divides a⁴+a²+1. Not a named mathlib lemma in this form. |
 | `binder-shape-canary` — A **Gate A regression fixture**, not a mathematical target. It carries the implicit-then-named-hypothesis binder shape (`{n : Nat} (h : 1 < n)`) that [issue #231](https://github.com/agenticsnz/unsorry/issues/231) showed makes a goal's regenerated ADR-011 binding obligation trip `linter.unusedVariables` under the Gate A `--wfail` build — which had made every goal of this shape unprovable regardless of the proof's correctness. | proved | 1 | — | Gate A regression fixture (issue #231) | — |
+| `cauchy-schwarz-three-term` — For all real a,b,c,x,y,z, (ax+by+cz)² ≤ (a²+b²+c²)(x²+y²+z²) — the 3-term Cauchy–Schwarz inequality. | proved | 3 | — | Classic real inequality (library-growth batch, #400 plan Phase 3). The project had almost no inequalities; this seeds the SOS/nlinarith family. | For all real a,b,c,x,y,z, (ax+by+cz)² ≤ (a²+b²+c²)(x²+y²+z²) — the 3-term Cauchy–Schwarz inequality. mathlib has the abstract Cauchy–Schwarz / power-mean lemmas but not this concrete polynomial form as a named lemma. |
 | `consecutive-cubes-diff-odd` — For every integer n, (n+1)³ − n³ is odd. | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For every integer n, (n+1)³ − n³ is odd. Not a named mathlib lemma in this concrete form. |
 | `consecutive-triangular-eq-square` — For every natural n, Tₙ + Tₙ₋₁ = n², where Tₙ = ∑_{i≤n} i; the sum of two consecutive triangular numbers is a perfect square. | proved | 2 | — | classic identities (triangular-number gems — compounds on the Gauss sum) | Theon of Smyrna's classical observation that consecutive triangular numbers sum to a square (Tₙ₋₁ + Tₙ = n²). Conway & Guy, The Book of Numbers; Heath, A History of Greek Mathematics. |
 | `constrained-sum-sq-ge-three` — For real a,b,c with a+b+c=3, a²+b²+c² ≥ 3 — the constrained tangent-line bound. | proved | 2 | — | Classic real inequality (library-growth batch, #400 plan Phase 3). The project had almost no inequalities; this seeds the SOS/nlinarith family. | For real a,b,c with a+b+c=3, a²+b²+c² ≥ 3 — the constrained tangent-line bound. mathlib has the abstract Cauchy–Schwarz / power-mean lemmas but not this concrete polynomial form as a named lemma. |
@@ -216,6 +215,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-add-sq-eq-three-mul-sq-s2` — sq-add-sq-eq-three-mul-sq-s2 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s3` — sq-add-sq-eq-three-mul-sq-s3 | proved | 1 | — | — | — |
 | `sq-mod-three` — The square of any natural number not divisible by 3 leaves remainder 1 on division by 3: if n % 3 ≠ 0 then n^2 % 3 = 1. | proved | 2 | — | classic identities (thread-B depth-chain leaf) | Quadratic residues mod 3; Hardy & Wright, An Introduction to the Theory of Numbers (congruence preliminaries); standard elementary number theory. |
+| `sq-sum-le-two-mul-sum-sq` — For all real a,b, (a+b)² ≤ 2(a²+b²). | proved | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For all real a,b, (a+b)² ≤ 2(a²+b²). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `sum-four-pow-ge-sq-prod-s1` — sum-four-pow-ge-sq-prod-s1 | proved | 1 | — | — | — |
 | `sum-four-pow-ge-sq-prod-s2` — sum-four-pow-ge-sq-prod-s2 | proved | 1 | — | — | — |
 | `sum-four-sq-ge-two-cross` — For all real a,b,c,d, a²+b²+c²+d² ≥ 2ab+2cd. | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c,d, a²+b²+c²+d² ≥ 2ab+2cd. Not a named mathlib lemma in this form. |
