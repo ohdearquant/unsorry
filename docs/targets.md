@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**92 open · 147 proved · 249 total prove-goals.**
+**91 open · 148 proved · 249 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -12,7 +12,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-gm-three-cube-s2-s2-s1` — am-gm-three-cube-s2-s2-s1 | open | 1 | — | — | — |
 | `am-gm-three-cube-s2-s2-s2` — am-gm-three-cube-s2-s2-s2 | open | 1 | — | — | — |
 | `am-hm-two-var-s2` — am-hm-two-var-s2 | open | 1 | — | — | — |
-| `am-hm-two-var-s3` — am-hm-two-var-s3 | open | 1 | — | — | — |
 | `coprime-succ-sq-add` — n+1 is coprime to n²+n+1. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | n+1 is coprime to n²+n+1. Not a named mathlib lemma in this form. |
 | `cube-mod-four` — For every natural n, n³ % 4 ∈ {0,1,3} (cubic residues mod 4). | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n³ % 4 ∈ {0,1,3} (cubic residues mod 4). Not a named mathlib lemma in this form. |
 | `cube-mod-seven` — For every natural n, n³ % 7 ∈ {0,1,6}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n³ % 7 ∈ {0,1,6}. Not a named mathlib lemma in this form. |
@@ -115,6 +114,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-gm-three-cube-s1` — am-gm-three-cube-s1 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2-s1` — am-gm-three-cube-s2-s1 | proved | 1 | — | — | — |
 | `am-hm-two-var-s1` — am-hm-two-var-s1 | proved | 1 | — | — | — |
+| `am-hm-two-var-s3` — am-hm-two-var-s3 | proved | 1 | — | — | — |
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `aurifeuillian-quartic-dvd` — The quadratic a²+a+1 always divides a⁴+a²+1. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The quadratic a²+a+1 always divides a⁴+a²+1. Not a named mathlib lemma in this form. |
 | `binder-shape-canary` — A **Gate A regression fixture**, not a mathematical target. It carries the implicit-then-named-hypothesis binder shape (`{n : Nat} (h : 1 < n)`) that [issue #231](https://github.com/agenticsnz/unsorry/issues/231) showed makes a goal's regenerated ADR-011 binding obligation trip `linter.unusedVariables` under the Gate A `--wfail` build — which had made every goal of this shape unprovable regardless of the proof's correctness. | proved | 1 | — | Gate A regression fixture (issue #231) | — |
