@@ -6,7 +6,7 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**310 goals — 129 open · 8 blocked · 10 translated · 83 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
+**310 goals — 130 open · 7 blocked · 10 translated · 83 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
 
 Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (79 of 83 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
@@ -137,8 +137,8 @@ flowchart LR
   class g_nesbitt_inequality_s4 proved;
   click g_nesbitt_inequality_s4 "https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s4.lean" "nesbitt-inequality-s4 — proved"
   g_no_nat_sq_eq_two_mul_sq["no-nat-sq-eq-two-mul-sq"]
-  class g_no_nat_sq_eq_two_mul_sq blocked;
-  click g_no_nat_sq_eq_two_mul_sq "https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq.lean" "no-nat-sq-eq-two-mul-sq — blocked"
+  class g_no_nat_sq_eq_two_mul_sq open;
+  click g_no_nat_sq_eq_two_mul_sq "https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq.lean" "no-nat-sq-eq-two-mul-sq — open"
   g_no_nat_sq_eq_two_mul_sq_s1["no-nat-sq-eq-two-mul-sq-s1"]
   class g_no_nat_sq_eq_two_mul_sq_s1 proved;
   click g_no_nat_sq_eq_two_mul_sq_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq-s1.lean" "no-nat-sq-eq-two-mul-sq-s1 — proved"
@@ -284,6 +284,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`nat-sq-lt-two-pow-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean) | open | 1 | — | — | — | — |
 | [`nesbitt-inequality-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean) | open | 1 | — | — | — | — |
 | [`no-int-sq-eq-eight-mul-add-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-int-sq-eq-eight-mul-add-three.lean) | open | 3 | — | — | — | — |
+| [`no-nat-sq-eq-two-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq.lean) | open | 4 | — | — | — | — |
 | [`no-nat-sq-eq-two-mul-sq-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq-s4.lean) | open | 1 | claude-rmt-001 | chat-bit-01 | [#440](https://github.com/agenticsnz/unsorry/pull/440) | 2026-06-14 |
 | [`one-add-three-x-le-cube`](https://github.com/agenticsnz/unsorry/blob/main/goals/one-add-three-x-le-cube.lean) | open | 2 | — | — | — | — |
 | [`one-hundred-twenty-dvd-five-consecutive`](https://github.com/agenticsnz/unsorry/blob/main/goals/one-hundred-twenty-dvd-five-consecutive.lean) | open | 3 | — | — | — | — |
@@ -383,7 +384,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`cube-sum-ge-three-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod.lean) | blocked | 2 | — | — | — | — |
 | [`four-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean) | blocked | 2 | — | — | — | — |
 | [`nesbitt-inequality`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality.lean) | blocked | 4 | — | — | — | — |
-| [`no-nat-sq-eq-two-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/no-nat-sq-eq-two-mul-sq.lean) | blocked | 4 | — | — | — | — |
 | [`sq-add-sq-eq-three-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq.lean) | blocked | 4 | — | — | — | — |
 | [`sum-icc-choose-hockey-stick`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick.lean) | blocked | 3 | — | — | — | — |
 | [`nat-add-assoc`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-add-assoc.lean) | translated | — | — | — | — | — |
