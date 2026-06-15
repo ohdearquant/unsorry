@@ -4086,16 +4086,16 @@
     "difficulty_counts": {
       "0": 10,
       "1": 94,
-      "2": 274,
-      "3": 251,
+      "2": 353,
+      "3": 269,
       "4": 33,
       "5": 1
     },
-    "goals": 663,
+    "goals": 760,
     "status_counts": {
       "archived": 138,
       "blocked": 8,
-      "open": 407,
+      "open": 504,
       "proved": 100,
       "translated": 10
     }
