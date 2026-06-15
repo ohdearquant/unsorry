@@ -4,12 +4,11 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**88 open · 151 proved · 249 total prove-goals.**
+**87 open · 152 proved · 249 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
 | `abstract-regular-polyhedron-realizable-iff` — The Track-1 **existence-biconditional**: for p, q ≥ 3, the pair (p,q) is a Platonic Schläfli pair {(3,3),(3,4),(4,3),(3,5),(5,3)} **iff** it is realizable by an abstract regular polyhedron (∃ V E F > 0 with p·F=2E, q·V=2E, V+F=E+2). | open | 4 | — | The capstone of Freek #50's combinatorial classification (ADR-031, Track 1) — the labelled combinatorial/Euler form, explicitly NOT the geometric #50. | ⟹ is the existence direction (`platonic-pairs-realizable`); ⟸ is the proved classification (`abstract-regular-polyhedron-classification`). Composing them gives the biconditional. mathlib has neither. |
-| `am-hm-two-var-s2` — am-hm-two-var-s2 | open | 1 | — | — | — |
 | `coprime-succ-sq-add` — n+1 is coprime to n²+n+1. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | n+1 is coprime to n²+n+1. Not a named mathlib lemma in this form. |
 | `cube-mod-four` — For every natural n, n³ % 4 ∈ {0,1,3} (cubic residues mod 4). | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n³ % 4 ∈ {0,1,3} (cubic residues mod 4). Not a named mathlib lemma in this form. |
 | `cube-mod-seven` — For every natural n, n³ % 7 ∈ {0,1,6}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n³ % 7 ∈ {0,1,6}. Not a named mathlib lemma in this form. |
@@ -113,6 +112,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-gm-three-cube-s2-s2-s1` — am-gm-three-cube-s2-s2-s1 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2-s2-s2` — am-gm-three-cube-s2-s2-s2 | proved | 1 | — | — | — |
 | `am-hm-two-var-s1` — am-hm-two-var-s1 | proved | 1 | — | — | — |
+| `am-hm-two-var-s2` — am-hm-two-var-s2 | proved | 1 | — | — | — |
 | `am-hm-two-var-s3` — am-hm-two-var-s3 | proved | 1 | — | — | — |
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `aurifeuillian-quartic-dvd` — The quadratic a²+a+1 always divides a⁴+a²+1. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The quadratic a²+a+1 always divides a⁴+a²+1. Not a named mathlib lemma in this form. |
