@@ -24,6 +24,21 @@
       "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "d35c27d95cd07e5ee6ffaf6feb2612b1eb8df09a",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sq-lt-cube-of-one-lt",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/09d3f32739fed019ee17ce55938989e187ae8c9e2a5edb24c34d4eb674e82535.aisp",
+      "review_status": "candidate",
+      "sha": "09d3f32739fed019ee17ce55938989e187ae8c9e2a5edb24c34d4eb674e82535"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
       "display_name": "Chris Barlow",
       "git_add_commit": "ca7389539553dfc1ac22e69f0f649bf1c7ada218",
       "git_add_date": "2026-06-14",
@@ -1524,9 +1539,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 101,
-    "mapped_missing_solver": 98,
-    "missing_solver_provenance": 101,
+    "git_attributed_missing_solver": 102,
+    "mapped_missing_solver": 99,
+    "missing_solver_provenance": 102,
     "unmapped_missing_solver": 3
   }
 }
