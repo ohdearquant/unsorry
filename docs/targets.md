@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**419 open · 223 proved · 649 total prove-goals.**
+**422 open · 223 proved · 653 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -57,7 +57,10 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `dvd-1365-pow-thirteen-sub-self` — The integer 1365 = 3·5·7·13 divides n^13 - n for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 1365 = 3·5·7·13 divides n^13 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-170-pow-seventeen-sub-self` — For every integer n, 170 divides n raised to the 17th power minus n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | For every integer n, 170 divides n raised to the 17th power minus n. Not a named mathlib lemma in this form. |
 | `dvd-1806-pow-fortythree-sub-self` — For every integer n, 1806 divides n raised to the 43rd power minus n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | For every integer n, 1806 divides n raised to the 43rd power minus n. Not a named mathlib lemma in this form. |
-| `dvd-210-pow-fifteen-sub-pow-three` — The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. Not a named mathlib lemma in this form. |
+| `dvd-210-pow-fifteen-sub-pow-three-s1` — dvd-210-pow-fifteen-sub-pow-three-s1 | open | 1 | — | — | — |
+| `dvd-210-pow-fifteen-sub-pow-three-s2` — dvd-210-pow-fifteen-sub-pow-three-s2 | open | 1 | — | — | — |
+| `dvd-210-pow-fifteen-sub-pow-three-s3` — dvd-210-pow-fifteen-sub-pow-three-s3 | open | 1 | — | — | — |
+| `dvd-210-pow-fifteen-sub-pow-three-s4` — dvd-210-pow-fifteen-sub-pow-three-s4 | open | 1 | — | — | — |
 | `dvd-240-pow-eight-sub-pow-four` — 240 divides n^8 minus n^4 for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 240 divides n^8 minus n^4 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-240-pow-nine-sub-pow-five` — 240 divides n^9 minus n^5 for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 240 divides n^9 minus n^5 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-252-pow-eight-sub-sq` — 252 divides n^8 minus n^2 for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 252 divides n^8 minus n^2 for every integer n. Not a named mathlib lemma in this form. |
@@ -430,6 +433,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-gm-three-cube` — For nonneg reals, 27abc ≤ (a+b+c)³ — AM-GM for three terms (polynomial form). | blocked | 3 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For nonneg reals, 27abc ≤ (a+b+c)³ — AM-GM for three terms (polynomial form). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `am-gm-three-cube-s2` — am-gm-three-cube-s2 | blocked | 1 | — | — | — |
 | `cube-sum-ge-three-prod` — For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). | blocked | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). Not a named mathlib lemma in this concrete polynomial/abs form. |
+| `dvd-210-pow-fifteen-sub-pow-three` — The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. | blocked | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. Not a named mathlib lemma in this form. |
 | `four-var-qm-am` — For all real a,b,c,d, (a+b+c+d)² ≤ 4(a²+b²+c²+d²) — the 4-variable QM–AM inequality. | blocked | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c,d, (a+b+c+d)² ≤ 4(a²+b²+c²+d²) — the 4-variable QM–AM inequality. Not a named mathlib lemma in this form. |
 | `nesbitt-inequality` — Nesbitt's inequality: for positive reals a, b, c, a/(b+c) + b/(c+a) + c/(a+b) ≥ 3/2. | blocked | 4 | — | Nesbitt's inequality (1903), a classic three-variable cyclic inequality; AoPS/olympiad canon. | 3/2 ≤ a/(b+c) + b/(c+a) + c/(a+b) for a,b,c > 0. mathlib has `inner_mul_le_norm_mul_norm` and `div_add_div_same`-style lemmas but no Nesbitt lemma. |
 | `sq-add-sq-eq-three-mul-sq` — The Diophantine equation $x^2 + y^2 = 3z^2$ has only the trivial solution $x=y=z=0$ in integers. | blocked | 4 | — | elementary number theory | Classic infinite descent argument modulo 3 showing that $3 \mid x$ and $3 \mid y$, which leads to infinite descent. |
