@@ -340,6 +340,21 @@
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "7908a9d071714e624815e133e64df647a05a0a7f",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "six-dvd-pow-three-sub-self",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/8c1c08b00acf997b6c5d876d486c96c889c620a088458e28e12a4933c65e005b.aisp",
+      "review_status": "candidate",
+      "sha": "8c1c08b00acf997b6c5d876d486c96c889c620a088458e28e12a4933c65e005b"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "02fb6b91f27d3ad90c2944c2a51fabafa3bc4f6d",
       "git_add_date": "2026-06-15",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -1719,9 +1734,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 114,
-    "mapped_missing_solver": 110,
-    "missing_solver_provenance": 114,
+    "git_attributed_missing_solver": 115,
+    "mapped_missing_solver": 111,
+    "missing_solver_provenance": 115,
     "unmapped_missing_solver": 4
   }
 }
