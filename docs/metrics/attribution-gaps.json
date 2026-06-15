@@ -353,6 +353,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-15",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "4cc048dff7f7c97da455cea2905c8386870aa8f1",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "coprime-succ-sq-add",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/9d6b0fe87dd172a4ea8b9ada4cb2324614c07915299c50067cdaaa144362840f.aisp",
+      "review_status": "candidate",
+      "sha": "9d6b0fe87dd172a4ea8b9ada4cb2324614c07915299c50067cdaaa144362840f"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
       "git_add_commit": "b4a1a8eb02ecf7e1ee720e859100e4e91c82485d",
@@ -2199,9 +2214,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 146,
-    "mapped_missing_solver": 142,
-    "missing_solver_provenance": 146,
+    "git_attributed_missing_solver": 147,
+    "mapped_missing_solver": 143,
+    "missing_solver_provenance": 147,
     "unmapped_missing_solver": 4
   }
 }
