@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**345 open · 197 proved · 549 total prove-goals.**
+**344 open · 198 proved · 549 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -194,7 +194,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-mod-five-ne-two-three` — No natural number's square leaves remainder 2 or 3 when divided by 5. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No natural number's square leaves remainder 2 or 3 when divided by 5. Not a named mathlib lemma in this form. |
 | `sq-mod-forty-mem` — Every perfect square is congruent to one of 0,1,4,9,16,20,24,25,36 modulo 40. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every perfect square is congruent to one of 0,1,4,9,16,20,24,25,36 modulo 40. Not a named mathlib lemma in this form. |
 | `sq-mod-nine` — For every natural n, n² % 9 ∈ {0,1,4,7} (quadratic residues mod 9). | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 9 ∈ {0,1,4,7} (quadratic residues mod 9). Not a named mathlib lemma in this form. |
-| `sq-mod-seven` — For every natural n, n² % 7 ∈ {0,1,2,4} (quadratic residues mod 7). | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 7 ∈ {0,1,2,4} (quadratic residues mod 7). Not a named mathlib lemma in this form. |
 | `sq-mod-sixteen-mem` — Every natural number's square is congruent to 0, 1, 4, or 9 modulo 16. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's square is congruent to 0, 1, 4, or 9 modulo 16. Not a named mathlib lemma in this form. |
 | `sq-mod-ten-mem` — The last decimal digit of any perfect square is always one of 0, 1, 4, 5, 6, or 9. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The last decimal digit of any perfect square is always one of 0, 1, 4, 5, 6, or 9. Not a named mathlib lemma in this form. |
 | `sq-mod-ten-ne-two-three-seven-eight` — No perfect square ends in the decimal digit 2, 3, 7, or 8. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No perfect square ends in the decimal digit 2, 3, 7, or 8. Not a named mathlib lemma in this form. |
@@ -511,6 +510,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-add-sq-eq-three-mul-sq-s2` — sq-add-sq-eq-three-mul-sq-s2 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s3` — sq-add-sq-eq-three-mul-sq-s3 | proved | 1 | — | — | — |
 | `sq-lt-cube-of-one-lt` — For x > 1, x² < x³. | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For x > 1, x² < x³. Not a named mathlib lemma in this concrete form. |
+| `sq-mod-seven` — For every natural n, n² % 7 ∈ {0,1,2,4} (quadratic residues mod 7). | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 7 ∈ {0,1,2,4} (quadratic residues mod 7). Not a named mathlib lemma in this form. |
 | `sq-mod-three` — The square of any natural number not divisible by 3 leaves remainder 1 on division by 3: if n % 3 ≠ 0 then n^2 % 3 = 1. | proved | 2 | — | classic identities (thread-B depth-chain leaf) | Quadratic residues mod 3; Hardy & Wright, An Introduction to the Theory of Numbers (congruence preliminaries); standard elementary number theory. |
 | `sq-sum-le-two-mul-sum-sq` — For all real a,b, (a+b)² ≤ 2(a²+b²). | proved | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For all real a,b, (a+b)² ≤ 2(a²+b²). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `sum-four-pow-ge-sq-prod` — For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². Not a named mathlib lemma in this form. |
