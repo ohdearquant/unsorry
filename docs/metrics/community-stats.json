@@ -3555,17 +3555,17 @@
   "queue": {
     "difficulty_counts": {
       "0": 10,
-      "1": 87,
-      "2": 152,
-      "3": 145,
+      "1": 90,
+      "2": 209,
+      "3": 162,
       "4": 33,
       "5": 1
     },
-    "goals": 428,
+    "goals": 505,
     "status_counts": {
       "archived": 80,
       "blocked": 7,
-      "open": 217,
+      "open": 294,
       "proved": 114,
       "translated": 10
     }
