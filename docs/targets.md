@@ -4,14 +4,13 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**92 open · 146 proved · 249 total prove-goals.**
+**91 open · 147 proved · 249 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
 | `abstract-regular-polyhedron-realizable-iff` — The Track-1 **existence-biconditional**: for p, q ≥ 3, the pair (p,q) is a Platonic Schläfli pair {(3,3),(3,4),(4,3),(3,5),(5,3)} **iff** it is realizable by an abstract regular polyhedron (∃ V E F > 0 with p·F=2E, q·V=2E, V+F=E+2). | open | 4 | — | The capstone of Freek #50's combinatorial classification (ADR-031, Track 1) — the labelled combinatorial/Euler form, explicitly NOT the geometric #50. | ⟹ is the existence direction (`platonic-pairs-realizable`); ⟸ is the proved classification (`abstract-regular-polyhedron-classification`). Composing them gives the biconditional. mathlib has neither. |
 | `am-gm-three-cube-s2-s2-s1` — am-gm-three-cube-s2-s2-s1 | open | 1 | — | — | — |
 | `am-gm-three-cube-s2-s2-s2` — am-gm-three-cube-s2-s2-s2 | open | 1 | — | — | — |
-| `am-hm-two-var-s1` — am-hm-two-var-s1 | open | 1 | — | — | — |
 | `am-hm-two-var-s2` — am-hm-two-var-s2 | open | 1 | — | — | — |
 | `am-hm-two-var-s3` — am-hm-two-var-s3 | open | 1 | — | — | — |
 | `coprime-succ-sq-add` — n+1 is coprime to n²+n+1. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | n+1 is coprime to n²+n+1. Not a named mathlib lemma in this form. |
@@ -115,6 +114,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `alternating-sum-naturals` — For every natural n, the sum over i in 0..n-1 of (-1)^i (i+1) equals -(n/2) if n is even and (n/2)+1 if n is odd (integer division over ℤ). | proved | 3 | [packet-ready](upstream/alternating-sum-naturals.md) | classic identities | Standard arithmetic alternating-series partial sums (1-2+3-4+...); tabulated in Hardy, Divergent Series, Ch. 1; elementary induction exercise in discrete-math texts. |
 | `am-gm-three-cube-s1` — am-gm-three-cube-s1 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2-s1` — am-gm-three-cube-s2-s1 | proved | 1 | — | — | — |
+| `am-hm-two-var-s1` — am-hm-two-var-s1 | proved | 1 | — | — | — |
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `aurifeuillian-quartic-dvd` — The quadratic a²+a+1 always divides a⁴+a²+1. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The quadratic a²+a+1 always divides a⁴+a²+1. Not a named mathlib lemma in this form. |
 | `binder-shape-canary` — A **Gate A regression fixture**, not a mathematical target. It carries the implicit-then-named-hypothesis binder shape (`{n : Nat} (h : 1 < n)`) that [issue #231](https://github.com/agenticsnz/unsorry/issues/231) showed makes a goal's regenerated ADR-011 binding obligation trip `linter.unusedVariables` under the Gate A `--wfail` build — which had made every goal of this shape unprovable regardless of the proof's correctness. | proved | 1 | — | Gate A regression fixture (issue #231) | — |
