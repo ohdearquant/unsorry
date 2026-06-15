@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**559 goals — 346 open · 7 blocked · 10 translated · 116 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
+**559 goals — 345 open · 7 blocked · 10 translated · 117 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (112 of 116 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (113 of 117 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -436,7 +436,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-mod-five-ne-two-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-five-ne-two-three.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-forty-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-forty-mem.lean) | open | 3 | — | — | — | — |
 | [`sq-mod-nine`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-nine.lean) | open | 2 | — | — | — | — |
-| [`sq-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-seven.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-sixteen-mem.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-ten-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-ten-mem.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-ten-ne-two-three-seven-eight`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-ten-ne-two-three-seven-eight.lean) | open | 2 | — | — | — | — |
@@ -704,6 +703,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-add-sq-eq-three-mul-sq-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s2.lean) | proved | 1 | p3-b1 | cgbarlow · `opus` | [#332](https://github.com/agenticsnz/unsorry/pull/332) | 2026-06-13 |
 | [`sq-add-sq-eq-three-mul-sq-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s3.lean) | proved | 1 | p3-a1 | cgbarlow · `opus` | [#330](https://github.com/agenticsnz/unsorry/pull/330) | 2026-06-13 |
 | [`sq-lt-cube-of-one-lt`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-lt-cube-of-one-lt.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#723](https://github.com/agenticsnz/unsorry/pull/723) | 2026-06-15 |
+| [`sq-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-seven.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#828](https://github.com/agenticsnz/unsorry/pull/828) | 2026-06-15 |
 | [`sq-sum-le-two-mul-sum-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-sum-le-two-mul-sum-sq.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#570](https://github.com/agenticsnz/unsorry/pull/570) | 2026-06-15 |
 | [`sum-four-pow-ge-sq-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#690](https://github.com/agenticsnz/unsorry/pull/690) | 2026-06-15 |
 | [`sum-four-pow-ge-sq-prod-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-four-pow-ge-sq-prod-s1.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#544](https://github.com/agenticsnz/unsorry/pull/544) | 2026-06-14 |
