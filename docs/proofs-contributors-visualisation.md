@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**428 goals — 226 open · 7 blocked · 10 translated · 105 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
+**428 goals — 225 open · 7 blocked · 10 translated · 106 proved · 80 archived.** 16 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (101 of 105 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (102 of 106 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -296,7 +296,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`fib-add-three-eq-two-mul-fib-succ-add-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-three-eq-two-mul-fib-succ-add-fib.lean) | open | 2 | — | — | — | — |
 | [`fib-add-two-sq-sub-fib-sq-eq-fib-two-mul-add-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-two-sq-sub-fib-sq-eq-fib-two-mul-add-two.lean) | open | 3 | — | — | — | — |
 | [`fib-two-mul-eq-fib-mul-two-mul-fib-succ-sub-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-two-mul-eq-fib-mul-two-mul-fib-succ-sub-fib.lean) | open | 3 | — | — | — | — |
-| [`fifth-power-mod-twentyfive-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fifth-power-mod-twentyfive-mem.lean) | open | 3 | — | — | — | — |
 | [`four-var-qm-am-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s2.lean) | open | 1 | — | — | — | — |
 | [`gcd-2n3-4n5-dvd-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-2n3-4n5-dvd-two.lean) | open | 3 | — | — | — | — |
 | [`gcd-3n1-9n4-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gcd-3n1-9n4-eq-one.lean) | open | 2 | — | — | — | — |
@@ -528,6 +527,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`eight-sum-pow-four-ge-sum-pow-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/eight-sum-pow-four-ge-sum-pow-four.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#631](https://github.com/agenticsnz/unsorry/pull/631) | 2026-06-15 |
 | [`eight-triangular-add-one-eq-odd-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/eight-triangular-add-one-eq-odd-sq.lean) | proved | 2 | p3-a1 | cgbarlow · `opus` | [#307](https://github.com/agenticsnz/unsorry/pull/307) | 2026-06-13 |
 | [`fifth-power-mod-eleven`](https://github.com/agenticsnz/unsorry/blob/main/goals/fifth-power-mod-eleven.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#632](https://github.com/agenticsnz/unsorry/pull/632) | 2026-06-15 |
+| [`fifth-power-mod-twentyfive-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fifth-power-mod-twentyfive-mem.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#757](https://github.com/agenticsnz/unsorry/pull/757) | 2026-06-15 |
 | [`forty-two-dvd-pow-seven-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/forty-two-dvd-pow-seven-sub-self.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#737](https://github.com/agenticsnz/unsorry/pull/737) | 2026-06-15 |
 | [`four-consecutive-product-add-one-square`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square.lean) | proved | 2 | oma-2-c50d | perttu | [#573](https://github.com/agenticsnz/unsorry/pull/573) | 2026-06-15 |
 | [`four-consecutive-product-add-one-square-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-consecutive-product-add-one-square-s1.lean) | proved | 1 | oma-2-c50d | perttu | [#437](https://github.com/agenticsnz/unsorry/pull/437) | 2026-06-14 |
