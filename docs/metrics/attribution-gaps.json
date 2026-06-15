@@ -67,6 +67,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "Chris Barlow",
+      "git_add_commit": "0100e37045403055ba5207a0ede696e6d6f1bcc7",
+      "git_add_date": "2026-06-15",
+      "git_author": "Chris Barlow <cgbarlow@gmail.com>",
+      "git_author_name": "Chris Barlow",
+      "goal": "sum-four-sq-ge-two-cross",
+      "mapped_github": "cgbarlow",
+      "path": "library/index/4a6d05dca389b092bf5f0632c3d2801e7018e7e7997d8b65f4ca166e60ef758f.aisp",
+      "review_status": "candidate",
+      "sha": "4a6d05dca389b092bf5f0632c3d2801e7018e7e7997d8b65f4ca166e60ef758f"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-10",
       "difficulty": 0,
       "display_name": "Chris Barlow",
@@ -1314,9 +1329,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 87,
-    "mapped_missing_solver": 87,
-    "missing_solver_provenance": 87,
+    "git_attributed_missing_solver": 88,
+    "mapped_missing_solver": 88,
+    "missing_solver_provenance": 88,
     "unmapped_missing_solver": 0
   }
 }
