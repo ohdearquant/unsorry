@@ -39,6 +39,21 @@
       "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "37063b8522bbed2284cd0d9a18ba259a4835923c",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "fourth-power-mod-nine-mem",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/1027d27354cda9f9d89f78082a07b54a2c50af7d805bb8be9fcd280201c845fa.aisp",
+      "review_status": "candidate",
+      "sha": "1027d27354cda9f9d89f78082a07b54a2c50af7d805bb8be9fcd280201c845fa"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
       "display_name": "Chris Barlow",
       "git_add_commit": "ca7389539553dfc1ac22e69f0f649bf1c7ada218",
       "git_add_date": "2026-06-14",
@@ -1884,9 +1899,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 125,
-    "mapped_missing_solver": 121,
-    "missing_solver_provenance": 125,
+    "git_attributed_missing_solver": 126,
+    "mapped_missing_solver": 122,
+    "missing_solver_provenance": 126,
     "unmapped_missing_solver": 4
   }
 }
