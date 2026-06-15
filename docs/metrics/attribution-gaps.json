@@ -518,6 +518,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "cdc28a89cdbbda8fa594656f389dadc6a2d1f972",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sq-mod-seven",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/ce00529af243a7d2d2a34f0bdba7655e7f0bc44e753603d09a3d9222310d02ff.aisp",
+      "review_status": "candidate",
+      "sha": "ce00529af243a7d2d2a34f0bdba7655e7f0bc44e753603d09a3d9222310d02ff"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
       "git_add_commit": "e3480f903758bc8bdf5f4a9f6b4fa79318f3299c",
@@ -1809,9 +1824,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 120,
-    "mapped_missing_solver": 116,
-    "missing_solver_provenance": 120,
+    "git_attributed_missing_solver": 121,
+    "mapped_missing_solver": 117,
+    "missing_solver_provenance": 121,
     "unmapped_missing_solver": 4
   }
 }
