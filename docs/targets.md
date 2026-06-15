@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**233 open · 178 proved · 418 total prove-goals.**
+**232 open · 179 proved · 418 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -59,7 +59,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `fib-add-two-sq-sub-fib-sq-eq-fib-two-mul-add-two` — The difference of the squares fib(n+2)^2 - fib(n)^2 equals fib(2n+2). | open | 3 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | The difference of the squares fib(n+2)^2 - fib(n)^2 equals fib(2n+2). Not a named mathlib lemma in this form. |
 | `fib-two-mul-eq-fib-mul-two-mul-fib-succ-sub-fib` — The Fibonacci doubling identity in additive form: F(2n) + F(n)^2 equals F(n)·2F(n+1). | open | 3 | — | #400 Identity Engine (ADR-043) — partition/generating-function family; promoted from candidate backlog (#610). | The Fibonacci doubling identity in additive form: F(2n) + F(n)^2 equals F(n)·2F(n+1). Not a named mathlib lemma in this form. |
 | `fifth-power-mod-twentyfive-mem` — The fifth-power residues modulo 25 are exactly {0,1,7,18,24}. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The fifth-power residues modulo 25 are exactly {0,1,7,18,24}. Not a named mathlib lemma in this form. |
-| `forty-two-dvd-pow-seven-sub-self` — For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). | open | 2 | — | Classic elementary number theory (library-growth batch, #400 plan Phase 3). | For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). mathlib has `ZMod.pow_card` (Fermat) but not these specific named divisibility lemmas. |
 | `four-var-qm-am-s1` — four-var-qm-am-s1 | open | 1 | — | — | — |
 | `four-var-qm-am-s2` — four-var-qm-am-s2 | open | 1 | — | — | — |
 | `fourth-power-mod-seventeen-mem` — The fourth-power residues modulo 17 are exactly {0,1,4,13,16}. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The fourth-power residues modulo 17 are exactly {0,1,4,13,16}. Not a named mathlib lemma in this form. |
@@ -294,6 +293,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `euclid-perfect-numbers-s6` — euclid-perfect-numbers-s6 | proved | 1 | — | — | — |
 | `factorial-telescope-sum` — For every natural n, the sum over i in 0..n of i * (i!) equals (n+1)! - 1. | proved | 2 | [packet-ready](upstream/factorial-telescope-sum.md) | classic identities | Classic telescoping identity from i·i! = (i+1)! - i!; exercise in Graham, Knuth & Patashnik, Concrete Mathematics, 2nd ed., Ch. 2 (perturbation/telescoping). |
 | `fifth-power-mod-eleven` — For every natural number n, the fifth power n⁵ is ≡ 0, 1, or 10 (mod 11) — i.e. 0 or ±1, by Fermat. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family (Fermat's little theorem instance). | By Fermat, n⁵ ≡ 0 or ±1 (mod 11); the residues are exactly {0,1,10}. Not a named mathlib lemma. |
+| `forty-two-dvd-pow-seven-sub-self` — For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). | proved | 2 | — | Classic elementary number theory (library-growth batch, #400 plan Phase 3). | For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). mathlib has `ZMod.pow_card` (Fermat) but not these specific named divisibility lemmas. |
 | `four-consecutive-product-add-one-square` — For every natural n, the product of four consecutive integers n(n+1)(n+2)(n+3), plus one, is a perfect square. | proved | 2 | — | Classic elementary-number-theory identity (the "four consecutive integers" square). | n(n+1)(n+2)(n+3) + 1 = (n² + 3n + 1)². mathlib has no lemma that the product of four consecutive integers plus one is square; it is not a named result. |
 | `four-consecutive-product-add-one-square-s1` — four-consecutive-product-add-one-square-s1 | proved | 1 | — | — | — |
 | `four-consecutive-product-add-one-square-s2` — four-consecutive-product-add-one-square-s2 | proved | 1 | — | — | — |
