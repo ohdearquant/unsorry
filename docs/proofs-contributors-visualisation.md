@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**259 goals — 89 open · 10 blocked · 10 translated · 70 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
+**259 goals — 88 open · 10 blocked · 10 translated · 71 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (66 of 70 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (67 of 71 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -50,8 +50,8 @@ flowchart LR
   class g_am_hm_two_var_s1 proved;
   click g_am_hm_two_var_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s1.lean" "am-hm-two-var-s1 — proved"
   g_am_hm_two_var_s2["am-hm-two-var-s2"]
-  class g_am_hm_two_var_s2 open;
-  click g_am_hm_two_var_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s2.lean" "am-hm-two-var-s2 — open"
+  class g_am_hm_two_var_s2 proved;
+  click g_am_hm_two_var_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s2.lean" "am-hm-two-var-s2 — proved"
   g_am_hm_two_var_s3["am-hm-two-var-s3"]
   class g_am_hm_two_var_s3 proved;
   click g_am_hm_two_var_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s3.lean" "am-hm-two-var-s3 — proved"
@@ -235,7 +235,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | Goal | Status | Difficulty | Agent | Solver / model | PR | Proved |
 | --- | --- | --- | --- | --- | --- | --- |
 | [`abstract-regular-polyhedron-realizable-iff`](https://github.com/agenticsnz/unsorry/blob/main/goals/abstract-regular-polyhedron-realizable-iff.lean) | open | 4 | — | — | — | — |
-| [`am-hm-two-var-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s2.lean) | open | 1 | — | — | — | — |
 | [`coprime-succ-sq-add`](https://github.com/agenticsnz/unsorry/blob/main/goals/coprime-succ-sq-add.lean) | open | 3 | — | — | — | — |
 | [`cube-mod-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-four.lean) | open | 2 | — | — | — | — |
 | [`cube-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-mod-seven.lean) | open | 2 | — | — | — | — |
@@ -348,6 +347,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`am-gm-three-cube-s2-s2-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2-s2-s1.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#649](https://github.com/agenticsnz/unsorry/pull/649) | 2026-06-15 |
 | [`am-gm-three-cube-s2-s2-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2-s2-s2.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#644](https://github.com/agenticsnz/unsorry/pull/644) | 2026-06-15 |
 | [`am-hm-two-var-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s1.lean) | proved | 1 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#647](https://github.com/agenticsnz/unsorry/pull/647) | 2026-06-15 |
+| [`am-hm-two-var-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s2.lean) | proved | 1 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#652](https://github.com/agenticsnz/unsorry/pull/652) | 2026-06-15 |
 | [`am-hm-two-var-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s3.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#646](https://github.com/agenticsnz/unsorry/pull/646) | 2026-06-15 |
 | [`aurifeuillian-quartic-dvd`](https://github.com/agenticsnz/unsorry/blob/main/goals/aurifeuillian-quartic-dvd.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#617](https://github.com/agenticsnz/unsorry/pull/617) | 2026-06-15 |
 | [`cauchy-schwarz-three-term`](https://github.com/agenticsnz/unsorry/blob/main/goals/cauchy-schwarz-three-term.lean) | proved | 3 | oma-2-c50d | perttu · `opus` | [#586](https://github.com/agenticsnz/unsorry/pull/586) | 2026-06-15 |
