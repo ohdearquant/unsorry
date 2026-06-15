@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**259 goals — 105 open · 11 blocked · 10 translated · 53 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
+**259 goals — 104 open · 11 blocked · 10 translated · 54 proved · 80 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (49 of 53 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (50 of 54 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -335,7 +335,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sum-two-k-sub-one-mul-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-two-k-sub-one-mul-two-pow.lean) | open | 2 | — | — | — | — |
 | [`sum-two-squares-zmod-eight-ne-six`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-two-squares-zmod-eight-ne-six.lean) | open | 3 | — | — | — | — |
 | [`sym-deg-three-ge-six-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/sym-deg-three-ge-six-mul.lean) | open | 3 | — | — | — | — |
-| [`twelve-dvd-pow-four-sub-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/twelve-dvd-pow-four-sub-sq.lean) | open | 2 | — | — | — | — |
 | [`two-abs-mul-le-sq-add-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-abs-mul-le-sq-add-sq.lean) | open | 2 | — | — | — | — |
 | [`two-sum-cubes-ge-sym-quadratics`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-sum-cubes-ge-sym-quadratics.lean) | open | 3 | — | — | — | — |
 | [`weighted-am-gm-cubed`](https://github.com/agenticsnz/unsorry/blob/main/goals/weighted-am-gm-cubed.lean) | open | 2 | — | — | — | — |
@@ -411,6 +410,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sum-sq-add-three-ge-two-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-sq-add-three-ge-two-sum.lean) | proved | 2 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#568](https://github.com/agenticsnz/unsorry/pull/568) | 2026-06-14 |
 | [`sum-three-squares-ge-sum-products`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-three-squares-ge-sum-products.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#432](https://github.com/agenticsnz/unsorry/pull/432) | 2026-06-14 |
 | [`thirty-dvd-pow-five-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/thirty-dvd-pow-five-sub-self.lean) | proved | 2 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#565](https://github.com/agenticsnz/unsorry/pull/565) | 2026-06-14 |
+| [`twelve-dvd-pow-four-sub-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/twelve-dvd-pow-four-sub-sq.lean) | proved | 2 | oma-2-c50d | perttu | [#567](https://github.com/agenticsnz/unsorry/pull/567) | 2026-06-15 |
 | [`twenty-four-dvd-four-consecutive`](https://github.com/agenticsnz/unsorry/blob/main/goals/twenty-four-dvd-four-consecutive.lean) | proved | 2 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#569](https://github.com/agenticsnz/unsorry/pull/569) | 2026-06-15 |
 | [`two-abs-le-sq-add-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-abs-le-sq-add-one.lean) | proved | 2 | oma-2-c50d | perttu | [#571](https://github.com/agenticsnz/unsorry/pull/571) | 2026-06-14 |
 | [`abstract-regular-polyhedron-classification`](https://github.com/agenticsnz/unsorry/blob/main/goals/abstract-regular-polyhedron-classification.lean) | archived | 3 | — | — | — | 2026-06-13 |
