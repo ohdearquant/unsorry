@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**94 open · 144 proved · 249 total prove-goals.**
+**93 open · 145 proved · 249 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -20,7 +20,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cube-sum-ge-mul-sq` — For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). Not a named mathlib lemma in this form. |
 | `cube-sum-ge-three-prod-s1` — cube-sum-ge-three-prod-s1 | open | 1 | — | — | — |
 | `cube-sum-ge-three-prod-s2` — cube-sum-ge-three-prod-s2 | open | 1 | — | — | — |
-| `discriminant-nonneg-s2` — discriminant-nonneg-s2 | open | 1 | — | — | — |
 | `dvd-2730-pow-thirteen-sub-self` — 2730 divides n^13 - n for every integer n. | open | 4 | — | #400 Identity Engine (ADR-043) — divisibility family. | 2730 divides n^13 - n for every integer n. Not a named mathlib lemma in this form. |
 | `forty-two-dvd-pow-seven-sub-self` — For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). | open | 2 | — | Classic elementary number theory (library-growth batch, #400 plan Phase 3). | For every integer n, 42 ∣ n⁷ − n (Fermat: 2,3,7 each divide n⁷−n). mathlib has `ZMod.pow_card` (Fermat) but not these specific named divisibility lemmas. |
 | `four-var-qm-am` — For all real a,b,c,d, (a+b+c+d)² ≤ 4(a²+b²+c²+d²) — the 4-variable QM–AM inequality. | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c,d, (a+b+c+d)² ≤ 4(a²+b²+c²+d²) — the 4-variable QM–AM inequality. Not a named mathlib lemma in this form. |
@@ -131,6 +130,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cube-sum-ge-three-prod-s3` — cube-sum-ge-three-prod-s3 | proved | 1 | — | — | — |
 | `descartes-total-angular-defect` — Descartes' theorem: the total angular defect of an abstract regular {p,q} polyhedron is 4π — V(2π − q·(p−2)/p·π) = 4π. | proved | 4 | — | Freek #50 combinatorial classification, Track-1 completion (ADR-031; #400 plan Phase 1). | Descartes' theorem: the total angular defect of an abstract regular {p,q} polyhedron is 4π — V(2π − q·(p−2)/p·π) = 4π. Not in mathlib (no abstract-regular-polyhedron theory). |
 | `discriminant-nonneg-s1` — discriminant-nonneg-s1 | proved | 1 | — | — | — |
+| `discriminant-nonneg-s2` — discriminant-nonneg-s2 | proved | 1 | — | — | — |
 | `discriminant-nonneg-s3` — discriminant-nonneg-s3 | proved | 1 | — | — | — |
 | `dvd-30-pow-nine-sub-self` — 30 divides n^9 - n for every integer n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family. | 30 divides n^9 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-66-pow-eleven-sub-self` — 66 divides n^11 - n for every integer n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family. | 66 divides n^11 - n for every integer n. Not a named mathlib lemma in this form. |
