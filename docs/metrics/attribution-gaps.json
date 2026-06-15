@@ -640,6 +640,21 @@
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "73c118d214d6650d1a149e64d3a1f7164661274a",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "gcd-nsq1-nsq3-dvd-two",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/ecfd4e826bb0f0f51259a3d779fe7edd819573d85528bb7bc6a4e72579ae7216.aisp",
+      "review_status": "candidate",
+      "sha": "ecfd4e826bb0f0f51259a3d779fe7edd819573d85528bb7bc6a4e72579ae7216"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "50b650a9a7d6e2c691ee3cb0bb673492d4fa4150",
       "git_add_date": "2026-06-15",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -2274,9 +2289,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 151,
-    "mapped_missing_solver": 147,
-    "missing_solver_provenance": 151,
+    "git_attributed_missing_solver": 152,
+    "mapped_missing_solver": 148,
+    "missing_solver_provenance": 152,
     "unmapped_missing_solver": 4
   }
 }
