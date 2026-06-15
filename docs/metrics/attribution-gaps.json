@@ -217,6 +217,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "492b3df774ea44f8dd7d209933e01e57fd63dff3",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "quartic-ge-sq-prod",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/ec4eec9b97d21d2b1553659fddcc84cfc1aef5309a2324cb40d6da703df0aa5b.aisp",
+      "review_status": "candidate",
+      "sha": "ec4eec9b97d21d2b1553659fddcc84cfc1aef5309a2324cb40d6da703df0aa5b"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-14",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -1329,9 +1344,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 88,
-    "mapped_missing_solver": 88,
-    "missing_solver_provenance": 88,
+    "git_attributed_missing_solver": 89,
+    "mapped_missing_solver": 89,
+    "missing_solver_provenance": 89,
     "unmapped_missing_solver": 0
   }
 }
