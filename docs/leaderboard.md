@@ -4,35 +4,35 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**151 verified proofs · 67 attributed · 84 historical/unknown · 162 logged terminal runs.**
+**152 verified proofs · 68 attributed · 84 historical/unknown · 164 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 62 |
-| Failed terminal runs | 100 |
+| Successful terminal runs | 63 |
+| Failed terminal runs | 101 |
 | Decomposed after failure | 15 |
-| Failed without decomposition | 85 |
-| Run success rate | 38.3% |
-| Provider attempts | 200 |
-| Failed attempts | 138 |
-| Attempt yield | 31.0% |
-| Recorded run time | 26h 50m |
-| Median / p90 run time | 4m 52s / 31m 42s |
-| Verified successes per recorded hour | 2.31 |
-| Proofs with run telemetry | 62 (41.1%) |
+| Failed without decomposition | 86 |
+| Run success rate | 38.4% |
+| Provider attempts | 202 |
+| Failed attempts | 139 |
+| Attempt yield | 31.2% |
+| Recorded run time | 26h 56m |
+| Median / p90 run time | 4m 51s / 31m 42s |
+| Verified successes per recorded hour | 2.34 |
+| Proofs with run telemetry | 63 (41.4%) |
 
 ## Work Queue
 
-**259 goals · 80 archived · 10 blocked · 90 open · 69 proved · 10 translated.**
+**259 goals · 80 archived · 10 blocked · 89 open · 70 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 52 | 18 | 34.6% | 47 | 5m 0s |
-| 2 | 61 | 21 | 34.4% | 53 | 4m 38s |
+| 1 | 53 | 19 | 35.9% | 47 | 4m 57s |
+| 2 | 62 | 21 | 33.9% | 54 | 4m 28s |
 | 3 | 33 | 19 | 57.6% | 24 | 4m 52s |
 | 4 | 15 | 4 | 26.7% | 13 | 5m 42s |
 | 5 | 1 | 0 | 0.0% | 1 | 31m 28s |
@@ -58,7 +58,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@cgbarlow](https://github.com/cgbarlow) | 88 | 46 | 42 | 129 | 34.9% | 154 | 17600 |
+| 1 | [@cgbarlow](https://github.com/cgbarlow) | 89 | 47 | 42 | 131 | 35.1% | 155 | 17725 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 32 | 0 | 32 | 0 | — | 65 | 7300 |
 | 3 | [@perttu](https://github.com/perttu) | 16 | 16 | 0 | 23 | 69.6% | 31 | 3500 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
@@ -68,16 +68,16 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**67 explicit solver credits · 84 inferred git credits · 0 uncredited proof records.**
+**68 explicit solver credits · 84 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 151 of 151 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 152 of 152 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 39 | 42 | 92.9% | 17 | 3 | 4m 53s | 7.01 |
-| `openai / leanstral-2603` | 9 | 82 | 11.0% | 77 | 1 | 4m 39s | 0.62 |
+| `claude / opus` | 40 | 43 | 93.0% | 17 | 3 | 4m 52s | 7.12 |
+| `openai / leanstral-2603` | 9 | 83 | 10.8% | 78 | 1 | 4m 38s | 0.62 |
 | `codex / unknown` | 7 | 20 | 35.0% | 27 | 2 | 4m 16s | 3.29 |
 | `gemini / gemini-3.1-pro-preview` | 7 | 9 | 77.8% | 6 | 1 | 5m 28s | 7.09 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
@@ -90,8 +90,10 @@ Git add-author attribution covers 151 of 151 proof index files. It is used only 
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-15T02:13:43Z` | `gcd-self-add-dvd` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 2m 37s |
 | `2026-06-15T02:09:09Z` | `gcd-n1-n4-dvd-three` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 3m 42s |
 | `2026-06-15T02:03:25Z` | `gcd-consec-odd-eq-one` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 6m 11s |
+| `2026-06-15T02:00:19Z` | `am-gm-three-cube-s2-s2-s1` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 3m 12s |
 | `2026-06-15T01:58:23Z` | `am-hm-two-var-s1` | [@perttu](https://github.com/perttu) | `gemini / gemini-3.1-pro-preview` | `proved` | 1 | 0 | 9m 29s |
 | `2026-06-15T01:56:47Z` | `am-hm-two-var-s3` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 4m 19s |
 | `2026-06-15T01:55:27Z` | `am-hm-two-var-s2` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 3m 26s |
@@ -108,8 +110,6 @@ Git add-author attribution covers 151 of 151 proof index files. It is used only 
 | `2026-06-15T01:30:58Z` | `fifth-power-mod-eleven` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 3m 42s |
 | `2026-06-15T01:26:58Z` | `eight-sum-pow-four-ge-sum-pow-four` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 3m 0s |
 | `2026-06-15T01:23:39Z` | `dvd-nine-pow-nine-sub-pow-three` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 2m 50s |
-| `2026-06-15T01:20:30Z` | `dvd-66-pow-eleven-sub-self` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 2m 59s |
-| `2026-06-15T01:17:11Z` | `dvd-30-pow-nine-sub-self` | [@cgbarlow](https://github.com/cgbarlow) | `claude / opus` | `proved` | 1 | 0 | 2m 43s |
 
 ## Interpretation
 
