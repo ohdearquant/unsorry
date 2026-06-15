@@ -1615,7 +1615,7 @@
       "p90_solve_s": 203,
       "run_success_rate": 0.0,
       "runs": 1,
-      "status": "blocked",
+      "status": "open",
       "successes": 0,
       "successes_per_recorded_hour": 0.0,
       "total_solve_s": 203
@@ -2928,8 +2928,8 @@
     "goals": 310,
     "status_counts": {
       "archived": 80,
-      "blocked": 8,
-      "open": 129,
+      "blocked": 7,
+      "open": 130,
       "proved": 83,
       "translated": 10
     }
