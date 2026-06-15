@@ -4,35 +4,35 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**135 verified proofs · 53 attributed · 82 historical/unknown · 143 logged terminal runs.**
+**135 verified proofs · 53 attributed · 82 historical/unknown · 144 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
 | Successful terminal runs | 48 |
-| Failed terminal runs | 95 |
-| Decomposed after failure | 14 |
+| Failed terminal runs | 96 |
+| Decomposed after failure | 15 |
 | Failed without decomposition | 81 |
-| Run success rate | 33.6% |
-| Provider attempts | 179 |
-| Failed attempts | 131 |
-| Attempt yield | 26.8% |
-| Recorded run time | 25h 6m |
+| Run success rate | 33.3% |
+| Provider attempts | 182 |
+| Failed attempts | 134 |
+| Attempt yield | 26.4% |
+| Recorded run time | 25h 20m |
 | Median / p90 run time | 4m 54s / 31m 44s |
-| Verified successes per recorded hour | 1.91 |
+| Verified successes per recorded hour | 1.89 |
 | Proofs with run telemetry | 48 (35.6%) |
 
 ## Work Queue
 
-**256 goals · 80 archived · 10 blocked · 103 open · 53 proved · 10 translated.**
+**259 goals · 80 archived · 11 blocked · 105 open · 53 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 46 | 14 | 30.4% | 45 | 5m 14s |
-| 2 | 53 | 15 | 28.3% | 49 | 4m 38s |
+| 2 | 54 | 15 | 27.8% | 52 | 4m 39s |
 | 3 | 28 | 15 | 53.6% | 23 | 4m 42s |
 | 4 | 15 | 4 | 26.7% | 13 | 5m 42s |
 | 5 | 1 | 0 | 0.0% | 1 | 31m 28s |
@@ -41,9 +41,9 @@ Verified output comes from active `library/index` records plus archived index re
 
 | Goal | Status | Difficulty | Runs | Failed attempts | Recorded time |
 |------|--------|-----------:|-----:|----------------:|--------------:|
+| `am-hm-two-var` | `blocked` | 2 | 4 | 8 | 53m 57s |
 | `sq-add-sq-eq-three-mul-sq-s4` | `open` | 1 | 2 | 6 | 54m 47s |
 | `am-gm-three-cube-s2-s2` | `blocked` | 1 | 3 | 5 | 44m 53s |
-| `am-hm-two-var` | `open` | 2 | 3 | 5 | 40m 0s |
 | `consecutive-cubes-diff-odd` | `open` | 2 | 3 | 5 | 21m 11s |
 | `am-gm-three-cube-s2` | `blocked` | 1 | 2 | 4 | 43m 57s |
 | `discriminant-nonneg` | `blocked` | 3 | 2 | 4 | 29m 26s |
@@ -61,7 +61,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | 1 | [@cgbarlow](https://github.com/cgbarlow) | 81 | 39 | 42 | 118 | 32.2% | 140 | 16025 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 30 | 0 | 30 | 0 | — | 61 | 6850 |
 | 3 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
-| 4 | [@perttu](https://github.com/perttu) | 9 | 9 | 0 | 15 | 60.0% | 17 | 1925 |
+| 4 | [@perttu](https://github.com/perttu) | 9 | 9 | 0 | 16 | 56.2% | 17 | 1925 |
 | 5 | [@adam91holt](https://github.com/adam91holt) | 4 | 4 | 0 | 9 | 0.0% | 6 | 700 |
 | 6 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
 | 7 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 1 | 100.0% | 1 | 125 |
@@ -78,7 +78,7 @@ Git add-author attribution covers 135 of 135 proof index files. It is used only 
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 31 | 34 | 91.2% | 17 | 2 | 5m 18s | 6.34 |
 | `openai / leanstral-2603` | 8 | 77 | 10.4% | 73 | 1 | 4m 41s | 0.57 |
-| `codex / unknown` | 5 | 17 | 29.4% | 24 | 2 | 4m 15s | 2.86 |
+| `codex / unknown` | 5 | 18 | 27.8% | 27 | 2 | 4m 16s | 2.52 |
 | `gemini / gemini-3.1-pro-preview` | 4 | 6 | 66.7% | 6 | 1 | 5m 45s | 5.86 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
 | `claude / unknown` | 1 | 0 | — | 0 | 1 | — | — |
