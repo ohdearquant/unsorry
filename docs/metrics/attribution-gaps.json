@@ -593,6 +593,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "1acaadf878f0edf59153c848cfb12fed06f8f083",
+      "git_add_date": "2026-06-15",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "fourth-power-mod-ten-mem",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/d788b5467706467e8c80f54b45d6fd94f2da777f6e612e1b6d2dbfe58dbe0f52.aisp",
+      "review_status": "candidate",
+      "sha": "d788b5467706467e8c80f54b45d6fd94f2da777f6e612e1b6d2dbfe58dbe0f52"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
       "git_add_commit": "a3c6edc2fac5f96bb97a6ea1d58f9afa35ecd0e5",
@@ -1854,9 +1869,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 123,
-    "mapped_missing_solver": 119,
-    "missing_solver_provenance": 123,
+    "git_attributed_missing_solver": 124,
+    "mapped_missing_solver": 120,
+    "missing_solver_provenance": 124,
     "unmapped_missing_solver": 4
   }
 }
