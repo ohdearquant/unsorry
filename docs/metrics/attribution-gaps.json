@@ -265,6 +265,21 @@
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "8dfe9121abbf9bfcf98f947c13cc6a8da4ced4aa",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "bezout-eleven-thirteen-eq-one",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/48bf42d6bc22c1d57c3503cf9521b900aa6f97908958aca3098d65a6f430478c.aisp",
+      "review_status": "candidate",
+      "sha": "48bf42d6bc22c1d57c3503cf9521b900aa6f97908958aca3098d65a6f430478c"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-15",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "961e701a18ebae88334081cc75a8e7c06da53f2c",
       "git_add_date": "2026-06-15",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -2454,9 +2469,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 163,
-    "mapped_missing_solver": 159,
-    "missing_solver_provenance": 163,
+    "git_attributed_missing_solver": 164,
+    "mapped_missing_solver": 160,
+    "missing_solver_provenance": 164,
     "unmapped_missing_solver": 4
   }
 }
