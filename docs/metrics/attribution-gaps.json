@@ -2065,6 +2065,21 @@
       "date": "2026-06-16",
       "difficulty": 3,
       "display_name": "chat-bit-01",
+      "git_add_commit": "1be759dd5ab6d66a72302b91dec28e388fcf0401",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "cyclic-quad-ge-abc-times-sum",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/dd207d366a5b75f0b0ca089b60c63e10cd1d37acebd4ac79e0fd81081f49f16a.aisp",
+      "review_status": "candidate",
+      "sha": "dd207d366a5b75f0b0ca089b60c63e10cd1d37acebd4ac79e0fd81081f49f16a"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
       "git_add_commit": "32a2641146d558b78da97b85afc681644dc963ee",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -3939,9 +3954,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 262,
-    "mapped_missing_solver": 258,
-    "missing_solver_provenance": 262,
+    "git_attributed_missing_solver": 263,
+    "mapped_missing_solver": 259,
+    "missing_solver_provenance": 263,
     "unmapped_missing_solver": 4
   }
 }
