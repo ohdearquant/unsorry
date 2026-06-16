@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**760 goals — 388 open · 7 blocked · 10 translated · 217 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**760 goals — 387 open · 7 blocked · 10 translated · 218 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (213 of 217 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (214 of 218 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -353,7 +353,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`prod-one-sub-inv-sq-telescope`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-one-sub-inv-sq-telescope.lean) | open | 4 | — | — | — | — |
 | [`prod-range-one-sub-recip-succ-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-range-one-sub-recip-succ-sq.lean) | open | 2 | — | — | — | — |
 | [`product-of-two-sums-of-squares-ge-square-of-cross`](https://github.com/agenticsnz/unsorry/blob/main/goals/product-of-two-sums-of-squares-ge-square-of-cross.lean) | open | 2 | — | — | — | — |
-| [`quad-form-divides-cube-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/quad-form-divides-cube-sum.lean) | open | 1 | — | — | — | — |
 | [`quad-form-ge-three-quarter-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/quad-form-ge-three-quarter-sq.lean) | open | 2 | — | — | — | — |
 | [`quartic-n4-plus-four-composite`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-n4-plus-four-composite.lean) | open | 2 | — | — | — | — |
 | [`quartic-n4-plus-four-dvd-by-shift-quadratic`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-n4-plus-four-dvd-by-shift-quadratic.lean) | open | 2 | — | — | — | — |
@@ -833,6 +832,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`pell-d7-no-negative-solution-zmod7`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d7-no-negative-solution-zmod7.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1095](https://github.com/agenticsnz/unsorry/pull/1095) | 2026-06-16 |
 | [`pell-doubling-identity-generic-d`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-doubling-identity-generic-d.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#1087](https://github.com/agenticsnz/unsorry/pull/1087) | 2026-06-16 |
 | [`pell-negative-brahmagupta-composition-generic-d`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-negative-brahmagupta-composition-generic-d.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1089](https://github.com/agenticsnz/unsorry/pull/1089) | 2026-06-16 |
+| [`quad-form-divides-cube-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/quad-form-divides-cube-sum.lean) | proved | 1 | claude-rmt-001 | chat-bit-01 | [#1127](https://github.com/agenticsnz/unsorry/pull/1127) | 2026-06-16 |
 | [`shifted-sum-sq-ge-twice-sum-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/shifted-sum-sq-ge-twice-sum-three-var.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1114](https://github.com/agenticsnz/unsorry/pull/1114) | 2026-06-16 |
 | [`six-dvd-pow-three-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-pow-three-sub-self.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#774](https://github.com/agenticsnz/unsorry/pull/774) | 2026-06-15 |
 | [`six-dvd-three-consecutive-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-three-consecutive-int.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#778](https://github.com/agenticsnz/unsorry/pull/778) | 2026-06-15 |
