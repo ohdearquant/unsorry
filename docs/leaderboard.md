@@ -4,35 +4,35 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**401 verified proofs · 129 attributed · 272 historical/unknown · 415 logged terminal runs.**
+**401 verified proofs · 129 attributed · 272 historical/unknown · 416 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
 | Successful terminal runs | 103 |
-| Failed terminal runs | 312 |
+| Failed terminal runs | 313 |
 | Decomposed after failure | 18 |
-| Failed without decomposition | 294 |
+| Failed without decomposition | 295 |
 | Run success rate | 24.8% |
-| Provider attempts | 465 |
-| Failed attempts | 362 |
+| Provider attempts | 466 |
+| Failed attempts | 363 |
 | Attempt yield | 22.1% |
-| Recorded run time | 95h 0m |
-| Median / p90 run time | 7m 0s / 32m 0s |
+| Recorded run time | 95h 33m |
+| Median / p90 run time | 7m 1s / 32m 0s |
 | Verified successes per recorded hour | 1.08 |
 | Proofs with run telemetry | 103 (25.7%) |
 
 ## Work Queue
 
-**762 goals · 138 archived · 6 blocked · 347 open · 261 proved · 10 translated.**
+**762 goals · 138 archived · 5 blocked · 348 open · 261 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 79 | 24 | 30.4% | 73 | 5m 26s |
-| 2 | 179 | 43 | 24.0% | 156 | 6m 48s |
+| 2 | 180 | 43 | 23.9% | 157 | 6m 48s |
 | 3 | 133 | 32 | 24.1% | 113 | 9m 10s |
 | 4 | 22 | 4 | 18.2% | 18 | 6m 50s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
@@ -48,7 +48,7 @@ Verified output comes from active `library/index` records plus archived index re
 | `dvd-210-pow-fifteen-sub-pow-three-s2` | `open` | 1 | 4 | 4 | 1h 20m |
 | `dvd-210-pow-fifteen-sub-pow-three-s4` | `open` | 1 | 4 | 4 | 53m 3s |
 | `nesbitt-inequality-s1` | `open` | 1 | 2 | 4 | 47m 0s |
-| `am-gm-three-cube` | `blocked` | 3 | 2 | 4 | 16m 32s |
+| `am-gm-three-cube` | `open` | 3 | 2 | 4 | 16m 32s |
 | `dvd-210-pow-fifteen-sub-pow-three` | `blocked` | 2 | 2 | 4 | 7m 0s |
 | `cube-sum-ge-mul-sq` | `archived` | 2 | 2 | 4 | 5m 47s |
 
@@ -59,7 +59,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 211 | 0 | 211 | 0 | — | 471 | 52375 |
-| 2 | [@cgbarlow](https://github.com/cgbarlow) | 117 | 70 | 47 | 302 | 18.9% | 211 | 24025 |
+| 2 | [@cgbarlow](https://github.com/cgbarlow) | 117 | 70 | 47 | 303 | 18.8% | 211 | 24025 |
 | 3 | [@perttu](https://github.com/perttu) | 31 | 31 | 0 | 33 | 69.7% | 69 | 7675 |
 | 4 | [@ohdearquant](https://github.com/ohdearquant) | 20 | 20 | 0 | 20 | 100.0% | 44 | 4900 |
 | 5 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
@@ -81,7 +81,7 @@ Git add-author attribution covers 401 of 401 proof index files. It is used only 
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 56 | 53 | 90.6% | 19 | 5 | 4m 30s | 6.48 |
 | `codex / unknown` | 21 | 77 | 19.5% | 88 | 3 | 7m 37s | 1.26 |
-| `openai / leanstral-2603` | 20 | 209 | 7.2% | 198 | 1 | 6m 28s | 0.30 |
+| `openai / leanstral-2603` | 20 | 210 | 7.1% | 199 | 1 | 6m 29s | 0.30 |
 | `claude / template-decide` | 19 | 19 | 100.0% | 0 | 1 | 0s | — |
 | `gemini / gemini-3.1-pro-preview` | 7 | 7 | 71.4% | 6 | 1 | 6m 32s | 5.32 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
@@ -95,6 +95,7 @@ Git add-author attribution covers 401 of 401 proof index files. It is used only 
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-16T19:57:10Z` | `six-dvd-pow-three-add-five-mul` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 32m 5s |
 | `2026-06-16T19:37:35Z` | `am-gm-three-cube-s2` | [@perttu-mp](https://github.com/perttu-mp) | `claude / opus` | `proved` | 1 | 0 | 22m 45s |
 | `2026-06-16T19:37:21Z` | `six-dvd-pow-three-add-five-mul` | [@perttu-mp](https://github.com/perttu-mp) | `codex / unknown` | `failed` | 1 | 1 | 7m 4s |
 | `2026-06-16T19:23:21Z` | `six-dvd-n-mul-succ-mul-two-n-add-one` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 39s |
@@ -114,7 +115,6 @@ Git add-author attribution covers 401 of 401 proof index files. It is used only 
 | `2026-06-16T19:13:16Z` | `sq-mod-eighteen-mem` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-decide` | `proved` | 1 | 0 | 0s |
 | `2026-06-16T19:13:11Z` | `sixth-power-mod-twentyone-mem` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-decide` | `proved` | 1 | 0 | 0s |
 | `2026-06-16T19:13:06Z` | `sixth-power-mod-thirtyone-mem` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-decide` | `proved` | 1 | 0 | 0s |
-| `2026-06-16T19:13:01Z` | `six-dvd-pow-three-add-five-mul` | [@perttu-mp](https://github.com/perttu-mp) | `claude / opus` | `decomposed` | 1 | 1 | 7m 36s |
 
 ## Interpretation
 
