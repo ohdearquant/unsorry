@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**762 goals — 348 open · 5 blocked · 10 translated · 261 proved · 138 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
+**762 goals — 346 open · 5 blocked · 10 translated · 263 proved · 138 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (257 of 261 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (259 of 263 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -86,8 +86,8 @@ flowchart LR
   class g_dvd_210_pow_fifteen_sub_pow_three_s1 open;
   click g_dvd_210_pow_fifteen_sub_pow_three_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s1.lean" "dvd-210-pow-fifteen-sub-pow-three-s1 — open"
   g_dvd_210_pow_fifteen_sub_pow_three_s2["dvd-210-pow-fifteen-sub-pow-three-s2"]
-  class g_dvd_210_pow_fifteen_sub_pow_three_s2 open;
-  click g_dvd_210_pow_fifteen_sub_pow_three_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s2.lean" "dvd-210-pow-fifteen-sub-pow-three-s2 — open"
+  class g_dvd_210_pow_fifteen_sub_pow_three_s2 proved;
+  click g_dvd_210_pow_fifteen_sub_pow_three_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s2.lean" "dvd-210-pow-fifteen-sub-pow-three-s2 — proved"
   g_dvd_210_pow_fifteen_sub_pow_three_s3["dvd-210-pow-fifteen-sub-pow-three-s3"]
   class g_dvd_210_pow_fifteen_sub_pow_three_s3 proved;
   click g_dvd_210_pow_fifteen_sub_pow_three_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s3.lean" "dvd-210-pow-fifteen-sub-pow-three-s3 — proved"
@@ -271,7 +271,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`dvd-170-pow-seventeen-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-170-pow-seventeen-sub-self.lean) | open | 3 | — | — | — | — |
 | [`dvd-1806-pow-fortythree-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-1806-pow-fortythree-sub-self.lean) | open | 3 | — | — | — | — |
 | [`dvd-210-pow-fifteen-sub-pow-three-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s1.lean) | open | 1 | — | — | — | — |
-| [`dvd-210-pow-fifteen-sub-pow-three-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s2.lean) | open | 1 | — | — | — | — |
 | [`dvd-210-pow-fifteen-sub-pow-three-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s4.lean) | open | 1 | — | — | — | — |
 | [`dvd-240-pow-eight-sub-pow-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-240-pow-eight-sub-pow-four.lean) | open | 3 | — | — | — | — |
 | [`dvd-240-pow-nine-sub-pow-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-240-pow-nine-sub-pow-five.lean) | open | 3 | — | — | — | — |
@@ -579,7 +578,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`tangent-line-cube-trick`](https://github.com/agenticsnz/unsorry/blob/main/goals/tangent-line-cube-trick.lean) | open | 3 | — | — | — | — |
 | [`three-cubes-minus-three-prod-dvd-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-cubes-minus-three-prod-dvd-sum.lean) | open | 2 | — | — | — | — |
 | [`three-cubes-zmod-nine-ne-four-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-cubes-zmod-nine-ne-four-five.lean) | open | 2 | — | — | — | — |
-| [`three-dvd-n-cubed-add-two-n`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-dvd-n-cubed-add-two-n.lean) | open | 2 | — | — | — | — |
 | [`three-fourth-powers-zmod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-fourth-powers-zmod-sixteen-mem.lean) | open | 3 | — | — | — | — |
 | [`three-mul-fib-eq-fib-add-two-add-fib-sub-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-mul-fib-eq-fib-add-two-add-fib-sub-two.lean) | open | 2 | — | — | — | — |
 | [`three-quartic-sum-ge-sumsq-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-quartic-sum-ge-sumsq-sq.lean) | open | 3 | — | — | — | — |
@@ -670,6 +668,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`discriminant-nonneg-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/discriminant-nonneg-s3.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#627](https://github.com/agenticsnz/unsorry/pull/627) | 2026-06-15 |
 | [`dvd-120-five-consecutive-product`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-120-five-consecutive-product.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#977](https://github.com/agenticsnz/unsorry/pull/977) | 2026-06-15 |
 | [`dvd-138-pow-fortyfive-sub-pow-twentythree`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-138-pow-fortyfive-sub-pow-twentythree.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#978](https://github.com/agenticsnz/unsorry/pull/978) | 2026-06-15 |
+| [`dvd-210-pow-fifteen-sub-pow-three-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s2.lean) | proved | 1 | mac-158f | ohdearquant · `template-zmod-decide` | [#1208](https://github.com/agenticsnz/unsorry/pull/1208) | 2026-06-16 |
 | [`dvd-210-pow-fifteen-sub-pow-three-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s3.lean) | proved | 1 | oma-2-c50d | perttu | [#890](https://github.com/agenticsnz/unsorry/pull/890) | 2026-06-15 |
 | [`dvd-264-pow-thirteen-sub-pow-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-264-pow-thirteen-sub-pow-three.lean) | proved | 3 | oma-2-c50d | perttu | [#884](https://github.com/agenticsnz/unsorry/pull/884) | 2026-06-15 |
 | [`dvd-30-pow-nine-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-30-pow-nine-sub-self.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#628](https://github.com/agenticsnz/unsorry/pull/628) | 2026-06-15 |
@@ -863,6 +862,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sum-sq-norm-sq-le-twice-sum-fourth`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-sq-norm-sq-le-twice-sum-fourth.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1129](https://github.com/agenticsnz/unsorry/pull/1129) | 2026-06-16 |
 | [`sum-sq-prod-ge-mul-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-sq-prod-ge-mul-sum.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1125](https://github.com/agenticsnz/unsorry/pull/1125) | 2026-06-16 |
 | [`tenth-power-mod-eleven-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/tenth-power-mod-eleven-mem.lean) | proved | 2 | mac-158f | ohdearquant · `template-decide` | [#1198](https://github.com/agenticsnz/unsorry/pull/1198) | 2026-06-16 |
+| [`three-dvd-n-cubed-add-two-n`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-dvd-n-cubed-add-two-n.lean) | proved | 2 | mac-158f | ohdearquant · `template-zmod-decide` | [#1221](https://github.com/agenticsnz/unsorry/pull/1221) | 2026-06-16 |
 | [`two-cube-sum-ge-sum-times-sumsq`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-cube-sum-ge-sum-times-sumsq.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#1123](https://github.com/agenticsnz/unsorry/pull/1123) | 2026-06-16 |
 | [`two-var-sq-add-one-ge-cross-plus-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-var-sq-add-one-ge-cross-plus-sum.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1112](https://github.com/agenticsnz/unsorry/pull/1112) | 2026-06-16 |
 | [`weighted-am-gm-cubed`](https://github.com/agenticsnz/unsorry/blob/main/goals/weighted-am-gm-cubed.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1130](https://github.com/agenticsnz/unsorry/pull/1130) | 2026-06-16 |
