@@ -760,6 +760,21 @@
       "date": "2026-06-16",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "20cab82db77fdb0a73579f9e8c4f4ddbee3258ba",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-d2-square-doubling-identity",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/6e0fa6a05ff53bbfcd4f768935bff435aca932345f206ca9351e80578fa7848f.aisp",
+      "review_status": "candidate",
+      "sha": "6e0fa6a05ff53bbfcd4f768935bff435aca932345f206ca9351e80578fa7848f"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "f7180dce4a9dda6f5771abb2764268d935fd54bb",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -3279,9 +3294,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 218,
-    "mapped_missing_solver": 214,
-    "missing_solver_provenance": 218,
+    "git_attributed_missing_solver": 219,
+    "mapped_missing_solver": 215,
+    "missing_solver_provenance": 219,
     "unmapped_missing_solver": 4
   }
 }
