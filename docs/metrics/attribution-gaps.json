@@ -220,6 +220,21 @@
       "date": "2026-06-16",
       "difficulty": 3,
       "display_name": "chat-bit-01",
+      "git_add_commit": "deb1c26b62f171c338c0347648229c5dc9e0fc83",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "gcd-factorial-succ-eq-factorial",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/2e37000c5449248ba58b231974c96c2d1a7f66be09d9757ae7be7826b26b2ee0.aisp",
+      "review_status": "candidate",
+      "sha": "2e37000c5449248ba58b231974c96c2d1a7f66be09d9757ae7be7826b26b2ee0"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
       "git_add_commit": "0edd90bac062f63ca49761370a4bc5fc2f838c19",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -2739,9 +2754,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 182,
-    "mapped_missing_solver": 178,
-    "missing_solver_provenance": 182,
+    "git_attributed_missing_solver": 183,
+    "mapped_missing_solver": 179,
+    "missing_solver_provenance": 183,
     "unmapped_missing_solver": 4
   }
 }
