@@ -787,6 +787,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "2784d83df765759f20080c9c3f7b0886442119ef",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-d3-fundamental-square-doubling",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/7047606465a638faea0e1e1c466b965389a8b1fa4f06b9e6bffd633b9e19b0c5.aisp",
+      "review_status": "candidate",
+      "sha": "7047606465a638faea0e1e1c466b965389a8b1fa4f06b9e6bffd633b9e19b0c5"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -3294,9 +3309,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 219,
-    "mapped_missing_solver": 215,
-    "missing_solver_provenance": 219,
+    "git_attributed_missing_solver": 220,
+    "mapped_missing_solver": 216,
+    "missing_solver_provenance": 220,
     "unmapped_missing_solver": 4
   }
 }
