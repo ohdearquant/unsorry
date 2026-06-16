@@ -1015,6 +1015,21 @@
       "date": "2026-06-16",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "62487c60246789f5fe1a06a8af9bd2bfabf0e000",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "diff-twelfth-power-dvd-by-diff-cube",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/6c37d133eec06a7ee5519b4291d8667c1f955d0915f1b697dfbc01d750f9b80d.aisp",
+      "review_status": "candidate",
+      "sha": "6c37d133eec06a7ee5519b4291d8667c1f955d0915f1b697dfbc01d750f9b80d"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "20cab82db77fdb0a73579f9e8c4f4ddbee3258ba",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -3909,9 +3924,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 260,
-    "mapped_missing_solver": 256,
-    "missing_solver_provenance": 260,
+    "git_attributed_missing_solver": 261,
+    "mapped_missing_solver": 257,
+    "missing_solver_provenance": 261,
     "unmapped_missing_solver": 4
   }
 }
