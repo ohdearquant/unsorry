@@ -2033,6 +2033,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "e3e1e5a6748dfff3b4521a10d7aed0fca9f21321",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "amgm-prod-half-sum-le-cubes",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/dbcc3a5f86007d3c16a399bcfec5546d5a8640f6d47bf856ff90ae473de255e0.aisp",
+      "review_status": "candidate",
+      "sha": "dbcc3a5f86007d3c16a399bcfec5546d5a8640f6d47bf856ff90ae473de255e0"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
       "difficulty": 1,
       "display_name": "chat-bit-01",
       "git_add_commit": "d91f9d61bfb9e03942ca1996d046f8b95f8d38c9",
@@ -3924,9 +3939,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 261,
-    "mapped_missing_solver": 257,
-    "missing_solver_provenance": 261,
+    "git_attributed_missing_solver": 262,
+    "mapped_missing_solver": 258,
+    "missing_solver_provenance": 262,
     "unmapped_missing_solver": 4
   }
 }
