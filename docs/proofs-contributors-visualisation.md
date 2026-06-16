@@ -6,7 +6,7 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**760 goals — 390 open · 8 blocked · 10 translated · 214 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**760 goals — 391 open · 7 blocked · 10 translated · 214 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
 Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (210 of 214 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
@@ -95,8 +95,8 @@ flowchart LR
   class g_dvd_210_pow_fifteen_sub_pow_three_s4 open;
   click g_dvd_210_pow_fifteen_sub_pow_three_s4 "https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three-s4.lean" "dvd-210-pow-fifteen-sub-pow-three-s4 — open"
   g_four_var_qm_am["four-var-qm-am"]
-  class g_four_var_qm_am blocked;
-  click g_four_var_qm_am "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean" "four-var-qm-am — blocked"
+  class g_four_var_qm_am open;
+  click g_four_var_qm_am "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean" "four-var-qm-am — open"
   g_four_var_qm_am_s1["four-var-qm-am-s1"]
   class g_four_var_qm_am_s1 proved;
   click g_four_var_qm_am_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s1.lean" "four-var-qm-am-s1 — proved"
@@ -323,6 +323,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`fib-two-mul-eq-fib-mul-two-mul-fib-succ-sub-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-two-mul-eq-fib-mul-two-mul-fib-succ-sub-fib.lean) | open | 3 | — | — | — | — |
 | [`fib-two-mul-sq-diff-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-two-mul-sq-diff-int.lean) | open | 3 | — | — | — | — |
 | [`five-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/five-var-qm-am.lean) | open | 3 | — | — | — | — |
+| [`four-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean) | open | 2 | — | — | — | — |
 | [`fourth-power-mod-fortyone-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-fortyone-mem.lean) | open | 2 | — | — | — | — |
 | [`hexagonal-eq-triangular-odd-index`](https://github.com/agenticsnz/unsorry/blob/main/goals/hexagonal-eq-triangular-odd-index.lean) | open | 1 | — | — | — | — |
 | [`lcm-self-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/lcm-self-succ.lean) | open | 2 | — | — | — | — |
@@ -625,7 +626,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`am-gm-three-cube-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2.lean) | blocked | 1 | — | — | — | — |
 | [`cube-sum-ge-three-prod`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-sum-ge-three-prod.lean) | blocked | 2 | — | — | — | — |
 | [`dvd-210-pow-fifteen-sub-pow-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/dvd-210-pow-fifteen-sub-pow-three.lean) | blocked | 2 | — | — | — | — |
-| [`four-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am.lean) | blocked | 2 | — | — | — | — |
 | [`nesbitt-inequality`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality.lean) | blocked | 4 | — | — | — | — |
 | [`sq-add-sq-eq-three-mul-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq.lean) | blocked | 4 | — | — | — | — |
 | [`sum-icc-choose-hockey-stick`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-icc-choose-hockey-stick.lean) | blocked | 3 | — | — | — | — |
