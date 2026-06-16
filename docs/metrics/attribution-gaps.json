@@ -262,6 +262,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "fe3a7c7df256ba6e6303de2b8f89a7e4a9d529c4",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-d2-stormer-seven-ladder-preserves",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/28430dc534bd3d28d5e9cce499c96b18d08ad4251a63a9ad60acb10db46782f6.aisp",
+      "review_status": "candidate",
+      "sha": "28430dc534bd3d28d5e9cce499c96b18d08ad4251a63a9ad60acb10db46782f6"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -3384,9 +3399,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 225,
-    "mapped_missing_solver": 221,
-    "missing_solver_provenance": 225,
+    "git_attributed_missing_solver": 226,
+    "mapped_missing_solver": 222,
+    "missing_solver_provenance": 226,
     "unmapped_missing_solver": 4
   }
 }

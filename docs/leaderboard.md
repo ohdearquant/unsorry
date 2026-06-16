@@ -4,7 +4,7 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**327 verified proofs · 102 attributed · 225 historical/unknown · 352 logged terminal runs.**
+**328 verified proofs · 102 attributed · 226 historical/unknown · 352 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**760 goals · 138 archived · 8 blocked · 417 open · 187 proved · 10 translated.**
+**760 goals · 138 archived · 8 blocked · 416 open · 188 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -58,7 +58,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 164 | 0 | 164 | 0 | — | 370 | 41100 |
+| 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 165 | 0 | 165 | 0 | — | 372 | 41325 |
 | 2 | [@cgbarlow](https://github.com/cgbarlow) | 113 | 66 | 47 | 264 | 20.1% | 203 | 23125 |
 | 3 | [@perttu](https://github.com/perttu) | 29 | 29 | 0 | 31 | 67.7% | 64 | 7125 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
@@ -69,9 +69,9 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**102 explicit solver credits · 225 inferred git credits · 0 uncredited proof records.**
+**102 explicit solver credits · 226 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 327 of 327 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 328 of 328 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
