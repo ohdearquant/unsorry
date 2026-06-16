@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**391 open · 351 proved · 750 total prove-goals.**
+**390 open · 352 proved · 750 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -180,7 +180,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sum-centered-triangular-closed-form` — The sum of the first n centered triangular numbers equals n times (n^2+1). | open | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog. | The sum of the first n centered triangular numbers equals n times (n^2+1). Not a named mathlib lemma in this form. |
 | `sum-centered-triangular-running-closed-form` — The running sum of twice-centered-triangular terms 3k^2+3k+2 equals n(n^2+1). | open | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | The running sum of twice-centered-triangular terms 3k^2+3k+2 equals n(n^2+1). Not a named mathlib lemma in this form. |
 | `sum-cube-add-id-closed-form` — Four times the sum of (k^3 + k) equals n(n+1)(n^2+n+2). | open | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Four times the sum of (k^3 + k) equals n(n+1)(n^2+n+2). Not a named mathlib lemma in this form. |
-| `sum-cubes-ge-sym-quadratic-two-var` — For nonnegative a,b, a³+b³ ≥ a²b+ab². | open | 2 | — | #400 Identity Engine (ADR-043) — inequalities family. | For nonnegative a,b, a³+b³ ≥ a²b+ab². Not a named mathlib lemma in this form. |
 | `sum-cubes-sym-divisible-by-quadratic` — The symmetric quadratic a²+b²+c²-ab-bc-ca divides a³+b³+c³-3abc. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The symmetric quadratic a²+b²+c²-ab-bc-ca divides a³+b³+c³-3abc. Not a named mathlib lemma in this form. |
 | `sum-decagonal-closed-form` — Six times the sum of the first n decagonal numbers equals n(n+1)(8n-5). | open | 3 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Six times the sum of the first n decagonal numbers equals n(n+1)(8n-5). Not a named mathlib lemma in this form. |
 | `sum-decagonal-numbers-closed-form` — Six times the running sum of the first n decagonal numbers k(4k-3) equals n(n+1)(8n-5). | open | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog. | Six times the running sum of the first n decagonal numbers k(4k-3) equals n(n+1)(8n-5). Not a named mathlib lemma in this form. |
@@ -712,6 +711,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-mod-thirteen-mem` — The quadratic residues modulo 13 are exactly {0,1,3,4,9,10,12}. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The quadratic residues modulo 13 are exactly {0,1,3,4,9,10,12}. Not a named mathlib lemma in this form. |
 | `sq-mod-three` — The square of any natural number not divisible by 3 leaves remainder 1 on division by 3: if n % 3 ≠ 0 then n^2 % 3 = 1. | proved | 2 | — | classic identities (thread-B depth-chain leaf) | Quadratic residues mod 3; Hardy & Wright, An Introduction to the Theory of Numbers (congruence preliminaries); standard elementary number theory. |
 | `sq-sum-le-two-mul-sum-sq` — For all real a,b, (a+b)² ≤ 2(a²+b²). | proved | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For all real a,b, (a+b)² ≤ 2(a²+b²). Not a named mathlib lemma in this concrete polynomial/abs form. |
+| `sum-cubes-ge-sym-quadratic-two-var` — For nonnegative a,b, a³+b³ ≥ a²b+ab². | proved | 2 | — | #400 Identity Engine (ADR-043) — inequalities family. | For nonnegative a,b, a³+b³ ≥ a²b+ab². Not a named mathlib lemma in this form. |
 | `sum-four-pow-ge-sq-prod` — For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For all real a,b,c, a⁴+b⁴+c⁴ ≥ a²b²+b²c²+c²a². Not a named mathlib lemma in this form. |
 | `sum-four-pow-ge-sq-prod-s1` — sum-four-pow-ge-sq-prod-s1 | proved | 1 | — | — | — |
 | `sum-four-pow-ge-sq-prod-s2` — sum-four-pow-ge-sq-prod-s2 | proved | 1 | — | — | — |
