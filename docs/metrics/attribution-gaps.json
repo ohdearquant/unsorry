@@ -622,6 +622,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "30b8f4face11e11aac809522c7f5bbf60e7ee4f1",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "gcd-sq-n-sq-n-one",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/ae9f8477715e75a88a3bba297c62b362cc632946435f2b1fd8075dcda5c64fb0.aisp",
+      "review_status": "candidate",
+      "sha": "ae9f8477715e75a88a3bba297c62b362cc632946435f2b1fd8075dcda5c64fb0"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -2574,9 +2589,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 171,
-    "mapped_missing_solver": 167,
-    "missing_solver_provenance": 171,
+    "git_attributed_missing_solver": 172,
+    "mapped_missing_solver": 168,
+    "missing_solver_provenance": 172,
     "unmapped_missing_solver": 4
   }
 }
