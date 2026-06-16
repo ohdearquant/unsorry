@@ -1117,6 +1117,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "4fa331a123a8ce31c011340bd935e08b4251f735",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "constrained-sum-sq-ge-one-third",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/78809d96da1e05c45de38a1c38bee70b50f95f53288dace650db79b77e2d2ed4.aisp",
+      "review_status": "candidate",
+      "sha": "78809d96da1e05c45de38a1c38bee70b50f95f53288dace650db79b77e2d2ed4"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -3849,9 +3864,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 256,
-    "mapped_missing_solver": 252,
-    "missing_solver_provenance": 256,
+    "git_attributed_missing_solver": 257,
+    "mapped_missing_solver": 253,
+    "missing_solver_provenance": 257,
     "unmapped_missing_solver": 4
   }
 }
