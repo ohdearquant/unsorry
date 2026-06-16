@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**449 open · 293 proved · 750 total prove-goals.**
+**448 open · 294 proved · 750 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -104,7 +104,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `fib-two-mul-sq-diff-int` — fib(2n) = fib(n+1)² − fib(n−1)², a difference-of-squares doubling formula. | open | 3 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | fib(2n) = fib(n+1)² − fib(n−1)², a difference-of-squares doubling formula. Not a named mathlib lemma in this form. |
 | `five-var-qm-am` — The square of a five-term sum is at most five times the sum of the five squares (QM-AM, five variables). | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | The square of a five-term sum is at most five times the sum of the five squares (QM-AM, five variables). Not a named mathlib lemma in this form. |
 | `four-var-qm-am-s2` — four-var-qm-am-s2 | open | 1 | — | — | — |
-| `fourth-power-mod-eighty-mem` — Every fourth power is congruent to only 0, 1, 16 or 65 modulo 80. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog. | Every fourth power is congruent to only 0, 1, 16 or 65 modulo 80. Not a named mathlib lemma in this form. |
 | `fourth-power-mod-fortyone-mem` — The fourth-power residues modulo the prime 41 are exactly {0,1,4,10,16,18,23,25,31,37,40}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog. | The fourth-power residues modulo the prime 41 are exactly {0,1,4,10,16,18,23,25,31,37,40}. Not a named mathlib lemma in this form. |
 | `fourth-power-mod-hundred-mem` — The last two decimal digits of a fourth power are always one of twelve values {00,01,16,21,25,36,41,56,61,76,81,96}. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog. | The last two decimal digits of a fourth power are always one of twelve values {00,01,16,21,25,36,41,56,61,76,81,96}. Not a named mathlib lemma in this form. |
 | `hexagonal-eq-triangular-odd-index` — The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. | open | 1 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. Not a named mathlib lemma in this form. |
@@ -571,6 +570,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `four-var-qm-am-s1` — four-var-qm-am-s1 | proved | 1 | — | — | — |
 | `four-var-qm-am-s3` — four-var-qm-am-s3 | proved | 1 | — | — | — |
 | `fourth-power-mod-eight-mem` — Every fourth power is congruent to 0 or 1 modulo 8. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family. | Every fourth power is congruent to 0 or 1 modulo 8. Not a named mathlib lemma in this form. |
+| `fourth-power-mod-eighty-mem` — Every fourth power is congruent to only 0, 1, 16 or 65 modulo 80. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog. | Every fourth power is congruent to only 0, 1, 16 or 65 modulo 80. Not a named mathlib lemma in this form. |
 | `fourth-power-mod-five` — The fourth power of any natural number not divisible by 5 leaves remainder 1 on division by 5: if n % 5 ≠ 0 then n⁴ % 5 = 1. | proved | 3 | — | classic identities (fourth-power congruence tower — leaf; the Fermat case p=5) | Fermat's little theorem at the prime 5: a⁴ ≡ 1 (mod 5) for gcd(a,5)=1. Hardy & Wright, An Introduction to the Theory of Numbers. The mod-5 leaf that the others (mod 16, mod 3) do not cover. |
 | `fourth-power-mod-five-mem` — Every natural number's fourth power is congruent to 0 or 1 modulo 5. | proved | 1 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's fourth power is congruent to 0 or 1 modulo 5. Not a named mathlib lemma in this form. |
 | `fourth-power-mod-five-s1` — fourth-power-mod-five-s1 | proved | 1 | — | — | — |
