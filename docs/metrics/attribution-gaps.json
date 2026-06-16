@@ -1612,6 +1612,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "b93bd04561eac8b5f293926c0e7a0bcd90f70f8b",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-doubling-identity-generic-d",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/e4a769ba7e4d750003e39fe66cd4f4c58795ff47e46cf505d5c7b50608d3a25a.aisp",
+      "review_status": "candidate",
+      "sha": "e4a769ba7e4d750003e39fe66cd4f4c58795ff47e46cf505d5c7b50608d3a25a"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -3399,9 +3414,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 226,
-    "mapped_missing_solver": 222,
-    "missing_solver_provenance": 226,
+    "git_attributed_missing_solver": 227,
+    "mapped_missing_solver": 223,
+    "missing_solver_provenance": 227,
     "unmapped_missing_solver": 4
   }
 }
