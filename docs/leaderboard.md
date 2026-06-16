@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**760 goals · 138 archived · 8 blocked · 390 open · 214 proved · 10 translated.**
+**760 goals · 138 archived · 7 blocked · 391 open · 214 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -46,7 +46,7 @@ Verified output comes from active `library/index` records plus archived index re
 | `nat-sq-lt-two-pow-s2` | `open` | 1 | 4 | 6 | 52m 47s |
 | `am-gm-three-cube-s2-s2` | `open` | 1 | 3 | 5 | 44m 53s |
 | `consecutive-cubes-diff-odd` | `archived` | 2 | 3 | 5 | 21m 11s |
-| `four-var-qm-am` | `blocked` | 2 | 2 | 4 | 1h 46m |
+| `four-var-qm-am` | `open` | 2 | 2 | 4 | 1h 46m |
 | `dvd-210-pow-fifteen-sub-pow-three-s2` | `open` | 1 | 4 | 4 | 1h 20m |
 | `dvd-210-pow-fifteen-sub-pow-three-s4` | `open` | 1 | 4 | 4 | 53m 3s |
 | `nesbitt-inequality-s1` | `open` | 1 | 2 | 4 | 47m 0s |
