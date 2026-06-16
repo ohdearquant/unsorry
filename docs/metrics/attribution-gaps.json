@@ -578,6 +578,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "5a90356d1c6e906139ad04a10ccebedad730479c",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pow-four-add-pow-four-ge-cube-mul",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/4125318acb6ee15b710c512c5181e96ef5c626e5f955d352c5b457a4e3e22173.aisp",
+      "review_status": "candidate",
+      "sha": "4125318acb6ee15b710c512c5181e96ef5c626e5f955d352c5b457a4e3e22173"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
       "difficulty": 3,
       "display_name": "chat-bit-01",
       "git_add_commit": "36178f8658cfde297c909ea95a41a4fdaff936d6",
@@ -3969,9 +3984,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 264,
-    "mapped_missing_solver": 260,
-    "missing_solver_provenance": 264,
+    "git_attributed_missing_solver": 265,
+    "mapped_missing_solver": 261,
+    "missing_solver_provenance": 265,
     "unmapped_missing_solver": 4
   }
 }
