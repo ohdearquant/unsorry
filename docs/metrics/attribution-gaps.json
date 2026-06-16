@@ -1840,6 +1840,21 @@
       "date": "2026-06-16",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "fc00e3eb3f49c0362b957f27e7ee4c89ce1076c3",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sophie-germain-factor-dvd",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/c56a679b3c0b2d14d191da08e5cb73c29a2b796144a46cd042d52dd8e3f61182.aisp",
+      "review_status": "candidate",
+      "sha": "c56a679b3c0b2d14d191da08e5cb73c29a2b796144a46cd042d52dd8e3f61182"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "69835409fb604e3dab1e498dfa876eec1936ddf5",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -4029,9 +4044,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 268,
-    "mapped_missing_solver": 264,
-    "missing_solver_provenance": 268,
+    "git_attributed_missing_solver": 269,
+    "mapped_missing_solver": 265,
+    "missing_solver_provenance": 269,
     "unmapped_missing_solver": 4
   }
 }
