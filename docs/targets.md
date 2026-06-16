@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**373 open · 372 proved · 750 total prove-goals.**
+**372 open · 373 proved · 750 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -139,7 +139,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sixth-power-mod-sixtythree-mem` — Every natural number's sixth power is congruent to 0, 1, 28, or 36 modulo 63. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, 28, or 36 modulo 63. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-thirtyone-mem` — Every sixth power modulo the prime 31 lies in the order-5 subgroup {1,2,4,8,16} together with 0. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every sixth power modulo the prime 31 lies in the order-5 subgroup {1,2,4,8,16} together with 0. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-twentyone-mem` — Every natural number's sixth power is congruent to 0, 1, 7, or 15 modulo 21. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, 7, or 15 modulo 21. Not a named mathlib lemma in this form. |
-| `sophie-germain-factor-dvd` — The Sophie Germain factor a²−2ab+2b² always divides a⁴+4b⁴. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The Sophie Germain factor a²−2ab+2b² always divides a⁴+4b⁴. Not a named mathlib lemma in this form. |
 | `sophie-germain-not-prime` — For a≥2, b≥1 the number a⁴+4b⁴ is composite (never prime) via the Sophie Germain factorisation. | open | 4 | — | #400 Identity Engine (ADR-043) — algebraic family. | For a≥2, b≥1 the number a⁴+4b⁴ is composite (never prime) via the Sophie Germain factorisation. Not a named mathlib lemma in this form. |
 | `sophie-germain-plus-factor-dvd` — The second Sophie-Germain quadratic factor a^2+2ab+2b^2 divides a^4+4b^4. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The second Sophie-Germain quadratic factor a^2+2ab+2b^2 divides a^4+4b^4. Not a named mathlib lemma in this form. |
 | `sos-weighted-three-one-two` — A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. Not a named mathlib lemma in this form. |
@@ -694,6 +693,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sixth-power-mod-nine-mem` — Every natural number's sixth power is congruent to 0 or 1 modulo 9. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0 or 1 modulo 9. Not a named mathlib lemma in this form. |
 | `sixth-power-mod-seven` — For every natural n, n⁶ % 7 ∈ {0,1} (Fermat). | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n⁶ % 7 ∈ {0,1} (Fermat). Not a named mathlib lemma in this form. |
 | `sixth-power-mod-thirteen-mem` — Every natural number's sixth power is congruent to 0, 1, or 12 modulo 13. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, or 12 modulo 13. Not a named mathlib lemma in this form. |
+| `sophie-germain-factor-dvd` — The Sophie Germain factor a²−2ab+2b² always divides a⁴+4b⁴. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The Sophie Germain factor a²−2ab+2b² always divides a⁴+4b⁴. Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s1` — sq-add-sq-eq-three-mul-sq-s1 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s2` — sq-add-sq-eq-three-mul-sq-s2 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s3` — sq-add-sq-eq-three-mul-sq-s3 | proved | 1 | — | — | — |
