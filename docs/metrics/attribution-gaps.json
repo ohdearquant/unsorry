@@ -1297,6 +1297,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "69835409fb604e3dab1e498dfa876eec1936ddf5",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-d2-quad-ladder-step-preserves",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/c6e31d864774411a6e6ff7ffbc11672df89177d9503527b738ba2b0899cba6e2.aisp",
+      "review_status": "candidate",
+      "sha": "c6e31d864774411a6e6ff7ffbc11672df89177d9503527b738ba2b0899cba6e2"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-14",
       "difficulty": 1,
       "display_name": "chat-bit-01",
@@ -3249,9 +3264,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 216,
-    "mapped_missing_solver": 212,
-    "missing_solver_provenance": 216,
+    "git_attributed_missing_solver": 217,
+    "mapped_missing_solver": 213,
+    "missing_solver_provenance": 217,
     "unmapped_missing_solver": 4
   }
 }
