@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**760 goals · 138 archived · 7 blocked · 384 open · 221 proved · 10 translated.**
+**760 goals · 138 archived · 6 blocked · 385 open · 221 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
@@ -49,7 +49,7 @@ Verified output comes from active `library/index` records plus archived index re
 | `dvd-210-pow-fifteen-sub-pow-three-s2` | `open` | 1 | 4 | 4 | 1h 20m |
 | `dvd-210-pow-fifteen-sub-pow-three-s4` | `open` | 1 | 4 | 4 | 53m 3s |
 | `nesbitt-inequality-s1` | `open` | 1 | 2 | 4 | 47m 0s |
-| `am-gm-three-cube-s2` | `blocked` | 1 | 2 | 4 | 43m 57s |
+| `am-gm-three-cube-s2` | `open` | 1 | 2 | 4 | 43m 57s |
 | `cube-sum-ge-three-prod` | `blocked` | 2 | 2 | 4 | 17m 0s |
 
 ## Contributor Leaderboard
