@@ -772,6 +772,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "738bb3e1e81789d66af1cdf6282098883af9a56b",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "diff-two-squares-zmod-four-ne-two",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/5c09d32fac605fe81ee49e34ed3438aa240b7ad9f95a4994a26b55b3950e095c.aisp",
+      "review_status": "candidate",
+      "sha": "5c09d32fac605fe81ee49e34ed3438aa240b7ad9f95a4994a26b55b3950e095c"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -3489,9 +3504,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 232,
-    "mapped_missing_solver": 228,
-    "missing_solver_provenance": 232,
+    "git_attributed_missing_solver": 233,
+    "mapped_missing_solver": 229,
+    "missing_solver_provenance": 233,
     "unmapped_missing_solver": 4
   }
 }
