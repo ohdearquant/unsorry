@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**347 open · 399 proved · 752 total prove-goals.**
+**346 open · 400 proved · 752 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -14,7 +14,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `alt-sum-range-two-k-add-one-eq-signed-n` — The alternating sum of the odd numbers (2k+1) over k below n equals (-1)^(n+1) times n. | open | 2 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The alternating sum of the odd numbers (2k+1) over k below n equals (-1)^(n+1) times n. Not a named mathlib lemma in this form. |
 | `alternating-sum-k-mul-choose-eq-zero` — For n at least 2 the alternating sum of k·C(n,k) over k is zero. | open | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | For n at least 2 the alternating sum of k·C(n,k) over k is zero. Not a named mathlib lemma in this form. |
 | `alternating-sum-shifted-choose-eq-one` — The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. | open | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. Not a named mathlib lemma in this form. |
-| `am-gm-three-cube-s2` — am-gm-three-cube-s2 | open | 1 | — | — | — |
 | `am-hm-two-var` — For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. Not a named mathlib lemma in this concrete form. |
 | `cassini-nat-fib-int` — Over the integers, fib n times fib(n+2) minus fib(n+1) squared equals (-1)^(n+1) (a Cassini-form identity for Nat.fib). | open | 4 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | Over the integers, fib n times fib(n+2) minus fib(n+1) squared equals (-1)^(n+1) (a Cassini-form identity for Nat.fib). Not a named mathlib lemma in this form. |
 | `catalan-r2-int-fib` — Catalan's identity at offset 2: fib(n)² − fib(n−2)·fib(n+2) = (−1)^n. | open | 2 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog. | Catalan's identity at offset 2: fib(n)² − fib(n−2)·fib(n+2) = (−1)^n. Not a named mathlib lemma in this form. |
@@ -365,6 +364,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `abstract-regular-polyhedron-classification` — For an abstract regular polyhedron — V vertices, E edges, F faces that are p-gons, vertices of degree q — with the two handshakes p·F = 2E and q·V = 2E and Euler's relation V + F = E + 2, the pair (p, q) is one of the five Platonic Schläfli pairs {(3,3),(3,4),(4,3),(3,5),(5,3)}. The classification (⟹) half of Freek #50 in combinatorial/Euler form. | proved | 3 | — | Freek 100 (#50), combinatorial form (ADR-031 / SPEC-031-A, Track 1) | The classification half of 'there are exactly five Platonic solids', reusing the proved `platonic_schlafli_pairs` as keystone (Euler + handshake ⟹ 1/p+1/q > 1/2 ⟹ the five pairs). Coxeter, Regular Polytopes, Ch. 1. NOT the geometric Freek #50 (that is Track 2, gated on a mathlib polytope face lattice + Euler–Poincaré). |
 | `alternating-sum-naturals` — For every natural n, the sum over i in 0..n-1 of (-1)^i (i+1) equals -(n/2) if n is even and (n/2)+1 if n is odd (integer division over ℤ). | proved | 3 | [packet-ready](upstream/alternating-sum-naturals.md) | classic identities | Standard arithmetic alternating-series partial sums (1-2+3-4+...); tabulated in Hardy, Divergent Series, Ch. 1; elementary induction exercise in discrete-math texts. |
 | `am-gm-three-cube-s1` — am-gm-three-cube-s1 | proved | 1 | — | — | — |
+| `am-gm-three-cube-s2` — am-gm-three-cube-s2 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2-s1` — am-gm-three-cube-s2-s1 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2-s2` — am-gm-three-cube-s2-s2 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2-s2-s1` — am-gm-three-cube-s2-s2-s1 | proved | 1 | — | — | — |
