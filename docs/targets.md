@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**460 open · 282 proved · 750 total prove-goals.**
+**459 open · 283 proved · 750 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -27,7 +27,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cauchy-schwarz-two-term` — For reals, the square of a dot product of two 2-vectors is at most the product of their squared norms (the two-term Cauchy-Schwarz inequality). | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | For reals, the square of a dot product of two 2-vectors is at most the product of their squared norms (the two-term Cauchy-Schwarz inequality). Not a named mathlib lemma in this form. |
 | `consecutive-fib-product-diff-nat-int` — Over the integers, fib n times fib(n+3) minus fib(n+1) times fib(n+2) equals (-1)^(n+1). | open | 4 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | Over the integers, fib n times fib(n+3) minus fib(n+1) times fib(n+2) equals (-1)^(n+1). Not a named mathlib lemma in this form. |
 | `constrained-sum-sq-ge-one-third` — If three reals sum to 1 then their sum of squares is at least 1/3. | open | 2 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | If three reals sum to 1 then their sum of squares is at least 1/3. Not a named mathlib lemma in this form. |
-| `cube-mod-twentysix-mem` — The cubic residues modulo 26 are exactly 0,1,5,8,12,13,14,18,21,25. | open | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The cubic residues modulo 26 are exactly 0,1,5,8,12,13,14,18,21,25. Not a named mathlib lemma in this form. |
 | `cube-of-sum-minus-cubes-div-by-sum` — The difference between (a+b+c)³ and a³+b³+c³ is divisible by a+b (it equals 3(a+b)(b+c)(c+a)). | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The difference between (a+b+c)³ and a³+b³+c³ is divisible by a+b (it equals 3(a+b)(b+c)(c+a)). Not a named mathlib lemma in this form. |
 | `cube-sum-ge-three-prod-s2` — cube-sum-ge-three-prod-s2 | open | 1 | — | — | — |
 | `cyclic-cube-sum-ge-asym-quad-cubic` — For nonnegative reals the sum of cubes dominates the cyclic sum a^2 b + b^2 c + c^2 a. | open | 2 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog. | For nonnegative reals the sum of cubes dominates the cyclic sum a^2 b + b^2 c + c^2 a. Not a named mathlib lemma in this form. |
@@ -526,6 +525,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cube-mod-thirtyseven-mem` — The cubic residues modulo the prime 37 are exactly {0,1,6,8,10,11,14,23,26,27,29,31,36}. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog. | The cubic residues modulo the prime 37 are exactly {0,1,6,8,10,11,14,23,26,27,29,31,36}. Not a named mathlib lemma in this form. |
 | `cube-mod-twentyone-mem` — Every cube is congruent to one of {0,1,6,7,8,13,14,15,20} modulo 21. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every cube is congruent to one of {0,1,6,7,8,13,14,15,20} modulo 21. Not a named mathlib lemma in this form. |
 | `cube-mod-twentyseven-mem` — The cubic residues modulo 27 are exactly 0, 1, 8, 10, 17, 19, and 26. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The cubic residues modulo 27 are exactly 0, 1, 8, 10, 17, 19, and 26. Not a named mathlib lemma in this form. |
+| `cube-mod-twentysix-mem` — The cubic residues modulo 26 are exactly 0,1,5,8,12,13,14,18,21,25. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The cubic residues modulo 26 are exactly 0,1,5,8,12,13,14,18,21,25. Not a named mathlib lemma in this form. |
 | `cube-sum-ge-mul-sq` — For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). Not a named mathlib lemma in this form. |
 | `cube-sum-ge-three-prod-s1` — cube-sum-ge-three-prod-s1 | proved | 1 | — | — | — |
 | `cube-sum-ge-three-prod-s3` — cube-sum-ge-three-prod-s3 | proved | 1 | — | — | — |
