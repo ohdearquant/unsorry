@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**760 goals — 381 open · 5 blocked · 10 translated · 226 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**760 goals — 380 open · 5 blocked · 10 translated · 227 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (222 of 226 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (223 of 227 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -240,7 +240,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`alternating-sum-shifted-choose-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/alternating-sum-shifted-choose-eq-one.lean) | open | 4 | — | — | — | — |
 | [`am-gm-three-cube-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-gm-three-cube-s2.lean) | open | 1 | — | — | — | — |
 | [`am-hm-two-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var.lean) | open | 2 | — | — | — | — |
-| [`amgm-prod-half-sum-le-cubes`](https://github.com/agenticsnz/unsorry/blob/main/goals/amgm-prod-half-sum-le-cubes.lean) | open | 3 | — | — | — | — |
 | [`cassini-nat-fib-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/cassini-nat-fib-int.lean) | open | 4 | — | — | — | — |
 | [`catalan-r2-int-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/catalan-r2-int-fib.lean) | open | 2 | — | — | — | — |
 | [`catalan-r2-shift-nat-fib-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/catalan-r2-shift-nat-fib-int.lean) | open | 3 | — | — | — | — |
@@ -636,6 +635,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`am-hm-two-var-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s2.lean) | proved | 1 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#652](https://github.com/agenticsnz/unsorry/pull/652) | 2026-06-15 |
 | [`am-hm-two-var-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/am-hm-two-var-s3.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#646](https://github.com/agenticsnz/unsorry/pull/646) | 2026-06-15 |
 | [`amgm-four-cross-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/amgm-four-cross-three-var.lean) | proved | 3 | thebeast-ace7 | adam91holt | [#678](https://github.com/agenticsnz/unsorry/pull/678) | 2026-06-15 |
+| [`amgm-prod-half-sum-le-cubes`](https://github.com/agenticsnz/unsorry/blob/main/goals/amgm-prod-half-sum-le-cubes.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#1141](https://github.com/agenticsnz/unsorry/pull/1141) | 2026-06-17 |
 | [`bezout-eleven-thirteen-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/bezout-eleven-thirteen-eq-one.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#985](https://github.com/agenticsnz/unsorry/pull/985) | 2026-06-16 |
 | [`bezout-five-seven-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/bezout-five-seven-eq-one.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#984](https://github.com/agenticsnz/unsorry/pull/984) | 2026-06-15 |
 | [`candido-sum-quartics-twice-square`](https://github.com/agenticsnz/unsorry/blob/main/goals/candido-sum-quartics-twice-square.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1139](https://github.com/agenticsnz/unsorry/pull/1139) | 2026-06-16 |
