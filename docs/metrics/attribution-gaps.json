@@ -487,6 +487,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "7bb9d2d6b78c5409d2f39890084b0e26c0824a01",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "gcd-n2p1-n2p3-dvd-two",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/8fcb380df62f6ef15d3860deeafdff0433299992151f143fa01f7ccf221ae6ca.aisp",
+      "review_status": "candidate",
+      "sha": "8fcb380df62f6ef15d3860deeafdff0433299992151f143fa01f7ccf221ae6ca"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -2514,9 +2529,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 167,
-    "mapped_missing_solver": 163,
-    "missing_solver_provenance": 167,
+    "git_attributed_missing_solver": 168,
+    "mapped_missing_solver": 164,
+    "missing_solver_provenance": 168,
     "unmapped_missing_solver": 4
   }
 }
