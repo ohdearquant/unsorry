@@ -7,6 +7,21 @@
   "missing_solver_provenance": [
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "de81ccb6fe2033c7102308ef5b7f1e32be57bf33",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "coprime-fib-sq-fib-succ",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/046934e220bcfcf76b75cb1f71ac11ada35292f048e9214ce6182207be6a598e.aisp",
+      "review_status": "candidate",
+      "sha": "046934e220bcfcf76b75cb1f71ac11ada35292f048e9214ce6182207be6a598e"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -2754,9 +2769,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 183,
-    "mapped_missing_solver": 179,
-    "missing_solver_provenance": 183,
+    "git_attributed_missing_solver": 184,
+    "mapped_missing_solver": 180,
+    "missing_solver_provenance": 184,
     "unmapped_missing_solver": 4
   }
 }
