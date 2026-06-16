@@ -667,6 +667,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "fed2a77f3c552f2dca2bf9fbbf6337550b15208e",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-brahmagupta-composition-generic-d",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/5b640a966144975b8b958a65e46f6fc546aaea76608b07dd9b5387dea1c3838b.aisp",
+      "review_status": "candidate",
+      "sha": "5b640a966144975b8b958a65e46f6fc546aaea76608b07dd9b5387dea1c3838b"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -3324,9 +3339,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 221,
-    "mapped_missing_solver": 217,
-    "missing_solver_provenance": 221,
+    "git_attributed_missing_solver": 222,
+    "mapped_missing_solver": 218,
+    "missing_solver_provenance": 222,
     "unmapped_missing_solver": 4
   }
 }
