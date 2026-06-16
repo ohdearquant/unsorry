@@ -503,6 +503,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-16",
+      "difficulty": 1,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "3a5e3a60a99b4fe98c43738459fc90415f50438e",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "cube-sum-ge-three-prod-s2",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/39644f1df2a0594bee4a418f0ddbafcd3446048f370a7838c5572c570035cb75.aisp",
+      "review_status": "candidate",
+      "sha": "39644f1df2a0594bee4a418f0ddbafcd3446048f370a7838c5572c570035cb75"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
       "difficulty": 2,
       "display_name": "chat-bit-01",
       "git_add_commit": "7692ce4dcbbc995358bcda8162554e49c1f2023d",
@@ -3864,9 +3879,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 257,
-    "mapped_missing_solver": 253,
-    "missing_solver_provenance": 257,
+    "git_attributed_missing_solver": 258,
+    "mapped_missing_solver": 254,
+    "missing_solver_provenance": 258,
     "unmapped_missing_solver": 4
   }
 }
