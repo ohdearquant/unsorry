@@ -577,6 +577,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "b217abef9300b9e3f421230a8c294d76c324a5d2",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "cauchy-schwarz-two-term",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/44f0e37ea1b40cfa49e90f48bce170faf8c06bc9f59df08c23e774605b17b4e3.aisp",
+      "review_status": "candidate",
+      "sha": "44f0e37ea1b40cfa49e90f48bce170faf8c06bc9f59df08c23e774605b17b4e3"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -3624,9 +3639,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 241,
-    "mapped_missing_solver": 237,
-    "missing_solver_provenance": 241,
+    "git_attributed_missing_solver": 242,
+    "mapped_missing_solver": 238,
+    "missing_solver_provenance": 242,
     "unmapped_missing_solver": 4
   }
 }
