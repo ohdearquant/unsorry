@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**760 goals — 455 open · 8 blocked · 10 translated · 149 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**760 goals — 454 open · 8 blocked · 10 translated · 150 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (145 of 149 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (146 of 150 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -317,7 +317,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`eighth-power-mod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/eighth-power-mod-sixteen-mem.lean) | open | 2 | — | — | — | — |
 | [`eighth-power-mod-thirtytwo-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/eighth-power-mod-thirtytwo-mem.lean) | open | 2 | — | — | — | — |
 | [`eisenstein-norm-multiplicative`](https://github.com/agenticsnz/unsorry/blob/main/goals/eisenstein-norm-multiplicative.lean) | open | 2 | — | — | — | — |
-| [`eleventh-power-mod-twentythree-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/eleventh-power-mod-twentythree-mem.lean) | open | 2 | — | — | — | — |
 | [`fib-add-five-eq-five-mul-fib-succ-add-three-mul-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-five-eq-five-mul-fib-succ-add-three-mul-fib.lean) | open | 2 | — | — | — | — |
 | [`fib-add-four-eq-three-mul-fib-add-two-sub-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-four-eq-three-mul-fib-add-two-sub-fib.lean) | open | 2 | — | — | — | — |
 | [`fib-add-four-recurrence-nat`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-add-four-recurrence-nat.lean) | open | 2 | — | — | — | — |
@@ -769,6 +768,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`eight-sum-pow-four-ge-sum-pow-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/eight-sum-pow-four-ge-sum-pow-four.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#631](https://github.com/agenticsnz/unsorry/pull/631) | 2026-06-15 |
 | [`eighth-power-mod-fifteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/eighth-power-mod-fifteen-mem.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#859](https://github.com/agenticsnz/unsorry/pull/859) | 2026-06-15 |
 | [`eighth-power-mod-seventeen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/eighth-power-mod-seventeen-mem.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#1027](https://github.com/agenticsnz/unsorry/pull/1027) | 2026-06-16 |
+| [`eleventh-power-mod-twentythree-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/eleventh-power-mod-twentythree-mem.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1031](https://github.com/agenticsnz/unsorry/pull/1031) | 2026-06-16 |
 | [`fifth-power-mod-eleven`](https://github.com/agenticsnz/unsorry/blob/main/goals/fifth-power-mod-eleven.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#632](https://github.com/agenticsnz/unsorry/pull/632) | 2026-06-15 |
 | [`fifth-power-mod-twentytwo-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fifth-power-mod-twentytwo-mem.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#1024](https://github.com/agenticsnz/unsorry/pull/1024) | 2026-06-16 |
 | [`four-not-dvd-sq-add-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-not-dvd-sq-add-two.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#634](https://github.com/agenticsnz/unsorry/pull/634) | 2026-06-15 |
