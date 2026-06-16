@@ -1057,6 +1057,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "8cb6c60b9eaadb6907807dfa6f4a9018ae8597f3",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "weighted-am-gm-cubed",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/75bb170f0cb9a8cbbacb4c7ab14df2adf87db91983fe60e7317df55740c5a14e.aisp",
+      "review_status": "candidate",
+      "sha": "75bb170f0cb9a8cbbacb4c7ab14df2adf87db91983fe60e7317df55740c5a14e"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -3819,9 +3834,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 254,
-    "mapped_missing_solver": 250,
-    "missing_solver_provenance": 254,
+    "git_attributed_missing_solver": 255,
+    "mapped_missing_solver": 251,
+    "missing_solver_provenance": 255,
     "unmapped_missing_solver": 4
   }
 }
