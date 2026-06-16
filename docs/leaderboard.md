@@ -4,35 +4,35 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**383 verified proofs · 111 attributed · 272 historical/unknown · 394 logged terminal runs.**
+**384 verified proofs · 112 attributed · 272 historical/unknown · 396 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 85 |
-| Failed terminal runs | 309 |
-| Decomposed after failure | 17 |
+| Successful terminal runs | 86 |
+| Failed terminal runs | 310 |
+| Decomposed after failure | 18 |
 | Failed without decomposition | 292 |
-| Run success rate | 21.6% |
-| Provider attempts | 444 |
-| Failed attempts | 359 |
-| Attempt yield | 19.1% |
-| Recorded run time | 93h 51m |
+| Run success rate | 21.7% |
+| Provider attempts | 446 |
+| Failed attempts | 360 |
+| Attempt yield | 19.3% |
+| Recorded run time | 93h 59m |
 | Median / p90 run time | 7m 30s / 32m 1s |
-| Verified successes per recorded hour | 0.91 |
-| Proofs with run telemetry | 85 (22.2%) |
+| Verified successes per recorded hour | 0.92 |
+| Proofs with run telemetry | 86 (22.4%) |
 
 ## Work Queue
 
-**760 goals · 138 archived · 5 blocked · 364 open · 243 proved · 10 translated.**
+**762 goals · 138 archived · 6 blocked · 364 open · 244 proved · 10 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 78 | 23 | 29.5% | 73 | 5m 25s |
-| 2 | 163 | 30 | 18.4% | 153 | 7m 15s |
+| 2 | 165 | 31 | 18.8% | 154 | 7m 15s |
 | 3 | 129 | 28 | 21.7% | 113 | 9m 18s |
 | 4 | 22 | 4 | 18.2% | 18 | 6m 50s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
@@ -63,27 +63,27 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | 3 | [@perttu](https://github.com/perttu) | 31 | 31 | 0 | 33 | 69.7% | 69 | 7675 |
 | 4 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 5 | [@adam91holt](https://github.com/adam91holt) | 6 | 6 | 0 | 57 | 3.5% | 10 | 1150 |
-| 6 | Perttu Isotalo | 4 | 0 | 4 | 0 | — | 8 | 900 |
-| 7 | [@ohdearquant](https://github.com/ohdearquant) | 3 | 3 | 0 | 3 | 100.0% | 6 | 675 |
+| 6 | [@ohdearquant](https://github.com/ohdearquant) | 4 | 4 | 0 | 4 | 100.0% | 8 | 900 |
+| 7 | Perttu Isotalo | 4 | 0 | 4 | 0 | — | 8 | 900 |
 | 8 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
 | 9 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 0 | — | 1 | 125 |
 
 ## Attribution Notes
 
-**111 explicit solver credits · 272 inferred git credits · 0 uncredited proof records.**
+**112 explicit solver credits · 272 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 383 of 383 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 384 of 384 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 55 | 51 | 92.2% | 18 | 4 | 4m 26s | 6.81 |
+| `claude / opus` | 55 | 52 | 90.4% | 19 | 5 | 4m 28s | 6.68 |
 | `codex / unknown` | 21 | 76 | 19.7% | 87 | 2 | 7m 38s | 1.27 |
 | `openai / leanstral-2603` | 20 | 208 | 7.2% | 197 | 1 | 6m 27s | 0.30 |
 | `gemini / gemini-3.1-pro-preview` | 7 | 7 | 71.4% | 6 | 1 | 6m 32s | 5.32 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
-| `claude / template-decide` | 2 | 2 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-decide` | 3 | 3 | 100.0% | 0 | 1 | 0s | — |
 | `claude / sonnet` | 1 | 1 | 100.0% | 0 | 1 | 42s | 85.71 |
 | `claude / unknown` | 1 | 0 | — | 0 | 1 | — | — |
 | `openai / jackcloudman/Leanstral-2603-GGUF` | 0 | 47 | 0.0% | 47 | 1 | 31m 57s | 0.00 |
@@ -94,6 +94,8 @@ Git add-author attribution covers 383 of 383 proof index files. It is used only 
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-16T19:13:16Z` | `sq-mod-eighteen-mem` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-decide` | `proved` | 1 | 0 | 0s |
+| `2026-06-16T19:13:01Z` | `six-dvd-pow-three-add-five-mul` | [@perttu-mp](https://github.com/perttu-mp) | `claude / opus` | `decomposed` | 1 | 1 | 7m 36s |
 | `2026-06-16T19:12:54Z` | `sixth-power-mod-nineteen-mem` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-decide` | `proved` | 1 | 0 | 0s |
 | `2026-06-16T19:12:47Z` | `sixth-power-mod-fourteen-mem` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-decide` | `proved` | 1 | 0 | 0s |
 | `2026-06-16T18:50:00Z` | `sextic-x6-plus-x3-plus-one-composite-shift` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 51s |
@@ -112,8 +114,6 @@ Git add-author attribution covers 383 of 383 proof index files. It is used only 
 | `2026-06-16T15:11:51Z` | `prod-range-one-sub-recip-succ-sq` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 12m 5s |
 | `2026-06-16T14:57:45Z` | `prod-one-sub-inv-sq-telescope` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 5m 16s |
 | `2026-06-16T14:50:40Z` | `prod-icc-succ-sq-div-k-mul-add-two-telescope` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 32m 19s |
-| `2026-06-16T14:16:17Z` | `prod-icc-succ-add-three-div-self-eq-binom-shift` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 7m 58s |
-| `2026-06-16T14:06:32Z` | `prod-icc-one-sub-two-div-pronic` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 38m 9s |
 
 ## Interpretation
 
