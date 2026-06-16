@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**762 goals — 358 open · 6 blocked · 10 translated · 250 proved · 138 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
+**762 goals — 357 open · 6 blocked · 10 translated · 251 proved · 138 archived.** 15 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (246 of 250 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (247 of 251 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -373,7 +373,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-add-sq-eq-three-mul-sq-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s4.lean) | open | 1 | — | — | — | — |
 | [`sq-mod-five-ne-two-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-five-ne-two-three.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-forty-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-forty-mem.lean) | open | 3 | — | — | — | — |
-| [`sq-mod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-sixteen-mem.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-ten-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-ten-mem.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-ten-ne-two-three-seven-eight`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-ten-ne-two-three-seven-eight.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-thirtytwo-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-thirtytwo-mem.lean) | open | 3 | — | — | — | — |
@@ -852,6 +851,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-mod-fourteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-fourteen-mem.lean) | proved | 2 | mac-158f | ohdearquant · `template-decide` | [#1188](https://github.com/agenticsnz/unsorry/pull/1188) | 2026-06-16 |
 | [`sq-mod-nine`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-nine.lean) | proved | 2 | mac-158f | ohdearquant · `template-decide` | [#1189](https://github.com/agenticsnz/unsorry/pull/1189) | 2026-06-16 |
 | [`sq-mod-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-seven.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#828](https://github.com/agenticsnz/unsorry/pull/828) | 2026-06-15 |
+| [`sq-mod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-sixteen-mem.lean) | proved | 2 | mac-158f | ohdearquant · `template-decide` | [#1190](https://github.com/agenticsnz/unsorry/pull/1190) | 2026-06-16 |
 | [`sq-mod-thirteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-thirteen-mem.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#856](https://github.com/agenticsnz/unsorry/pull/856) | 2026-06-15 |
 | [`sq-mod-twentyfive-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-twentyfive-mem.lean) | proved | 2 | mac-158f | ohdearquant · `template-decide` | [#1195](https://github.com/agenticsnz/unsorry/pull/1195) | 2026-06-16 |
 | [`square-of-sum-ge-three-pairwise`](https://github.com/agenticsnz/unsorry/blob/main/goals/square-of-sum-ge-three-pairwise.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1151](https://github.com/agenticsnz/unsorry/pull/1151) | 2026-06-17 |
