@@ -1853,6 +1853,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "fbc9f6b63ec293b6f2c5b1671e0a53651272474b",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "shifted-sum-sq-ge-twice-sum-three-var",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/e28d5aad4fc1ec17acd0cc292e674ac49ec028f416472db5b66516b291841092.aisp",
+      "review_status": "candidate",
+      "sha": "e28d5aad4fc1ec17acd0cc292e674ac49ec028f416472db5b66516b291841092"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
       "difficulty": 3,
       "display_name": "chat-bit-01",
       "git_add_commit": "b93bd04561eac8b5f293926c0e7a0bcd90f70f8b",
@@ -3654,9 +3669,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 243,
-    "mapped_missing_solver": 239,
-    "missing_solver_provenance": 243,
+    "git_attributed_missing_solver": 244,
+    "mapped_missing_solver": 240,
+    "missing_solver_provenance": 244,
     "unmapped_missing_solver": 4
   }
 }
