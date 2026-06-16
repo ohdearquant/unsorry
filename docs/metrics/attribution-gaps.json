@@ -790,6 +790,21 @@
       "date": "2026-06-16",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "f703eb6c017ff0c59a9b4c972cee31206167adb6",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-d2-form-product-telescope-step",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/70238bd30c936e7b29cfa5a32337c3dd915bedbfd8bc799804c38bb5c203f3dd.aisp",
+      "review_status": "candidate",
+      "sha": "70238bd30c936e7b29cfa5a32337c3dd915bedbfd8bc799804c38bb5c203f3dd"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "2784d83df765759f20080c9c3f7b0886442119ef",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -3309,9 +3324,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 220,
-    "mapped_missing_solver": 216,
-    "missing_solver_provenance": 220,
+    "git_attributed_missing_solver": 221,
+    "mapped_missing_solver": 217,
+    "missing_solver_provenance": 221,
     "unmapped_missing_solver": 4
   }
 }
