@@ -487,6 +487,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "74f3dad1b0550fc1e4d683eed808597de069b677",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "gcd-consec-odd-eq-one",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/9e735c9a3af7905d299e8ed2e5411de80c33130ad7d30b378f33a9b5f237d9fc.aisp",
+      "review_status": "candidate",
+      "sha": "9e735c9a3af7905d299e8ed2e5411de80c33130ad7d30b378f33a9b5f237d9fc"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -2469,9 +2484,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 164,
-    "mapped_missing_solver": 160,
-    "missing_solver_provenance": 164,
+    "git_attributed_missing_solver": 165,
+    "mapped_missing_solver": 161,
+    "missing_solver_provenance": 165,
     "unmapped_missing_solver": 4
   }
 }
