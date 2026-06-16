@@ -1672,6 +1672,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "068982400e2d59e7db9197c866b80dabde09e730",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pell-d3-rational-bound-above",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/d5b2f85d6e28fd359509e8369ed6adfa7fe3070052d4f0134eb21efb3f2391a5.aisp",
+      "review_status": "candidate",
+      "sha": "d5b2f85d6e28fd359509e8369ed6adfa7fe3070052d4f0134eb21efb3f2391a5"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -3564,9 +3579,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 237,
-    "mapped_missing_solver": 233,
-    "missing_solver_provenance": 237,
+    "git_attributed_missing_solver": 238,
+    "mapped_missing_solver": 234,
+    "missing_solver_provenance": 238,
     "unmapped_missing_solver": 4
   }
 }
