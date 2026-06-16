@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**760 goals — 436 open · 8 blocked · 10 translated · 168 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**760 goals — 435 open · 8 blocked · 10 translated · 169 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (164 of 168 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (165 of 169 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -367,7 +367,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`pell-d3-no-small-nontrivial-y`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d3-no-small-nontrivial-y.lean) | open | 3 | — | — | — | — |
 | [`pell-d3-rational-bound-above`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d3-rational-bound-above.lean) | open | 2 | — | — | — | — |
 | [`pell-d3-x-coord-pos-gt-y`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d3-x-coord-pos-gt-y.lean) | open | 3 | — | — | — | — |
-| [`pell-d5-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d5-ladder-step-preserves.lean) | open | 2 | — | — | — | — |
 | [`pell-d5-negative-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d5-negative-ladder-step-preserves.lean) | open | 2 | — | — | — | — |
 | [`pell-d5-positive-from-negative-square`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d5-positive-from-negative-square.lean) | open | 2 | — | — | — | — |
 | [`pell-d6-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d6-ladder-step-preserves.lean) | open | 2 | — | — | — | — |
@@ -840,6 +839,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`pell-d21-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d21-ladder-step-preserves.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1054](https://github.com/agenticsnz/unsorry/pull/1054) | 2026-06-16 |
 | [`pell-d23-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d23-ladder-step-preserves.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1056](https://github.com/agenticsnz/unsorry/pull/1056) | 2026-06-16 |
 | [`pell-d3-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d3-ladder-step-preserves.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1041](https://github.com/agenticsnz/unsorry/pull/1041) | 2026-06-16 |
+| [`pell-d5-ladder-step-preserves`](https://github.com/agenticsnz/unsorry/blob/main/goals/pell-d5-ladder-step-preserves.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1057](https://github.com/agenticsnz/unsorry/pull/1057) | 2026-06-16 |
 | [`six-dvd-pow-three-sub-self`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-pow-three-sub-self.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#774](https://github.com/agenticsnz/unsorry/pull/774) | 2026-06-15 |
 | [`six-dvd-three-consecutive-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/six-dvd-three-consecutive-int.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#778](https://github.com/agenticsnz/unsorry/pull/778) | 2026-06-15 |
 | [`sixth-power-mod-nine-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sixth-power-mod-nine-mem.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#829](https://github.com/agenticsnz/unsorry/pull/829) | 2026-06-15 |
