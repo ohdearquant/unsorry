@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**760 goals — 391 open · 8 blocked · 10 translated · 213 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**760 goals — 390 open · 8 blocked · 10 translated · 214 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (209 of 213 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (210 of 214 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -101,8 +101,8 @@ flowchart LR
   class g_four_var_qm_am_s1 proved;
   click g_four_var_qm_am_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s1.lean" "four-var-qm-am-s1 — proved"
   g_four_var_qm_am_s2["four-var-qm-am-s2"]
-  class g_four_var_qm_am_s2 open;
-  click g_four_var_qm_am_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s2.lean" "four-var-qm-am-s2 — open"
+  class g_four_var_qm_am_s2 proved;
+  click g_four_var_qm_am_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s2.lean" "four-var-qm-am-s2 — proved"
   g_four_var_qm_am_s3["four-var-qm-am-s3"]
   class g_four_var_qm_am_s3 proved;
   click g_four_var_qm_am_s3 "https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s3.lean" "four-var-qm-am-s3 — proved"
@@ -323,7 +323,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`fib-two-mul-eq-fib-mul-two-mul-fib-succ-sub-fib`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-two-mul-eq-fib-mul-two-mul-fib-succ-sub-fib.lean) | open | 3 | — | — | — | — |
 | [`fib-two-mul-sq-diff-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/fib-two-mul-sq-diff-int.lean) | open | 3 | — | — | — | — |
 | [`five-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/five-var-qm-am.lean) | open | 3 | — | — | — | — |
-| [`four-var-qm-am-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s2.lean) | open | 1 | — | — | — | — |
 | [`fourth-power-mod-fortyone-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-fortyone-mem.lean) | open | 2 | — | — | — | — |
 | [`hexagonal-eq-triangular-odd-index`](https://github.com/agenticsnz/unsorry/blob/main/goals/hexagonal-eq-triangular-odd-index.lean) | open | 1 | — | — | — | — |
 | [`lcm-self-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/lcm-self-succ.lean) | open | 2 | — | — | — | — |
@@ -717,6 +716,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`four-not-dvd-sq-add-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-not-dvd-sq-add-two.lean) | proved | 3 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#634](https://github.com/agenticsnz/unsorry/pull/634) | 2026-06-15 |
 | [`four-var-cyclic-sos`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-cyclic-sos.lean) | proved | 2 | oma-2-c50d | perttu · `gemini-3.1-pro-preview` | [#639](https://github.com/agenticsnz/unsorry/pull/639) | 2026-06-15 |
 | [`four-var-qm-am-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s1.lean) | proved | 1 | oma-2-c50d | perttu | [#751](https://github.com/agenticsnz/unsorry/pull/751) | 2026-06-15 |
+| [`four-var-qm-am-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s2.lean) | proved | 1 | claude-rmt-001 | chat-bit-01 | [#1120](https://github.com/agenticsnz/unsorry/pull/1120) | 2026-06-16 |
 | [`four-var-qm-am-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/four-var-qm-am-s3.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#696](https://github.com/agenticsnz/unsorry/pull/696) | 2026-06-15 |
 | [`fourth-power-mod-eight-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-eight-mem.lean) | proved | 3 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#640](https://github.com/agenticsnz/unsorry/pull/640) | 2026-06-15 |
 | [`fourth-power-mod-eighty-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-eighty-mem.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#1038](https://github.com/agenticsnz/unsorry/pull/1038) | 2026-06-16 |
