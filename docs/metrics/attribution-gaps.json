@@ -1915,6 +1915,21 @@
       "date": "2026-06-16",
       "difficulty": 3,
       "display_name": "chat-bit-01",
+      "git_add_commit": "869063ddc198d6aec3af540c3429ffdcd06a1188",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "two-cube-sum-ge-sum-times-sumsq",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/ded16a5b8c1b3daacb02277afa6aa2144691f65ac514a544657cac6e7bb260af.aisp",
+      "review_status": "candidate",
+      "sha": "ded16a5b8c1b3daacb02277afa6aa2144691f65ac514a544657cac6e7bb260af"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
       "git_add_commit": "2ef7a09db9cb5afcec8eef92b9c33a7e19849cd7",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -3759,9 +3774,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 250,
-    "mapped_missing_solver": 246,
-    "missing_solver_provenance": 250,
+    "git_attributed_missing_solver": 251,
+    "mapped_missing_solver": 247,
+    "missing_solver_provenance": 251,
     "unmapped_missing_solver": 4
   }
 }
