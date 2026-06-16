@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**367 open · 378 proved · 750 total prove-goals.**
+**366 open · 379 proved · 750 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -22,7 +22,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `catalan-r3-shift-nat-fib-int` — Over the integers, the square of fib(n+3) minus fib(n) times fib(n+6) equals four times (-1)^n, a Catalan identity at offset three. | open | 3 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | Over the integers, the square of fib(n+3) minus fib(n) times fib(n+6) equals four times (-1)^n, a Catalan identity at offset three. Not a named mathlib lemma in this form. |
 | `cauchy-schwarz-three-var-product` — The three-variable Cauchy-Schwarz inequality in product form. | open | 2 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog. | The three-variable Cauchy-Schwarz inequality in product form. Not a named mathlib lemma in this form. |
 | `consecutive-fib-product-diff-nat-int` — Over the integers, fib n times fib(n+3) minus fib(n+1) times fib(n+2) equals (-1)^(n+1). | open | 4 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | Over the integers, fib n times fib(n+3) minus fib(n+1) times fib(n+2) equals (-1)^(n+1). Not a named mathlib lemma in this form. |
-| `cube-sum-ge-three-prod` — For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). | open | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `cyclic-cube-sum-ge-asym-quad-cubic` — For nonnegative reals the sum of cubes dominates the cyclic sum a^2 b + b^2 c + c^2 a. | open | 2 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog. | For nonnegative reals the sum of cubes dominates the cyclic sum a^2 b + b^2 c + c^2 a. Not a named mathlib lemma in this form. |
 | `cyclotomic-five-divides-pow-five-sub-one` — The 5th cyclotomic polynomial n⁴+n³+n²+n+1 divides n⁵-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The 5th cyclotomic polynomial n⁴+n³+n²+n+1 divides n⁵-1. Not a named mathlib lemma in this form. |
 | `cyclotomic-three-divides-pow-six-sub-one` — The polynomial n²+n+1 divides n⁶-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The polynomial n²+n+1 divides n⁶-1. Not a named mathlib lemma in this form. |
@@ -439,6 +438,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `cube-mod-twentysix-mem` — The cubic residues modulo 26 are exactly 0,1,5,8,12,13,14,18,21,25. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The cubic residues modulo 26 are exactly 0,1,5,8,12,13,14,18,21,25. Not a named mathlib lemma in this form. |
 | `cube-of-sum-minus-cubes-div-by-sum` — The difference between (a+b+c)³ and a³+b³+c³ is divisible by a+b (it equals 3(a+b)(b+c)(c+a)). | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The difference between (a+b+c)³ and a³+b³+c³ is divisible by a+b (it equals 3(a+b)(b+c)(c+a)). Not a named mathlib lemma in this form. |
 | `cube-sum-ge-mul-sq` — For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For nonneg reals a,b, a³+b³ ≥ a²b+ab² (since a³+b³−a²b−ab² = (a+b)(a−b)²). Not a named mathlib lemma in this form. |
+| `cube-sum-ge-three-prod` — For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). | proved | 2 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For nonneg reals, 3abc ≤ a³+b³+c³ — AM-GM for cubes (a³+b³+c³−3abc = (a+b+c)·½Σ(a−b)²). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `cube-sum-ge-three-prod-s1` — cube-sum-ge-three-prod-s1 | proved | 1 | — | — | — |
 | `cube-sum-ge-three-prod-s2` — cube-sum-ge-three-prod-s2 | proved | 1 | — | — | — |
 | `cube-sum-ge-three-prod-s3` — cube-sum-ge-three-prod-s3 | proved | 1 | — | — | — |
