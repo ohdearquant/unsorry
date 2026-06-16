@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**380 open · 365 proved · 750 total prove-goals.**
+**379 open · 366 proved · 750 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -17,7 +17,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `alternating-sum-shifted-choose-eq-one` — The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. | open | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. Not a named mathlib lemma in this form. |
 | `am-gm-three-cube-s2` — am-gm-three-cube-s2 | open | 1 | — | — | — |
 | `am-hm-two-var` — For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. | open | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3 — library growth). | For positive reals a,b, 4/(a+b) ≤ 1/a + 1/b — the two-variable AM–HM inequality. Not a named mathlib lemma in this concrete form. |
-| `amgm-prod-half-sum-le-cubes` — Twice ab(a+b) is at most twice the sum of cubes for nonnegative reals. | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | Twice ab(a+b) is at most twice the sum of cubes for nonnegative reals. Not a named mathlib lemma in this form. |
 | `cassini-nat-fib-int` — Over the integers, fib n times fib(n+2) minus fib(n+1) squared equals (-1)^(n+1) (a Cassini-form identity for Nat.fib). | open | 4 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | Over the integers, fib n times fib(n+2) minus fib(n+1) squared equals (-1)^(n+1) (a Cassini-form identity for Nat.fib). Not a named mathlib lemma in this form. |
 | `catalan-r2-int-fib` — Catalan's identity at offset 2: fib(n)² − fib(n−2)·fib(n+2) = (−1)^n. | open | 2 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog. | Catalan's identity at offset 2: fib(n)² − fib(n−2)·fib(n+2) = (−1)^n. Not a named mathlib lemma in this form. |
 | `catalan-r2-shift-nat-fib-int` — Over the integers, the square of fib(n+2) minus fib(n) times fib(n+4) equals (-1)^n, a Catalan identity at offset two shifted to stay in the naturals. | open | 3 | — | #400 Identity Engine (ADR-043) — Fibonacci/Lucas family; promoted from candidate backlog (#610). | Over the integers, the square of fib(n+2) minus fib(n) times fib(n+4) equals (-1)^n, a Catalan identity at offset two shifted to stay in the naturals. Not a named mathlib lemma in this form. |
@@ -404,6 +403,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `am-hm-two-var-s2` — am-hm-two-var-s2 | proved | 1 | — | — | — |
 | `am-hm-two-var-s3` — am-hm-two-var-s3 | proved | 1 | — | — | — |
 | `amgm-four-cross-three-var` — The sum of fourth powers dominates the sum of squared pairwise products. | proved | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | The sum of fourth powers dominates the sum of squared pairwise products. Not a named mathlib lemma in this form. |
+| `amgm-prod-half-sum-le-cubes` — Twice ab(a+b) is at most twice the sum of cubes for nonnegative reals. | proved | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | Twice ab(a+b) is at most twice the sum of cubes for nonnegative reals. Not a named mathlib lemma in this form. |
 | `and-comm-imp` — Conjunction commutes. | proved | 1 | — | — | — |
 | `aurifeuillian-quartic-dvd` — The quadratic a²+a+1 always divides a⁴+a²+1. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The quadratic a²+a+1 always divides a⁴+a²+1. Not a named mathlib lemma in this form. |
 | `bezout-eleven-thirteen-eq-one` — There exist integers x, y with 11x + 13y = 1. | proved | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | There exist integers x, y with 11x + 13y = 1. Not a named mathlib lemma in this form. |
