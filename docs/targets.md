@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**476 open · 266 proved · 750 total prove-goals.**
+**475 open · 267 proved · 750 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -130,7 +130,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gcd-n4p1-n2p1-dvd-two` — The gcd of n^4+1 and n^2+1 always divides 2. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog. | The gcd of n^4+1 and n^2+1 always divides 2. Not a named mathlib lemma in this form. |
 | `gcd-np1-n2p1-dvd-two` — The gcd of n+1 and n^2+1 always divides 2. | open | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog. | The gcd of n+1 and n^2+1 always divides 2. Not a named mathlib lemma in this form. |
 | `gcd-quad-factored-n1-eq-n1` — Since n^2+3n+2 = (n+1)(n+2), its gcd with n+1 is exactly n+1. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | Since n^2+3n+2 = (n+1)(n+2), its gcd with n+1 is exactly n+1. Not a named mathlib lemma in this form. |
-| `gcd-sq-n-sq-n-one` — n squared is coprime to n squared plus n plus one. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | n squared is coprime to n squared plus n plus one. Not a named mathlib lemma in this form. |
 | `gcd-three-pow-succ-three-pow-add-one` — Three to the n+1 is coprime to three to the n plus one. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | Three to the n+1 is coprime to three to the n plus one. Not a named mathlib lemma in this form. |
 | `gcd-two-pow-add-one-sub-one-dvd-two` — The gcd of 2^n+1 and 2^n-1 always divides 2. | open | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of 2^n+1 and 2^n-1 always divides 2. Not a named mathlib lemma in this form. |
 | `hexagonal-eq-triangular-odd-index` — The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. | open | 1 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. Not a named mathlib lemma in this form. |
@@ -629,6 +628,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gcd-nsq1-n1-dvd-two` — The gcd of n^2+1 and n+1 always divides 2. | proved | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n^2+1 and n+1 always divides 2. Not a named mathlib lemma in this form. |
 | `gcd-nsq1-nsq3-dvd-two` — The gcd of n^2+1 and n^2+3 always divides 2. | proved | 2 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of n^2+1 and n^2+3 always divides 2. Not a named mathlib lemma in this form. |
 | `gcd-self-add-dvd` — The gcd of n and n+k divides k. | proved | 2 | — | #400 Identity Engine (ADR-043) — gcd-coprime family. | The gcd of n and n+k divides k. Not a named mathlib lemma in this form. |
+| `gcd-sq-n-sq-n-one` — n squared is coprime to n squared plus n plus one. | proved | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | n squared is coprime to n squared plus n plus one. Not a named mathlib lemma in this form. |
 | `gcd-threen-n7-dvd-twentyone` — The gcd of 3n and n+7 always divides 21. | proved | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of 3n and n+7 always divides 21. Not a named mathlib lemma in this form. |
 | `gcd-twon-n5-dvd-ten` — The gcd of 2n and n+5 always divides 10. | proved | 3 | — | #400 Identity Engine (ADR-043) — gcd/coprimality family; promoted from candidate backlog (#610). | The gcd of 2n and n+5 always divides 10. Not a named mathlib lemma in this form. |
 | `int-add-neg` — Adding the negation of an integer yields zero. | proved | 1 | — | — | — |
