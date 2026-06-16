@@ -1195,6 +1195,21 @@
       "date": "2026-06-16",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "64b126de663c5fe26b47d86d18e462c93adefce1",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sum-cubes-ge-sym-quadratic-two-var",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/8dd143f5fccac00dae20e5d18deb76686f9cab171d07725aba0c2cd7494e51cd.aisp",
+      "review_status": "candidate",
+      "sha": "8dd143f5fccac00dae20e5d18deb76686f9cab171d07725aba0c2cd7494e51cd"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "7bb9d2d6b78c5409d2f39890084b0e26c0824a01",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -3714,9 +3729,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 247,
-    "mapped_missing_solver": 243,
-    "missing_solver_provenance": 247,
+    "git_attributed_missing_solver": 248,
+    "mapped_missing_solver": 244,
+    "missing_solver_provenance": 248,
     "unmapped_missing_solver": 4
   }
 }
