@@ -157,6 +157,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "ce2036714ccf2e53fd57a4967fc72e4c1cf477bb",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "eighth-power-mod-thirtytwo-mem",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/1668392d16b9af5c2266ffd395f08ffcd6ade830e96dea0c05f94e44efef70e5.aisp",
+      "review_status": "candidate",
+      "sha": "1668392d16b9af5c2266ffd395f08ffcd6ade830e96dea0c05f94e44efef70e5"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "Chris Barlow",
@@ -2949,9 +2964,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 196,
-    "mapped_missing_solver": 192,
-    "missing_solver_provenance": 196,
+    "git_attributed_missing_solver": 197,
+    "mapped_missing_solver": 193,
+    "missing_solver_provenance": 197,
     "unmapped_missing_solver": 4
   }
 }
