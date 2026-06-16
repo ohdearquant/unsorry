@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**760 goals — 398 open · 8 blocked · 10 translated · 206 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
+**760 goals — 397 open · 8 blocked · 10 translated · 207 proved · 138 archived.** 14 decomposition families shown below; standalone goals are listed in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (202 of 206 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (203 of 207 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -247,7 +247,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`catalan-r2-shift-nat-fib-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/catalan-r2-shift-nat-fib-int.lean) | open | 3 | — | — | — | — |
 | [`catalan-r3-shift-nat-fib-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/catalan-r3-shift-nat-fib-int.lean) | open | 3 | — | — | — | — |
 | [`cauchy-schwarz-three-var-product`](https://github.com/agenticsnz/unsorry/blob/main/goals/cauchy-schwarz-three-var-product.lean) | open | 2 | — | — | — | — |
-| [`cauchy-schwarz-two-term`](https://github.com/agenticsnz/unsorry/blob/main/goals/cauchy-schwarz-two-term.lean) | open | 2 | — | — | — | — |
 | [`consecutive-fib-product-diff-nat-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/consecutive-fib-product-diff-nat-int.lean) | open | 4 | — | — | — | — |
 | [`constrained-sum-sq-ge-one-third`](https://github.com/agenticsnz/unsorry/blob/main/goals/constrained-sum-sq-ge-one-third.lean) | open | 2 | — | — | — | — |
 | [`cube-of-sum-minus-cubes-div-by-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/cube-of-sum-minus-cubes-div-by-sum.lean) | open | 2 | — | — | — | — |
@@ -657,6 +656,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`amgm-four-cross-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/amgm-four-cross-three-var.lean) | proved | 3 | thebeast-ace7 | adam91holt | [#678](https://github.com/agenticsnz/unsorry/pull/678) | 2026-06-15 |
 | [`bezout-eleven-thirteen-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/bezout-eleven-thirteen-eq-one.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#985](https://github.com/agenticsnz/unsorry/pull/985) | 2026-06-16 |
 | [`bezout-five-seven-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/bezout-five-seven-eq-one.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#984](https://github.com/agenticsnz/unsorry/pull/984) | 2026-06-15 |
+| [`cauchy-schwarz-two-term`](https://github.com/agenticsnz/unsorry/blob/main/goals/cauchy-schwarz-two-term.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1110](https://github.com/agenticsnz/unsorry/pull/1110) | 2026-06-16 |
 | [`consec-prod-succ-coprime`](https://github.com/agenticsnz/unsorry/blob/main/goals/consec-prod-succ-coprime.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#967](https://github.com/agenticsnz/unsorry/pull/967) | 2026-06-15 |
 | [`constrained-pairsum-le-three-sum-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/constrained-pairsum-le-three-sum-three.lean) | proved | 2 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#842](https://github.com/agenticsnz/unsorry/pull/842) | 2026-06-15 |
 | [`constrained-prod-le-sum-cubes-third`](https://github.com/agenticsnz/unsorry/blob/main/goals/constrained-prod-le-sum-cubes-third.lean) | proved | 2 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#965](https://github.com/agenticsnz/unsorry/pull/965) | 2026-06-15 |
