@@ -370,6 +370,21 @@
       "date": "2026-06-16",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "7692ce4dcbbc995358bcda8162554e49c1f2023d",
+      "git_add_date": "2026-06-16",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "eighth-power-mod-sixteen-mem",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/3ae3f177bcda700fdbbd0fcf75985a1663b1b249da46cc1c0eb07243d22bf060.aisp",
+      "review_status": "candidate",
+      "sha": "3ae3f177bcda700fdbbd0fcf75985a1663b1b249da46cc1c0eb07243d22bf060"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-16",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "bafa5d2131e2126bea8534b19ffa4a04b148eab5",
       "git_add_date": "2026-06-16",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -2934,9 +2949,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 195,
-    "mapped_missing_solver": 191,
-    "missing_solver_provenance": 195,
+    "git_attributed_missing_solver": 196,
+    "mapped_missing_solver": 192,
+    "missing_solver_provenance": 196,
     "unmapped_missing_solver": 4
   }
 }
