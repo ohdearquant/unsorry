@@ -3,10 +3,10 @@
   "source": "queued/prove/* refs + library/index provenance",
   "pr_status_known": true,
   "summary": {
-    "queued_submissions": 331,
-    "waiting": 268,
-    "in_flight": 63,
-    "distinct_goals": 300,
+    "queued_submissions": 324,
+    "waiting": 263,
+    "in_flight": 61,
+    "distinct_goals": 295,
     "solvers": 6
   },
   "solvers": [
@@ -15,10 +15,10 @@
       "github": "ohdearquant",
       "display_name": "@ohdearquant",
       "profile_url": "https://github.com/ohdearquant",
-      "submissions": 165,
-      "waiting": 121,
-      "in_flight": 44,
-      "distinct_goals": 135,
+      "submissions": 158,
+      "waiting": 116,
+      "in_flight": 42,
+      "distinct_goals": 130,
       "queued": [
         {
           "goal": "dvd-210-pow-fifteen-sub-pow-three",
@@ -837,22 +837,6 @@
           "state": "in-flight"
         },
         {
-          "goal": "sum-odd-squares-eq",
-          "branch": "queued/prove/sum-odd-squares-eq/mac-158f-496eb1",
-          "sha": "4aff3cd0",
-          "model": "template-sum-induction",
-          "date": "2026-06-16",
-          "state": "in-flight"
-        },
-        {
-          "goal": "sum-odd-squares-eq",
-          "branch": "queued/prove/sum-odd-squares-eq/mac-158f-9428ee",
-          "sha": "dc18d3a7",
-          "model": "template-sum-induction",
-          "date": "2026-06-17",
-          "state": "in-flight"
-        },
-        {
           "goal": "sum-pentagonal-eq",
           "branch": "queued/prove/sum-pentagonal-eq/mac-158f-cb92be",
           "sha": "26a07daa",
@@ -866,7 +850,7 @@
           "sha": "58876691",
           "model": "template-sum-induction",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "sum-quintic-gnomon-eq-fifth-power",
@@ -890,7 +874,7 @@
           "sha": "f72e88ed",
           "model": "template-sum-induction",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "sum-range-fib-sq-eq-fib-mul-fib-succ",
@@ -906,14 +890,6 @@
           "sha": "41724f25",
           "model": "template-sum-closedform",
           "date": "2026-06-16",
-          "state": "waiting"
-        },
-        {
-          "goal": "sum-range-id-div-two-pow-eq-two-sub",
-          "branch": "queued/prove/sum-range-id-div-two-pow-eq-two-sub/mac-158f-1687f6",
-          "sha": "c8d73dda",
-          "model": "template-sum-closedform",
-          "date": "2026-06-16",
           "state": "in-flight"
         },
         {
@@ -922,7 +898,7 @@
           "sha": "e8e8b1ee",
           "model": "template-sum-induction",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "sum-range-id-mul-four-pow-closed",
@@ -947,14 +923,6 @@
           "model": "template-sum-induction",
           "date": "2026-06-17",
           "state": "waiting"
-        },
-        {
-          "goal": "sum-range-k-mul-two-pow-eq",
-          "branch": "queued/prove/sum-range-k-mul-two-pow-eq/mac-158f-674846",
-          "sha": "d57917c2",
-          "model": "template-sum-closedform",
-          "date": "2026-06-16",
-          "state": "in-flight"
         },
         {
           "goal": "sum-range-sq-mul-four-pow-closed",
@@ -1037,14 +1005,6 @@
           "state": "in-flight"
         },
         {
-          "goal": "sum-range-three-k-add-two-mul-two-pow-closed",
-          "branch": "queued/prove/sum-range-three-k-add-two-mul-two-pow-closed/mac-158f-76ccf2",
-          "sha": "76672360",
-          "model": "template-sum-closedform",
-          "date": "2026-06-16",
-          "state": "in-flight"
-        },
-        {
           "goal": "sum-range-two-k-add-one-div-two-pow-closed",
           "branch": "queued/prove/sum-range-two-k-add-one-div-two-pow-closed/mac-158f-b1bd6b",
           "sha": "949a0b80",
@@ -1114,22 +1074,6 @@
           "sha": "bd569ae5",
           "model": "template-sum-induction",
           "date": "2026-06-16",
-          "state": "waiting"
-        },
-        {
-          "goal": "sum-stella-octangula-closed-form",
-          "branch": "queued/prove/sum-stella-octangula-closed-form/mac-158f-224187",
-          "sha": "f35bb3f2",
-          "model": "template-sum-induction",
-          "date": "2026-06-16",
-          "state": "in-flight"
-        },
-        {
-          "goal": "sum-stella-octangula-closed-form",
-          "branch": "queued/prove/sum-stella-octangula-closed-form/mac-158f-479d84",
-          "sha": "15c2fdec",
-          "model": "template-sum-induction",
-          "date": "2026-06-17",
           "state": "waiting"
         },
         {
