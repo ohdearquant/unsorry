@@ -85,6 +85,21 @@
       "date": "2026-06-17",
       "difficulty": 2,
       "display_name": "chat-bit-01",
+      "git_add_commit": "10b9b8dc55b88ef00f9e0160336941dae6993d9a",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "alt-sum-range-two-k-add-one-eq-signed-n",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/0776f91b085197873466154b8552303d025e66cba0bceee3ac3c343aa2faecab.aisp",
+      "review_status": "candidate",
+      "sha": "0776f91b085197873466154b8552303d025e66cba0bceee3ac3c343aa2faecab"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
       "git_add_commit": "e305dba8daa08fe8cf949d65e06bb8d5a65a9db4",
       "git_add_date": "2026-06-17",
       "git_author": "chat-bit-01 <chatuser55@gmail.com>",
@@ -2497,6 +2512,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "02d6d12f97056bbfef013e165da791eece030267",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "lucas-succ-add-lucas-pred-eq-five-mul-fib",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/f560d5fd762d6df87a0d33a1528ffc147f193ac2e82f1d37ffbdf69d92d01c8a.aisp",
+      "review_status": "candidate",
+      "sha": "f560d5fd762d6df87a0d33a1528ffc147f193ac2e82f1d37ffbdf69d92d01c8a"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -4149,9 +4179,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 276,
-    "mapped_missing_solver": 276,
-    "missing_solver_provenance": 276,
+    "git_attributed_missing_solver": 278,
+    "mapped_missing_solver": 278,
+    "missing_solver_provenance": 278,
     "unmapped_missing_solver": 0
   }
 }
