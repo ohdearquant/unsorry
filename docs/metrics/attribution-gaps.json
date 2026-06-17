@@ -2588,6 +2588,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "8a2cc7638a93892b221120471d829dc0b4194676",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sum-icc-two-k-add-one-div-k-sq-succ-sq-telescope",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/f43608432969d6ed526d7fc454e1846aece55a17da8f424e80b08e7ed24bdc7c.aisp",
+      "review_status": "candidate",
+      "sha": "f43608432969d6ed526d7fc454e1846aece55a17da8f424e80b08e7ed24bdc7c"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-17",
       "difficulty": 2,
       "display_name": "chat-bit-01",
       "git_add_commit": "02d6d12f97056bbfef013e165da791eece030267",
@@ -4269,9 +4284,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 284,
-    "mapped_missing_solver": 284,
-    "missing_solver_provenance": 284,
+    "git_attributed_missing_solver": 285,
+    "mapped_missing_solver": 285,
+    "missing_solver_provenance": 285,
     "unmapped_missing_solver": 0
   }
 }
