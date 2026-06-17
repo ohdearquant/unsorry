@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**762 goals — 261 open · 3 blocked · 9 translated · 351 proved · 138 archived.** 15 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**762 goals — 260 open · 3 blocked · 9 translated · 352 proved · 138 archived.** 15 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (346 of 351 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (347 of 352 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -234,11 +234,11 @@ flowchart LR
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s1
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s2
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s3
-  cluster_open(["open · 253"])
+  cluster_open(["open · 252"])
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 306"])
+  cluster_proved(["proved · 307"])
   class cluster_proved proved;
   cluster_archived(["archived · 138"])
   class cluster_archived unknown;
@@ -305,7 +305,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-add-sq-eq-three-mul-sq-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s4.lean) | open | 1 | — | — | — | — |
 | [`sq-mod-five-ne-two-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-five-ne-two-three.lean) | open | 2 | — | — | — | — |
 | [`sq-mod-ten-ne-two-three-seven-eight`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-ten-ne-two-three-seven-eight.lean) | open | 2 | — | — | — | — |
-| [`sum-centered-cube-eq-biquadratic`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-centered-cube-eq-biquadratic.lean) | open | 2 | — | — | — | — |
 | [`sum-centered-hexagonal-eq-cube`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-centered-hexagonal-eq-cube.lean) | open | 2 | — | — | — | — |
 | [`sum-centered-octahedral-closed-form`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-centered-octahedral-closed-form.lean) | open | 2 | — | — | — | — |
 | [`sum-centered-square-numbers-closed-form`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-centered-square-numbers-closed-form.lean) | open | 2 | — | — | — | — |
@@ -851,6 +850,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`sq-mod-twentytwo-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-mod-twentytwo-mem.lean) | proved | 2 | mac-158f | ohdearquant · `template-decide` | [#1197](https://github.com/agenticsnz/unsorry/pull/1197) | 2026-06-16 |
 | [`square-of-sum-ge-three-pairwise`](https://github.com/agenticsnz/unsorry/blob/main/goals/square-of-sum-ge-three-pairwise.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1151](https://github.com/agenticsnz/unsorry/pull/1151) | 2026-06-17 |
 | [`square-triangular-pell-link`](https://github.com/agenticsnz/unsorry/blob/main/goals/square-triangular-pell-link.lean) | proved | 2 | oma-2-c50d | perttu | [#1272](https://github.com/agenticsnz/unsorry/pull/1272) | 2026-06-17 |
+| [`sum-centered-cube-eq-biquadratic`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-centered-cube-eq-biquadratic.lean) | proved | 2 | mac-158f | ohdearquant · `template-sum-induction` | [#1994](https://github.com/agenticsnz/unsorry/pull/1994) | 2026-06-17 |
 | [`sum-cubes-ge-sym-quadratic-two-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-cubes-ge-sym-quadratic-two-var.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1119](https://github.com/agenticsnz/unsorry/pull/1119) | 2026-06-16 |
 | [`sum-cubes-sym-divisible-by-quadratic`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-cubes-sym-divisible-by-quadratic.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1158](https://github.com/agenticsnz/unsorry/pull/1158) | 2026-06-17 |
 | [`sum-fourth-powers-ge-cube-times-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/sum-fourth-powers-ge-cube-times-sum.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1157](https://github.com/agenticsnz/unsorry/pull/1157) | 2026-06-17 |
