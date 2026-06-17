@@ -180,18 +180,18 @@
       "attempt_yield": null,
       "avatar_url": "https://github.com/ruvnet.png?size=96",
       "badges": {
-        "difficulty": 7,
-        "proofs": 2,
+        "difficulty": 11,
+        "proofs": 3,
         "success_rate_percent": null
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 2,
-      "difficulty_points": 7,
+      "credited_proofs": 3,
+      "difficulty_points": 11,
       "display_name": "@ruvnet",
-      "explicit_solver_proofs": 2,
+      "explicit_solver_proofs": 3,
       "failed_attempts": 0,
       "github": "ruvnet",
       "inferred_git_proofs": 0,
@@ -200,10 +200,10 @@
       "rank": 7,
       "run_success_rate": null,
       "runs": 0,
-      "score": 750,
+      "score": 1175,
       "solver": "ruvnet",
       "successes": 0,
-      "verified_proofs": 2
+      "verified_proofs": 3
     },
     {
       "attempt_yield": null,
@@ -364,15 +364,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 13,
+      "difficulty_points": 17,
       "display_name": "adam91holt",
       "github": null,
-      "index_files_added": 5,
+      "index_files_added": 6,
       "missing_solver_provenance": 0,
       "profile_url": null,
       "rank": 6,
       "solver_credit": false,
-      "solver_provenance_proofs": 5
+      "solver_provenance_proofs": 6
     },
     {
       "attribution_source": "git-add-author",
@@ -454,7 +454,7 @@
       "provider_model": "openrouter / unknown",
       "run_success_rate": null,
       "runs": 0,
-      "verified_proofs": 2
+      "verified_proofs": 3
     },
     {
       "provider_model": "claude / sonnet",
@@ -496,19 +496,19 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 157,
+    "attributed_proofs": 158,
     "attribution_gap_count": 284,
     "credited_contributors": 10,
-    "credited_proofs": 441,
-    "explicit_solver_proofs": 157,
-    "git_attributed_index_files": 441,
+    "credited_proofs": 442,
+    "explicit_solver_proofs": 158,
+    "git_attributed_index_files": 442,
     "historical_contributors": 8,
     "historical_unknown_proofs": 284,
     "inferred_git_proofs": 284,
-    "proof_run_coverage": 0.2925,
+    "proof_run_coverage": 0.2919,
     "terminal_runs": 448,
     "uncredited_proofs": 0,
-    "verified_proofs": 441
+    "verified_proofs": 442
   },
   "timeline": [
     {
@@ -542,12 +542,12 @@
       "proofs": 136
     },
     {
-      "cumulative_proofs": 430,
+      "cumulative_proofs": 431,
       "date": "2026-06-16",
-      "proofs": 170
+      "proofs": 171
     },
     {
-      "cumulative_proofs": 441,
+      "cumulative_proofs": 442,
       "date": "2026-06-17",
       "proofs": 11
     }
