@@ -4,7 +4,7 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**452 verified proofs · 161 attributed · 291 historical/unknown · 448 logged terminal runs.**
+**453 verified proofs · 162 attributed · 291 historical/unknown · 448 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**762 goals · 138 archived · 3 blocked · 298 open · 314 proved · 9 translated.**
+**762 goals · 138 archived · 3 blocked · 297 open · 315 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
@@ -63,7 +63,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | 3 | [@ohdearquant](https://github.com/ohdearquant) | 43 | 43 | 0 | 43 | 100.0% | 92 | 10275 |
 | 4 | [@perttu](https://github.com/perttu) | 37 | 33 | 4 | 35 | 71.4% | 83 | 9225 |
 | 5 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
-| 6 | [@ruvnet](https://github.com/ruvnet) | 6 | 6 | 0 | 0 | — | 20 | 2150 |
+| 6 | [@ruvnet](https://github.com/ruvnet) | 7 | 7 | 0 | 0 | — | 22 | 2375 |
 | 7 | [@adam91holt](https://github.com/adam91holt) | 6 | 6 | 0 | 57 | 3.5% | 10 | 1150 |
 | 8 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
 | 9 | [@perttu-mp](https://github.com/perttu-mp) | 1 | 1 | 0 | 3 | 33.3% | 1 | 125 |
@@ -71,9 +71,9 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**161 explicit solver credits · 291 inferred git credits · 0 uncredited proof records.**
+**162 explicit solver credits · 291 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 452 of 452 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 453 of 453 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -86,7 +86,7 @@ Git add-author attribution covers 452 of 452 proof index files. It is used only 
 | `claude / template-zmod-decide` | 13 | 13 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 9 | 9 | 100.0% | 0 | 1 | 0s | — |
 | `gemini / gemini-3.1-pro-preview` | 7 | 7 | 71.4% | 6 | 1 | 6m 32s | 5.32 |
-| `openrouter / unknown` | 6 | 0 | — | 0 | 1 | — | — |
+| `openrouter / unknown` | 7 | 0 | — | 0 | 1 | — | — |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
 | `claude / sonnet` | 1 | 1 | 100.0% | 0 | 1 | 42s | 85.71 |
 | `claude / template-sum-induction` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
