@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**290 open · 459 proved · 752 total prove-goals.**
+**289 open · 460 proved · 752 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -16,7 +16,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `dvd-1302-pow-thirtyone-sub-self` — The integer 1302 = 2·3·7·31 divides n^31 - n for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 1302 = 2·3·7·31 divides n^31 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-133-pow-nineteen-sub-self` — The integer 133 = 7·19 divides n^19 - n for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 133 = 7·19 divides n^19 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-210-pow-fifteen-sub-pow-three` — The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. Not a named mathlib lemma in this form. |
-| `dvd-240-pow-nine-sub-pow-five` — 240 divides n^9 minus n^5 for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 240 divides n^9 minus n^5 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-252-pow-eight-sub-sq` — 252 divides n^8 minus n^2 for every integer n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 252 divides n^8 minus n^2 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-255-pow-seventeen-sub-self` — For every integer n, 255 divides n raised to the 17th power minus n. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | For every integer n, 255 divides n raised to the 17th power minus n. Not a named mathlib lemma in this form. |
 | `dvd-266-pow-nineteen-sub-self` — The integer 266 = 2·7·19 divides n^19 - n for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 266 = 2·7·19 divides n^19 - n for every integer n. Not a named mathlib lemma in this form. |
@@ -405,6 +404,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `dvd-210-pow-fifteen-sub-pow-three-s3` — dvd-210-pow-fifteen-sub-pow-three-s3 | proved | 1 | — | — | — |
 | `dvd-210-pow-fifteen-sub-pow-three-s4` — dvd-210-pow-fifteen-sub-pow-three-s4 | proved | 1 | — | — | — |
 | `dvd-240-pow-eight-sub-pow-four` — 240 divides n^8 minus n^4 for every integer n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 240 divides n^8 minus n^4 for every integer n. Not a named mathlib lemma in this form. |
+| `dvd-240-pow-nine-sub-pow-five` — 240 divides n^9 minus n^5 for every integer n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | 240 divides n^9 minus n^5 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-264-pow-thirteen-sub-pow-three` — The integer 264 = 2^3·3·11 divides n^13 - n^3 for every integer n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 264 = 2^3·3·11 divides n^13 - n^3 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-273-pow-thirteen-sub-self` — The integer 273 = 3·7·13 divides n^13 - n for every integer n. | proved | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 273 = 3·7·13 divides n^13 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-282-pow-fortyseven-sub-self` — 282 divides n^47 - n for every integer n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog. | 282 divides n^47 - n for every integer n. Not a named mathlib lemma in this form. |
