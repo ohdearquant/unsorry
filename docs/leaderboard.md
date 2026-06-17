@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**762 goals · 138 archived · 3 blocked · 219 open · 393 proved · 9 translated.**
+**774 goals · 138 archived · 3 blocked · 231 open · 393 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
