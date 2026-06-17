@@ -120,6 +120,35 @@
     },
     {
       "attempt_yield": null,
+      "avatar_url": "https://github.com/ruvnet.png?size=96",
+      "badges": {
+        "difficulty": 26,
+        "proofs": 9,
+        "success_rate_percent": null
+      },
+      "credit_source_summary": "explicit",
+      "credit_sources": [
+        "explicit-solver"
+      ],
+      "credited_proofs": 9,
+      "difficulty_points": 26,
+      "display_name": "@ruvnet",
+      "explicit_solver_proofs": 9,
+      "failed_attempts": 0,
+      "github": "ruvnet",
+      "inferred_git_proofs": 0,
+      "median_solve_s": null,
+      "profile_url": "https://github.com/ruvnet",
+      "rank": 5,
+      "run_success_rate": null,
+      "runs": 0,
+      "score": 2825,
+      "solver": "ruvnet",
+      "successes": 0,
+      "verified_proofs": 9
+    },
+    {
+      "attempt_yield": null,
       "avatar_url": "https://github.com/binto.png?size=96",
       "badges": {
         "difficulty": 19,
@@ -139,42 +168,13 @@
       "inferred_git_proofs": 9,
       "median_solve_s": null,
       "profile_url": "https://github.com/binto",
-      "rank": 5,
+      "rank": 6,
       "run_success_rate": null,
       "runs": 0,
       "score": 2125,
       "solver": "binto",
       "successes": 0,
       "verified_proofs": 9
-    },
-    {
-      "attempt_yield": null,
-      "avatar_url": "https://github.com/ruvnet.png?size=96",
-      "badges": {
-        "difficulty": 24,
-        "proofs": 8,
-        "success_rate_percent": null
-      },
-      "credit_source_summary": "explicit",
-      "credit_sources": [
-        "explicit-solver"
-      ],
-      "credited_proofs": 8,
-      "difficulty_points": 24,
-      "display_name": "@ruvnet",
-      "explicit_solver_proofs": 8,
-      "failed_attempts": 0,
-      "github": "ruvnet",
-      "inferred_git_proofs": 0,
-      "median_solve_s": null,
-      "profile_url": "https://github.com/ruvnet",
-      "rank": 6,
-      "run_success_rate": null,
-      "runs": 0,
-      "score": 2600,
-      "solver": "ruvnet",
-      "successes": 0,
-      "verified_proofs": 8
     },
     {
       "attempt_yield": 0.0294,
@@ -351,15 +351,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 30,
+      "difficulty_points": 32,
       "display_name": "adam91holt",
       "github": null,
-      "index_files_added": 11,
+      "index_files_added": 12,
       "missing_solver_provenance": 0,
       "profile_url": null,
       "rank": 5,
       "solver_credit": false,
-      "solver_provenance_proofs": 11
+      "solver_provenance_proofs": 12
     },
     {
       "attribution_source": "git-add-author",
@@ -442,7 +442,7 @@
       "provider_model": "openrouter / unknown",
       "run_success_rate": null,
       "runs": 0,
-      "verified_proofs": 8
+      "verified_proofs": 9
     },
     {
       "provider_model": "gemini / gemini-3.1-pro-preview",
@@ -496,19 +496,19 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 163,
+    "attributed_proofs": 164,
     "attribution_gap_count": 291,
     "credited_contributors": 10,
-    "credited_proofs": 454,
-    "explicit_solver_proofs": 163,
-    "git_attributed_index_files": 454,
+    "credited_proofs": 455,
+    "explicit_solver_proofs": 164,
+    "git_attributed_index_files": 455,
     "historical_contributors": 8,
     "historical_unknown_proofs": 291,
     "inferred_git_proofs": 291,
-    "proof_run_coverage": 0.2841,
+    "proof_run_coverage": 0.2835,
     "terminal_runs": 448,
     "uncredited_proofs": 0,
-    "verified_proofs": 454
+    "verified_proofs": 455
   },
   "timeline": [
     {
@@ -542,12 +542,12 @@
       "proofs": 136
     },
     {
-      "cumulative_proofs": 436,
+      "cumulative_proofs": 437,
       "date": "2026-06-16",
-      "proofs": 176
+      "proofs": 177
     },
     {
-      "cumulative_proofs": 454,
+      "cumulative_proofs": 455,
       "date": "2026-06-17",
       "proofs": 18
     }
