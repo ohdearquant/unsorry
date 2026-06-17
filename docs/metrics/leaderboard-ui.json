@@ -63,18 +63,18 @@
       "attempt_yield": 1.0,
       "avatar_url": "https://github.com/ohdearquant.png?size=96",
       "badges": {
-        "difficulty": 90,
-        "proofs": 42,
+        "difficulty": 92,
+        "proofs": 43,
         "success_rate_percent": 100.0
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
         "explicit-solver"
       ],
-      "credited_proofs": 42,
-      "difficulty_points": 90,
+      "credited_proofs": 43,
+      "difficulty_points": 92,
       "display_name": "@ohdearquant",
-      "explicit_solver_proofs": 42,
+      "explicit_solver_proofs": 43,
       "failed_attempts": 0,
       "github": "ohdearquant",
       "inferred_git_proofs": 0,
@@ -82,11 +82,11 @@
       "profile_url": "https://github.com/ohdearquant",
       "rank": 3,
       "run_success_rate": 1.0,
-      "runs": 42,
-      "score": 10050,
+      "runs": 43,
+      "score": 10275,
       "solver": "ohdearquant",
-      "successes": 42,
-      "verified_proofs": 42
+      "successes": 43,
+      "verified_proofs": 43
     },
     {
       "attempt_yield": 0.4386,
@@ -348,15 +348,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": null,
-      "difficulty_points": 4,
+      "difficulty_points": 6,
       "display_name": "adam91holt",
       "github": null,
-      "index_files_added": 2,
+      "index_files_added": 3,
       "missing_solver_provenance": 0,
       "profile_url": null,
       "rank": 7,
       "solver_credit": false,
-      "solver_provenance_proofs": 2
+      "solver_provenance_proofs": 3
     },
     {
       "attribution_source": "git-add-author",
@@ -428,6 +428,12 @@
       "verified_proofs": 1
     },
     {
+      "provider_model": "claude / template-sum-induction",
+      "run_success_rate": 1.0,
+      "runs": 1,
+      "verified_proofs": 1
+    },
+    {
       "provider_model": "claude / unknown",
       "run_success_rate": null,
       "runs": 0,
@@ -455,19 +461,19 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 154,
+    "attributed_proofs": 155,
     "attribution_gap_count": 273,
     "credited_contributors": 9,
-    "credited_proofs": 427,
-    "explicit_solver_proofs": 154,
-    "git_attributed_index_files": 427,
+    "credited_proofs": 428,
+    "explicit_solver_proofs": 155,
+    "git_attributed_index_files": 428,
     "historical_contributors": 8,
     "historical_unknown_proofs": 273,
     "inferred_git_proofs": 273,
-    "proof_run_coverage": 0.2998,
-    "terminal_runs": 447,
+    "proof_run_coverage": 0.3014,
+    "terminal_runs": 448,
     "uncredited_proofs": 0,
-    "verified_proofs": 427
+    "verified_proofs": 428
   },
   "timeline": [
     {
@@ -501,9 +507,9 @@
       "proofs": 136
     },
     {
-      "cumulative_proofs": 427,
+      "cumulative_proofs": 428,
       "date": "2026-06-16",
-      "proofs": 167
+      "proofs": 168
     }
   ]
 }
