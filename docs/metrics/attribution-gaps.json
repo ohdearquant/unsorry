@@ -1342,6 +1342,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "29292e84111f1f5ce21403c87505a7568b80240b",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sum-icc-recip-km1-k-kp1-telescope",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/768e3228e9fff24d2245b709f1b4f98ae9347fb585237a7601dc23207f171080.aisp",
+      "review_status": "candidate",
+      "sha": "768e3228e9fff24d2245b709f1b4f98ae9347fb585237a7601dc23207f171080"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -4314,9 +4329,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 287,
-    "mapped_missing_solver": 287,
-    "missing_solver_provenance": 287,
+    "git_attributed_missing_solver": 288,
+    "mapped_missing_solver": 288,
+    "missing_solver_provenance": 288,
     "unmapped_missing_solver": 0
   }
 }
