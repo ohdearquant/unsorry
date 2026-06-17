@@ -82,6 +82,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 2,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "e305dba8daa08fe8cf949d65e06bb8d5a65a9db4",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "am-hm-two-var",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/0bfd0e78cba870592f8ea3d854f683da0f68b469c66e2e8b36026b6be973e6ed.aisp",
+      "review_status": "candidate",
+      "sha": "0bfd0e78cba870592f8ea3d854f683da0f68b469c66e2e8b36026b6be973e6ed"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 2,
       "display_name": "chat-bit-01",
@@ -4134,9 +4149,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 275,
-    "mapped_missing_solver": 275,
-    "missing_solver_provenance": 275,
+    "git_attributed_missing_solver": 276,
+    "mapped_missing_solver": 276,
+    "missing_solver_provenance": 276,
     "unmapped_missing_solver": 0
   }
 }

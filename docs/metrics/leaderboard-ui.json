@@ -4,30 +4,30 @@
       "attempt_yield": null,
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
       "badges": {
-        "difficulty": 478,
-        "proofs": 214,
+        "difficulty": 480,
+        "proofs": 215,
         "success_rate_percent": null
       },
       "credit_source_summary": "inferred",
       "credit_sources": [
         "inferred-git-add-author"
       ],
-      "credited_proofs": 214,
-      "difficulty_points": 478,
+      "credited_proofs": 215,
+      "difficulty_points": 480,
       "display_name": "@chat-bit-01",
       "explicit_solver_proofs": 0,
       "failed_attempts": 0,
       "github": "chat-bit-01",
-      "inferred_git_proofs": 214,
+      "inferred_git_proofs": 215,
       "median_solve_s": null,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 1,
       "run_success_rate": null,
       "runs": 0,
-      "score": 53150,
+      "score": 53375,
       "solver": "chat-bit-01",
       "successes": 0,
-      "verified_proofs": 214
+      "verified_proofs": 215
     },
     {
       "attempt_yield": 0.1774,
@@ -299,11 +299,11 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
-      "difficulty_points": 478,
+      "difficulty_points": 480,
       "display_name": "chat-bit-01",
       "github": "chat-bit-01",
-      "index_files_added": 214,
-      "missing_solver_provenance": 214,
+      "index_files_added": 215,
+      "missing_solver_provenance": 215,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 1,
       "solver_credit": false,
@@ -497,18 +497,18 @@
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
     "attributed_proofs": 156,
-    "attribution_gap_count": 275,
+    "attribution_gap_count": 276,
     "credited_contributors": 10,
-    "credited_proofs": 431,
+    "credited_proofs": 432,
     "explicit_solver_proofs": 156,
-    "git_attributed_index_files": 431,
+    "git_attributed_index_files": 432,
     "historical_contributors": 8,
-    "historical_unknown_proofs": 275,
-    "inferred_git_proofs": 275,
-    "proof_run_coverage": 0.2993,
+    "historical_unknown_proofs": 276,
+    "inferred_git_proofs": 276,
+    "proof_run_coverage": 0.2986,
     "terminal_runs": 448,
     "uncredited_proofs": 0,
-    "verified_proofs": 431
+    "verified_proofs": 432
   },
   "timeline": [
     {
@@ -547,9 +547,9 @@
       "proofs": 169
     },
     {
-      "cumulative_proofs": 431,
+      "cumulative_proofs": 432,
       "date": "2026-06-17",
-      "proofs": 2
+      "proofs": 3
     }
   ]
 }
