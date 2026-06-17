@@ -83,6 +83,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "f9392ea6ceca8b5d24b848d0b6270586d1a25882",
+      "git_add_date": "2026-06-17",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "prod-icc-one-add-recip-k-sq-add-two-k-telescope",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/04d703f90504e0993ecaec7fecdb1c0609637e3670a826f1c3f0c9329500fe22.aisp",
+      "review_status": "candidate",
+      "sha": "04d703f90504e0993ecaec7fecdb1c0609637e3670a826f1c3f0c9329500fe22"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-17",
       "difficulty": 2,
       "display_name": "chat-bit-01",
       "git_add_commit": "2670d67d6a3f53e7e7a7cdb38f7210b3d04f2452",
@@ -4299,9 +4314,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 286,
-    "mapped_missing_solver": 286,
-    "missing_solver_provenance": 286,
+    "git_attributed_missing_solver": 287,
+    "mapped_missing_solver": 287,
+    "missing_solver_provenance": 287,
     "unmapped_missing_solver": 0
   }
 }
