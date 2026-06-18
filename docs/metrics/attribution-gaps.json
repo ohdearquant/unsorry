@@ -1882,6 +1882,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-18",
+      "difficulty": 4,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "0b301d91cd48175d8aebf71b21994ee7fd62a080",
+      "git_add_date": "2026-06-18",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "abstract-regular-polyhedron-realizable-iff",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/a7ac75092b26a5bce24201c79595bdf7962690d3fef1fc000fdda8ce7b8a3286.aisp",
+      "review_status": "candidate",
+      "sha": "a7ac75092b26a5bce24201c79595bdf7962690d3fef1fc000fdda8ce7b8a3286"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -4494,9 +4509,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 299,
-    "mapped_missing_solver": 299,
-    "missing_solver_provenance": 299,
+    "git_attributed_missing_solver": 300,
+    "mapped_missing_solver": 300,
+    "missing_solver_provenance": 300,
     "unmapped_missing_solver": 0
   }
 }
