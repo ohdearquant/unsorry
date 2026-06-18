@@ -2708,6 +2708,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-17",
+      "difficulty": 4,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "07ac05e2d653e043d8fddd44b817e2bef458f552",
+      "git_add_date": "2026-06-18",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "schur-inequality-deg-one",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/f451c1454a323c201ec57e4a746906564e583bc938c8426fb1ed4ab4ad0249de.aisp",
+      "review_status": "candidate",
+      "sha": "f451c1454a323c201ec57e4a746906564e583bc938c8426fb1ed4ab4ad0249de"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-17",
       "difficulty": 2,
       "display_name": "chat-bit-01",
       "git_add_commit": "02d6d12f97056bbfef013e165da791eece030267",
@@ -4389,9 +4404,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 292,
-    "mapped_missing_solver": 292,
-    "missing_solver_provenance": 292,
+    "git_attributed_missing_solver": 293,
+    "mapped_missing_solver": 293,
+    "missing_solver_provenance": 293,
     "unmapped_missing_solver": 0
   }
 }
