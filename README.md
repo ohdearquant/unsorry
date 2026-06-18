@@ -15,8 +15,6 @@
 
 Check out the proofs the team has delivered so far: [Proof graph](docs/proofs-contributors-visualisation.html) · [Visual leaderboard](docs/leaderboard.html) · [Queue](docs/queue.html)
 
-…and what's submitted but not yet merged, grouped by solver: the [queued-proofs board](docs/queue.html) (ADR-066).
-
 [![Unsorry leaderboard](docs/leaderboard.svg)](docs/leaderboard.html)
 [![Unsorry proof graph](docs/proof-graph.svg)](docs/proofs-contributors-visualisation.html)
 
