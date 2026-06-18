@@ -4,35 +4,35 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**551 verified proofs · 259 attributed · 292 historical/unknown · 531 logged terminal runs.**
+**553 verified proofs · 261 attributed · 292 historical/unknown · 533 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 212 |
+| Successful terminal runs | 214 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 39.9% |
-| Provider attempts | 583 |
+| Run success rate | 40.2% |
+| Provider attempts | 585 |
 | Failed attempts | 371 |
-| Attempt yield | 36.4% |
+| Attempt yield | 36.6% |
 | Recorded run time | 98h 15m |
-| Median / p90 run time | 5m 3s / 31m 54s |
-| Verified successes per recorded hour | 2.16 |
-| Proofs with run telemetry | 212 (38.5%) |
+| Median / p90 run time | 5m 1s / 31m 54s |
+| Verified successes per recorded hour | 2.18 |
+| Proofs with run telemetry | 214 (38.7%) |
 
 ## Work Queue
 
-**774 goals · 138 archived · 3 blocked · 211 open · 413 proved · 9 translated.**
+**775 goals · 138 archived · 3 blocked · 210 open · 415 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 85 | 29 | 34.1% | 74 | 5m 24s |
-| 2 | 238 | 100 | 42.0% | 158 | 4m 40s |
+| 1 | 86 | 30 | 34.9% | 74 | 5m 16s |
+| 2 | 239 | 101 | 42.3% | 158 | 4m 40s |
 | 3 | 180 | 75 | 41.7% | 119 | 5m 42s |
 | 4 | 26 | 8 | 30.8% | 18 | 5m 53s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
@@ -59,7 +59,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 231 | 0 | 231 | 0 | — | 518 | 57575 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 125 | 125 | 0 | 125 | 100.0% | 298 | 32925 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 127 | 127 | 0 | 127 | 100.0% | 301 | 33275 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 310 | 18.7% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 37 | 33 | 4 | 35 | 71.4% | 83 | 9225 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 21 | 21 | 0 | 0 | — | 55 | 6025 |
@@ -71,9 +71,9 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**259 explicit solver credits · 292 inferred git credits · 0 uncredited proof records.**
+**261 explicit solver credits · 292 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 551 of 551 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 553 of 553 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -81,7 +81,7 @@ Git add-author attribution covers 551 of 551 proof index files. It is used only 
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 56 | 53 | 90.6% | 19 | 5 | 4m 30s | 6.48 |
 | `claude / template-zmod-crt` | 41 | 41 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-sum-induction` | 37 | 37 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-sum-induction` | 38 | 38 | 100.0% | 0 | 1 | 0s | — |
 | `codex / unknown` | 24 | 80 | 22.5% | 90 | 3 | 7m 38s | 1.45 |
 | `openai / leanstral-2603` | 21 | 217 | 7.4% | 205 | 1 | 6m 30s | 0.30 |
 | `openrouter / unknown` | 21 | 0 | — | 0 | 1 | — | — |
@@ -92,6 +92,7 @@ Git add-author attribution covers 551 of 551 proof index files. It is used only 
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
 | `claude / template-nlinarith` | 3 | 3 | 100.0% | 0 | 1 | 0s | — |
 | `claude / sonnet` | 1 | 1 | 100.0% | 0 | 1 | 42s | 85.71 |
+| `claude / template-dvd-cofactor` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-telescope` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
 | `claude / unknown` | 1 | 0 | — | 0 | 1 | — | — |
 | `openai / jackcloudman/Leanstral-2603-GGUF` | 0 | 47 | 0.0% | 47 | 1 | 31m 57s | 0.00 |
@@ -102,6 +103,8 @@ Git add-author attribution covers 551 of 551 proof index files. It is used only 
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
+| `2026-06-17T17:45:09Z` | `self-dvd-cube-add-square` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-dvd-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-17T16:50:42Z` | `sum-range-id-mul-four-pow-closed` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-sum-induction` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T16:29:26Z` | `fib-two-mul-sq-diff-int` | [@adam91holt](https://github.com/adam91holt) | `codex / unknown` | `proved` | 3 | 2 | 9m 13s |
 | `2026-06-17T15:59:11Z` | `sym-grouped-deg-three-ge-six-abc` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-nlinarith` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T00:21:09Z` | `sum-stella-octangula-closed-form` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-sum-induction` | `proved` | 1 | 0 | 0s |
@@ -120,8 +123,6 @@ Git add-author attribution covers 551 of 551 proof index files. It is used only 
 | `2026-06-17T00:20:16Z` | `sum-pentagonal-pyramidal-closed-form` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-sum-induction` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T00:20:12Z` | `sum-odd-squares-eq` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-sum-induction` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T00:20:09Z` | `sum-octahedral-numbers-closed-form` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-sum-induction` | `proved` | 1 | 0 | 0s |
-| `2026-06-17T00:20:07Z` | `sum-octagonal-numbers-closed-form` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-sum-induction` | `proved` | 1 | 0 | 0s |
-| `2026-06-17T00:20:02Z` | `sum-oblong-eq` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-sum-induction` | `proved` | 1 | 0 | 0s |
 
 ## Interpretation
 
