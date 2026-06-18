@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**190 open · 573 proved · 766 total prove-goals.**
+**189 open · 574 proved · 766 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -48,7 +48,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `realization-edge-in-set` — Any abstract regular polyhedron has E ∈ {6,12,30} (the only edge counts among the five Platonic solids). | open | 4 | — | Freek #50 combinatorial classification, Track-1 completion (ADR-031; #400 plan Phase 1). | Any abstract regular polyhedron has E ∈ {6,12,30} (the only edge counts among the five Platonic solids). Not in mathlib (no abstract-regular-polyhedron theory). |
 | `realization-edge-relation` — For an abstract regular polyhedron, the handshakes + Euler give 2E(p+q) = pq(E+2). | open | 2 | — | Freek #50 combinatorial classification, Track-1 completion (ADR-031; #400 plan Phase 1). | For an abstract regular polyhedron, the handshakes + Euler give 2E(p+q) = pq(E+2). Not in mathlib (no abstract-regular-polyhedron theory). |
 | `sextic-x6-plus-x3-plus-one-composite-shift` — The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. Not a named mathlib lemma in this form. |
-| `six-dvd-pow-three-add-five-mul` — For every integer n, 6 ∣ n³ + 5n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family. Classic elementary number theory. | 6 ∣ n³ + 5n, since n³ + 5n = (n³ − n) + 6n and 6 ∣ n³ − n. Not a named mathlib lemma in this form. |
 | `sophie-germain-plus-factor-dvd` — The second Sophie-Germain quadratic factor a^2+2ab+2b^2 divides a^4+4b^4. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The second Sophie-Germain quadratic factor a^2+2ab+2b^2 divides a^4+4b^4. Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s4` — sq-add-sq-eq-three-mul-sq-s4 | open | 1 | — | — | — |
 | `sq-mod-five-ne-two-three` — No natural number's square leaves remainder 2 or 3 when divided by 5. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No natural number's square leaves remainder 2 or 3 when divided by 5. Not a named mathlib lemma in this form. |
@@ -599,6 +598,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `shifted-sophie-germain-x4-plus-4-dvd-by-x2-plus-2x-plus-2` — The quadratic x^2+2x+2 divides x^4+4 (one Sophie-Germain factor at b=1). | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The quadratic x^2+2x+2 divides x^4+4 (one Sophie-Germain factor at b=1). Not a named mathlib lemma in this form. |
 | `shifted-sum-sq-ge-twice-sum-three-var` — Each variable's square plus one dominates twice the variable, summed over three variables. | proved | 2 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | Each variable's square plus one dominates twice the variable, summed over three variables. Not a named mathlib lemma in this form. |
 | `six-dvd-n-mul-succ-mul-two-n-add-one` — 6 divides n(n+1)(2n+1) for every integer n (the numerator of ∑k²). | proved | 2 | — | #400 Identity Engine (ADR-043) — divisibility family. | 6 divides n(n+1)(2n+1) for every integer n (the numerator of ∑k²). Not a named mathlib lemma in this form. |
+| `six-dvd-pow-three-add-five-mul` — For every integer n, 6 ∣ n³ + 5n. | proved | 2 | — | #400 Identity Engine (ADR-043) — divisibility family. Classic elementary number theory. | 6 ∣ n³ + 5n, since n³ + 5n = (n³ − n) + 6n and 6 ∣ n³ − n. Not a named mathlib lemma in this form. |
 | `six-dvd-pow-three-add-five-mul-s1` — six-dvd-pow-three-add-five-mul-s1 | proved | 1 | — | — | — |
 | `six-dvd-pow-three-add-five-mul-s2` — six-dvd-pow-three-add-five-mul-s2 | proved | 1 | — | — | — |
 | `six-dvd-pow-three-sub-self` — For every integer n, 6 ∣ n³ − n (= n(n−1)(n+1)). | proved | 2 | — | Classic elementary inequality / number-theory fact (#400 plan Phase 3). | For every integer n, 6 ∣ n³ − n (= n(n−1)(n+1)). Not a named mathlib lemma in this form. |
