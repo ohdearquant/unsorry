@@ -4,8 +4,8 @@
   "pr_status_known": true,
   "summary": {
     "queued_submissions": 258,
-    "waiting": 190,
-    "in_flight": 68,
+    "waiting": 189,
+    "in_flight": 69,
     "distinct_goals": 254,
     "solvers": 6
   },
@@ -1140,8 +1140,8 @@
       "display_name": "@ohdearquant",
       "profile_url": "https://github.com/ohdearquant",
       "submissions": 98,
-      "waiting": 45,
-      "in_flight": 53,
+      "waiting": 44,
+      "in_flight": 54,
       "distinct_goals": 95,
       "queued": [
         {
@@ -1542,7 +1542,7 @@
           "sha": "9093673e",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-three-pow-six-add-pow-five",
