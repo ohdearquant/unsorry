@@ -3,10 +3,10 @@
   "source": "queued/prove/* refs + library/index provenance",
   "pr_status_known": true,
   "summary": {
-    "queued_submissions": 260,
-    "waiting": 209,
-    "in_flight": 51,
-    "distinct_goals": 255,
+    "queued_submissions": 258,
+    "waiting": 190,
+    "in_flight": 68,
+    "distinct_goals": 254,
     "solvers": 6
   },
   "solvers": [
@@ -1139,10 +1139,10 @@
       "github": "ohdearquant",
       "display_name": "@ohdearquant",
       "profile_url": "https://github.com/ohdearquant",
-      "submissions": 100,
-      "waiting": 64,
-      "in_flight": 36,
-      "distinct_goals": 96,
+      "submissions": 98,
+      "waiting": 45,
+      "in_flight": 53,
+      "distinct_goals": 95,
       "queued": [
         {
           "goal": "dvd-210-pow-fifteen-sub-pow-three",
@@ -1390,7 +1390,7 @@
           "sha": "1a450f3c",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "ggeom-pred-pow-twelve-sub-one",
@@ -1398,7 +1398,7 @@
           "sha": "1a5f7a01",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "ggeom-pred-pow-two-sub-one",
@@ -1406,7 +1406,7 @@
           "sha": "0df3ef56",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-five-add-pow-four",
@@ -1414,7 +1414,7 @@
           "sha": "e3fc8754",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-five-add-pow-one",
@@ -1422,7 +1422,7 @@
           "sha": "25054ca5",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-five-add-pow-three",
@@ -1430,7 +1430,7 @@
           "sha": "21034fbf",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-five-add-pow-two",
@@ -1438,7 +1438,7 @@
           "sha": "ebd0799b",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-four-add-pow-one",
@@ -1446,7 +1446,7 @@
           "sha": "80d43c2a",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-four-add-pow-three",
@@ -1454,7 +1454,7 @@
           "sha": "b3e90619",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-four-add-pow-two",
@@ -1462,7 +1462,7 @@
           "sha": "ca622f4a",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-six-add-pow-five",
@@ -1470,7 +1470,7 @@
           "sha": "646053ea",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-six-add-pow-four",
@@ -1478,7 +1478,7 @@
           "sha": "43a1cd61",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-six-add-pow-one",
@@ -1486,7 +1486,7 @@
           "sha": "fbdaad57",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-six-add-pow-three",
@@ -1494,7 +1494,7 @@
           "sha": "5011fc16",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-six-add-pow-two",
@@ -1502,7 +1502,7 @@
           "sha": "a8764722",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-three-add-pow-one",
@@ -1510,7 +1510,7 @@
           "sha": "cd61c5c0",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-three-add-pow-two",
@@ -1518,7 +1518,7 @@
           "sha": "42f780b1",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-three-pow-five-add-pow-four",
@@ -1526,7 +1526,7 @@
           "sha": "24f6bcf2",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-three-pow-five-add-pow-three",
@@ -1534,7 +1534,7 @@
           "sha": "b357b4d5",
           "model": "template-ring-cofactor",
           "date": "2026-06-17",
-          "state": "waiting"
+          "state": "in-flight"
         },
         {
           "goal": "gself-pow-three-pow-four-add-pow-three",
@@ -1879,22 +1879,6 @@
           "model": "template-zmod-decide",
           "date": "2026-06-17",
           "state": "waiting"
-        },
-        {
-          "goal": "sum-triple-product-eq",
-          "branch": "queued/prove/sum-triple-product-eq/mac-158f-686ffa",
-          "sha": "ef94cae8",
-          "model": "template-sum-induction",
-          "date": "2026-06-16",
-          "state": "in-flight"
-        },
-        {
-          "goal": "sum-triple-product-eq",
-          "branch": "queued/prove/sum-triple-product-eq/mac-158f-b141ca",
-          "sha": "f7c998e3",
-          "model": "template-sum-induction",
-          "date": "2026-06-17",
-          "state": "in-flight"
         },
         {
           "goal": "sum-two-cubes-zmod-seven-mem",
