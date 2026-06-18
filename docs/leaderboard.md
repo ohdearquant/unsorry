@@ -4,28 +4,28 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**562 verified proofs · 269 attributed · 293 historical/unknown · 542 logged terminal runs.**
+**563 verified proofs · 270 attributed · 293 historical/unknown · 543 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 223 |
+| Successful terminal runs | 224 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 41.1% |
-| Provider attempts | 594 |
+| Run success rate | 41.2% |
+| Provider attempts | 595 |
 | Failed attempts | 371 |
-| Attempt yield | 37.5% |
+| Attempt yield | 37.6% |
 | Recorded run time | 98h 15m |
-| Median / p90 run time | 4m 56s / 31m 54s |
-| Verified successes per recorded hour | 2.27 |
-| Proofs with run telemetry | 222 (39.5%) |
+| Median / p90 run time | 4m 54s / 31m 54s |
+| Verified successes per recorded hour | 2.28 |
+| Proofs with run telemetry | 223 (39.6%) |
 
 ## Work Queue
 
-**775 goals · 138 archived · 3 blocked · 201 open · 424 proved · 9 translated.**
+**775 goals · 138 archived · 3 blocked · 200 open · 425 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
@@ -33,7 +33,7 @@ Verified output comes from active `library/index` records plus archived index re
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 86 | 30 | 34.9% | 74 | 5m 16s |
 | 2 | 243 | 105 | 43.2% | 158 | 4m 28s |
-| 3 | 185 | 80 | 43.2% | 119 | 5m 9s |
+| 3 | 186 | 81 | 43.5% | 119 | 5m 5s |
 | 4 | 26 | 8 | 30.8% | 18 | 5m 53s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
 
@@ -59,7 +59,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 232 | 0 | 232 | 0 | — | 522 | 58000 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 135 | 135 | 0 | 136 | 100.0% | 322 | 35575 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 136 | 136 | 0 | 137 | 100.0% | 325 | 35900 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 310 | 18.7% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 37 | 33 | 4 | 35 | 71.4% | 83 | 9225 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 21 | 21 | 0 | 0 | — | 55 | 6025 |
@@ -71,16 +71,16 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**269 explicit solver credits · 293 inferred git credits · 0 uncredited proof records.**
+**270 explicit solver credits · 293 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 562 of 562 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 563 of 563 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 56 | 53 | 90.6% | 19 | 5 | 4m 30s | 6.48 |
-| `claude / template-sum-induction` | 43 | 44 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-sum-induction` | 44 | 45 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 41 | 41 | 100.0% | 0 | 1 | 0s | — |
 | `codex / unknown` | 24 | 80 | 22.5% | 90 | 3 | 7m 38s | 1.45 |
 | `openai / leanstral-2603` | 21 | 217 | 7.4% | 205 | 1 | 6m 30s | 0.30 |
