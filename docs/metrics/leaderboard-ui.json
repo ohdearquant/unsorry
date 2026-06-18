@@ -53,19 +53,19 @@
       "profile_url": "https://github.com/ohdearquant",
       "rank": 2,
       "run_success_rate": 1.0,
-      "runs": 159,
+      "runs": 158,
       "score": 41825,
       "solver": "ohdearquant",
-      "successes": 159,
+      "successes": 158,
       "verified_proofs": 157
     },
     {
-      "attempt_yield": 0.1774,
+      "attempt_yield": 0.1599,
       "avatar_url": "https://github.com/cgbarlow.png?size=96",
       "badges": {
         "difficulty": 212,
         "proofs": 118,
-        "success_rate_percent": 18.71
+        "success_rate_percent": 16.83
       },
       "credit_source_summary": "explicit + inferred",
       "credit_sources": [
@@ -76,26 +76,26 @@
       "difficulty_points": 212,
       "display_name": "@cgbarlow",
       "explicit_solver_proofs": 71,
-      "failed_attempts": 269,
+      "failed_attempts": 268,
       "github": "cgbarlow",
       "inferred_git_proofs": 47,
-      "median_solve_s": 457,
+      "median_solve_s": 478,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 3,
-      "run_success_rate": 0.1871,
-      "runs": 310,
+      "run_success_rate": 0.1683,
+      "runs": 303,
       "score": 24150,
       "solver": "cgbarlow",
-      "successes": 58,
+      "successes": 51,
       "verified_proofs": 118
     },
     {
-      "attempt_yield": 0.4333,
+      "attempt_yield": 0.3654,
       "avatar_url": "https://github.com/perttu.png?size=96",
       "badges": {
         "difficulty": 84,
         "proofs": 38,
-        "success_rate_percent": 68.42
+        "success_rate_percent": 61.29
       },
       "credit_source_summary": "explicit + inferred",
       "credit_sources": [
@@ -106,17 +106,17 @@
       "difficulty_points": 84,
       "display_name": "@perttu",
       "explicit_solver_proofs": 34,
-      "failed_attempts": 34,
+      "failed_attempts": 33,
       "github": "perttu",
       "inferred_git_proofs": 4,
-      "median_solve_s": 454,
+      "median_solve_s": 452,
       "profile_url": "https://github.com/perttu",
       "rank": 4,
-      "run_success_rate": 0.6842,
-      "runs": 38,
+      "run_success_rate": 0.6129,
+      "runs": 31,
       "score": 9350,
       "solver": "perttu",
-      "successes": 26,
+      "successes": 19,
       "verified_proofs": 38
     },
     {
@@ -178,12 +178,12 @@
       "verified_proofs": 9
     },
     {
-      "attempt_yield": 0.0423,
+      "attempt_yield": 0.029,
       "avatar_url": "https://github.com/adam91holt.png?size=96",
       "badges": {
         "difficulty": 13,
         "proofs": 7,
-        "success_rate_percent": 5.17
+        "success_rate_percent": 3.51
       },
       "credit_source_summary": "explicit",
       "credit_sources": [
@@ -193,17 +193,17 @@
       "difficulty_points": 13,
       "display_name": "@adam91holt",
       "explicit_solver_proofs": 7,
-      "failed_attempts": 68,
+      "failed_attempts": 67,
       "github": "adam91holt",
       "inferred_git_proofs": 0,
-      "median_solve_s": 458,
+      "median_solve_s": 459,
       "profile_url": "https://github.com/adam91holt",
       "rank": 7,
-      "run_success_rate": 0.0517,
-      "runs": 58,
+      "run_success_rate": 0.0351,
+      "runs": 57,
       "score": 1475,
       "solver": "adam91holt",
-      "successes": 3,
+      "successes": 2,
       "verified_proofs": 7
     },
     {
@@ -347,8 +347,8 @@
   "models": [
     {
       "provider_model": "claude / opus",
-      "run_success_rate": 0.9057,
-      "runs": 53,
+      "run_success_rate": 0.8936,
+      "runs": 47,
       "verified_proofs": 56
     },
     {
@@ -365,14 +365,14 @@
     },
     {
       "provider_model": "codex / unknown",
-      "run_success_rate": 0.225,
-      "runs": 80,
+      "run_success_rate": 0.1842,
+      "runs": 76,
       "verified_proofs": 24
     },
     {
       "provider_model": "openai / leanstral-2603",
-      "run_success_rate": 0.0737,
-      "runs": 217,
+      "run_success_rate": 0.0651,
+      "runs": 215,
       "verified_proofs": 21
     },
     {
@@ -407,8 +407,8 @@
     },
     {
       "provider_model": "gemini / gemini-3.1-pro-preview",
-      "run_success_rate": 0.7143,
-      "runs": 7,
+      "run_success_rate": 0.5,
+      "runs": 4,
       "verified_proofs": 7
     },
     {
@@ -422,12 +422,6 @@
       "run_success_rate": 1.0,
       "runs": 2,
       "verified_proofs": 2
-    },
-    {
-      "provider_model": "claude / sonnet",
-      "run_success_rate": 1.0,
-      "runs": 1,
-      "verified_proofs": 1
     },
     {
       "provider_model": "claude / template-fib",
@@ -445,6 +439,12 @@
       "provider_model": "claude / template-zmod-ne",
       "run_success_rate": 1.0,
       "runs": 1,
+      "verified_proofs": 1
+    },
+    {
+      "provider_model": "claude / sonnet",
+      "run_success_rate": null,
+      "runs": 0,
       "verified_proofs": 1
     },
     {
@@ -484,8 +484,8 @@
     "historical_contributors": 8,
     "historical_unknown_proofs": 300,
     "inferred_git_proofs": 300,
-    "proof_run_coverage": 0.4119,
-    "terminal_runs": 565,
+    "proof_run_coverage": 0.3847,
+    "terminal_runs": 549,
     "uncredited_proofs": 0,
     "verified_proofs": 590
   },

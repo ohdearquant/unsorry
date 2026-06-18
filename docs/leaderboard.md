@@ -4,53 +4,53 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**590 verified proofs · 290 attributed · 300 historical/unknown · 565 logged terminal runs.**
+**590 verified proofs · 290 attributed · 300 historical/unknown · 549 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 246 |
+| Successful terminal runs | 230 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 43.5% |
-| Provider attempts | 617 |
-| Failed attempts | 371 |
-| Attempt yield | 39.9% |
-| Recorded run time | 98h 15m |
-| Median / p90 run time | 4m 41s / 31m 52s |
-| Verified successes per recorded hour | 2.50 |
-| Proofs with run telemetry | 243 (41.2%) |
+| Run success rate | 41.9% |
+| Provider attempts | 598 |
+| Failed attempts | 368 |
+| Attempt yield | 38.5% |
+| Recorded run time | 96h 22m |
+| Median / p90 run time | 4m 38s / 31m 54s |
+| Verified successes per recorded hour | 2.39 |
+| Proofs with run telemetry | 227 (38.5%) |
 
 ## Work Queue
 
-**776 goals · 138 archived · 3 blocked · 174 open · 452 proved · 9 translated.**
+**776 goals · 258 archived · 3 blocked · 174 open · 332 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 87 | 31 | 35.6% | 74 | 5m 9s |
-| 2 | 251 | 113 | 45.0% | 158 | 4m 21s |
+| 1 | 74 | 18 | 24.3% | 71 | 4m 58s |
+| 2 | 249 | 111 | 44.6% | 158 | 4m 21s |
 | 3 | 199 | 94 | 47.2% | 119 | 4m 33s |
-| 4 | 26 | 8 | 30.8% | 18 | 5m 53s |
+| 4 | 25 | 7 | 28.0% | 18 | 5m 42s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
 
 ## Unresolved Effort
 
 | Goal | Status | Difficulty | Runs | Failed attempts | Recorded time |
 |------|--------|-----------:|-----:|----------------:|--------------:|
+| `am-hm-two-var` | `archived` | 2 | 4 | 8 | 53m 57s |
 | `sq-add-sq-eq-three-mul-sq-s4` | `open` | 1 | 3 | 7 | 1h 26m |
 | `nat-sq-lt-two-pow-s2` | `open` | 1 | 4 | 6 | 52m 47s |
+| `four-var-qm-am` | `archived` | 2 | 3 | 5 | 1h 50m |
+| `am-gm-three-cube-s2` | `archived` | 1 | 3 | 5 | 49m 21s |
+| `am-gm-three-cube-s2-s2` | `archived` | 1 | 3 | 5 | 44m 53s |
+| `cube-sum-ge-three-prod` | `archived` | 2 | 3 | 5 | 21m 52s |
 | `consecutive-cubes-diff-odd` | `archived` | 2 | 3 | 5 | 21m 11s |
+| `four-var-qm-am-s2` | `archived` | 1 | 4 | 4 | 1h 12m |
 | `nesbitt-inequality-s1` | `open` | 1 | 2 | 4 | 47m 0s |
-| `dvd-210-pow-fifteen-sub-pow-three` | `open` | 2 | 2 | 4 | 7m 0s |
-| `cube-sum-ge-mul-sq` | `archived` | 2 | 2 | 4 | 5m 47s |
-| `prod-one-sub-inv-sq-telescope` | `open` | 4 | 3 | 3 | 1h 9m |
-| `fourth-power-mod-five` | `archived` | 3 | 1 | 3 | 20m 27s |
-| `cube-eq-triangular-sq-diff` | `archived` | 2 | 1 | 3 | 14m 49s |
-| `sum-icc-choose-hockey-stick-s1` | `open` | 1 | 2 | 2 | 1h 3m |
 
 ## Contributor Leaderboard
 
@@ -59,12 +59,12 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 239 | 0 | 239 | 0 | — | 546 | 60575 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 157 | 156 | 1 | 159 | 100.0% | 379 | 41825 |
-| 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 310 | 18.7% | 212 | 24150 |
-| 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 38 | 68.4% | 84 | 9350 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 157 | 156 | 1 | 158 | 100.0% | 379 | 41825 |
+| 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
+| 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 21 | 21 | 0 | 0 | — | 55 | 6025 |
 | 6 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
-| 7 | [@adam91holt](https://github.com/adam91holt) | 7 | 7 | 0 | 58 | 5.2% | 13 | 1475 |
+| 7 | [@adam91holt](https://github.com/adam91holt) | 7 | 7 | 0 | 57 | 3.5% | 13 | 1475 |
 | 8 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 0 | — | 1 | 125 |
 
 ## Attribution Notes
@@ -77,23 +77,23 @@ Git add-author attribution covers 590 of 590 proof index files. It is used only 
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 56 | 53 | 90.6% | 19 | 4 | 4m 30s | 6.48 |
+| `claude / opus` | 56 | 47 | 89.4% | 18 | 4 | 4m 47s | 6.27 |
 | `claude / template-sum-induction` | 51 | 54 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 41 | 41 | 100.0% | 0 | 1 | 0s | — |
-| `codex / unknown` | 24 | 80 | 22.5% | 90 | 2 | 7m 38s | 1.45 |
-| `openai / leanstral-2603` | 21 | 217 | 7.4% | 205 | 1 | 6m 30s | 0.30 |
+| `codex / unknown` | 24 | 76 | 18.4% | 88 | 2 | 7m 38s | 1.18 |
+| `openai / leanstral-2603` | 21 | 215 | 6.5% | 205 | 1 | 6m 30s | 0.27 |
 | `openrouter / unknown` | 21 | 0 | — | 0 | 1 | — | — |
 | `claude / template-decide` | 19 | 19 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-sum-closedform` | 16 | 16 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-decide` | 14 | 14 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-nlinarith` | 9 | 9 | 100.0% | 0 | 1 | 0s | — |
-| `gemini / gemini-3.1-pro-preview` | 7 | 7 | 71.4% | 6 | 1 | 6m 32s | 5.32 |
+| `gemini / gemini-3.1-pro-preview` | 7 | 4 | 50.0% | 6 | 1 | 8m 3s | 3.24 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
 | `claude / template-dvd-cofactor` | 2 | 2 | 100.0% | 0 | 1 | 0s | — |
-| `claude / sonnet` | 1 | 1 | 100.0% | 0 | 1 | 42s | 85.71 |
 | `claude / template-fib` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-telescope` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-ne` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
+| `claude / sonnet` | 1 | 0 | — | 0 | 1 | — | — |
 | `claude / unknown` | 1 | 0 | — | 0 | 1 | — | — |
 | `openai / jackcloudman/Leanstral-2603-GGUF` | 0 | 47 | 0.0% | 47 | 1 | 31m 57s | 0.00 |
 | `codex / gpt-5.3-codex-spark` | 0 | 1 | 0.0% | 3 | 1 | 1m 34s | 0.00 |
