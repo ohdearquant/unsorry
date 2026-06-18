@@ -2,17 +2,17 @@
   "contributors": [
     {
       "attempt_yield": 1.0,
-      "attempts": 131,
+      "attempts": 132,
       "difficulty_points": 312,
       "failed_attempts": 0,
       "failures": 0,
       "median_solve_s": 0,
       "p90_solve_s": 0,
       "run_success_rate": 1.0,
-      "runs": 131,
+      "runs": 132,
       "solver": "ohdearquant",
-      "successes": 131,
-      "successes_per_recorded_hour": 11228.571,
+      "successes": 132,
+      "successes_per_recorded_hour": 11314.286,
       "total_solve_s": 42,
       "verified_proofs": 131
     },
@@ -118,7 +118,7 @@
     "historical_unknown_proofs": 292,
     "proof_run_coverage": 0.3914,
     "successful_proofs_with_run_telemetry": 218,
-    "terminal_runs": 537,
+    "terminal_runs": 538,
     "verified_proofs": 557
   },
   "credit": {
@@ -159,7 +159,7 @@
     },
     {
       "attempt_yield": 1.0,
-      "attempts": 131,
+      "attempts": 132,
       "avatar_url": "https://github.com/ohdearquant.png?size=96",
       "credit_source_summary": "explicit",
       "credit_sources": [
@@ -178,10 +178,10 @@
       "p90_solve_s": 0,
       "profile_url": "https://github.com/ohdearquant",
       "run_success_rate": 1.0,
-      "runs": 131,
+      "runs": 132,
       "solver": "ohdearquant",
-      "successes": 131,
-      "successes_per_recorded_hour": 11228.571,
+      "successes": 132,
+      "successes_per_recorded_hour": 11314.286,
       "total_solve_s": 42,
       "verified_proofs": 131
     },
@@ -470,17 +470,17 @@
       "total_solve_s": 90204
     },
     {
-      "attempt_yield": 0.9556,
-      "attempts": 45,
+      "attempt_yield": 0.9565,
+      "attempts": 46,
       "date": "2026-06-17",
       "failed_attempts": 2,
       "failures": 0,
       "median_solve_s": 0,
       "p90_solve_s": 0,
       "run_success_rate": 1.0,
-      "runs": 43,
-      "successes": 43,
-      "successes_per_recorded_hour": 279.928,
+      "runs": 44,
+      "successes": 44,
+      "successes_per_recorded_hour": 286.438,
       "total_solve_s": 553
     }
   ],
@@ -500,17 +500,17 @@
       "total_solve_s": 56300
     },
     {
-      "attempt_yield": 0.3923,
-      "attempts": 260,
+      "attempt_yield": 0.3946,
+      "attempts": 261,
       "difficulty": 2,
       "failed_attempts": 158,
       "failures": 138,
-      "median_solve_s": 279,
+      "median_solve_s": 278,
       "p90_solve_s": 1911,
-      "run_success_rate": 0.425,
-      "runs": 240,
-      "successes": 102,
-      "successes_per_recorded_hour": 2.575,
+      "run_success_rate": 0.4274,
+      "runs": 241,
+      "successes": 103,
+      "successes_per_recorded_hour": 2.6,
       "total_solve_s": 142600
     },
     {
@@ -601,16 +601,16 @@
     },
     {
       "attempt_yield": 1.0,
-      "attempts": 131,
+      "attempts": 132,
       "effort": "unknown",
       "failed_attempts": 0,
       "failures": 0,
       "median_solve_s": 0,
       "p90_solve_s": 0,
       "run_success_rate": 1.0,
-      "runs": 131,
-      "successes": 131,
-      "successes_per_recorded_hour": 11228.571,
+      "runs": 132,
+      "successes": 132,
+      "successes_per_recorded_hour": 11314.286,
       "total_solve_s": 42
     },
     {
@@ -6439,7 +6439,7 @@
     },
     {
       "attempt_yield": 1.0,
-      "attempts": 1,
+      "attempts": 2,
       "difficulty": 2,
       "failed_attempts": 0,
       "failures": 0,
@@ -6447,9 +6447,9 @@
       "median_solve_s": 0,
       "p90_solve_s": 0,
       "run_success_rate": 1.0,
-      "runs": 1,
+      "runs": 2,
       "status": "proved",
-      "successes": 1,
+      "successes": 2,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0
     },
@@ -6724,16 +6724,16 @@
     },
     {
       "attempt_yield": 1.0,
-      "attempts": 41,
+      "attempts": 42,
       "failed_attempts": 0,
       "failures": 0,
       "median_solve_s": 0,
       "p90_solve_s": 0,
       "provider_model": "claude / template-sum-induction",
       "run_success_rate": 1.0,
-      "runs": 41,
+      "runs": 42,
       "solvers": 1,
-      "successes": 41,
+      "successes": 42,
       "successes_per_recorded_hour": null,
       "total_solve_s": 0,
       "verified_proofs": 41
@@ -7014,19 +7014,19 @@
   "outcome_counts": {
     "decomposed": 18,
     "failed": 301,
-    "proved": 218
+    "proved": 219
   },
   "outcomes": {
-    "attempt_yield": 0.3701,
-    "attempts": 589,
+    "attempt_yield": 0.3712,
+    "attempts": 590,
     "failed_attempts": 371,
     "failures": 319,
-    "median_solve_s": 300,
+    "median_solve_s": 299,
     "p90_solve_s": 1914,
-    "run_success_rate": 0.406,
-    "runs": 537,
-    "successes": 218,
-    "successes_per_recorded_hour": 2.219,
+    "run_success_rate": 0.4071,
+    "runs": 538,
+    "successes": 219,
+    "successes_per_recorded_hour": 2.229,
     "total_solve_s": 353702
   },
   "queue": {
@@ -7057,6 +7057,20 @@
       "goal": "self-dvd-cube-add-square",
       "id": "20260617t174509874054z-bf6a333b",
       "model": "template-dvd-cofactor",
+      "outcome": "proved",
+      "provider": "claude",
+      "solve_s": 0,
+      "solver": "ohdearquant"
+    },
+    {
+      "agent": "mac-158f",
+      "attempts": 1,
+      "difficulty": 2,
+      "effort": null,
+      "ended": "2026-06-17T16:51:07Z",
+      "goal": "sum-range-sq-mul-three-pow",
+      "id": "20260617t165107954563z-fe17e0dd",
+      "model": "template-sum-induction",
       "outcome": "proved",
       "provider": "claude",
       "solve_s": 0,
@@ -7308,20 +7322,6 @@
       "ended": "2026-06-17T00:20:21Z",
       "goal": "sum-quadruple-product-closed-form",
       "id": "20260617t002021749841z-25e4cafa",
-      "model": "template-sum-induction",
-      "outcome": "proved",
-      "provider": "claude",
-      "solve_s": 0,
-      "solver": "ohdearquant"
-    },
-    {
-      "agent": "mac-158f",
-      "attempts": 1,
-      "difficulty": 2,
-      "effort": null,
-      "ended": "2026-06-17T00:20:19Z",
-      "goal": "sum-pentatope-triple-product",
-      "id": "20260617t002019119558z-c2b4de98",
       "model": "template-sum-induction",
       "outcome": "proved",
       "provider": "claude",

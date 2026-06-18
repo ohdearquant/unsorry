@@ -52,10 +52,10 @@
       "profile_url": "https://github.com/ohdearquant",
       "rank": 2,
       "run_success_rate": 1.0,
-      "runs": 131,
+      "runs": 132,
       "score": 34475,
       "solver": "ohdearquant",
-      "successes": 131,
+      "successes": 132,
       "verified_proofs": 131
     },
     {
@@ -411,7 +411,7 @@
     {
       "provider_model": "claude / template-sum-induction",
       "run_success_rate": 1.0,
-      "runs": 41,
+      "runs": 42,
       "verified_proofs": 41
     },
     {
@@ -530,7 +530,7 @@
     "historical_unknown_proofs": 292,
     "inferred_git_proofs": 292,
     "proof_run_coverage": 0.3914,
-    "terminal_runs": 537,
+    "terminal_runs": 538,
     "uncredited_proofs": 0,
     "verified_proofs": 557
   },
