@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**776 goals — 176 open · 3 blocked · 9 translated · 450 proved · 138 archived.** 15 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**776 goals — 175 open · 3 blocked · 9 translated · 451 proved · 138 archived.** 15 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (445 of 450 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (446 of 451 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -234,11 +234,11 @@ flowchart LR
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s1
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s2
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s3
-  cluster_open(["open · 169"])
+  cluster_open(["open · 168"])
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 404"])
+  cluster_proved(["proved · 405"])
   class cluster_proved proved;
   cluster_archived(["archived · 138"])
   class cluster_archived unknown;
@@ -419,7 +419,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`three-fourth-powers-zmod-sixteen-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-fourth-powers-zmod-sixteen-mem.lean) | open | 3 | — | — | — | — |
 | [`three-mul-fib-eq-fib-add-two-add-fib-sub-two`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-mul-fib-eq-fib-add-two-add-fib-sub-two.lean) | open | 2 | — | — | — | — |
 | [`three-quartic-ge-sum-times-cubes`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-quartic-ge-sum-times-cubes.lean) | open | 3 | — | — | — | — |
-| [`three-quartic-sum-ge-sumsq-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-quartic-sum-ge-sumsq-sq.lean) | open | 3 | — | — | — | — |
 | [`two-cubes-zmod-nine-ne-three-four-five-six`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-cubes-zmod-nine-ne-three-four-five-six.lean) | open | 2 | — | — | — | — |
 | [`two-fib-add-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-fib-add-int.lean) | open | 3 | — | — | — | — |
 | [`two-fourth-powers-zmod-five-ne-three-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-fourth-powers-zmod-five-ne-three-four.lean) | open | 2 | — | — | — | — |
@@ -884,6 +883,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`tenth-power-mod-eleven-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/tenth-power-mod-eleven-mem.lean) | proved | 2 | mac-158f | ohdearquant · `template-decide` | [#1198](https://github.com/agenticsnz/unsorry/pull/1198) | 2026-06-16 |
 | [`three-cubes-zmod-nine-ne-four-five`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-cubes-zmod-nine-ne-four-five.lean) | proved | 2 | mac-158f | ohdearquant · `template-zmod-ne` | [#2089](https://github.com/agenticsnz/unsorry/pull/2089) | 2026-06-18 |
 | [`three-dvd-n-cubed-add-two-n`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-dvd-n-cubed-add-two-n.lean) | proved | 2 | mac-158f | ohdearquant · `template-zmod-decide` | [#1221](https://github.com/agenticsnz/unsorry/pull/1221) | 2026-06-16 |
+| [`three-quartic-sum-ge-sumsq-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/three-quartic-sum-ge-sumsq-sq.lean) | proved | 3 | mac-158f | ohdearquant · `template-nlinarith` | [#2090](https://github.com/agenticsnz/unsorry/pull/2090) | 2026-06-18 |
 | [`two-cube-sum-ge-sum-times-sumsq`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-cube-sum-ge-sum-times-sumsq.lean) | proved | 3 | claude-rmt-001 | chat-bit-01 | [#1123](https://github.com/agenticsnz/unsorry/pull/1123) | 2026-06-16 |
 | [`two-sum-cubes-ge-sym-quadratics`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-sum-cubes-ge-sym-quadratics.lean) | proved | 3 | mac-158f | ohdearquant · `template-nlinarith` | [#2091](https://github.com/agenticsnz/unsorry/pull/2091) | 2026-06-18 |
 | [`two-var-sq-add-one-ge-cross-plus-sum`](https://github.com/agenticsnz/unsorry/blob/main/goals/two-var-sq-add-one-ge-cross-plus-sum.lean) | proved | 2 | claude-rmt-001 | chat-bit-01 | [#1112](https://github.com/agenticsnz/unsorry/pull/1112) | 2026-06-16 |
