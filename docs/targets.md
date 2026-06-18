@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**209 open · 553 proved · 765 total prove-goals.**
+**208 open · 554 proved · 765 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -53,7 +53,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sextic-x6-plus-x3-plus-one-composite-shift` — The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. Not a named mathlib lemma in this form. |
 | `six-dvd-pow-three-add-five-mul` — For every integer n, 6 ∣ n³ + 5n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family. Classic elementary number theory. | 6 ∣ n³ + 5n, since n³ + 5n = (n³ − n) + 6n and 6 ∣ n³ − n. Not a named mathlib lemma in this form. |
 | `sophie-germain-plus-factor-dvd` — The second Sophie-Germain quadratic factor a^2+2ab+2b^2 divides a^4+4b^4. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The second Sophie-Germain quadratic factor a^2+2ab+2b^2 divides a^4+4b^4. Not a named mathlib lemma in this form. |
-| `sos-weighted-three-one-two` — A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s4` — sq-add-sq-eq-three-mul-sq-s4 | open | 1 | — | — | — |
 | `sq-mod-five-ne-two-three` — No natural number's square leaves remainder 2 or 3 when divided by 5. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No natural number's square leaves remainder 2 or 3 when divided by 5. Not a named mathlib lemma in this form. |
 | `sq-mod-ten-ne-two-three-seven-eight` — No perfect square ends in the decimal digit 2, 3, 7, or 8. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No perfect square ends in the decimal digit 2, 3, 7, or 8. Not a named mathlib lemma in this form. |
@@ -629,6 +628,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sixth-power-mod-twentyone-mem` — Every natural number's sixth power is congruent to 0, 1, 7, or 15 modulo 21. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every natural number's sixth power is congruent to 0, 1, 7, or 15 modulo 21. Not a named mathlib lemma in this form. |
 | `sophie-germain-factor-dvd` — The Sophie Germain factor a²−2ab+2b² always divides a⁴+4b⁴. | proved | 2 | — | #400 Identity Engine (ADR-043) — algebraic family. | The Sophie Germain factor a²−2ab+2b² always divides a⁴+4b⁴. Not a named mathlib lemma in this form. |
 | `sophie-germain-not-prime` — For a≥2, b≥1 the number a⁴+4b⁴ is composite (never prime) via the Sophie Germain factorisation. | proved | 4 | — | #400 Identity Engine (ADR-043) — algebraic family. | For a≥2, b≥1 the number a⁴+4b⁴ is composite (never prime) via the Sophie Germain factorisation. Not a named mathlib lemma in this form. |
+| `sos-weighted-three-one-two` — A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. | proved | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | A weighted AM-GM cubic: 3a^2b is at most 2a^3 plus 2b^3 for nonnegative reals. Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s1` — sq-add-sq-eq-three-mul-sq-s1 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s2` — sq-add-sq-eq-three-mul-sq-s2 | proved | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s3` — sq-add-sq-eq-three-mul-sq-s3 | proved | 1 | — | — | — |
