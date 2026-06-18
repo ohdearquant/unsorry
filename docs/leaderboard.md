@@ -59,15 +59,13 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 239 | 0 | 239 | 0 | — | 546 | 60575 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 155 | 155 | 0 | 158 | 100.0% | 373 | 41175 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 156 | 155 | 1 | 158 | 100.0% | 376 | 41500 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 310 | 18.7% | 212 | 24150 |
-| 4 | [@perttu](https://github.com/perttu) | 37 | 33 | 4 | 35 | 71.4% | 83 | 9225 |
+| 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 38 | 68.4% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 21 | 21 | 0 | 0 | — | 55 | 6025 |
 | 6 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 7 | [@adam91holt](https://github.com/adam91holt) | 7 | 7 | 0 | 58 | 5.2% | 13 | 1475 |
-| 8 | [@OceanLi](https://github.com/OceanLi) | 1 | 0 | 1 | 0 | — | 3 | 325 |
-| 9 | [@perttu-mp](https://github.com/perttu-mp) | 1 | 1 | 0 | 3 | 33.3% | 1 | 125 |
-| 10 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 0 | — | 1 | 125 |
+| 8 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 0 | — | 1 | 125 |
 
 ## Attribution Notes
 
@@ -79,10 +77,10 @@ Git add-author attribution covers 589 of 589 proof index files. It is used only 
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / opus` | 56 | 53 | 90.6% | 19 | 5 | 4m 30s | 6.48 |
+| `claude / opus` | 56 | 53 | 90.6% | 19 | 4 | 4m 30s | 6.48 |
 | `claude / template-sum-induction` | 50 | 53 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 41 | 41 | 100.0% | 0 | 1 | 0s | — |
-| `codex / unknown` | 24 | 80 | 22.5% | 90 | 3 | 7m 38s | 1.45 |
+| `codex / unknown` | 24 | 80 | 22.5% | 90 | 2 | 7m 38s | 1.45 |
 | `openai / leanstral-2603` | 21 | 217 | 7.4% | 205 | 1 | 6m 30s | 0.30 |
 | `openrouter / unknown` | 21 | 0 | — | 0 | 1 | — | — |
 | `claude / template-decide` | 19 | 19 | 100.0% | 0 | 1 | 0s | — |
