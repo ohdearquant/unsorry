@@ -6,7 +6,7 @@ This project explores the development of autonomous, agentic systems capable of 
 ## Key Concepts & Insights
 
 ### The "unsorry" Platform: Distributed Mathematical Research
-The project "unsorry" applies these agentic loops to formal mathematics using the Lean theorem prover.
+The project "unsorry" applies agentic loops to formal mathematics using the Lean theorem prover.
 *   **Infrastructure:** The system uses Git and GitHub Actions as the coordination layer, allowing for a decentralized, serverless swarm of agents to work on proofs asynchronously.
 *   **Symbolic Specification (AISP):** The project utilizes AISP, a symbolic mathematical protocol that LLMs can interpret natively to perform verification without extensive prior training.
 *   **Scalability:** By treating pull requests as the primary mechanism for coordinating work, the system successfully managed over 1,400 merged pull requests and 7,500 total commits within 10 days.
