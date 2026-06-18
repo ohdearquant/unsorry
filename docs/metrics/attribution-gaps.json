@@ -1627,6 +1627,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "89f0a67f986f82dee5b70e4168acd932df0cac93",
+      "git_add_date": "2026-06-18",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "cheb-three-cube-ge-sum-times-sumsq",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/94fa76a601dd509c345bb349f71d39c0b62fc44992cd381a10757def4b73daed.aisp",
+      "review_status": "candidate",
+      "sha": "94fa76a601dd509c345bb349f71d39c0b62fc44992cd381a10757def4b73daed"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-15",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -4374,9 +4389,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 291,
-    "mapped_missing_solver": 291,
-    "missing_solver_provenance": 291,
+    "git_attributed_missing_solver": 292,
+    "mapped_missing_solver": 292,
+    "missing_solver_provenance": 292,
     "unmapped_missing_solver": 0
   }
 }
