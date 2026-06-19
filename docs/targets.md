@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**162 open · 697 proved · 862 total prove-goals.**
+**162 open · 699 proved · 864 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -477,6 +477,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gpow-diff-four-pow-five` — n minus 4 divides n to the 5 minus 4 to the 5. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 5 minus 4 to the 5. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-four-pow-four` — n minus 4 divides n to the 4 minus 4 to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 4 minus 4 to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-four-pow-seven` — n minus 4 divides n to the 7 minus 4 to the 7. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 7 minus 4 to the 7. Provable by exhibiting the cofactor and `ring`. |
+| `gpow-diff-four-pow-three` — n minus 4 divides n to the 3 minus 4 to the 3. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 3 minus 4 to the 3. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-seven-pow-four` — n minus 7 divides n to the 4 minus 7 to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 7 divides n to the 4 minus 7 to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-seven-pow-seven` — n minus 7 divides n to the 7 minus 7 to the 7. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 7 divides n to the 7 minus 7 to the 7. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-seven-pow-two` — n minus 7 divides n to the 2 minus 7 to the 2. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 7 divides n to the 2 minus 7 to the 2. Provable by exhibiting the cofactor and `ring`. |
@@ -532,6 +533,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-30-pow-five-sub-pow-one` — 30 divides n to the 5 minus n to the 1, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 30 divides n to the 5 minus n to the 1, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-36-pow-nine-sub-pow-three` — 36 divides n to the 9 minus n to the 3, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 36 divides n to the 9 minus n to the 3, for every integer n. Provable by a finite `ZMod 36` case check. |
 | `gzmod-36-pow-seventeen-sub-pow-five` — 36 divides n to the 17 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 36 divides n to the 17 minus n to the 5, for every integer n. Provable by a finite `ZMod 36` case check. |
+| `gzmod-36-pow-ten-sub-pow-four` — 36 divides n to the 10 minus n to the 4, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 36 divides n to the 10 minus n to the 4, for every integer n. Provable by a finite `ZMod 36` case check. |
 | `gzmod-36-pow-twelve-sub-pow-six` — 36 divides n to the 12 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 36 divides n to the 12 minus n to the 6, for every integer n. Provable by a finite `ZMod 36` case check. |
 | `gzmod-42-pow-seven-sub-pow-one` — 42 divides n to the 7 minus n to the 1, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 42 divides n to the 7 minus n to the 1, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `int-add-neg` — Adding the negation of an integer yields zero. | proved | 1 | — | — | — |
