@@ -4,35 +4,35 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**660 verified proofs · 355 attributed · 305 historical/unknown · 613 logged terminal runs.**
+**663 verified proofs · 358 attributed · 305 historical/unknown · 616 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 294 |
+| Successful terminal runs | 297 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 48.0% |
-| Provider attempts | 664 |
+| Run success rate | 48.2% |
+| Provider attempts | 667 |
 | Failed attempts | 370 |
-| Attempt yield | 44.3% |
+| Attempt yield | 44.5% |
 | Recorded run time | 96h 32m |
-| Median / p90 run time | 4m 3s / 31m 47s |
-| Verified successes per recorded hour | 3.04 |
-| Proofs with run telemetry | 291 (44.1%) |
+| Median / p90 run time | 4m 1s / 31m 47s |
+| Verified successes per recorded hour | 3.08 |
+| Proofs with run telemetry | 294 (44.3%) |
 
 ## Work Queue
 
-**837 goals · 258 archived · 3 blocked · 165 open · 402 proved · 9 translated.**
+**839 goals · 258 archived · 3 blocked · 164 open · 405 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 122 | 66 | 54.1% | 71 | 2m 58s |
-| 2 | 251 | 113 | 45.0% | 158 | 4m 19s |
+| 1 | 124 | 68 | 54.8% | 71 | 2m 56s |
+| 2 | 252 | 114 | 45.2% | 158 | 4m 17s |
 | 3 | 213 | 108 | 50.7% | 121 | 4m 16s |
 | 4 | 25 | 7 | 28.0% | 18 | 5m 42s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
@@ -59,7 +59,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 244 | 0 | 244 | 0 | — | 564 | 62500 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 220 | 219 | 1 | 221 | 100.0% | 470 | 52500 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 223 | 222 | 1 | 224 | 100.0% | 474 | 52975 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 22 | 22 | 0 | 0 | — | 58 | 6350 |
@@ -69,17 +69,17 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**355 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
+**358 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 660 of 660 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 663 of 663 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 56 | 47 | 89.4% | 18 | 4 | 4m 47s | 6.27 |
-| `claude / template-sum-induction` | 51 | 54 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-ring-cofactor` | 47 | 47 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-sum-induction` | 52 | 55 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-ring-cofactor` | 49 | 49 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 41 | 41 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-decide` | 27 | 27 | 100.0% | 0 | 1 | 0s | — |
 | `codex / unknown` | 25 | 77 | 19.5% | 90 | 2 | 7m 39s | 1.25 |
