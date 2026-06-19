@@ -4,37 +4,37 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**715 verified proofs · 409 attributed · 306 historical/unknown · 658 logged terminal runs.**
+**716 verified proofs · 410 attributed · 306 historical/unknown · 333 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 339 |
+| Successful terminal runs | 14 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 51.5% |
-| Provider attempts | 710 |
-| Failed attempts | 371 |
-| Attempt yield | 47.8% |
-| Recorded run time | 96h 43m |
-| Median / p90 run time | 3m 42s / 31m 44s |
-| Verified successes per recorded hour | 3.50 |
-| Proofs with run telemetry | 336 (47.0%) |
+| Run success rate | 4.2% |
+| Provider attempts | 376 |
+| Failed attempts | 362 |
+| Attempt yield | 3.7% |
+| Recorded run time | 89h 34m |
+| Median / p90 run time | 8m 33s / 32m 4s |
+| Verified successes per recorded hour | 0.16 |
+| Proofs with run telemetry | 14 (2.0%) |
 
 ## Work Queue
 
-**885 goals · 258 archived · 3 blocked · 158 open · 457 proved · 9 translated.**
+**886 goals · 703 archived · 3 blocked · 158 open · 13 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 157 | 101 | 64.3% | 71 | 0s |
-| 2 | 254 | 116 | 45.7% | 158 | 4m 15s |
-| 3 | 219 | 114 | 52.0% | 121 | 4m 11s |
-| 4 | 26 | 8 | 30.8% | 19 | 5m 53s |
+| 1 | 63 | 7 | 11.1% | 71 | 6m 28s |
+| 2 | 139 | 1 | 0.7% | 157 | 7m 58s |
+| 3 | 108 | 3 | 2.8% | 114 | 14m 36s |
+| 4 | 21 | 3 | 14.3% | 18 | 6m 5s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
 
 ## Unresolved Effort
@@ -49,8 +49,8 @@ Verified output comes from active `library/index` records plus archived index re
 | `am-gm-three-cube-s2-s2` | `archived` | 1 | 3 | 5 | 44m 53s |
 | `cube-sum-ge-three-prod` | `archived` | 2 | 3 | 5 | 21m 52s |
 | `consecutive-cubes-diff-odd` | `archived` | 2 | 3 | 5 | 21m 11s |
+| `dvd-210-pow-fifteen-sub-pow-three-s2` | `archived` | 1 | 4 | 4 | 1h 20m |
 | `four-var-qm-am-s2` | `archived` | 1 | 4 | 4 | 1h 12m |
-| `nesbitt-inequality-s1` | `open` | 1 | 2 | 4 | 47m 0s |
 
 ## Contributor Leaderboard
 
@@ -58,43 +58,43 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@ohdearquant](https://github.com/ohdearquant) | 263 | 262 | 1 | 264 | 100.0% | 526 | 59175 |
-| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 253 | 8 | 245 | 0 | — | 592 | 65525 |
-| 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
-| 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
+| 1 | [@ohdearquant](https://github.com/ohdearquant) | 263 | 262 | 1 | 0 | — | 526 | 59175 |
+| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 254 | 9 | 245 | 0 | — | 595 | 65850 |
+| 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 265 | 4.9% | 212 | 24150 |
+| 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 13 | 7.7% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 23 | 23 | 0 | 0 | — | 61 | 6675 |
-| 6 | [@adam91holt](https://github.com/adam91holt) | 10 | 10 | 0 | 60 | 8.3% | 23 | 2550 |
+| 6 | [@adam91holt](https://github.com/adam91holt) | 10 | 10 | 0 | 55 | 0.0% | 23 | 2550 |
 | 7 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 2125 |
 | 8 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 0 | — | 1 | 125 |
 
 ## Attribution Notes
 
-**409 explicit solver credits · 306 inferred git credits · 0 uncredited proof records.**
+**410 explicit solver credits · 306 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 715 of 715 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 716 of 716 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / template-ring-cofactor` | 82 | 82 | 100.0% | 0 | 1 | 0s | — |
-| `claude / opus` | 56 | 47 | 89.4% | 18 | 4 | 4m 47s | 6.27 |
-| `claude / template-sum-induction` | 52 | 55 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-zmod-crt` | 42 | 42 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-zmod-decide` | 40 | 32 | 100.0% | 0 | 2 | 0s | — |
-| `codex / unknown` | 27 | 79 | 21.5% | 91 | 2 | 7m 37s | 1.39 |
+| `claude / template-ring-cofactor` | 82 | 0 | — | 0 | 1 | — | — |
+| `claude / opus` | 56 | 17 | 70.6% | 16 | 4 | 7m 58s | 3.58 |
+| `claude / template-sum-induction` | 52 | 0 | — | 0 | 1 | — | — |
+| `claude / template-zmod-crt` | 42 | 0 | — | 0 | 1 | — | — |
+| `claude / template-zmod-decide` | 41 | 0 | — | 0 | 2 | — | — |
+| `codex / unknown` | 27 | 63 | 1.6% | 84 | 2 | 8m 6s | 0.10 |
 | `openrouter / unknown` | 23 | 0 | — | 0 | 1 | — | — |
-| `openai / leanstral-2603` | 21 | 215 | 6.5% | 205 | 1 | 6m 30s | 0.27 |
-| `claude / template-decide` | 19 | 19 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-sum-closedform` | 18 | 18 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-nlinarith` | 10 | 10 | 100.0% | 0 | 1 | 0s | — |
-| `gemini / gemini-3.1-pro-preview` | 7 | 4 | 50.0% | 6 | 1 | 8m 3s | 3.24 |
+| `openai / leanstral-2603` | 21 | 202 | 0.5% | 205 | 1 | 6m 29s | 0.02 |
+| `claude / template-decide` | 19 | 0 | — | 0 | 1 | — | — |
+| `claude / template-sum-closedform` | 18 | 0 | — | 0 | 1 | — | — |
+| `claude / template-nlinarith` | 10 | 0 | — | 0 | 1 | — | — |
+| `gemini / gemini-3.1-pro-preview` | 7 | 2 | 0.0% | 6 | 1 | 10m 59s | 0.00 |
 | `manual / gpt-5.5` | 4 | 0 | — | 0 | 1 | — | — |
-| `claude / template-dvd-cofactor` | 3 | 3 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-fib` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-telescope` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-zmod-ne` | 1 | 1 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-dvd-cofactor` | 3 | 0 | — | 0 | 1 | — | — |
 | `claude / sonnet` | 1 | 0 | — | 0 | 1 | — | — |
+| `claude / template-fib` | 1 | 0 | — | 0 | 1 | — | — |
+| `claude / template-telescope` | 1 | 0 | — | 0 | 1 | — | — |
+| `claude / template-zmod-ne` | 1 | 0 | — | 0 | 1 | — | — |
 | `claude / unknown` | 1 | 0 | — | 0 | 1 | — | — |
 | `openai / jackcloudman/Leanstral-2603-GGUF` | 0 | 47 | 0.0% | 47 | 1 | 31m 57s | 0.00 |
 | `codex / gpt-5.3-codex-spark` | 0 | 1 | 0.0% | 3 | 1 | 1m 34s | 0.00 |
@@ -104,26 +104,26 @@ Git add-author attribution covers 715 of 715 proof index files. It is used only 
 
 | Ended (UTC) | Goal | Solver | Provider / model | Outcome | Attempts | Failed attempts | Time |
 |-------------|------|--------|------------------|---------|---------:|----------------:|-----:|
-| `2026-06-19T03:28:35Z` | `gfac-d3-c6` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:27:30Z` | `gfac-d3-c5` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:11:27Z` | `gpow-diff-eight-pow-eight` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:10:47Z` | `gpow-diff-eight-pow-five` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:10:34Z` | `gpow-diff-eight-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:10:08Z` | `gpow-diff-eight-pow-two` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:09:28Z` | `gpow-diff-seven-pow-seven` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:08:46Z` | `gpow-diff-seven-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:08:33Z` | `gpow-diff-seven-pow-three` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:08:20Z` | `gpow-diff-seven-pow-two` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:07:53Z` | `gpow-diff-six-pow-eight` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:07:40Z` | `gpow-diff-six-pow-seven` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:07:01Z` | `gpow-diff-six-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:06:47Z` | `gpow-diff-six-pow-three` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:05:41Z` | `gpow-diff-five-pow-six` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:05:27Z` | `gpow-diff-five-pow-five` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:05:15Z` | `gpow-diff-five-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:04:18Z` | `gpow-diff-four-pow-eight` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:04:04Z` | `gpow-diff-four-pow-seven` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T03:03:38Z` | `gpow-diff-four-pow-five` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-16T22:22:57Z` | `sum-range-compositions-count-eq-two-pow` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 3m 32s |
+| `2026-06-16T22:16:56Z` | `sum-icc-k-mul-three-k-sub-one-eq` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 16m 52s |
+| `2026-06-16T21:59:30Z` | `sq-add-sq-eq-three-mul-sq-s4` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 51s |
+| `2026-06-16T21:25:00Z` | `sum-decagonal-closed-form` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 32m 13s |
+| `2026-06-16T20:50:36Z` | `sos-weighted-three-one-two` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 41s |
+| `2026-06-16T20:17:02Z` | `sophie-germain-plus-factor-dvd` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 4m 40s |
+| `2026-06-16T19:57:10Z` | `six-dvd-pow-three-add-five-mul` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 32m 5s |
+| `2026-06-16T19:37:21Z` | `six-dvd-pow-three-add-five-mul` | [@perttu](https://github.com/perttu) | `codex / unknown` | `failed` | 1 | 1 | 7m 4s |
+| `2026-06-16T19:23:21Z` | `six-dvd-n-mul-succ-mul-two-n-add-one` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 39s |
+| `2026-06-16T19:13:01Z` | `six-dvd-pow-three-add-five-mul` | [@perttu](https://github.com/perttu) | `claude / opus` | `decomposed` | 1 | 1 | 7m 36s |
+| `2026-06-16T18:50:00Z` | `sextic-x6-plus-x3-plus-one-composite-shift` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 51s |
+| `2026-06-16T18:16:21Z` | `realization-edge-relation` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 18s |
+| `2026-06-16T17:43:14Z` | `realization-edge-in-set` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 26s |
+| `2026-06-16T17:10:05Z` | `realization-determines-counts` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 23s |
+| `2026-06-16T16:37:01Z` | `quartic-x4-plus-x2-plus-one-dvd-by-minus-factor` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 11m 46s |
+| `2026-06-16T16:10:21Z` | `quartic-sum-ge-abc-times-sum` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 4m 47s |
+| `2026-06-16T16:03:52Z` | `quartic-plus-four-not-prime` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 6m 5s |
+| `2026-06-16T15:56:10Z` | `quartic-n4-plus-four-not-prime` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 31m 18s |
+| `2026-06-16T15:17:07Z` | `quartic-n4-plus-four-composite` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 3m 17s |
+| `2026-06-16T15:11:51Z` | `prod-range-one-sub-recip-succ-sq` | [@cgbarlow](https://github.com/cgbarlow) | `openai / leanstral-2603` | `failed` | 1 | 1 | 12m 5s |
 
 ## Interpretation
 
