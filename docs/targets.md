@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**154 open · 1172 proved · 1329 total prove-goals.**
+**154 open · 1173 proved · 1330 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -594,6 +594,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gpow-diff-four-pow-six` — n minus 4 divides n to the 6 minus 4 to the 6. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 6 minus 4 to the 6. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-four-pow-sixteen` — n minus 4 divides n to the 16 minus 4 to the 16. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 16 minus 4 to the 16. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-four-pow-ten` — n minus 4 divides n to the 10 minus 4 to the 10. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 10 minus 4 to the 10. Provable by exhibiting the cofactor and `ring`. |
+| `gpow-diff-four-pow-thirteen` — n minus 4 divides n to the 13 minus 4 to the 13. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 13 minus 4 to the 13. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-four-pow-three` — n minus 4 divides n to the 3 minus 4 to the 3. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 3 minus 4 to the 3. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-four-pow-twelve` — n minus 4 divides n to the 12 minus 4 to the 12. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 12 minus 4 to the 12. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-diff-four-pow-two` — n minus 4 divides n to the 2 minus 4 to the 2. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus 4 divides n to the 2 minus 4 to the 2. Provable by exhibiting the cofactor and `ring`. |
