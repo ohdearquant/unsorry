@@ -7,6 +7,8 @@
 ---
 ## Current status
 
+21 June 2026: Pipeline unblocked. Ocean takes the lead. Proof validation running smoothly with 4x16GB runners, however large queue. Roadmap to move to decentralsed runner architecture.
+
 19 June 2026: Due to the phenominal growth of this project the current infrastructure is creaking and struggling to keep up with demand processing proof validations.
 
 Normal service will resume once we have sorted out a fix. Hold tight!
