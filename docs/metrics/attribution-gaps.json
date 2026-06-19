@@ -1538,6 +1538,21 @@
     {
       "alias_mapped": true,
       "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "3518df6ab09ba9e94bbe9c6d2ee21edbc86cc258",
+      "git_add_date": "2026-06-19",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "pairsum-sq-le-three-sum-sq-products",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/e96f7294db785825a330a274ceacb808df78496c123c769495a3804bc9667255.aisp",
+      "review_status": "candidate",
+      "sha": "e96f7294db785825a330a274ceacb808df78496c123c769495a3804bc9667255"
+    },
+    {
+      "alias_mapped": true,
+      "date": "2026-06-17",
       "difficulty": 2,
       "display_name": "chat-bit-01",
       "git_add_commit": "b02c000c2dd43b5cf3af9fe0d20e6a9438c01b5c",
@@ -4524,9 +4539,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 301,
-    "mapped_missing_solver": 301,
-    "missing_solver_provenance": 301,
+    "git_attributed_missing_solver": 302,
+    "mapped_missing_solver": 302,
+    "missing_solver_provenance": 302,
     "unmapped_missing_solver": 0
   }
 }
