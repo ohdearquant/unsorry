@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**154 open · 809 proved · 966 total prove-goals.**
+**154 open · 810 proved · 967 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -562,6 +562,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-12-pow-28-sub-pow-two` — 12 divides n to the 28 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 12 divides n to the 28 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-12-pow-36-sub-pow-two` — 12 divides n to the 36 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 12 divides n to the 36 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-12-pow-40-sub-pow-two` — 12 divides n to the 40 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 12 divides n to the 40 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
+| `gzmod-12-pow-64-sub-pow-two` — 12 divides n to the 64 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 12 divides n to the 64 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-12-pow-four-sub-pow-two` — 12 divides n to the 4 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 12 divides n to the 4 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-12-pow-sixteen-sub-pow-two` — 12 divides n to the 16 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 12 divides n to the 16 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-132-pow-twelve-sub-pow-two` — 132 divides n to the 12 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 132 divides n to the 12 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
