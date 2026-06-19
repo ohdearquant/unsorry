@@ -4,8 +4,8 @@
       "attempt_yield": 1.0,
       "avatar_url": "https://github.com/ohdearquant.png?size=96",
       "badges": {
-        "difficulty": 1252,
-        "proofs": 535,
+        "difficulty": 1261,
+        "proofs": 538,
         "success_rate_percent": 100.0
       },
       "credit_source_summary": "explicit + inferred",
@@ -13,10 +13,10 @@
         "explicit-solver",
         "inferred-git-add-author"
       ],
-      "credited_proofs": 535,
-      "difficulty_points": 1252,
+      "credited_proofs": 538,
+      "difficulty_points": 1261,
       "display_name": "@ohdearquant",
-      "explicit_solver_proofs": 534,
+      "explicit_solver_proofs": 537,
       "failed_attempts": 0,
       "github": "ohdearquant",
       "inferred_git_proofs": 1,
@@ -24,11 +24,11 @@
       "profile_url": "https://github.com/ohdearquant",
       "rank": 1,
       "run_success_rate": 1.0,
-      "runs": 272,
-      "score": 138575,
+      "runs": 275,
+      "score": 139550,
       "solver": "ohdearquant",
-      "successes": 272,
-      "verified_proofs": 535
+      "successes": 275,
+      "verified_proofs": 538
     },
     {
       "attempt_yield": null,
@@ -243,15 +243,15 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": "https://github.com/ohdearquant.png?size=96",
-      "difficulty_points": 1160,
+      "difficulty_points": 1169,
       "display_name": "ohdearquant",
       "github": "ohdearquant",
-      "index_files_added": 491,
+      "index_files_added": 494,
       "missing_solver_provenance": 1,
       "profile_url": "https://github.com/ohdearquant",
       "rank": 1,
       "solver_credit": false,
-      "solver_provenance_proofs": 490
+      "solver_provenance_proofs": 493
     },
     {
       "attribution_source": "git-add-author",
@@ -349,8 +349,8 @@
     {
       "provider_model": "claude / template-zmod-decide",
       "run_success_rate": 1.0,
-      "runs": 227,
-      "verified_proofs": 280
+      "runs": 230,
+      "verified_proofs": 283
     },
     {
       "provider_model": "claude / template-ring-cofactor",
@@ -482,19 +482,19 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 696,
+    "attributed_proofs": 699,
     "attribution_gap_count": 308,
     "credited_contributors": 8,
-    "credited_proofs": 1004,
-    "explicit_solver_proofs": 696,
-    "git_attributed_index_files": 1004,
+    "credited_proofs": 1007,
+    "explicit_solver_proofs": 699,
+    "git_attributed_index_files": 1007,
     "historical_contributors": 8,
     "historical_unknown_proofs": 308,
     "inferred_git_proofs": 308,
-    "proof_run_coverage": 0.2849,
-    "terminal_runs": 605,
+    "proof_run_coverage": 0.287,
+    "terminal_runs": 608,
     "uncredited_proofs": 0,
-    "verified_proofs": 1004
+    "verified_proofs": 1007
   },
   "timeline": [
     {
@@ -543,9 +543,9 @@
       "proofs": 24
     },
     {
-      "cumulative_proofs": 1004,
+      "cumulative_proofs": 1007,
       "date": "2026-06-19",
-      "proofs": 292
+      "proofs": 295
     }
   ]
 }
