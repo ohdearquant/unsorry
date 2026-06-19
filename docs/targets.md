@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**154 open · 1049 proved · 1206 total prove-goals.**
+**154 open · 1050 proved · 1207 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -875,6 +875,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-504-pow-thirteen-sub-pow-seven` — 504 divides n to the 13 minus n to the 7, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 504 divides n to the 13 minus n to the 7, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-504-pow-twelve-sub-pow-six` — 504 divides n to the 12 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 504 divides n to the 12 minus n to the 6, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-6-pow-fifteen-sub-pow-one` — 6 divides n to the 15 minus n to the 1, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 6 divides n to the 15 minus n to the 1, for every integer n. Provable by exhibiting the cofactor and `ring`. |
+| `gzmod-66-pow-51-sub-pow-one` — 66 divides n to the 51 minus n to the 1, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 66 divides n to the 51 minus n to the 1, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `int-add-neg` — Adding the negation of an integer yields zero. | proved | 1 | — | — | — |
 | `int-neg-neg` — Double negation of an integer is the identity. | proved | 1 | — | — | — |
 | `int-sub-eq-add-neg` — Integer subtraction equals adding the negation. | proved | 1 | — | — | — |
