@@ -37,6 +37,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "a0a46e96a2faebeb68214f59ae690f7632588470",
+      "git_add_date": "2026-06-19",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "three-quartic-ge-sum-times-cubes",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/53e47df75f953fff54b7a78941f83325c18a944ad1652deea67301e8cd2ebfaf.aisp",
+      "review_status": "candidate",
+      "sha": "53e47df75f953fff54b7a78941f83325c18a944ad1652deea67301e8cd2ebfaf"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-14",
       "difficulty": 1,
       "display_name": "chat-bit-01",
@@ -4614,9 +4629,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 307,
-    "mapped_missing_solver": 307,
-    "missing_solver_provenance": 307,
+    "git_attributed_missing_solver": 308,
+    "mapped_missing_solver": 308,
+    "missing_solver_provenance": 308,
     "unmapped_missing_solver": 0
   }
 }

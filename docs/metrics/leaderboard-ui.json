@@ -4,8 +4,8 @@
       "attempt_yield": 1.0,
       "avatar_url": "https://github.com/ohdearquant.png?size=96",
       "badges": {
-        "difficulty": 610,
-        "proofs": 299,
+        "difficulty": 615,
+        "proofs": 304,
         "success_rate_percent": 100.0
       },
       "credit_source_summary": "explicit + inferred",
@@ -13,10 +13,10 @@
         "explicit-solver",
         "inferred-git-add-author"
       ],
-      "credited_proofs": 299,
-      "difficulty_points": 610,
+      "credited_proofs": 304,
+      "difficulty_points": 615,
       "display_name": "@ohdearquant",
-      "explicit_solver_proofs": 298,
+      "explicit_solver_proofs": 303,
       "failed_attempts": 0,
       "github": "ohdearquant",
       "inferred_git_proofs": 1,
@@ -24,18 +24,18 @@
       "profile_url": "https://github.com/ohdearquant",
       "rank": 1,
       "run_success_rate": 1.0,
-      "runs": 36,
-      "score": 68475,
+      "runs": 41,
+      "score": 69100,
       "solver": "ohdearquant",
-      "successes": 36,
-      "verified_proofs": 299
+      "successes": 41,
+      "verified_proofs": 304
     },
     {
       "attempt_yield": null,
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
       "badges": {
-        "difficulty": 619,
-        "proofs": 262,
+        "difficulty": 625,
+        "proofs": 264,
         "success_rate_percent": null
       },
       "credit_source_summary": "explicit + inferred",
@@ -43,22 +43,22 @@
         "explicit-solver",
         "inferred-git-add-author"
       ],
-      "credited_proofs": 262,
-      "difficulty_points": 619,
+      "credited_proofs": 264,
+      "difficulty_points": 625,
       "display_name": "@chat-bit-01",
-      "explicit_solver_proofs": 16,
+      "explicit_solver_proofs": 17,
       "failed_attempts": 0,
       "github": "chat-bit-01",
-      "inferred_git_proofs": 246,
+      "inferred_git_proofs": 247,
       "median_solve_s": null,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 2,
       "run_success_rate": null,
       "runs": 0,
-      "score": 68450,
+      "score": 69100,
       "solver": "chat-bit-01",
       "successes": 0,
-      "verified_proofs": 262
+      "verified_proofs": 264
     },
     {
       "attempt_yield": 0.0464,
@@ -243,41 +243,41 @@
     {
       "attribution_source": "git-add-author",
       "avatar_url": "https://github.com/chat-bit-01.png?size=96",
-      "difficulty_points": 619,
+      "difficulty_points": 625,
       "display_name": "chat-bit-01",
       "github": "chat-bit-01",
-      "index_files_added": 262,
-      "missing_solver_provenance": 246,
+      "index_files_added": 264,
+      "missing_solver_provenance": 247,
       "profile_url": "https://github.com/chat-bit-01",
       "rank": 1,
       "solver_credit": false,
-      "solver_provenance_proofs": 16
+      "solver_provenance_proofs": 17
     },
     {
       "attribution_source": "git-add-author",
       "avatar_url": "https://github.com/ohdearquant.png?size=96",
-      "difficulty_points": 519,
+      "difficulty_points": 523,
       "display_name": "ohdearquant",
       "github": "ohdearquant",
-      "index_files_added": 256,
+      "index_files_added": 260,
       "missing_solver_provenance": 1,
       "profile_url": "https://github.com/ohdearquant",
       "rank": 2,
       "solver_credit": false,
-      "solver_provenance_proofs": 255
+      "solver_provenance_proofs": 259
     },
     {
       "attribution_source": "git-add-author",
       "avatar_url": "https://github.com/cgbarlow.png?size=96",
-      "difficulty_points": 230,
+      "difficulty_points": 231,
       "display_name": "Chris Barlow",
       "github": "cgbarlow",
-      "index_files_added": 127,
+      "index_files_added": 128,
       "missing_solver_provenance": 47,
       "profile_url": "https://github.com/cgbarlow",
       "rank": 3,
       "solver_credit": false,
-      "solver_provenance_proofs": 80
+      "solver_provenance_proofs": 81
     },
     {
       "attribution_source": "git-add-author",
@@ -349,14 +349,14 @@
     {
       "provider_model": "claude / template-ring-cofactor",
       "run_success_rate": 1.0,
-      "runs": 12,
-      "verified_proofs": 94
+      "runs": 17,
+      "verified_proofs": 99
     },
     {
       "provider_model": "claude / template-zmod-decide",
       "run_success_rate": 1.0,
       "runs": 24,
-      "verified_proofs": 72
+      "verified_proofs": 73
     },
     {
       "provider_model": "claude / opus",
@@ -482,19 +482,19 @@
   "schema_version": 1,
   "score_policy": "rank by credited verified proofs desc, difficulty_points desc; score = difficulty_points * 100 + credited_proofs * 25",
   "summary": {
-    "attributed_proofs": 455,
-    "attribution_gap_count": 307,
+    "attributed_proofs": 461,
+    "attribution_gap_count": 308,
     "credited_contributors": 8,
-    "credited_proofs": 762,
-    "explicit_solver_proofs": 455,
-    "git_attributed_index_files": 762,
+    "credited_proofs": 769,
+    "explicit_solver_proofs": 461,
+    "git_attributed_index_files": 769,
     "historical_contributors": 8,
-    "historical_unknown_proofs": 307,
-    "inferred_git_proofs": 307,
-    "proof_run_coverage": 0.0656,
-    "terminal_runs": 369,
+    "historical_unknown_proofs": 308,
+    "inferred_git_proofs": 308,
+    "proof_run_coverage": 0.0715,
+    "terminal_runs": 374,
     "uncredited_proofs": 0,
-    "verified_proofs": 762
+    "verified_proofs": 769
   },
   "timeline": [
     {
@@ -533,19 +533,19 @@
       "proofs": 251
     },
     {
-      "cumulative_proofs": 686,
+      "cumulative_proofs": 688,
       "date": "2026-06-17",
-      "proofs": 175
+      "proofs": 177
     },
     {
-      "cumulative_proofs": 705,
+      "cumulative_proofs": 708,
       "date": "2026-06-18",
-      "proofs": 19
+      "proofs": 20
     },
     {
-      "cumulative_proofs": 762,
+      "cumulative_proofs": 769,
       "date": "2026-06-19",
-      "proofs": 57
+      "proofs": 61
     }
   ]
 }
