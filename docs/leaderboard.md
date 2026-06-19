@@ -4,28 +4,28 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**672 verified proofs · 367 attributed · 305 historical/unknown · 625 logged terminal runs.**
+**673 verified proofs · 368 attributed · 305 historical/unknown · 626 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 306 |
+| Successful terminal runs | 307 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
 | Run success rate | 49.0% |
-| Provider attempts | 676 |
+| Provider attempts | 677 |
 | Failed attempts | 370 |
-| Attempt yield | 45.3% |
+| Attempt yield | 45.4% |
 | Recorded run time | 96h 32m |
-| Median / p90 run time | 3m 58s / 31m 46s |
-| Verified successes per recorded hour | 3.17 |
-| Proofs with run telemetry | 303 (45.1%) |
+| Median / p90 run time | 3m 57s / 31m 46s |
+| Verified successes per recorded hour | 3.18 |
+| Proofs with run telemetry | 304 (45.2%) |
 
 ## Work Queue
 
-**847 goals · 258 archived · 3 blocked · 163 open · 414 proved · 9 translated.**
+**848 goals · 258 archived · 3 blocked · 163 open · 415 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
@@ -33,7 +33,7 @@ Verified output comes from active `library/index` records plus archived index re
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 129 | 73 | 56.6% | 71 | 2m 45s |
 | 2 | 253 | 115 | 45.5% | 158 | 4m 16s |
-| 3 | 216 | 111 | 51.4% | 121 | 4m 13s |
+| 3 | 217 | 112 | 51.6% | 121 | 4m 11s |
 | 4 | 25 | 7 | 28.0% | 18 | 5m 42s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
 
@@ -59,7 +59,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 244 | 0 | 244 | 0 | — | 564 | 62500 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 232 | 231 | 1 | 233 | 100.0% | 490 | 54800 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 233 | 232 | 1 | 234 | 100.0% | 493 | 55125 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 22 | 22 | 0 | 0 | — | 58 | 6350 |
@@ -69,9 +69,9 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**367 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
+**368 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 672 of 672 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 673 of 673 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -81,7 +81,7 @@ Git add-author attribution covers 672 of 672 proof index files. It is used only 
 | `claude / template-ring-cofactor` | 54 | 54 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-sum-induction` | 52 | 55 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 41 | 41 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-zmod-decide` | 30 | 30 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-zmod-decide` | 31 | 31 | 100.0% | 0 | 1 | 0s | — |
 | `codex / unknown` | 25 | 77 | 19.5% | 90 | 2 | 7m 39s | 1.25 |
 | `openrouter / unknown` | 22 | 0 | — | 0 | 1 | — | — |
 | `openai / leanstral-2603` | 21 | 215 | 6.5% | 205 | 1 | 6m 30s | 0.27 |
