@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**154 open · 1119 proved · 1276 total prove-goals.**
+**154 open · 1120 proved · 1277 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -510,6 +510,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gfac-d6-c2` — the polynomial 2*n + 1 divides 2*n^3 + n^2 + 2*n + 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | the polynomial 2*n + 1 divides 2*n^3 + n^2 + 2*n + 1. Provable by exhibiting the cofactor and `ring`. |
 | `gfac-d6-c3` — the polynomial 2*n + 1 divides 2*n^3 + 3*n^2 + 3*n + 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | the polynomial 2*n + 1 divides 2*n^3 + 3*n^2 + 3*n + 1. Provable by exhibiting the cofactor and `ring`. |
 | `gfac-d6-c4` — the polynomial 2*n + 1 divides 2*n^3 - n^2 + n + 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | the polynomial 2*n + 1 divides 2*n^3 - n^2 + n + 1. Provable by exhibiting the cofactor and `ring`. |
+| `gfac-d6-c5` — the polynomial 2*n + 1 divides 2*n^3 + n^2 - 2*n - 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | the polynomial 2*n + 1 divides 2*n^3 + n^2 - 2*n - 1. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-eight-sub-one` — n minus one divides n to the 8 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 8 minus one. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-eleven-sub-one` — n minus one divides n to the 11 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 11 minus one. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-five-sub-one` — n minus one divides n to the 5 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 5 minus one. Provable by exhibiting the cofactor and `ring`. |
