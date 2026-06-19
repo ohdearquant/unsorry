@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**880 goals — 161 open · 3 blocked · 9 translated · 449 proved · 258 archived.** 8 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**881 goals — 160 open · 3 blocked · 9 translated · 451 proved · 258 archived.** 8 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (444 of 449 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (446 of 451 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -143,11 +143,11 @@ flowchart LR
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s1
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s2
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s3
-  cluster_open(["open · 155"])
+  cluster_open(["open · 154"])
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 426"])
+  cluster_proved(["proved · 428"])
   class cluster_proved proved;
   cluster_archived(["archived · 258"])
   class cluster_archived unknown;
@@ -159,7 +159,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 
 | Goal | Status | Difficulty | Agent | Solver / model | PR | Proved |
 | --- | --- | --- | --- | --- | --- | --- |
-| [`alt-sum-range-choose-sq-eq-zero-odd`](https://github.com/agenticsnz/unsorry/blob/main/goals/alt-sum-range-choose-sq-eq-zero-odd.lean) | open | 3 | — | — | — | — |
 | [`alternating-sum-shifted-choose-eq-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/alternating-sum-shifted-choose-eq-one.lean) | open | 4 | — | — | — | — |
 | [`five-var-qm-am`](https://github.com/agenticsnz/unsorry/blob/main/goals/five-var-qm-am.lean) | open | 3 | — | — | — | — |
 | [`fourth-power-mod-fortyone-mem`](https://github.com/agenticsnz/unsorry/blob/main/goals/fourth-power-mod-fortyone-mem.lean) | open | 2 | — | — | — | — |
@@ -332,6 +331,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`nat-mul-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-mul-one.lean) | translated | — | — | — | — | — |
 | [`nat-product-order`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-product-order.lean) | translated | — | — | — | — | — |
 | [`nat-zero-identity-add`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-zero-identity-add.lean) | translated | — | — | — | — | — |
+| [`alt-sum-range-choose-sq-eq-zero-odd`](https://github.com/agenticsnz/unsorry/blob/main/goals/alt-sum-range-choose-sq-eq-zero-odd.lean) | proved | 3 | thebeast-ace7 | adam91holt | [#2036](https://github.com/agenticsnz/unsorry/pull/2036) | 2026-06-19 |
 | [`alt-sum-range-sq-eq-signed-pronic`](https://github.com/agenticsnz/unsorry/blob/main/goals/alt-sum-range-sq-eq-signed-pronic.lean) | proved | 2 | mac-158f | ohdearquant · `template-sum-induction` | [#1924](https://github.com/agenticsnz/unsorry/pull/1924) | 2026-06-17 |
 | [`amgm-four-cross-three-var`](https://github.com/agenticsnz/unsorry/blob/main/goals/amgm-four-cross-three-var.lean) | proved | 3 | thebeast-ace7 | adam91holt | [#678](https://github.com/agenticsnz/unsorry/pull/678) | 2026-06-15 |
 | [`catalan-r2-shift-nat-fib-int`](https://github.com/agenticsnz/unsorry/blob/main/goals/catalan-r2-shift-nat-fib-int.lean) | proved | 3 | thebeast-ace7 | adam91holt | [#2044](https://github.com/agenticsnz/unsorry/pull/2044) | 2026-06-19 |
@@ -507,6 +507,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gpow-diff-six-pow-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-diff-six-pow-four.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2327](https://github.com/agenticsnz/unsorry/pull/2327) | 2026-06-19 |
 | [`gpow-diff-six-pow-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-diff-six-pow-seven.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2329](https://github.com/agenticsnz/unsorry/pull/2329) | 2026-06-19 |
 | [`gpow-diff-six-pow-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-diff-six-pow-three.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2331](https://github.com/agenticsnz/unsorry/pull/2331) | 2026-06-19 |
+| [`gpow-diff-three-pow-nine`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-diff-three-pow-nine.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2336](https://github.com/agenticsnz/unsorry/pull/2336) | 2026-06-19 |
 | [`gself-pow-five-add-pow-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/gself-pow-five-add-pow-four.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2231](https://github.com/agenticsnz/unsorry/pull/2231) | 2026-06-19 |
 | [`gself-pow-five-add-pow-one`](https://github.com/agenticsnz/unsorry/blob/main/goals/gself-pow-five-add-pow-one.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2232](https://github.com/agenticsnz/unsorry/pull/2232) | 2026-06-19 |
 | [`gself-pow-five-add-pow-three`](https://github.com/agenticsnz/unsorry/blob/main/goals/gself-pow-five-add-pow-three.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2233](https://github.com/agenticsnz/unsorry/pull/2233) | 2026-06-19 |
