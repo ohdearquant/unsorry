@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**165 open · 631 proved · 799 total prove-goals.**
+**165 open · 632 proved · 800 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -471,6 +471,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gself-pow-three-add-pow-two` — n to the 1 divides n to the 3 plus n to the 2. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 3 plus n to the 2. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-three-pow-six-add-pow-four` — n to the 3 divides n to the 6 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 3 divides n to the 6 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-three-pow-six-add-pow-three` — n to the 3 divides n to the 6 plus n to the 3. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 3 divides n to the 6 plus n to the 3. Provable by exhibiting the cofactor and `ring`. |
+| `gself-pow-two-add-pow-one` — n to the 1 divides n to the 2 plus n to the 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 2 plus n to the 1. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-two-pow-five-add-pow-four` — n to the 2 divides n to the 5 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 2 divides n to the 5 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-two-pow-four-add-pow-two` — n to the 2 divides n to the 4 plus n to the 2. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 2 divides n to the 4 plus n to the 2. Provable by exhibiting the cofactor and `ring`. |
 | `int-add-neg` — Adding the negation of an integer yields zero. | proved | 1 | — | — | — |
