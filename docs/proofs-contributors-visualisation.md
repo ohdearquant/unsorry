@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**1197 goals — 154 open · 3 blocked · 9 translated · 328 proved · 703 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**1198 goals — 154 open · 3 blocked · 9 translated · 329 proved · 703 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (324 of 328 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (325 of 329 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -102,7 +102,7 @@ flowchart LR
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 317"])
+  cluster_proved(["proved · 318"])
   class cluster_proved proved;
   cluster_archived(["archived · 703"])
   class cluster_archived unknown;
@@ -587,6 +587,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gzmod-480-pow-24-sub-pow-sixteen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-480-pow-24-sub-pow-sixteen.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2654](https://github.com/agenticsnz/unsorry/pull/2654) | 2026-06-19 |
 | [`gzmod-480-pow-eighteen-sub-pow-ten`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-480-pow-eighteen-sub-pow-ten.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2656](https://github.com/agenticsnz/unsorry/pull/2656) | 2026-06-19 |
 | [`gzmod-480-pow-fifteen-sub-pow-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-480-pow-fifteen-sub-pow-seven.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2657](https://github.com/agenticsnz/unsorry/pull/2657) | 2026-06-19 |
+| [`gzmod-480-pow-fourteen-sub-pow-six`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-480-pow-fourteen-sub-pow-six.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2658](https://github.com/agenticsnz/unsorry/pull/2658) | 2026-06-19 |
 | [`gzmod-480-pow-nineteen-sub-pow-eleven`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-480-pow-nineteen-sub-pow-eleven.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2659](https://github.com/agenticsnz/unsorry/pull/2659) | 2026-06-19 |
 | [`gzmod-480-pow-seventeen-sub-pow-nine`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-480-pow-seventeen-sub-pow-nine.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2660](https://github.com/agenticsnz/unsorry/pull/2660) | 2026-06-19 |
 | [`gzmod-480-pow-sixteen-sub-pow-eight`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-480-pow-sixteen-sub-pow-eight.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2661](https://github.com/agenticsnz/unsorry/pull/2661) | 2026-06-19 |
