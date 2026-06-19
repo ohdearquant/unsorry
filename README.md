@@ -7,7 +7,7 @@
 ---
 ## Status
 
-Due to the phenominal growth of this project the current infrastructure is creaking and struggling to keep up with demand processinf proof validations.
+Due to the phenominal growth of this project the current infrastructure is creaking and struggling to keep up with demand processing proof validations.
 
 Normal service will resume once we have sorted out a fix. Hold tight!
 
