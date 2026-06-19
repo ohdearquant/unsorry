@@ -4,36 +4,36 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**652 verified proofs · 347 attributed · 305 historical/unknown · 605 logged terminal runs.**
+**654 verified proofs · 349 attributed · 305 historical/unknown · 607 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 286 |
+| Successful terminal runs | 288 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 47.3% |
-| Provider attempts | 656 |
+| Run success rate | 47.4% |
+| Provider attempts | 658 |
 | Failed attempts | 370 |
-| Attempt yield | 43.6% |
+| Attempt yield | 43.8% |
 | Recorded run time | 96h 32m |
-| Median / p90 run time | 4m 5s / 31m 50s |
-| Verified successes per recorded hour | 2.96 |
-| Proofs with run telemetry | 283 (43.4%) |
+| Median / p90 run time | 4m 4s / 31m 50s |
+| Verified successes per recorded hour | 2.98 |
+| Proofs with run telemetry | 285 (43.6%) |
 
 ## Work Queue
 
-**829 goals · 258 archived · 3 blocked · 165 open · 394 proved · 9 translated.**
+**831 goals · 258 archived · 3 blocked · 165 open · 396 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 117 | 61 | 52.1% | 71 | 3m 5s |
+| 1 | 118 | 62 | 52.5% | 71 | 3m 4s |
 | 2 | 251 | 113 | 45.0% | 158 | 4m 19s |
-| 3 | 210 | 105 | 50.0% | 121 | 4m 17s |
+| 3 | 211 | 106 | 50.2% | 121 | 4m 17s |
 | 4 | 25 | 7 | 28.0% | 18 | 5m 42s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
 
@@ -59,7 +59,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 244 | 0 | 244 | 0 | — | 564 | 62500 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 212 | 211 | 1 | 213 | 100.0% | 456 | 50900 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 214 | 213 | 1 | 215 | 100.0% | 460 | 51350 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 22 | 22 | 0 | 0 | — | 58 | 6350 |
@@ -69,9 +69,9 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**347 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
+**349 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 652 of 652 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 654 of 654 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -79,10 +79,10 @@ Git add-author attribution covers 652 of 652 proof index files. It is used only 
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / opus` | 56 | 47 | 89.4% | 18 | 4 | 4m 47s | 6.27 |
 | `claude / template-sum-induction` | 51 | 54 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-ring-cofactor` | 42 | 42 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-ring-cofactor` | 43 | 43 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 41 | 41 | 100.0% | 0 | 1 | 0s | — |
 | `codex / unknown` | 25 | 77 | 19.5% | 90 | 2 | 7m 39s | 1.25 |
-| `claude / template-zmod-decide` | 24 | 24 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-zmod-decide` | 25 | 25 | 100.0% | 0 | 1 | 0s | — |
 | `openrouter / unknown` | 22 | 0 | — | 0 | 1 | — | — |
 | `openai / leanstral-2603` | 21 | 215 | 6.5% | 205 | 1 | 6m 30s | 0.27 |
 | `claude / template-decide` | 19 | 19 | 100.0% | 0 | 1 | 0s | — |
@@ -119,11 +119,11 @@ Git add-author attribution covers 652 of 652 proof index files. It is used only 
 | `2026-06-17T18:29:23Z` | `gself-pow-three-pow-six-add-pow-five` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:29:09Z` | `gself-pow-three-pow-six-add-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:28:56Z` | `gself-pow-three-pow-six-add-pow-three` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-17T18:28:28Z` | `gself-pow-three-pow-five-add-pow-three` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:27:59Z` | `gself-pow-two-pow-six-add-pow-five` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:27:01Z` | `gself-pow-two-pow-six-add-pow-three` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:26:32Z` | `gself-pow-two-pow-five-add-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:26:02Z` | `gself-pow-two-pow-five-add-pow-two` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-17T18:25:46Z` | `gself-pow-two-pow-four-add-pow-three` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 
 ## Interpretation
 
