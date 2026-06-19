@@ -592,6 +592,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "d39cdd484060e6731a256c2fb10f815aca402999",
+      "git_add_date": "2026-06-19",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sum-icc-k-mul-three-k-sub-one-eq",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/5a16be82d68c3d1d67f5f72037d42a1a4be15d6aeb0849362d684e50c32d3788.aisp",
+      "review_status": "candidate",
+      "sha": "5a16be82d68c3d1d67f5f72037d42a1a4be15d6aeb0849362d684e50c32d3788"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-16",
       "difficulty": 3,
       "display_name": "chat-bit-01",
@@ -4509,9 +4524,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 300,
-    "mapped_missing_solver": 300,
-    "missing_solver_provenance": 300,
+    "git_attributed_missing_solver": 301,
+    "mapped_missing_solver": 301,
+    "missing_solver_provenance": 301,
     "unmapped_missing_solver": 0
   }
 }
