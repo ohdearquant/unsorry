@@ -787,6 +787,21 @@
     },
     {
       "alias_mapped": true,
+      "date": "2026-06-17",
+      "difficulty": 3,
+      "display_name": "chat-bit-01",
+      "git_add_commit": "35abd45de49ae27798d7858db27ed8ef53be1186",
+      "git_add_date": "2026-06-19",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "git_author_name": "chat-bit-01",
+      "goal": "sum-sixth-ge-cyclic-quartic-sq",
+      "mapped_github": "chat-bit-01",
+      "path": "library/index/70650f109688a48e8d09653d63a8127391fd441d70c070f2431f333300892785.aisp",
+      "review_status": "candidate",
+      "sha": "70650f109688a48e8d09653d63a8127391fd441d70c070f2431f333300892785"
+    },
+    {
+      "alias_mapped": true,
       "date": "2026-06-18",
       "difficulty": 5,
       "display_name": "chat-bit-01",
@@ -4569,9 +4584,9 @@
   "schema_version": 1,
   "source": "git-add-author",
   "summary": {
-    "git_attributed_missing_solver": 304,
-    "mapped_missing_solver": 304,
-    "missing_solver_provenance": 304,
+    "git_attributed_missing_solver": 305,
+    "mapped_missing_solver": 305,
+    "missing_solver_provenance": 305,
     "unmapped_missing_solver": 0
   }
 }

@@ -4,35 +4,35 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**622 verified proofs · 318 attributed · 304 historical/unknown · 576 logged terminal runs.**
+**624 verified proofs · 319 attributed · 305 historical/unknown · 577 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 257 |
+| Successful terminal runs | 258 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 44.6% |
-| Provider attempts | 627 |
+| Run success rate | 44.7% |
+| Provider attempts | 628 |
 | Failed attempts | 370 |
-| Attempt yield | 41.0% |
+| Attempt yield | 41.1% |
 | Recorded run time | 96h 32m |
 | Median / p90 run time | 4m 18s / 31m 52s |
-| Verified successes per recorded hour | 2.66 |
-| Proofs with run telemetry | 254 (40.8%) |
+| Verified successes per recorded hour | 2.67 |
+| Proofs with run telemetry | 255 (40.9%) |
 
 ## Work Queue
 
-**801 goals · 258 archived · 3 blocked · 167 open · 364 proved · 9 translated.**
+**801 goals · 258 archived · 3 blocked · 165 open · 366 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
 | 1 | 99 | 43 | 43.4% | 71 | 3m 50s |
-| 2 | 250 | 112 | 44.8% | 158 | 4m 20s |
+| 2 | 251 | 113 | 45.0% | 158 | 4m 19s |
 | 3 | 200 | 95 | 47.5% | 121 | 4m 40s |
 | 4 | 25 | 7 | 28.0% | 18 | 5m 42s |
 | 5 | 2 | 0 | 0.0% | 2 | 31m 25s |
@@ -58,8 +58,8 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 243 | 0 | 243 | 0 | — | 561 | 62175 |
-| 2 | [@ohdearquant](https://github.com/ohdearquant) | 183 | 182 | 1 | 184 | 100.0% | 406 | 45175 |
+| 1 | [@chat-bit-01](https://github.com/chat-bit-01) | 244 | 0 | 244 | 0 | — | 564 | 62500 |
+| 2 | [@ohdearquant](https://github.com/ohdearquant) | 184 | 183 | 1 | 185 | 100.0% | 408 | 45400 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 22 | 22 | 0 | 0 | — | 58 | 6350 |
@@ -69,9 +69,9 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**318 explicit solver credits · 304 inferred git credits · 0 uncredited proof records.**
+**319 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 622 of 622 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 624 of 624 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -85,7 +85,7 @@ Git add-author attribution covers 622 of 622 proof index files. It is used only 
 | `openrouter / unknown` | 22 | 0 | — | 0 | 1 | — | — |
 | `openai / leanstral-2603` | 21 | 215 | 6.5% | 205 | 1 | 6m 30s | 0.27 |
 | `claude / template-decide` | 19 | 19 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-sum-closedform` | 16 | 16 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-sum-closedform` | 17 | 17 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-decide` | 14 | 14 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-nlinarith` | 10 | 10 | 100.0% | 0 | 1 | 0s | — |
 | `gemini / gemini-3.1-pro-preview` | 7 | 4 | 50.0% | 6 | 1 | 8m 3s | 3.24 |
