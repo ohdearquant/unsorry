@@ -4,13 +4,12 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**163 open · 686 proved · 852 total prove-goals.**
+**162 open · 687 proved · 852 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
 | `alt-sum-range-choose-sq-eq-zero-odd` — For odd n, the alternating sum of (-1)^k times the square of n-choose-k vanishes. | open | 3 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | For odd n, the alternating sum of (-1)^k times the square of n-choose-k vanishes. Not a named mathlib lemma in this form. |
 | `alternating-sum-shifted-choose-eq-one` — The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. | open | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. Not a named mathlib lemma in this form. |
-| `dvd-210-pow-fifteen-sub-pow-three` — The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. | open | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-thirtytwo-odd-pow-eight-sub-one` — For every odd integer n, 32 divides n^8 minus 1. | open | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | For every odd integer n, 32 divides n^8 minus 1. Not a named mathlib lemma in this form. |
 | `five-var-qm-am` — The square of a five-term sum is at most five times the sum of the five squares (QM-AM, five variables). | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | The square of a five-term sum is at most five times the sum of the five squares (QM-AM, five variables). Not a named mathlib lemma in this form. |
 | `fourth-power-mod-fortyone-mem` — The fourth-power residues modulo the prime 41 are exactly {0,1,4,10,16,18,23,25,31,37,40}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog. | The fourth-power residues modulo the prime 41 are exactly {0,1,4,10,16,18,23,25,31,37,40}. Not a named mathlib lemma in this form. |
@@ -280,6 +279,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `dvd-138-pow-twentythree-sub-self` — 138 divides n^23 - n for every integer n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog. | 138 divides n^23 - n for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-170-pow-seventeen-sub-self` — For every integer n, 170 divides n raised to the 17th power minus n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | For every integer n, 170 divides n raised to the 17th power minus n. Not a named mathlib lemma in this form. |
 | `dvd-1806-pow-fortythree-sub-self` — For every integer n, 1806 divides n raised to the 43rd power minus n. | proved | 3 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | For every integer n, 1806 divides n raised to the 43rd power minus n. Not a named mathlib lemma in this form. |
+| `dvd-210-pow-fifteen-sub-pow-three` — The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. | proved | 2 | — | #400 Identity Engine (ADR-043) — divisibility family; promoted from candidate backlog (#610). | The integer 210 = 2·3·5·7 divides n^15 - n^3 for every integer n. Not a named mathlib lemma in this form. |
 | `dvd-210-pow-fifteen-sub-pow-three-s1` — dvd-210-pow-fifteen-sub-pow-three-s1 | proved | 1 | — | — | — |
 | `dvd-210-pow-fifteen-sub-pow-three-s2` — dvd-210-pow-fifteen-sub-pow-three-s2 | proved | 1 | — | — | — |
 | `dvd-210-pow-fifteen-sub-pow-three-s3` — dvd-210-pow-fifteen-sub-pow-three-s3 | proved | 1 | — | — | — |
