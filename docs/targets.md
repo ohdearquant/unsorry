@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**154 open · 1100 proved · 1257 total prove-goals.**
+**154 open · 1101 proved · 1258 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -408,6 +408,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gbinom-poly-nmulnp4mulnp8` — 3 divides n * (n + 4) * (n + 8) for every integer n. Context: AP with step 4, k=3. Universal modulus M=3. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 3 divides n * (n + 4) * (n + 8) for every integer n. Context: AP with step 4, k=3. Universal modulus M=3. Provable by exhibiting the cofactor and `ring`. |
 | `gbinom-poly-nmulnpow2m7` — 6 divides n * (n ^ 2 - 7) for every integer n. Context: n(n^2-7). Universal modulus M=6. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 6 divides n * (n ^ 2 - 7) for every integer n. Context: n(n^2-7). Universal modulus M=6. Provable by exhibiting the cofactor and `ring`. |
 | `gbinom-poly-nmulnpow2p2` — 3 divides n * (n ^ 2 + 2) for every integer n. Context: n(n^2+2): 3 \| n^3+2n = n^3-n+3n, and 3\|n^3-n, 3\|3n. Universal modulus M=3. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 3 divides n * (n ^ 2 + 2) for every integer n. Context: n(n^2+2): 3 \| n^3+2n = n^3-n+3n, and 3\|n^3-n, 3\|3n. Universal modulus M=3. Provable by exhibiting the cofactor and `ring`. |
+| `gbinom-poly-np1mulnp2mul2mulnp3` — 6 divides (n + 1) * (n + 2) * (2 * n + 3) for every integer n. Context: three terms shifted by 1. Universal modulus M=6. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 6 divides (n + 1) * (n + 2) * (2 * n + 3) for every integer n. Context: three terms shifted by 1. Universal modulus M=6. Provable by exhibiting the cofactor and `ring`. |
 | `gbinom-sp-0-1-5` — 6 divides the product n * (n + 1) * (n + 5) for every integer n. Shifts: (0, 1, 5). Universal modulus M=6. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 6 divides the product n * (n + 1) * (n + 5) for every integer n. Shifts: (0, 1, 5). Universal modulus M=6. Provable by exhibiting the cofactor and `ring`. |
 | `gbinom-sp-0-2-3-5` — 8 divides the product n * (n + 2) * (n + 3) * (n + 5) for every integer n. Shifts: (0, 2, 3, 5). Universal modulus M=8. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 8 divides the product n * (n + 2) * (n + 3) * (n + 5) for every integer n. Shifts: (0, 2, 3, 5). Universal modulus M=8. Provable by exhibiting the cofactor and `ring`. |
 | `gbinom-sp-0-2-7` — 6 divides the product n * (n + 2) * (n + 7) for every integer n. Shifts: (0, 2, 7). Universal modulus M=6. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 6 divides the product n * (n + 2) * (n + 7) for every integer n. Shifts: (0, 2, 7). Universal modulus M=6. Provable by exhibiting the cofactor and `ring`. |
