@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**1085 goals — 154 open · 3 blocked · 9 translated · 216 proved · 703 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**1086 goals — 154 open · 3 blocked · 9 translated · 217 proved · 703 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (212 of 216 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (213 of 217 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -102,7 +102,7 @@ flowchart LR
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 205"])
+  cluster_proved(["proved · 206"])
   class cluster_proved proved;
   cluster_archived(["archived · 703"])
   class cluster_archived unknown;
@@ -442,6 +442,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gzmod-24-pow-53-sub-pow-51`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-53-sub-pow-51.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2543](https://github.com/agenticsnz/unsorry/pull/2543) | 2026-06-19 |
 | [`gzmod-24-pow-54-sub-pow-52`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-54-sub-pow-52.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2548](https://github.com/agenticsnz/unsorry/pull/2548) | 2026-06-19 |
 | [`gzmod-24-pow-54-sub-pow-twenty`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-54-sub-pow-twenty.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2550](https://github.com/agenticsnz/unsorry/pull/2550) | 2026-06-19 |
+| [`gzmod-24-pow-55-sub-pow-seventeen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-55-sub-pow-seventeen.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2555](https://github.com/agenticsnz/unsorry/pull/2555) | 2026-06-19 |
 | [`gzmod-24-pow-eighteen-sub-pow-four`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-eighteen-sub-pow-four.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2372](https://github.com/agenticsnz/unsorry/pull/2372) | 2026-06-19 |
 | [`gzmod-24-pow-eighteen-sub-pow-sixteen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-eighteen-sub-pow-sixteen.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2373](https://github.com/agenticsnz/unsorry/pull/2373) | 2026-06-19 |
 | [`gzmod-24-pow-fifteen-sub-pow-thirteen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-fifteen-sub-pow-thirteen.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2374](https://github.com/agenticsnz/unsorry/pull/2374) | 2026-06-19 |
