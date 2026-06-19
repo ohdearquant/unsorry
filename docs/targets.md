@@ -4,11 +4,10 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**159 open · 713 proved · 875 total prove-goals.**
+**158 open · 714 proved · 875 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
-| `alternating-sum-shifted-choose-eq-one` — The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. | open | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. Not a named mathlib lemma in this form. |
 | `five-var-qm-am` — The square of a five-term sum is at most five times the sum of the five squares (QM-AM, five variables). | open | 3 | — | #400 Identity Engine (ADR-043) — inequality (SOS) family; promoted from candidate backlog (#610). | The square of a five-term sum is at most five times the sum of the five squares (QM-AM, five variables). Not a named mathlib lemma in this form. |
 | `fourth-power-mod-fortyone-mem` — The fourth-power residues modulo the prime 41 are exactly {0,1,4,10,16,18,23,25,31,37,40}. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog. | The fourth-power residues modulo the prime 41 are exactly {0,1,4,10,16,18,23,25,31,37,40}. Not a named mathlib lemma in this form. |
 | `hexagonal-eq-triangular-odd-index` — The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. | open | 1 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. Not a named mathlib lemma in this form. |
@@ -178,6 +177,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `alt-sum-range-two-k-add-one-eq-signed-n` — The alternating sum of the odd numbers (2k+1) over k below n equals (-1)^(n+1) times n. | proved | 2 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The alternating sum of the odd numbers (2k+1) over k below n equals (-1)^(n+1) times n. Not a named mathlib lemma in this form. |
 | `alternating-sum-k-mul-choose-eq-zero` — For n at least 2 the alternating sum of k·C(n,k) over k is zero. | proved | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | For n at least 2 the alternating sum of k·C(n,k) over k is zero. Not a named mathlib lemma in this form. |
 | `alternating-sum-naturals` — For every natural n, the sum over i in 0..n-1 of (-1)^i (i+1) equals -(n/2) if n is even and (n/2)+1 if n is odd (integer division over ℤ). | proved | 3 | [packet-ready](upstream/alternating-sum-naturals.md) | classic identities | Standard arithmetic alternating-series partial sums (1-2+3-4+...); tabulated in Hardy, Divergent Series, Ch. 1; elementary induction exercise in discrete-math texts. |
+| `alternating-sum-shifted-choose-eq-one` — The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. | proved | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The alternating sum of the shifted binomial coefficients C(n+1,k+1) equals 1. Not a named mathlib lemma in this form. |
 | `am-gm-three-cube` — For nonneg reals, 27abc ≤ (a+b+c)³ — AM-GM for three terms (polynomial form). | proved | 3 | — | Classic elementary real inequality (#400 plan Phase 3 — library growth). | For nonneg reals, 27abc ≤ (a+b+c)³ — AM-GM for three terms (polynomial form). Not a named mathlib lemma in this concrete polynomial/abs form. |
 | `am-gm-three-cube-s1` — am-gm-three-cube-s1 | proved | 1 | — | — | — |
 | `am-gm-three-cube-s2` — am-gm-three-cube-s2 | proved | 1 | — | — | — |
