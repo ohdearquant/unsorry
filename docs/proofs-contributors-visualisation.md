@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**1217 goals — 154 open · 3 blocked · 9 translated · 348 proved · 703 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**1218 goals — 154 open · 3 blocked · 9 translated · 349 proved · 703 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (344 of 348 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (345 of 349 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -102,7 +102,7 @@ flowchart LR
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 337"])
+  cluster_proved(["proved · 338"])
   class cluster_proved proved;
   cluster_archived(["archived · 703"])
   class cluster_archived unknown;
@@ -409,6 +409,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gzmod-24-pow-44-sub-pow-six`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-44-sub-pow-six.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2498](https://github.com/agenticsnz/unsorry/pull/2498) | 2026-06-19 |
 | [`gzmod-24-pow-45-sub-pow-31`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-45-sub-pow-31.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2500](https://github.com/agenticsnz/unsorry/pull/2500) | 2026-06-19 |
 | [`gzmod-24-pow-45-sub-pow-43`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-45-sub-pow-43.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2501](https://github.com/agenticsnz/unsorry/pull/2501) | 2026-06-19 |
+| [`gzmod-24-pow-45-sub-pow-eleven`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-45-sub-pow-eleven.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2502](https://github.com/agenticsnz/unsorry/pull/2502) | 2026-06-19 |
 | [`gzmod-24-pow-45-sub-pow-nineteen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-45-sub-pow-nineteen.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2503](https://github.com/agenticsnz/unsorry/pull/2503) | 2026-06-19 |
 | [`gzmod-24-pow-45-sub-pow-seven`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-45-sub-pow-seven.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2504](https://github.com/agenticsnz/unsorry/pull/2504) | 2026-06-19 |
 | [`gzmod-24-pow-46-sub-pow-32`](https://github.com/agenticsnz/unsorry/blob/main/goals/gzmod-24-pow-46-sub-pow-32.lean) | proved | 3 | mac-158f | ohdearquant · `template-zmod-decide` | [#2505](https://github.com/agenticsnz/unsorry/pull/2505) | 2026-06-19 |
