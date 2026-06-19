@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**165 open · 657 proved · 825 total prove-goals.**
+**165 open · 658 proved · 826 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -456,6 +456,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `ggeom-pred-pow-eight-sub-one` — n minus one divides n to the 8 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 8 minus one. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-eleven-sub-one` — n minus one divides n to the 11 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 11 minus one. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-five-sub-one` — n minus one divides n to the 5 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 5 minus one. Provable by exhibiting the cofactor and `ring`. |
+| `ggeom-pred-pow-four-sub-one` — n minus one divides n to the 4 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 4 minus one. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-nine-sub-one` — n minus one divides n to the 9 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 9 minus one. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-seven-sub-one` — n minus one divides n to the 7 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 7 minus one. Provable by exhibiting the cofactor and `ring`. |
 | `ggeom-pred-pow-six-sub-one` — n minus one divides n to the 6 minus one. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n minus one divides n to the 6 minus one. Provable by exhibiting the cofactor and `ring`. |
