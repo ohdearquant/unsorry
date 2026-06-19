@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**154 open · 1001 proved · 1158 total prove-goals.**
+**154 open · 1003 proved · 1160 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -769,6 +769,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-240-pow-41-sub-pow-37` — 240 divides n to the 41 minus n to the 37, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 240 divides n to the 41 minus n to the 37, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-240-pow-42-sub-pow-38` — 240 divides n to the 42 minus n to the 38, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 240 divides n to the 42 minus n to the 38, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-240-pow-43-sub-pow-39` — 240 divides n to the 43 minus n to the 39, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 240 divides n to the 43 minus n to the 39, for every integer n. Provable by exhibiting the cofactor and `ring`. |
+| `gzmod-240-pow-45-sub-pow-41` — 240 divides n to the 45 minus n to the 41, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 240 divides n to the 45 minus n to the 41, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-240-pow-46-sub-pow-42` — 240 divides n to the 46 minus n to the 42, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 240 divides n to the 46 minus n to the 42, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-240-pow-47-sub-pow-43` — 240 divides n to the 47 minus n to the 43, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 240 divides n to the 47 minus n to the 43, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-240-pow-48-sub-pow-44` — 240 divides n to the 48 minus n to the 44, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 240 divides n to the 48 minus n to the 44, for every integer n. Provable by exhibiting the cofactor and `ring`. |
@@ -793,6 +794,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-264-pow-26-sub-pow-sixteen` — 264 divides n to the 26 minus n to the 16, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 264 divides n to the 26 minus n to the 16, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-264-pow-27-sub-pow-seventeen` — 264 divides n to the 27 minus n to the 17, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 264 divides n to the 27 minus n to the 17, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-264-pow-28-sub-pow-eighteen` — 264 divides n to the 28 minus n to the 18, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 264 divides n to the 28 minus n to the 18, for every integer n. Provable by exhibiting the cofactor and `ring`. |
+| `gzmod-264-pow-29-sub-pow-nineteen` — 264 divides n to the 29 minus n to the 19, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 264 divides n to the 29 minus n to the 19, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-264-pow-32-sub-pow-22` — 264 divides n to the 32 minus n to the 22, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 264 divides n to the 32 minus n to the 22, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-264-pow-35-sub-pow-25` — 264 divides n to the 35 minus n to the 25, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 264 divides n to the 35 minus n to the 25, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-264-pow-36-sub-pow-26` — 264 divides n to the 36 minus n to the 26, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 264 divides n to the 36 minus n to the 26, for every integer n. Provable by exhibiting the cofactor and `ring`. |
