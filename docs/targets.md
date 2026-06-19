@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**154 open · 1032 proved · 1189 total prove-goals.**
+**154 open · 1033 proved · 1190 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -847,6 +847,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-480-pow-22-sub-pow-fourteen` — 480 divides n to the 22 minus n to the 14, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 480 divides n to the 22 minus n to the 14, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-480-pow-23-sub-pow-fifteen` — 480 divides n to the 23 minus n to the 15, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 480 divides n to the 23 minus n to the 15, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-480-pow-24-sub-pow-sixteen` — 480 divides n to the 24 minus n to the 16, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 480 divides n to the 24 minus n to the 16, for every integer n. Provable by exhibiting the cofactor and `ring`. |
+| `gzmod-480-pow-25-sub-pow-seventeen` — 480 divides n to the 25 minus n to the 17, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 480 divides n to the 25 minus n to the 17, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-480-pow-eighteen-sub-pow-ten` — 480 divides n to the 18 minus n to the 10, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 480 divides n to the 18 minus n to the 10, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-480-pow-fifteen-sub-pow-seven` — 480 divides n to the 15 minus n to the 7, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 480 divides n to the 15 minus n to the 7, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-480-pow-fourteen-sub-pow-six` — 480 divides n to the 14 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 480 divides n to the 14 minus n to the 6, for every integer n. Provable by exhibiting the cofactor and `ring`. |
