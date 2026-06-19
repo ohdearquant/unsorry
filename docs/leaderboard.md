@@ -4,7 +4,7 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**703 verified proofs · 398 attributed · 305 historical/unknown · 651 logged terminal runs.**
+**704 verified proofs · 399 attributed · 305 historical/unknown · 651 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -21,11 +21,11 @@ Verified output comes from active `library/index` records plus archived index re
 | Recorded run time | 96h 32m |
 | Median / p90 run time | 3m 42s / 31m 44s |
 | Verified successes per recorded hour | 3.44 |
-| Proofs with run telemetry | 329 (46.8%) |
+| Proofs with run telemetry | 329 (46.7%) |
 
 ## Work Queue
 
-**877 goals · 258 archived · 3 blocked · 162 open · 445 proved · 9 translated.**
+**878 goals · 258 archived · 3 blocked · 162 open · 446 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
@@ -59,7 +59,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
 | 1 | [@ohdearquant](https://github.com/ohdearquant) | 258 | 257 | 1 | 259 | 100.0% | 521 | 58550 |
-| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 249 | 5 | 244 | 0 | — | 579 | 64125 |
+| 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 250 | 6 | 244 | 0 | — | 582 | 64450 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 22 | 22 | 0 | 0 | — | 58 | 6350 |
@@ -69,9 +69,9 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**398 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
+**399 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 703 of 703 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 704 of 704 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -81,7 +81,7 @@ Git add-author attribution covers 703 of 703 proof index files. It is used only 
 | `claude / opus` | 56 | 47 | 89.4% | 18 | 4 | 4m 47s | 6.27 |
 | `claude / template-sum-induction` | 52 | 55 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 42 | 42 | 100.0% | 0 | 1 | 0s | — |
-| `claude / template-zmod-decide` | 37 | 32 | 100.0% | 0 | 2 | 0s | — |
+| `claude / template-zmod-decide` | 38 | 32 | 100.0% | 0 | 2 | 0s | — |
 | `codex / unknown` | 25 | 77 | 19.5% | 90 | 2 | 7m 39s | 1.25 |
 | `openrouter / unknown` | 22 | 0 | — | 0 | 1 | — | — |
 | `openai / leanstral-2603` | 21 | 215 | 6.5% | 205 | 1 | 6m 30s | 0.27 |
