@@ -4,34 +4,34 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**692 verified proofs · 387 attributed · 305 historical/unknown · 644 logged terminal runs.**
+**694 verified proofs · 389 attributed · 305 historical/unknown · 646 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 325 |
+| Successful terminal runs | 327 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 50.5% |
-| Provider attempts | 695 |
+| Run success rate | 50.6% |
+| Provider attempts | 697 |
 | Failed attempts | 370 |
-| Attempt yield | 46.8% |
+| Attempt yield | 46.9% |
 | Recorded run time | 96h 32m |
-| Median / p90 run time | 3m 47s / 31m 44s |
-| Verified successes per recorded hour | 3.37 |
-| Proofs with run telemetry | 322 (46.5%) |
+| Median / p90 run time | 3m 45s / 31m 44s |
+| Verified successes per recorded hour | 3.39 |
+| Proofs with run telemetry | 324 (46.7%) |
 
 ## Work Queue
 
-**866 goals · 258 archived · 3 blocked · 162 open · 434 proved · 9 translated.**
+**868 goals · 258 archived · 3 blocked · 162 open · 436 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 146 | 90 | 61.6% | 71 | 0s |
+| 1 | 148 | 92 | 62.2% | 71 | 0s |
 | 2 | 254 | 116 | 45.7% | 158 | 4m 15s |
 | 3 | 217 | 112 | 51.6% | 121 | 4m 11s |
 | 4 | 25 | 7 | 28.0% | 18 | 5m 42s |
@@ -58,7 +58,7 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------:|
-| 1 | [@ohdearquant](https://github.com/ohdearquant) | 251 | 250 | 1 | 252 | 100.0% | 512 | 57475 |
+| 1 | [@ohdearquant](https://github.com/ohdearquant) | 253 | 252 | 1 | 254 | 100.0% | 514 | 57725 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 245 | 1 | 244 | 0 | — | 567 | 62825 |
 | 3 | [@cgbarlow](https://github.com/cgbarlow) | 118 | 71 | 47 | 303 | 16.8% | 212 | 24150 |
 | 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 31 | 61.3% | 84 | 9350 |
@@ -69,15 +69,15 @@ Rank uses credited verified proofs. Explicit `solver≜...` provenance wins; old
 
 ## Attribution Notes
 
-**387 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
+**389 explicit solver credits · 305 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 692 of 692 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 694 of 694 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / template-ring-cofactor` | 71 | 71 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-ring-cofactor` | 73 | 73 | 100.0% | 0 | 1 | 0s | — |
 | `claude / opus` | 56 | 47 | 89.4% | 18 | 4 | 4m 47s | 6.27 |
 | `claude / template-sum-induction` | 52 | 55 | 100.0% | 0 | 1 | 0s | — |
 | `claude / template-zmod-crt` | 42 | 42 | 100.0% | 0 | 1 | 0s | — |
@@ -116,14 +116,14 @@ Git add-author attribution covers 692 of 692 proof index files. It is used only 
 | `2026-06-19T03:07:53Z` | `gpow-diff-six-pow-eight` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T03:07:01Z` | `gpow-diff-six-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T03:06:47Z` | `gpow-diff-six-pow-three` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T03:05:27Z` | `gpow-diff-five-pow-five` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T03:05:15Z` | `gpow-diff-five-pow-four` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T03:04:18Z` | `gpow-diff-four-pow-eight` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T03:04:04Z` | `gpow-diff-four-pow-seven` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T03:03:38Z` | `gpow-diff-four-pow-five` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:34:08Z` | `gfac-d3-c4` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:33:54Z` | `gfac-d3-c3` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-17T18:33:41Z` | `gfac-d3-c2` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-17T18:33:27Z` | `gfac-d3-c1` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-17T18:33:13Z` | `gfac-d3-c0` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 
 ## Interpretation
 
