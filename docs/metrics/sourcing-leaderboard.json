@@ -56,11 +56,25 @@
       "proved": 4,
       "sourced_goals": 20,
       "sourcer": null
+    },
+    {
+      "avatar_url": "https://github.com/chat-bit-01.png?size=96",
+      "difficulty_points": 3,
+      "display_name": "chat-bit-01",
+      "earliest_sourced": "2026-06-19",
+      "git_author": "chat-bit-01 <chatuser55@gmail.com>",
+      "github": "chat-bit-01",
+      "latest_sourced": "2026-06-19",
+      "open": 0,
+      "profile_url": "https://github.com/chat-bit-01",
+      "proved": 1,
+      "sourced_goals": 1,
+      "sourcer": "chat-bit-01"
     }
   ],
   "totals": {
-    "difficulty_points": 1911,
-    "sourced_goals": 865,
-    "sourcers": 4
+    "difficulty_points": 1914,
+    "sourced_goals": 866,
+    "sourcers": 5
   }
 }
