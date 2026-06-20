@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**134 open · 1367 proved · 1503 total prove-goals.**
+**133 open · 1368 proved · 1503 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -16,7 +16,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `quartic-x4-plus-x2-plus-one-dvd-by-minus-factor` — The Aurifeuillian quartic x^4+x^2+1 is divisible by the quadratic factor x^2-x+1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The Aurifeuillian quartic x^4+x^2+1 is divisible by the quadratic factor x^2-x+1. Not a named mathlib lemma in this form. |
 | `sextic-x6-plus-x3-plus-one-composite-shift` — The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s4` — sq-add-sq-eq-three-mul-sq-s4 | open | 1 | — | — | — |
-| `sq-mod-five-ne-two-three` — No natural number's square leaves remainder 2 or 3 when divided by 5. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No natural number's square leaves remainder 2 or 3 when divided by 5. Not a named mathlib lemma in this form. |
 | `sq-mod-ten-ne-two-three-seven-eight` — No perfect square ends in the decimal digit 2, 3, 7, or 8. | open | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No perfect square ends in the decimal digit 2, 3, 7, or 8. Not a named mathlib lemma in this form. |
 | `sum-centered-triangular-closed-form` — The sum of the first n centered triangular numbers equals n times (n^2+1). | open | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog. | The sum of the first n centered triangular numbers equals n times (n^2+1). Not a named mathlib lemma in this form. |
 | `sum-decagonal-closed-form` — Six times the sum of the first n decagonal numbers equals n(n+1)(8n-5). | open | 3 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Six times the sum of the first n decagonal numbers equals n(n+1)(8n-5). Not a named mathlib lemma in this form. |
@@ -1340,6 +1339,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-mod-eleven-mem` — The quadratic residues modulo 11 are exactly {0,1,3,4,5,9}. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | The quadratic residues modulo 11 are exactly {0,1,3,4,5,9}. Not a named mathlib lemma in this form. |
 | `sq-mod-fifteen-mem` — Every perfect square is congruent to 0, 1, 4, 6, 9, or 10 modulo 15. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every perfect square is congruent to 0, 1, 4, 6, 9, or 10 modulo 15. Not a named mathlib lemma in this form. |
 | `sq-mod-five` — For every natural n, n² % 5 ∈ {0,1,4}. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 5 ∈ {0,1,4}. Not a named mathlib lemma in this form. |
+| `sq-mod-five-ne-two-three` — No natural number's square leaves remainder 2 or 3 when divided by 5. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | No natural number's square leaves remainder 2 or 3 when divided by 5. Not a named mathlib lemma in this form. |
 | `sq-mod-forty-mem` — Every perfect square is congruent to one of 0,1,4,9,16,20,24,25,36 modulo 40. | proved | 3 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every perfect square is congruent to one of 0,1,4,9,16,20,24,25,36 modulo 40. Not a named mathlib lemma in this form. |
 | `sq-mod-fourteen-mem` — Every perfect square is congruent to 0, 1, 2, 4, 7, 8, 9 or 11 modulo 14. | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family; promoted from candidate backlog (#610). | Every perfect square is congruent to 0, 1, 2, 4, 7, 8, 9 or 11 modulo 14. Not a named mathlib lemma in this form. |
 | `sq-mod-nine` — For every natural n, n² % 9 ∈ {0,1,4,7} (quadratic residues mod 9). | proved | 2 | — | #400 Identity Engine (ADR-043) — power-residue family. | For every natural n, n² % 9 ∈ {0,1,4,7} (quadratic residues mod 9). Not a named mathlib lemma in this form. |
