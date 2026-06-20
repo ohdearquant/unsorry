@@ -2,7 +2,7 @@
 
 # Architecture Decision Records
 
-Index of the 77 ADRs in this directory, generated from the `ADR-*.md` headers and kept in sync by the `adr-index` workflow. See [ADR-001](ADR-001-Adopt-Development-Protocols.md) and [the development protocols](../protocols.md) for the WH(Y) format and process.
+Index of the 78 ADRs in this directory, generated from the `ADR-*.md` headers and kept in sync by the `adr-index` workflow. See [ADR-001](ADR-001-Adopt-Development-Protocols.md) and [the development protocols](../protocols.md) for the WH(Y) format and process.
 
 | ADR | Title | Status | Date |
 |-----|-------|--------|------|
@@ -83,3 +83,4 @@ Index of the 77 ADRs in this directory, generated from the `ADR-*.md` headers an
 | [ADR-076](ADR-076-Sharded-Fork-Goal-Selection.md) | Sharded Fork Goal Selection | Proposed | 2026-06-20 |
 | [ADR-077](ADR-077-Roadmap-Project-Synced-From-Repo-State.md) | Roadmap GitHub Project, Synced from Repo State | Proposed | 2026-06-20 |
 | [ADR-078](ADR-078-Sponsor-Registered-Targets-And-Obligation-Discharge-Credit.md) | Sponsor-Registered Targets and Obligation-Discharge Credit | Proposed | 2026-06-20 |
+| [ADR-079](ADR-079-Deterministic-Solver-Provider.md) | Deterministic Solver Provider — Zero-LLM Template/sympy Discharge, Honestly Attributed | Proposed | 2026-06-20 |
