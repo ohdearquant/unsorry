@@ -1,6 +1,6 @@
 {
   "generated_by": "python3 -m tools.adr_index --write",
-  "count": 76,
+  "count": 77,
   "adrs": [
     {
       "id": "ADR-001",
@@ -609,6 +609,14 @@
       "status": "Proposed",
       "date": "2026-06-20",
       "file": "ADR-077-Roadmap-Project-Synced-From-Repo-State.md"
+    },
+    {
+      "id": "ADR-078",
+      "number": 78,
+      "title": "Sponsor-Registered Targets and Obligation-Discharge Credit",
+      "status": "Proposed",
+      "date": "2026-06-20",
+      "file": "ADR-078-Sponsor-Registered-Targets-And-Obligation-Discharge-Credit.md"
     }
   ]
 }
