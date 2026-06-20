@@ -4,7 +4,7 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**1449 verified proofs · 1141 attributed · 308 historical/unknown · 505 logged terminal runs.**
+**1450 verified proofs · 1142 attributed · 308 historical/unknown · 505 logged terminal runs.**
 
 ## Efficiency Baseline
 
@@ -25,7 +25,7 @@ Verified output comes from active `library/index` records plus archived index re
 
 ## Work Queue
 
-**1568 goals · 1247 archived · 3 blocked · 107 open · 202 proved · 9 translated.**
+**1568 goals · 1247 archived · 3 blocked · 106 open · 203 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
@@ -60,18 +60,18 @@ Rank uses Score (difficulty points + dispatch credit). Explicit `solver≜...` p
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------------------:|------:|
 | 1 | [@ohdearquant](https://github.com/ohdearquant) | 780 | 779 | 1 | 24 | 100.0% | 1657 | 0.0 | 185200 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 277 | 30 | 247 | 0 | — | 664 | 0.0 | 73325 |
-| 3 | [@cgbarlow](https://github.com/cgbarlow) | 191 | 144 | 47 | 338 | 24.9% | 297 | 126.0 | 47075 |
+| 3 | [@cgbarlow](https://github.com/cgbarlow) | 191 | 144 | 47 | 338 | 24.9% | 297 | 126.9 | 47165 |
 | 4 | [@perttu](https://github.com/perttu) | 104 | 100 | 4 | 80 | 83.8% | 168 | 103.5 | 29750 |
-| 5 | [@ruvnet](https://github.com/ruvnet) | 69 | 69 | 0 | 0 | — | 174 | 0.0 | 19125 |
+| 5 | [@ruvnet](https://github.com/ruvnet) | 70 | 70 | 0 | 0 | — | 177 | 0.0 | 19450 |
 | 6 | [@adam91holt](https://github.com/adam91holt) | 18 | 18 | 0 | 63 | 11.1% | 43 | 0.0 | 4750 |
 | 7 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 0.0 | 2125 |
 | 8 | [@yarcles](https://github.com/yarcles) | 1 | 1 | 0 | 0 | — | 1 | 0.0 | 125 |
 
 ## Attribution Notes
 
-**1141 explicit solver credits · 308 inferred git credits · 0 uncredited proof records.**
+**1142 explicit solver credits · 308 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 1449 of 1449 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 1450 of 1450 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
@@ -79,7 +79,7 @@ Git add-author attribution covers 1449 of 1449 proof index files. It is used onl
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
 | `claude / template-ring-cofactor` | 448 | 161 | 100.0% | 0 | 3 | 0s | — |
 | `claude / template-zmod-decide` | 350 | 0 | — | 0 | 2 | — | — |
-| `openrouter / unknown` | 69 | 0 | — | 0 | 1 | — | — |
+| `openrouter / unknown` | 70 | 0 | — | 0 | 1 | — | — |
 | `claude / opus` | 57 | 19 | 63.2% | 22 | 4 | 8m 21s | 3.22 |
 | `claude / template-sum-induction` | 52 | 0 | — | 0 | 1 | — | — |
 | `claude / template-zmod-crt` | 42 | 0 | — | 0 | 1 | — | — |
