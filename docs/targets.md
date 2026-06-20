@@ -4,12 +4,11 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**119 open · 1421 proved · 1542 total prove-goals.**
+**118 open · 1422 proved · 1542 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
 | `n4-plus-one-factor-over-sqrt-shift` — The Sophie-Germain-type factorisation gives that 2n²-2n+1 divides 4n⁴+1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The Sophie-Germain-type factorisation gives that 2n²-2n+1 divides 4n⁴+1. Not a named mathlib lemma in this form. |
-| `nesbitt-inequality` — Nesbitt's inequality: for positive reals a, b, c, a/(b+c) + b/(c+a) + c/(a+b) ≥ 3/2. | open | 4 | — | Nesbitt's inequality (1903), a classic three-variable cyclic inequality; AoPS/olympiad canon. | 3/2 ≤ a/(b+c) + b/(c+a) + c/(a+b) for a,b,c > 0. mathlib has `inner_mul_le_norm_mul_norm` and `div_add_div_same`-style lemmas but no Nesbitt lemma. |
 | `quartic-x4-plus-x2-plus-one-dvd-by-minus-factor` — The Aurifeuillian quartic x^4+x^2+1 is divisible by the quadratic factor x^2-x+1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The Aurifeuillian quartic x^4+x^2+1 is divisible by the quadratic factor x^2-x+1. Not a named mathlib lemma in this form. |
 | `sextic-x6-plus-x3-plus-one-composite-shift` — The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. | open | 2 | — | #400 Identity Engine (ADR-043) — algebraic identity family; promoted from candidate backlog (#610). | The ninth cyclotomic polynomial n⁶+n³+1 divides n⁹-1. Not a named mathlib lemma in this form. |
 | `sq-add-sq-eq-three-mul-sq-s4-s1` — sq-add-sq-eq-three-mul-sq-s4-s1 | open | 1 | — | — | — |
@@ -1198,6 +1197,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `nat-sq-lt-two-pow-s2-s2` — nat-sq-lt-two-pow-s2-s2 | proved | 1 | — | — | — |
 | `nat-sq-lt-two-pow-s2-s3` — nat-sq-lt-two-pow-s2-s3 | proved | 1 | — | — | — |
 | `nat-zero-le` — Every natural number is at least zero. | proved | 1 | — | — | — |
+| `nesbitt-inequality` — Nesbitt's inequality: for positive reals a, b, c, a/(b+c) + b/(c+a) + c/(a+b) ≥ 3/2. | proved | 4 | — | Nesbitt's inequality (1903), a classic three-variable cyclic inequality; AoPS/olympiad canon. | 3/2 ≤ a/(b+c) + b/(c+a) + c/(a+b) for a,b,c > 0. mathlib has `inner_mul_le_norm_mul_norm` and `div_add_div_same`-style lemmas but no Nesbitt lemma. |
 | `nesbitt-inequality-s1` — nesbitt-inequality-s1 | proved | 1 | — | — | — |
 | `nesbitt-inequality-s2` — nesbitt-inequality-s2 | proved | 1 | — | — | — |
 | `nesbitt-inequality-s3` — nesbitt-inequality-s3 | proved | 1 | — | — | — |
