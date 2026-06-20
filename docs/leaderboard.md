@@ -58,10 +58,10 @@ Rank uses Score (difficulty points + dispatch credit). Explicit `solver≜...` p
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Dispatch (0.9 ea) | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------------------:|------:|
-| 1 | [@ohdearquant](https://github.com/ohdearquant) | 783 | 782 | 1 | 27 | 100.0% | 1660 | 0.0 | 185575 |
+| 1 | [@ohdearquant](https://github.com/ohdearquant) | 778 | 777 | 1 | 22 | 100.0% | 1655 | 0.0 | 184950 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 269 | 22 | 247 | 0 | — | 640 | 0.0 | 70725 |
-| 3 | [@cgbarlow](https://github.com/cgbarlow) | 190 | 143 | 47 | 337 | 25.2% | 296 | 104.4 | 44790 |
-| 4 | [@perttu](https://github.com/perttu) | 96 | 92 | 4 | 71 | 83.1% | 160 | 108.9 | 29290 |
+| 3 | [@cgbarlow](https://github.com/cgbarlow) | 191 | 144 | 47 | 338 | 25.4% | 297 | 103.5 | 44825 |
+| 4 | [@perttu](https://github.com/perttu) | 100 | 96 | 4 | 75 | 84.0% | 164 | 105.3 | 29430 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 62 | 62 | 0 | 0 | — | 154 | 0.0 | 16950 |
 | 6 | [@adam91holt](https://github.com/adam91holt) | 12 | 12 | 0 | 57 | 3.5% | 27 | 0.0 | 3000 |
 | 7 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 0.0 | 2125 |
