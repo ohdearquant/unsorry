@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**1513 goals — 132 open · 2 blocked · 9 translated · 157 proved · 1213 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**1513 goals — 131 open · 2 blocked · 9 translated · 158 proved · 1213 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (153 of 157 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (154 of 158 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -98,11 +98,11 @@ flowchart LR
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s1
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s2
   g_sum_icc_choose_hockey_stick --> g_sum_icc_choose_hockey_stick_s3
-  cluster_open(["open · 127"])
+  cluster_open(["open · 126"])
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 144"])
+  cluster_proved(["proved · 145"])
   class cluster_proved proved;
   cluster_archived(["archived · 1213"])
   class cluster_archived unknown;
@@ -117,7 +117,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`n4-plus-one-factor-over-sqrt-shift`](https://github.com/agenticsnz/unsorry/blob/main/goals/n4-plus-one-factor-over-sqrt-shift.lean) | open | 2 | — | — | — | — |
 | [`nesbitt-inequality`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality.lean) | open | 4 | — | — | — | — |
 | [`platonic-pairs-realizable`](https://github.com/agenticsnz/unsorry/blob/main/goals/platonic-pairs-realizable.lean) | open | 3 | — | — | — | — |
-| [`prod-icc-one-sub-two-div-pronic`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-icc-one-sub-two-div-pronic.lean) | open | 3 | — | — | — | — |
 | [`quartic-x4-plus-x2-plus-one-dvd-by-minus-factor`](https://github.com/agenticsnz/unsorry/blob/main/goals/quartic-x4-plus-x2-plus-one-dvd-by-minus-factor.lean) | open | 2 | — | — | — | — |
 | [`sextic-x6-plus-x3-plus-one-composite-shift`](https://github.com/agenticsnz/unsorry/blob/main/goals/sextic-x6-plus-x3-plus-one-composite-shift.lean) | open | 2 | — | — | — | — |
 | [`sq-add-sq-eq-three-mul-sq-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/sq-add-sq-eq-three-mul-sq-s4.lean) | open | 1 | — | — | — | — |
@@ -402,6 +401,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`prod-icc-one-add-recip-k-sq-sub-one-telescope`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-icc-one-add-recip-k-sq-sub-one-telescope.lean) | proved | 3 | ruvnet | ruvnet | [#3013](https://github.com/agenticsnz/unsorry/pull/3013) | 2026-06-20 |
 | [`prod-icc-one-add-recip-pronic`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-icc-one-add-recip-pronic.lean) | proved | 3 | ruvnet | ruvnet | [#3031](https://github.com/agenticsnz/unsorry/pull/3031) | 2026-06-20 |
 | [`prod-icc-one-sub-recip-sq-eq-frac`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-icc-one-sub-recip-sq-eq-frac.lean) | proved | 2 | ruvnet | ruvnet | [#3032](https://github.com/agenticsnz/unsorry/pull/3032) | 2026-06-20 |
+| [`prod-icc-one-sub-two-div-pronic`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-icc-one-sub-two-div-pronic.lean) | proved | 3 | ruvnet | ruvnet | [#3033](https://github.com/agenticsnz/unsorry/pull/3033) | 2026-06-20 |
 | [`prod-icc-succ-add-three-div-self-eq-binom-shift`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-icc-succ-add-three-div-self-eq-binom-shift.lean) | proved | 2 | ruvnet | ruvnet | [#3034](https://github.com/agenticsnz/unsorry/pull/3034) | 2026-06-20 |
 | [`prod-icc-succ-sq-div-k-mul-add-two-telescope`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-icc-succ-sq-div-k-mul-add-two-telescope.lean) | proved | 2 | ruvnet | ruvnet | [#3035](https://github.com/agenticsnz/unsorry/pull/3035) | 2026-06-20 |
 | [`prod-one-sub-inv-sq-telescope`](https://github.com/agenticsnz/unsorry/blob/main/goals/prod-one-sub-inv-sq-telescope.lean) | proved | 4 | ruvnet | ruvnet | [#3036](https://github.com/agenticsnz/unsorry/pull/3036) | 2026-06-20 |
