@@ -4,34 +4,34 @@
 
 Verified output comes from active `library/index` records plus archived index records only after their active copy has been retired; append-only terminal-run telemetry comes from `proof-runs/`. Rates cover only logged runs and never guess historical failures from Git history. Timing is contributor-reported local proof plus verification time.
 
-**1418 verified proofs · 1110 attributed · 308 historical/unknown · 488 logged terminal runs.**
+**1419 verified proofs · 1111 attributed · 308 historical/unknown · 489 logged terminal runs.**
 
 ## Efficiency Baseline
 
 | Metric | Value |
 |--------|------:|
-| Successful terminal runs | 169 |
+| Successful terminal runs | 170 |
 | Failed terminal runs | 319 |
 | Decomposed after failure | 18 |
 | Failed without decomposition | 301 |
-| Run success rate | 34.6% |
-| Provider attempts | 532 |
+| Run success rate | 34.8% |
+| Provider attempts | 533 |
 | Failed attempts | 363 |
-| Attempt yield | 31.8% |
+| Attempt yield | 31.9% |
 | Recorded run time | 89h 51m |
-| Median / p90 run time | 4m 30s / 31m 56s |
-| Verified successes per recorded hour | 1.88 |
-| Proofs with run telemetry | 169 (11.9%) |
+| Median / p90 run time | 4m 28s / 31m 56s |
+| Verified successes per recorded hour | 1.89 |
+| Proofs with run telemetry | 170 (12.0%) |
 
 ## Work Queue
 
-**1544 goals · 1213 archived · 2 blocked · 115 open · 205 proved · 9 translated.**
+**1545 goals · 1213 archived · 2 blocked · 115 open · 206 proved · 9 translated.**
 
 ## Efficiency by Difficulty
 
 | Difficulty | Runs | Successes | Run success | Failed attempts | Median time |
 |-----------:|-----:|----------:|------------:|----------------:|------------:|
-| 1 | 182 | 126 | 69.2% | 71 | 0s |
+| 1 | 183 | 127 | 69.4% | 71 | 0s |
 | 2 | 141 | 3 | 2.1% | 158 | 7m 47s |
 | 3 | 142 | 37 | 26.1% | 114 | 8m 9s |
 | 4 | 21 | 3 | 14.3% | 18 | 6m 5s |
@@ -58,10 +58,10 @@ Rank uses Score (difficulty points + dispatch credit). Explicit `solver≜...` p
 
 | Rank | Contributor | Proof credit | Explicit | Inferred | Runs | Run success | Difficulty points | Dispatch (0.9 ea) | Score |
 |-----:|-------------|-------------:|---------:|---------:|-----:|------------:|------------------:|------------------:|------:|
-| 1 | [@ohdearquant](https://github.com/ohdearquant) | 908 | 907 | 1 | 152 | 100.0% | 1813 | 0.0 | 204000 |
+| 1 | [@ohdearquant](https://github.com/ohdearquant) | 780 | 779 | 1 | 24 | 100.0% | 1657 | 0.0 | 185200 |
 | 2 | [@chat-bit-01](https://github.com/chat-bit-01) | 269 | 22 | 247 | 0 | — | 640 | 0.0 | 70725 |
-| 3 | [@cgbarlow](https://github.com/cgbarlow) | 119 | 72 | 47 | 266 | 5.3% | 215 | 168.3 | 41305 |
-| 4 | [@perttu](https://github.com/perttu) | 38 | 34 | 4 | 13 | 7.7% | 84 | 157.5 | 25100 |
+| 3 | [@cgbarlow](https://github.com/cgbarlow) | 190 | 143 | 47 | 337 | 25.2% | 296 | 104.4 | 44790 |
+| 4 | [@perttu](https://github.com/perttu) | 96 | 92 | 4 | 71 | 83.1% | 160 | 106.2 | 29020 |
 | 5 | [@ruvnet](https://github.com/ruvnet) | 62 | 62 | 0 | 0 | — | 154 | 0.0 | 16950 |
 | 6 | [@adam91holt](https://github.com/adam91holt) | 12 | 12 | 0 | 57 | 3.5% | 27 | 0.0 | 3000 |
 | 7 | [@binto](https://github.com/binto) | 9 | 0 | 9 | 0 | — | 19 | 0.0 | 2125 |
@@ -69,15 +69,15 @@ Rank uses Score (difficulty points + dispatch credit). Explicit `solver≜...` p
 
 ## Attribution Notes
 
-**1110 explicit solver credits · 308 inferred git credits · 0 uncredited proof records.**
+**1111 explicit solver credits · 308 inferred git credits · 0 uncredited proof records.**
 
-Git add-author attribution covers 1418 of 1418 proof index files. It is used only where explicit `solver≜` provenance is missing.
+Git add-author attribution covers 1419 of 1419 proof index files. It is used only where explicit `solver≜` provenance is missing.
 
 ## Providers and Models
 
 | Provider / model | Verified proofs | Runs | Run success | Failed attempts | Solvers | Median time | Successes / recorded hour |
 |------------------|----------------:|-----:|------------:|----------------:|--------:|------------:|-------------------------:|
-| `claude / template-ring-cofactor` | 439 | 152 | 100.0% | 0 | 1 | 0s | — |
+| `claude / template-ring-cofactor` | 440 | 153 | 100.0% | 0 | 3 | 0s | — |
 | `claude / template-zmod-decide` | 342 | 0 | — | 0 | 2 | — | — |
 | `openrouter / unknown` | 62 | 0 | — | 0 | 1 | — | — |
 | `claude / opus` | 57 | 18 | 72.2% | 16 | 4 | 8m 5s | 3.73 |
@@ -107,7 +107,7 @@ Git add-author attribution covers 1418 of 1418 proof index files. It is used onl
 | `2026-06-19T17:33:38Z` | `gbinom-sp-0-2-3-5` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:33:09Z` | `gbinom-sp-0-1-4-5` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:32:02Z` | `gbinom-sp-0-2-7` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:31:40Z` | `gbinom-sp-0-1-8` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:31:40Z` | `gbinom-sp-0-1-8` | [@perttu](https://github.com/perttu) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:31:18Z` | `gbinom-sp-0-1-5` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:30:53Z` | `gbinom-poly-nmulnp4mulnp8` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:30:28Z` | `gbinom-poly-nmulnp2mulnp4` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
@@ -116,14 +116,14 @@ Git add-author attribution covers 1418 of 1418 proof index files. It is used onl
 | `2026-06-19T17:28:55Z` | `gbinom-poly-nmulnpow2m7` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:28:27Z` | `gbinom-poly-nmulnpow2p2` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:28:04Z` | `gbinom-ap-k9-step2-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:27:17Z` | `gbinom-ap-k8-step2-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:26:29Z` | `gbinom-ap-k7-step2-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:25:18Z` | `gbinom-ap-k6-step2-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:24:51Z` | `gbinom-ap-k5-step2-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:23:23Z` | `gbinom-ap-k4-step3-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:27:17Z` | `gbinom-ap-k8-step2-dvd` | [@cgbarlow](https://github.com/cgbarlow) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:26:29Z` | `gbinom-ap-k7-step2-dvd` | [@perttu](https://github.com/perttu) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:25:18Z` | `gbinom-ap-k6-step2-dvd` | [@perttu](https://github.com/perttu) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:24:51Z` | `gbinom-ap-k5-step2-dvd` | [@perttu](https://github.com/perttu) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:23:23Z` | `gbinom-ap-k4-step3-dvd` | [@perttu](https://github.com/perttu) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 | `2026-06-19T17:22:41Z` | `gbinom-falling-seven-fact-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:22:06Z` | `gbinom-falling-six-fact-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
-| `2026-06-19T17:21:45Z` | `gbinom-falling-five-fact-dvd` | [@ohdearquant](https://github.com/ohdearquant) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:22:06Z` | `gbinom-falling-six-fact-dvd` | [@perttu](https://github.com/perttu) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
+| `2026-06-19T17:21:45Z` | `gbinom-falling-five-fact-dvd` | [@cgbarlow](https://github.com/cgbarlow) | `claude / template-ring-cofactor` | `proved` | 1 | 0 | 0s |
 
 ## Interpretation
 
