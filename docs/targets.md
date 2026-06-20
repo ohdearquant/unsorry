@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**124 open · 1378 proved · 1504 total prove-goals.**
+**123 open · 1379 proved · 1504 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -16,7 +16,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-add-sq-eq-three-mul-sq-s4` — sq-add-sq-eq-three-mul-sq-s4 | open | 1 | — | — | — |
 | `sum-icc-choose-hockey-stick-s1` — sum-icc-choose-hockey-stick-s1 | open | 1 | — | — | — |
 | `sum-icc-choose-hockey-stick-s2` — sum-icc-choose-hockey-stick-s2 | open | 1 | — | — | — |
-| `sum-icc-choose-hockey-stick-s3` — sum-icc-choose-hockey-stick-s3 | open | 1 | — | — | — |
 | `sum-icc-eight-k-div-odd-sq-pair-telescope` — The sum of 8k/((2k-1)^2(2k+1)^2) for k from 1 to n telescopes to 1 minus 1/(2n+1)^2. | open | 2 | — | #400 Identity Engine (ADR-043) — telescoping family; promoted from candidate backlog. | The sum of 8k/((2k-1)^2(2k+1)^2) for k from 1 to n telescopes to 1 minus 1/(2n+1)^2. Not a named mathlib lemma in this form. |
 | `sum-icc-four-div-four-k-sub-one-four-k-add-three-telescope` — The sum of 4/((4k-1)(4k+3)) for k from 1 to n telescopes to 1/3 minus 1/(4n+3). | open | 2 | — | #400 Identity Engine (ADR-043) — telescoping family; promoted from candidate backlog (#610). | The sum of 4/((4k-1)(4k+3)) for k from 1 to n telescopes to 1/3 minus 1/(4n+3). Not a named mathlib lemma in this form. |
 | `sum-icc-id-mul-two-pow-pred` — The sum of k·2^(k−1) for k from 1 to n equals (n−1)·2^n + 1. | open | 2 | — | #400 Identity Engine (ADR-043) — closed-form sum family; promoted from candidate backlog. | The sum of k·2^(k−1) for k from 1 to n equals (n−1)·2^n + 1. Not a named mathlib lemma in this form. |
@@ -1384,6 +1383,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sum-heptagonal-numbers-closed-form` — Three times the sum of the first n heptagonal numbers (twice each, as k(5k-3)) equals n(n+1)(5n-2). | proved | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Three times the sum of the first n heptagonal numbers (twice each, as k(5k-3)) equals n(n+1)(5n-2). Not a named mathlib lemma in this form. |
 | `sum-hexagonal-eq` — Six times the sum of hexagonal-type terms k(2k-1) over range n equals (n-1)n(4n-5). | proved | 3 | — | #400 Identity Engine (ADR-043) — figurate family. | Six times the sum of hexagonal-type terms k(2k-1) over range n equals (n-1)n(4n-5). Not a named mathlib lemma in this form. |
 | `sum-hexagonal-numbers-closed-form` — Six times the sum of the first n hexagonal numbers equals n(n+1)(4n-1). | proved | 3 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Six times the sum of the first n hexagonal numbers equals n(n+1)(4n-1). Not a named mathlib lemma in this form. |
+| `sum-icc-choose-hockey-stick-s3` — sum-icc-choose-hockey-stick-s3 | proved | 1 | — | — | — |
 | `sum-icc-cube-diff-recip-telescope` — For n at least 1, the sum of (3k^2+3k+1)/(k^3(k+1)^3) for k from 1 to n equals 1 minus 1/(n+1)^3. | proved | 3 | — | #400 Identity Engine (ADR-043) — telescoping family; promoted from candidate backlog (#610). | For n at least 1, the sum of (3k^2+3k+1)/(k^3(k+1)^3) for k from 1 to n equals 1 minus 1/(n+1)^3. Not a named mathlib lemma in this form. |
 | `sum-icc-five-k-sub-two-mul-three-pow-pred-closed` — Four times the sum of (5k-2)*3^(k-1) for k from 1 to n equals (10n-9)*3^n + 9. | proved | 2 | — | #400 Identity Engine (ADR-043) — closed-form sum family; promoted from candidate backlog. | Four times the sum of (5k-2)*3^(k-1) for k from 1 to n equals (10n-9)*3^n + 9. Not a named mathlib lemma in this form. |
 | `sum-icc-four-div-three-consec-odd-telescope` — The sum of 4/((2k-1)(2k+1)(2k+3)) for k from 1 to n telescopes to 1/3 minus 1/((2n+1)(2n+3)). | proved | 2 | — | #400 Identity Engine (ADR-043) — telescoping family; promoted from candidate backlog. | The sum of 4/((2k-1)(2k+1)(2k+3)) for k from 1 to n telescopes to 1/3 minus 1/((2n+1)(2n+3)). Not a named mathlib lemma in this form. |
