@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**13 open · 1775 proved · 1791 total prove-goals.**
+**13 open · 1776 proved · 1792 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -989,6 +989,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-195-pow-twentyfour-sub-pow-twelve` — 195 divides n to the 24 minus n to the 12, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 195 divides n to the 24 minus n to the 12, for every integer n. Provable by a finite `ZMod 195` case check. |
 | `gzmod-195-pow-twentyone-sub-pow-nine` — 195 divides n to the 21 minus n to the 9, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 195 divides n to the 21 minus n to the 9, for every integer n. Provable by a finite `ZMod 195` case check. |
 | `gzmod-195-pow-twentythree-sub-pow-eleven` — 195 divides n to the 23 minus n to the 11, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 195 divides n to the 23 minus n to the 11, for every integer n. Provable by a finite `ZMod 195` case check. |
+| `gzmod-195-pow-twentytwo-sub-pow-ten` — 195 divides n to the 22 minus n to the 10, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 195 divides n to the 22 minus n to the 10, for every integer n. Provable by a finite `ZMod 195` case check. |
 | `gzmod-208-pow-eighteen-sub-pow-six` — 208 divides n to the 18 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 208 divides n to the 18 minus n to the 6, for every integer n. Provable by a finite `ZMod 208` case check. |
 | `gzmod-208-pow-nineteen-sub-pow-seven` — 208 divides n to the 19 minus n to the 7, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 208 divides n to the 19 minus n to the 7, for every integer n. Provable by a finite `ZMod 208` case check. |
 | `gzmod-208-pow-seventeen-sub-pow-five` — 208 divides n to the 17 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 208 divides n to the 17 minus n to the 5, for every integer n. Provable by a finite `ZMod 208` case check. |
