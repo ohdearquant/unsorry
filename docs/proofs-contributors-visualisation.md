@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**1511 goals — 153 open · 3 blocked · 9 translated · 133 proved · 1213 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**1511 goals — 152 open · 3 blocked · 9 translated · 134 proved · 1213 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (129 of 133 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (130 of 134 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -29,8 +29,8 @@ flowchart LR
   class g_nat_sq_lt_two_pow_s1 proved;
   click g_nat_sq_lt_two_pow_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s1.lean" "nat-sq-lt-two-pow-s1 — proved"
   g_nat_sq_lt_two_pow_s2["nat-sq-lt-two-pow-s2"]
-  class g_nat_sq_lt_two_pow_s2 open;
-  click g_nat_sq_lt_two_pow_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean" "nat-sq-lt-two-pow-s2 — open"
+  class g_nat_sq_lt_two_pow_s2 proved;
+  click g_nat_sq_lt_two_pow_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean" "nat-sq-lt-two-pow-s2 — proved"
   g_nat_sq_lt_two_pow_s2_s1["nat-sq-lt-two-pow-s2-s1"]
   class g_nat_sq_lt_two_pow_s2_s1 proved;
   click g_nat_sq_lt_two_pow_s2_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s1.lean" "nat-sq-lt-two-pow-s2-s1 — proved"
@@ -116,7 +116,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | --- | --- | --- | --- | --- | --- | --- |
 | [`hexagonal-eq-triangular-odd-index`](https://github.com/agenticsnz/unsorry/blob/main/goals/hexagonal-eq-triangular-odd-index.lean) | open | 1 | — | — | — | — |
 | [`n4-plus-one-factor-over-sqrt-shift`](https://github.com/agenticsnz/unsorry/blob/main/goals/n4-plus-one-factor-over-sqrt-shift.lean) | open | 2 | — | — | — | — |
-| [`nat-sq-lt-two-pow-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean) | open | 1 | — | — | — | — |
 | [`nicomachus-sum-cubes-eq-sum-id-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/nicomachus-sum-cubes-eq-sum-id-sq.lean) | open | 3 | — | — | — | — |
 | [`platonic-pairs-realizable`](https://github.com/agenticsnz/unsorry/blob/main/goals/platonic-pairs-realizable.lean) | open | 3 | — | — | — | — |
 | [`pow-five-add-pow-five-ge-quartic-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-five-add-pow-five-ge-quartic-mul.lean) | open | 3 | — | — | — | — |
@@ -401,6 +400,7 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gpow-sum-nine-pow-fifteen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-sum-nine-pow-fifteen.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#3001](https://github.com/agenticsnz/unsorry/pull/3001) | 2026-06-20 |
 | [`nat-sq-lt-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow.lean) | proved | 3 | — | adam91holt · `gpt-5.5` | — | 2026-06-14 |
 | [`nat-sq-lt-two-pow-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s1.lean) | proved | 1 | oma-2-c50d | perttu | [#442](https://github.com/agenticsnz/unsorry/pull/442) | 2026-06-14 |
+| [`nat-sq-lt-two-pow-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean) | proved | 1 | ruvnet | ruvnet | [#3003](https://github.com/agenticsnz/unsorry/pull/3003) | 2026-06-20 |
 | [`nat-sq-lt-two-pow-s2-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s1.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#666](https://github.com/agenticsnz/unsorry/pull/666) | 2026-06-15 |
 | [`nat-sq-lt-two-pow-s2-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s2.lean) | proved | 1 | — | adam91holt · `gpt-5.5` | — | 2026-06-14 |
 | [`nat-sq-lt-two-pow-s2-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s3.lean) | proved | 1 | — | adam91holt · `gpt-5.5` | — | 2026-06-14 |
