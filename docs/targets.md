@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**74 open · 1530 proved · 1607 total prove-goals.**
+**73 open · 1531 proved · 1607 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -15,7 +15,6 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sq-add-sq-eq-three-mul-sq-s4-s2` — sq-add-sq-eq-three-mul-sq-s4-s2 | open | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s4-s3-s2` — sq-add-sq-eq-three-mul-sq-s4-s3-s2 | open | 1 | — | — | — |
 | `sq-add-sq-eq-three-mul-sq-s4-s3-s3` — sq-add-sq-eq-three-mul-sq-s4-s3-s3 | open | 1 | — | — | — |
-| `sum-icc-choose-hockey-stick` — The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). | open | 3 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
 | `sum-product-consecutive-odds-closed-form` — Three times the sum of products of consecutive odd numbers (2k-1)(2k+1) equals n(4n^2+6n-1). | open | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Three times the sum of products of consecutive odd numbers (2k-1)(2k+1) equals n(4n^2+6n-1). Not a named mathlib lemma in this form. |
 | `sum-range-fall-three-mul-choose` — The sum over k of the third falling factorial of k times C(n,k), scaled by 8, equals n(n-1)(n-2) times 2^n. | open | 4 | — | #400 Identity Engine (ADR-043) — binomial family; promoted from candidate backlog (#610). | The sum over k of the third falling factorial of k times C(n,k), scaled by 8, equals n(n-1)(n-2) times 2^n. Not a named mathlib lemma in this form. |
 | `sum-range-k-div-succ-factorial-eq` — The rational sum of k/(k+1)! for k from 0 to n-1 equals 1 − 1/n!. | open | 3 | — | #400 Identity Engine (ADR-043) — telescoping family; promoted from candidate backlog (#610). | The rational sum of k/(k+1)! for k from 0 to n-1 equals 1 − 1/n!. Not a named mathlib lemma in this form. |
@@ -1435,6 +1434,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `sum-heptagonal-numbers-closed-form` — Three times the sum of the first n heptagonal numbers (twice each, as k(5k-3)) equals n(n+1)(5n-2). | proved | 2 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Three times the sum of the first n heptagonal numbers (twice each, as k(5k-3)) equals n(n+1)(5n-2). Not a named mathlib lemma in this form. |
 | `sum-hexagonal-eq` — Six times the sum of hexagonal-type terms k(2k-1) over range n equals (n-1)n(4n-5). | proved | 3 | — | #400 Identity Engine (ADR-043) — figurate family. | Six times the sum of hexagonal-type terms k(2k-1) over range n equals (n-1)n(4n-5). Not a named mathlib lemma in this form. |
 | `sum-hexagonal-numbers-closed-form` — Six times the sum of the first n hexagonal numbers equals n(n+1)(4n-1). | proved | 3 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | Six times the sum of the first n hexagonal numbers equals n(n+1)(4n-1). Not a named mathlib lemma in this form. |
+| `sum-icc-choose-hockey-stick` — The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). | proved | 3 | — | Classic combinatorial / finite-sum identity (library-growth batch, #400 plan Phase 3). | The hockey-stick identity: ∑_{k=r}^{n} C(k,r) = C(n+1,r+1). Not a named mathlib lemma (Vandermonde/Pascal are present but not these specific closed forms). |
 | `sum-icc-choose-hockey-stick-s1` — sum-icc-choose-hockey-stick-s1 | proved | 1 | — | — | — |
 | `sum-icc-choose-hockey-stick-s2` — sum-icc-choose-hockey-stick-s2 | proved | 1 | — | — | — |
 | `sum-icc-choose-hockey-stick-s3` — sum-icc-choose-hockey-stick-s3 | proved | 1 | — | — | — |
