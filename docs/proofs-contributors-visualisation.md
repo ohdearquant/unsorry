@@ -6,9 +6,9 @@ A visualiser for the swarm's proof graph (issue #371): every prove-goal, its sta
 
 > An **interactive** version — pan/zoom, click-to-detail panel, filterable table — is generated alongside this file at [`docs/proofs-contributors-visualisation.html`](proofs-contributors-visualisation.html) (open it locally or via GitHub Pages; the browser renders it, GitHub shows the source).
 
-**1510 goals — 154 open · 3 blocked · 9 translated · 131 proved · 1213 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
+**1511 goals — 153 open · 3 blocked · 9 translated · 133 proved · 1213 archived.** 5 decomposition families shown below; standalone goals (no lineage) are folded into one summary cluster per status — the interactive page expands a cluster into its goals on click, and every goal is listed individually in the table.
 
-Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (127 of 131 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
+Solving agent, PR and the GitHub user who merged it are resolved from the `prove(…)` merge commits (129 of 133 proved goals carry a per-goal prove-PR; the rest predate that convention and are left blank). The solver shows the recorded AISP login where present, otherwise the merging GitHub user; the model comes from recorded provenance only — never guessed (ADR-023).
 
 ## Dependency lineage
 
@@ -44,8 +44,8 @@ flowchart LR
   class g_nesbitt_inequality blocked;
   click g_nesbitt_inequality "https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality.lean" "nesbitt-inequality — blocked"
   g_nesbitt_inequality_s1["nesbitt-inequality-s1"]
-  class g_nesbitt_inequality_s1 open;
-  click g_nesbitt_inequality_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean" "nesbitt-inequality-s1 — open"
+  class g_nesbitt_inequality_s1 proved;
+  click g_nesbitt_inequality_s1 "https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean" "nesbitt-inequality-s1 — proved"
   g_nesbitt_inequality_s2["nesbitt-inequality-s2"]
   class g_nesbitt_inequality_s2 proved;
   click g_nesbitt_inequality_s2 "https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s2.lean" "nesbitt-inequality-s2 — proved"
@@ -102,7 +102,7 @@ flowchart LR
   class cluster_open open;
   cluster_translated(["translated · 9"])
   class cluster_translated translated;
-  cluster_proved(["proved · 120"])
+  cluster_proved(["proved · 121"])
   class cluster_proved proved;
   cluster_archived(["archived · 1213"])
   class cluster_archived unknown;
@@ -117,7 +117,6 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`hexagonal-eq-triangular-odd-index`](https://github.com/agenticsnz/unsorry/blob/main/goals/hexagonal-eq-triangular-odd-index.lean) | open | 1 | — | — | — | — |
 | [`n4-plus-one-factor-over-sqrt-shift`](https://github.com/agenticsnz/unsorry/blob/main/goals/n4-plus-one-factor-over-sqrt-shift.lean) | open | 2 | — | — | — | — |
 | [`nat-sq-lt-two-pow-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2.lean) | open | 1 | — | — | — | — |
-| [`nesbitt-inequality-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean) | open | 1 | — | — | — | — |
 | [`nicomachus-sum-cubes-eq-sum-id-sq`](https://github.com/agenticsnz/unsorry/blob/main/goals/nicomachus-sum-cubes-eq-sum-id-sq.lean) | open | 3 | — | — | — | — |
 | [`platonic-pairs-realizable`](https://github.com/agenticsnz/unsorry/blob/main/goals/platonic-pairs-realizable.lean) | open | 3 | — | — | — | — |
 | [`pow-five-add-pow-five-ge-quartic-mul`](https://github.com/agenticsnz/unsorry/blob/main/goals/pow-five-add-pow-five-ge-quartic-mul.lean) | open | 3 | — | — | — | — |
@@ -399,12 +398,14 @@ Legend: proved #c6f6d5 · open #e2e8f0 · blocked #feebc8 · flagged #fed7d7 · 
 | [`gpow-sum-nine-pow-eight`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-sum-nine-pow-eight.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2998](https://github.com/agenticsnz/unsorry/pull/2998) | 2026-06-20 |
 | [`gpow-sum-nine-pow-eighteen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-sum-nine-pow-eighteen.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#2999](https://github.com/agenticsnz/unsorry/pull/2999) | 2026-06-20 |
 | [`gpow-sum-nine-pow-eleven`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-sum-nine-pow-eleven.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#3000](https://github.com/agenticsnz/unsorry/pull/3000) | 2026-06-20 |
+| [`gpow-sum-nine-pow-fifteen`](https://github.com/agenticsnz/unsorry/blob/main/goals/gpow-sum-nine-pow-fifteen.lean) | proved | 1 | mac-158f | ohdearquant · `template-ring-cofactor` | [#3001](https://github.com/agenticsnz/unsorry/pull/3001) | 2026-06-20 |
 | [`nat-sq-lt-two-pow`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow.lean) | proved | 3 | — | adam91holt · `gpt-5.5` | — | 2026-06-14 |
 | [`nat-sq-lt-two-pow-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s1.lean) | proved | 1 | oma-2-c50d | perttu | [#442](https://github.com/agenticsnz/unsorry/pull/442) | 2026-06-14 |
 | [`nat-sq-lt-two-pow-s2-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s1.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#666](https://github.com/agenticsnz/unsorry/pull/666) | 2026-06-15 |
 | [`nat-sq-lt-two-pow-s2-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s2.lean) | proved | 1 | — | adam91holt · `gpt-5.5` | — | 2026-06-14 |
 | [`nat-sq-lt-two-pow-s2-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-sq-lt-two-pow-s2-s3.lean) | proved | 1 | — | adam91holt · `gpt-5.5` | — | 2026-06-14 |
 | [`nat-zero-lt-succ`](https://github.com/agenticsnz/unsorry/blob/main/goals/nat-zero-lt-succ.lean) | proved | — | — | — | — | 2026-06-10 |
+| [`nesbitt-inequality-s1`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s1.lean) | proved | 1 | ruvnet | ruvnet | [#3004](https://github.com/agenticsnz/unsorry/pull/3004) | 2026-06-20 |
 | [`nesbitt-inequality-s2`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s2.lean) | proved | 1 | claude-rmt-001 | chat-bit-01 | [#451](https://github.com/agenticsnz/unsorry/pull/451) | 2026-06-14 |
 | [`nesbitt-inequality-s3`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s3.lean) | proved | 1 | afnz-zbook-b336 | cgbarlow · `leanstral-2603` | [#667](https://github.com/agenticsnz/unsorry/pull/667) | 2026-06-15 |
 | [`nesbitt-inequality-s4`](https://github.com/agenticsnz/unsorry/blob/main/goals/nesbitt-inequality-s4.lean) | proved | 1 | 1367ab40f0b1-e413 | cgbarlow · `opus` | [#668](https://github.com/agenticsnz/unsorry/pull/668) | 2026-06-15 |
