@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**72 open · 1536 proved · 1611 total prove-goals.**
+**72 open · 1538 proved · 1613 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -784,6 +784,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gpow-sum-seven-pow-twenty` — n plus 7 divides n to the 20 minus 7 to the 20. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n plus 7 divides n to the 20 minus 7 to the 20. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-sum-seven-pow-two` — n plus 7 divides n to the 2 minus 7 to the 2. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n plus 7 divides n to the 2 minus 7 to the 2. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-sum-six-pow-eight` — n plus 6 divides n to the 8 minus 6 to the 8. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n plus 6 divides n to the 8 minus 6 to the 8. Provable by exhibiting the cofactor and `ring`. |
+| `gpow-sum-six-pow-eighteen` — n plus 6 divides n to the 18 minus 6 to the 18. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n plus 6 divides n to the 18 minus 6 to the 18. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-sum-six-pow-eleven` — n plus 6 divides n to the 11 plus 6 to the 11. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n plus 6 divides n to the 11 plus 6 to the 11. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-sum-six-pow-fifteen` — n plus 6 divides n to the 15 plus 6 to the 15. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n plus 6 divides n to the 15 plus 6 to the 15. Provable by exhibiting the cofactor and `ring`. |
 | `gpow-sum-six-pow-five` — n plus 6 divides n to the 5 plus 6 to the 5. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n plus 6 divides n to the 5 plus 6 to the 5. Provable by exhibiting the cofactor and `ring`. |
@@ -855,6 +856,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-120-pow-nine-sub-pow-five` — 120 divides n to the 9 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 120 divides n to the 9 minus n to the 5, for every integer n. Provable by a finite `ZMod 120` case check. |
 | `gzmod-120-pow-seven-sub-pow-three` — 120 divides n to the 7 minus n to the 3, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 120 divides n to the 7 minus n to the 3, for every integer n. Provable by a finite `ZMod 120` case check. |
 | `gzmod-120-pow-seventeen-sub-pow-five` — 120 divides n to the 17 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 120 divides n to the 17 minus n to the 5, for every integer n. Provable by a finite `ZMod 120` case check. |
+| `gzmod-120-pow-ten-sub-pow-six` — 120 divides n to the 10 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 120 divides n to the 10 minus n to the 6, for every integer n. Provable by a finite `ZMod 120` case check. |
 | `gzmod-120-pow-thirteen-sub-pow-five` — 120 divides n to the 13 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 120 divides n to the 13 minus n to the 5, for every integer n. Provable by a finite `ZMod 120` case check. |
 | `gzmod-120-pow-twelve-sub-pow-four` — 120 divides n to the 12 minus n to the 4, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 120 divides n to the 12 minus n to the 4, for every integer n. Provable by a finite `ZMod 120` case check. |
 | `gzmod-132-pow-52-sub-pow-two` — 132 divides n to the 52 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 132 divides n to the 52 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
