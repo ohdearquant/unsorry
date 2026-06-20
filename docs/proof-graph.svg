@@ -19,10 +19,10 @@
 <text x="740" y="195" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#334155">144</text>
 <rect x="32" y="227" width="15" height="15" rx="3" fill="#e2e8f0" stroke="#94a3b8"/>
 <text x="58" y="240" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="650" fill="#334155">open</text>
-<text x="58" y="258" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">142 of 1511 goals · 9%</text>
+<text x="58" y="258" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">143 of 1511 goals · 9%</text>
 <rect x="300" y="229" width="420" height="24" rx="12" fill="#f1f5f9"/>
 <rect x="300" y="229" width="49" height="24" rx="12" fill="#e2e8f0"/>
-<text x="740" y="247" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#334155">142</text>
+<text x="740" y="247" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#334155">143</text>
 <rect x="32" y="279" width="15" height="15" rx="3" fill="#bee3f8" stroke="#94a3b8"/>
 <text x="58" y="292" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="650" fill="#334155">translated</text>
 <text x="58" y="310" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">9 of 1511 goals · 1%</text>
@@ -31,8 +31,8 @@
 <text x="740" y="299" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#334155">9</text>
 <rect x="32" y="331" width="15" height="15" rx="3" fill="#feebc8" stroke="#94a3b8"/>
 <text x="58" y="344" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="650" fill="#334155">blocked</text>
-<text x="58" y="362" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">3 of 1511 goals · 0%</text>
+<text x="58" y="362" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748b">2 of 1511 goals · 0%</text>
 <rect x="300" y="333" width="420" height="24" rx="12" fill="#f1f5f9"/>
 <rect x="300" y="333" width="6" height="24" rx="12" fill="#feebc8"/>
-<text x="740" y="351" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#334155">3</text>
+<text x="740" y="351" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#334155">2</text>
 </svg>
