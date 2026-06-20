@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**84 open · 1505 proved · 1592 total prove-goals.**
+**84 open · 1506 proved · 1593 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -864,6 +864,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-132-pow-fifteen-sub-pow-five` — 132 divides n to the 15 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 132 divides n to the 15 minus n to the 5, for every integer n. Provable by a finite `ZMod 132` case check. |
 | `gzmod-132-pow-fourteen-sub-pow-four` — 132 divides n to the 14 minus n to the 4, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 132 divides n to the 14 minus n to the 4, for every integer n. Provable by a finite `ZMod 132` case check. |
 | `gzmod-132-pow-seventeen-sub-pow-seven` — 132 divides n to the 17 minus n to the 7, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 132 divides n to the 17 minus n to the 7, for every integer n. Provable by a finite `ZMod 132` case check. |
+| `gzmod-132-pow-thirteen-sub-pow-three` — 132 divides n to the 13 minus n to the 3, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 132 divides n to the 13 minus n to the 3, for every integer n. Provable by a finite `ZMod 132` case check. |
 | `gzmod-132-pow-twelve-sub-pow-two` — 132 divides n to the 12 minus n to the 2, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 132 divides n to the 12 minus n to the 2, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-24-pow-21-sub-pow-nineteen` — 24 divides n to the 21 minus n to the 19, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 24 divides n to the 21 minus n to the 19, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-24-pow-21-sub-pow-seven` — 24 divides n to the 21 minus n to the 7, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 24 divides n to the 21 minus n to the 7, for every integer n. Provable by exhibiting the cofactor and `ring`. |
