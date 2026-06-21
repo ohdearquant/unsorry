@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**11 open · 2298 proved · 2312 total prove-goals.**
+**11 open · 2299 proved · 2313 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -1174,6 +1174,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gself-pow-four-pow-fifteen-add-pow-four` — n to the 4 divides n to the 15 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fifteen-add-pow-fourteen` — n to the 4 divides n to the 15 plus n to the 14. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 14. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fifteen-add-pow-nine` — n to the 4 divides n to the 15 plus n to the 9. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 9. Provable by exhibiting the cofactor and `ring`. |
+| `gself-pow-four-pow-fifteen-add-pow-seven` — n to the 4 divides n to the 15 plus n to the 7. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 7. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fifteen-add-pow-six` — n to the 4 divides n to the 15 plus n to the 6. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 6. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fifteen-add-pow-ten` — n to the 4 divides n to the 15 plus n to the 10. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 10. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fifteen-add-pow-twelve` — n to the 4 divides n to the 15 plus n to the 12. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 12. Provable by exhibiting the cofactor and `ring`. |
