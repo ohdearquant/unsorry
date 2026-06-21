@@ -102,7 +102,7 @@ Because the math was never the destination. There is already a decision on the r
 
 The last conversation between the two of them, on a Saturday, gets at what it was actually for. Chris, thinking about competitors with billion-dollar labs: *"What is the unique value proposition of unsorry? Do we want to become the next AlphaProof? What can our architecture do that has never been done before?"*
 
-Perttu's answer was three words.
+Perttu's answer was three words. 
 
 *"It is the swarm."*
 
