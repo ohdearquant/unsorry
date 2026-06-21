@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**13 open · 1975 proved · 1991 total prove-goals.**
+**13 open · 1977 proved · 1993 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -918,6 +918,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gself-pow-25-add-pow-six` — n to the 1 divides n to the 25 plus n to the 6. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 25 plus n to the 6. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-25-add-pow-sixteen` — n to the 1 divides n to the 25 plus n to the 16. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 25 plus n to the 16. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-25-add-pow-ten` — n to the 1 divides n to the 25 plus n to the 10. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 25 plus n to the 10. Provable by exhibiting the cofactor and `ring`. |
+| `gself-pow-25-add-pow-thirteen` — n to the 1 divides n to the 25 plus n to the 13. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 25 plus n to the 13. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-four` — n to the 1 divides n to the 5 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-one` — n to the 1 divides n to the 5 plus n to the 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 1. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-three` — n to the 1 divides n to the 5 plus n to the 3. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 3. Provable by exhibiting the cofactor and `ring`. |
@@ -1462,6 +1463,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-315-pow-twentyone-sub-pow-nine` — 315 divides n to the 21 minus n to the 9, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 315 divides n to the 21 minus n to the 9, for every integer n. Provable by a finite `ZMod 315` case check. |
 | `gzmod-315-pow-twentythree-sub-pow-eleven` — 315 divides n to the 23 minus n to the 11, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 315 divides n to the 23 minus n to the 11, for every integer n. Provable by a finite `ZMod 315` case check. |
 | `gzmod-315-pow-twentytwo-sub-pow-ten` — 315 divides n to the 22 minus n to the 10, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 315 divides n to the 22 minus n to the 10, for every integer n. Provable by a finite `ZMod 315` case check. |
+| `gzmod-336-pow-eighteen-sub-pow-six` — 336 divides n to the 18 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 336 divides n to the 18 minus n to the 6, for every integer n. Provable by a finite `ZMod 336` case check. |
 | `gzmod-36-pow-eighteen-sub-pow-six` — 36 divides n to the 18 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 36 divides n to the 18 minus n to the 6, for every integer n. Provable by a finite `ZMod 36` case check. |
 | `gzmod-36-pow-eleven-sub-pow-five` — 36 divides n to the 11 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 36 divides n to the 11 minus n to the 5, for every integer n. Provable by a finite `ZMod 36` case check. |
 | `gzmod-36-pow-fifteen-sub-pow-three` — 36 divides n to the 15 minus n to the 3, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 36 divides n to the 15 minus n to the 3, for every integer n. Provable by a finite `ZMod 36` case check. |
