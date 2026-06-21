@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**13 open · 2050 proved · 2066 total prove-goals.**
+**13 open · 2052 proved · 2068 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -955,6 +955,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gself-pow-27-add-pow-25` — n to the 1 divides n to the 27 plus n to the 25. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 27 plus n to the 25. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-27-add-pow-26` — n to the 1 divides n to the 27 plus n to the 26. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 27 plus n to the 26. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-27-add-pow-eight` — n to the 1 divides n to the 27 plus n to the 8. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 27 plus n to the 8. Provable by exhibiting the cofactor and `ring`. |
+| `gself-pow-27-add-pow-eighteen` — n to the 1 divides n to the 27 plus n to the 18. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 27 plus n to the 18. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-four` — n to the 1 divides n to the 5 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-one` — n to the 1 divides n to the 5 plus n to the 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 1. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-three` — n to the 1 divides n to the 5 plus n to the 3. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 3. Provable by exhibiting the cofactor and `ring`. |
@@ -1527,6 +1528,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-40-pow-seven-sub-pow-three` — 40 divides n to the 7 minus n to the 3, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 40 divides n to the 7 minus n to the 3, for every integer n. Provable by a finite `ZMod 40` case check. |
 | `gzmod-42-pow-seven-sub-pow-one` — 42 divides n to the 7 minus n to the 1, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 42 divides n to the 7 minus n to the 1, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-48-pow-eight-sub-pow-four` — 48 divides n to the 8 minus n to the 4, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 48 divides n to the 8 minus n to the 4, for every integer n. Provable by a finite `ZMod 48` case check. |
+| `gzmod-48-pow-eighteen-sub-pow-six` — 48 divides n to the 18 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 48 divides n to the 18 minus n to the 6, for every integer n. Provable by a finite `ZMod 48` case check. |
 | `gzmod-48-pow-eleven-sub-pow-seven` — 48 divides n to the 11 minus n to the 7, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 48 divides n to the 11 minus n to the 7, for every integer n. Provable by a finite `ZMod 48` case check. |
 | `gzmod-48-pow-fifteen-sub-pow-seven` — 48 divides n to the 15 minus n to the 7, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 48 divides n to the 15 minus n to the 7, for every integer n. Provable by a finite `ZMod 48` case check. |
 | `gzmod-48-pow-fourteen-sub-pow-six` — 48 divides n to the 14 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 48 divides n to the 14 minus n to the 6, for every integer n. Provable by a finite `ZMod 48` case check. |
