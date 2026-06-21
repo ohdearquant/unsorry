@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**13 open · 2016 proved · 2032 total prove-goals.**
+**13 open · 2018 proved · 2034 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -938,6 +938,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gself-pow-26-add-pow-nine` — n to the 1 divides n to the 26 plus n to the 9. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 26 plus n to the 9. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-26-add-pow-nineteen` — n to the 1 divides n to the 26 plus n to the 19. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 26 plus n to the 19. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-26-add-pow-seven` — n to the 1 divides n to the 26 plus n to the 7. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 26 plus n to the 7. Provable by exhibiting the cofactor and `ring`. |
+| `gself-pow-26-add-pow-seventeen` — n to the 1 divides n to the 26 plus n to the 17. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 26 plus n to the 17. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-26-add-pow-six` — n to the 1 divides n to the 26 plus n to the 6. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 26 plus n to the 6. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-four` — n to the 1 divides n to the 5 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-five-add-pow-one` — n to the 1 divides n to the 5 plus n to the 1. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 1 divides n to the 5 plus n to the 1. Provable by exhibiting the cofactor and `ring`. |
@@ -1551,6 +1552,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gzmod-56-pow-eighteen-sub-pow-six` — 56 divides n to the 18 minus n to the 6, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 56 divides n to the 18 minus n to the 6, for every integer n. Provable by a finite `ZMod 56` case check. |
 | `gzmod-56-pow-eleven-sub-pow-five` — 56 divides n to the 11 minus n to the 5, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 56 divides n to the 11 minus n to the 5, for every integer n. Provable by a finite `ZMod 56` case check. |
 | `gzmod-56-pow-fifteen-sub-pow-three` — 56 divides n to the 15 minus n to the 3, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 56 divides n to the 15 minus n to the 3, for every integer n. Provable by a finite `ZMod 56` case check. |
+| `gzmod-56-pow-fourteen-sub-pow-eight` — 56 divides n to the 14 minus n to the 8, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 56 divides n to the 14 minus n to the 8, for every integer n. Provable by a finite `ZMod 56` case check. |
 | `gzmod-6-pow-fifteen-sub-pow-one` — 6 divides n to the 15 minus n to the 1, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 6 divides n to the 15 minus n to the 1, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `gzmod-66-pow-51-sub-pow-one` — 66 divides n to the 51 minus n to the 1, for every integer n. | proved | 3 | — | self-seeded polynomial-divisibility identity family. | 66 divides n to the 51 minus n to the 1, for every integer n. Provable by exhibiting the cofactor and `ring`. |
 | `hexagonal-eq-triangular-odd-index` — The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. | proved | 1 | — | #400 Identity Engine (ADR-043) — figurate-number family; promoted from candidate backlog (#610). | The n-th hexagonal number n(2n-1) equals the (2n-1)-th triangular number. Not a named mathlib lemma in this form. |
