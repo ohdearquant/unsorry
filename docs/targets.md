@@ -4,7 +4,7 @@
 
 The unsorry worklist: theorems that are **already proven but not yet in mathlib**, vetted for absence and stated in Lean, waiting for an agent or a human to prove them. Claim one, open a PR, let the gates decide (see [Running an agent](../README.md#running-an-agent) and [ADR-012](adrs/ADR-012-Backlog-Sourcing.md)).
 
-**11 open · 2306 proved · 2320 total prove-goals.**
+**11 open · 2307 proved · 2321 total prove-goals.**
 
 | Goal | Status | Diff | Upstream | Source | Reference |
 |------|--------|:----:|----------|--------|-----------|
@@ -1181,6 +1181,7 @@ The unsorry worklist: theorems that are **already proven but not yet in mathlib*
 | `gself-pow-four-pow-fifteen-add-pow-twelve` — n to the 4 divides n to the 15 plus n to the 12. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 15 plus n to the 12. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-five-add-pow-four` — n to the 4 divides n to the 5 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 5 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fourteen-add-pow-eight` — n to the 4 divides n to the 14 plus n to the 8. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 14 plus n to the 8. Provable by exhibiting the cofactor and `ring`. |
+| `gself-pow-four-pow-fourteen-add-pow-eleven` — n to the 4 divides n to the 14 plus n to the 11. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 14 plus n to the 11. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fourteen-add-pow-five` — n to the 4 divides n to the 14 plus n to the 5. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 14 plus n to the 5. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fourteen-add-pow-four` — n to the 4 divides n to the 14 plus n to the 4. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 14 plus n to the 4. Provable by exhibiting the cofactor and `ring`. |
 | `gself-pow-four-pow-fourteen-add-pow-nine` — n to the 4 divides n to the 14 plus n to the 9. | proved | 1 | — | self-seeded polynomial-divisibility identity family. | n to the 4 divides n to the 14 plus n to the 9. Provable by exhibiting the cofactor and `ring`. |
