@@ -1,8 +1,6 @@
 # The Ten-Day Republic
 
-*How a git repository became a research organization in eleven days. Quotes are
-from Chris Barlow's public "Tell me a Fable" talk and from contributors'
-messages; the figures are taken from the repository's own history.*
+*How a git repository became a research organization in ten days. Quotes are from Chris Barlow's public "Tell me a Fable" talk and from contributors' messages; the figures are taken from the repository's own history.*
 
 ---
 
