@@ -26,10 +26,10 @@
       "profile_url": "https://github.com/ohdearquant",
       "rank": 1,
       "run_success_rate": 1.0,
-      "runs": 694,
+      "runs": 660,
       "score": 283325,
       "solver": "ohdearquant",
-      "successes": 694,
+      "successes": 660,
       "verified_proofs": 1565
     },
     {
@@ -284,7 +284,7 @@
       "verified_proofs": 1
     }
   ],
-  "generated_at": "2026-06-22T11:50:00Z",
+  "generated_at": "2026-06-22T13:13:38Z",
   "generated_from": "docs/metrics/community-stats.json",
   "historical_contributors": [
     {
@@ -409,7 +409,7 @@
     {
       "provider_model": "python / sympy",
       "run_success_rate": 1.0,
-      "runs": 811,
+      "runs": 777,
       "verified_proofs": 1700
     },
     {
@@ -497,8 +497,8 @@
     "historical_contributors": 9,
     "historical_unknown_proofs": 308,
     "inferred_git_proofs": 308,
-    "proof_run_coverage": 0.3164,
-    "terminal_runs": 1169,
+    "proof_run_coverage": 0.3034,
+    "terminal_runs": 1135,
     "uncredited_proofs": 0,
     "verified_proofs": 2617
   },
