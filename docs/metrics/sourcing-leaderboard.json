@@ -3,7 +3,7 @@
   "sourcers": [
     {
       "avatar_url": "https://github.com/cgbarlow.png?size=96",
-      "difficulty_points": 3344,
+      "difficulty_points": 3348,
       "display_name": "Chris Barlow",
       "earliest_sourced": "2026-06-10",
       "git_author": "Chris Barlow <cgbarlow@gmail.com>",
@@ -11,8 +11,8 @@
       "latest_sourced": "2026-06-22",
       "open": 10,
       "profile_url": "https://github.com/cgbarlow",
-      "proved": 659,
-      "sourced_goals": 1795,
+      "proved": 663,
+      "sourced_goals": 1799,
       "sourcer": "cgbarlow"
     },
     {
@@ -31,21 +31,21 @@
     },
     {
       "avatar_url": "https://github.com/perttu.png?size=96",
-      "difficulty_points": 286,
+      "difficulty_points": 287,
       "display_name": "Perttu Isotalo",
       "earliest_sourced": "2026-06-12",
       "git_author": "Perttu Isotalo <pisotalo@isotalo.org>",
       "github": "perttu",
-      "latest_sourced": "2026-06-21",
+      "latest_sourced": "2026-06-22",
       "open": 1,
       "profile_url": "https://github.com/perttu",
-      "proved": 88,
-      "sourced_goals": 243,
+      "proved": 89,
+      "sourced_goals": 244,
       "sourcer": "perttu"
     },
     {
       "avatar_url": null,
-      "difficulty_points": 117,
+      "difficulty_points": 118,
       "display_name": "adam91holt",
       "earliest_sourced": "2026-06-14",
       "git_author": "adam91holt <mail@adamholt.co.nz>",
@@ -53,8 +53,8 @@
       "latest_sourced": "2026-06-22",
       "open": 0,
       "profile_url": null,
-      "proved": 34,
-      "sourced_goals": 77,
+      "proved": 35,
+      "sourced_goals": 78,
       "sourcer": null
     },
     {
@@ -73,8 +73,8 @@
     }
   ],
   "totals": {
-    "difficulty_points": 4904,
-    "sourced_goals": 2580,
+    "difficulty_points": 4910,
+    "sourced_goals": 2586,
     "sourcers": 5
   }
 }
