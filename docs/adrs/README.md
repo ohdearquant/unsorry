@@ -2,7 +2,7 @@
 
 # Architecture Decision Records
 
-Index of the 80 ADRs in this directory, generated from the `ADR-*.md` headers and kept in sync by the `adr-index` workflow. See [ADR-001](ADR-001-Adopt-Development-Protocols.md) and [the development protocols](../protocols.md) for the WH(Y) format and process.
+Index of the 81 ADRs in this directory, generated from the `ADR-*.md` headers and kept in sync by the `adr-index` workflow. See [ADR-001](ADR-001-Adopt-Development-Protocols.md) and [the development protocols](../protocols.md) for the WH(Y) format and process.
 
 | ADR | Title | Status | Date |
 |-----|-------|--------|------|
@@ -86,3 +86,4 @@ Index of the 80 ADRs in this directory, generated from the `ADR-*.md` headers an
 | [ADR-079](ADR-079-Deterministic-Solver-Provider.md) | Deterministic Solver Provider — Zero-LLM Template/sympy Discharge, Honestly Attributed | Proposed | 2026-06-20 |
 | [ADR-080](ADR-080-Platform-Generalisation-And-Domain-Neutrality.md) | Platform Generalisation and the Self-Verification Gating Invariant | Draft | 2026-06-20 |
 | [ADR-081](ADR-081-Problem-Admission-And-Intake-Pipeline.md) | Problem Admission and the Skeleton Intake Pipeline | Draft | 2026-06-20 |
+| [ADR-082](ADR-082-Single-Pass-Leaderboard-Refresh.md) | Single-Pass Leaderboard Refresh (`--write-if-stale`) | Accepted | 2026-06-22 |

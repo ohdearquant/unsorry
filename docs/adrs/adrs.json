@@ -1,6 +1,6 @@
 {
   "generated_by": "python3 -m tools.adr_index --write",
-  "count": 80,
+  "count": 81,
   "adrs": [
     {
       "id": "ADR-001",
@@ -641,6 +641,14 @@
       "status": "Draft",
       "date": "2026-06-20",
       "file": "ADR-081-Problem-Admission-And-Intake-Pipeline.md"
+    },
+    {
+      "id": "ADR-082",
+      "number": 82,
+      "title": "Single-Pass Leaderboard Refresh (`--write-if-stale`)",
+      "status": "Accepted",
+      "date": "2026-06-22",
+      "file": "ADR-082-Single-Pass-Leaderboard-Refresh.md"
     }
   ]
 }
